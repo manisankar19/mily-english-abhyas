@@ -1,0 +1,17 @@
+.env*
+.vercel
+.claude
+node_modules
+dist
+source/
+sprints/
+fixtures/
+tests/
+scripts/e2e.js
+scripts/test-build.js
+scripts/test-validator.js
+scripts/*.py
+scripts/*.npy
+__pycache__/
+test-results/
+playwright-report/

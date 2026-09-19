@@ -28,9 +28,10 @@ rather than ≤ 10 five-minute tasks. Testing and security are in this sprint be
 
 ## Batch 1 — shell and renderer (practice mode)
 
-- [ ] Task 1: Project setup — Playwright and repo plumbing (P0)
+- [x] Task 1: Project setup — Playwright and repo plumbing (P0)
   - Acceptance: `npm i -D playwright@1.63.0` (`dependencies` stays `{}`); `npx playwright install --with-deps chromium webkit` run and its outcome recorded (what `--with-deps` did on AL2023; WebKit launch tried once, failure recorded); a Chromium headless launch succeeds (else brief §8 stop); `.vercelignore` per brief §4.2 (never excludes `validate.js`, `PROJECT-CARD.yml`, `scripts/lib/card.js`); `vercel.json` copied from Maths; `package.json` scripts `build`, `test:build`, `serve`, `e2e` added.
   - Files: package.json, package-lock.json, .vercelignore, vercel.json
+  - Completed: 2026-09-19 — playwright 1.63.0 pinned as devDependency, `dependencies` `{}`, npm audit 0. `--with-deps` failed (exit 1): Playwright fell back to ubuntu24.04 and called `apt-get` (not on AL2023, exit 127); no `dnf` pass needed because Chromium launched headless from the existing cache (`chromium-1243`). WebKit launch tried once: FAIL, "Host system is missing dependencies" (glibc 2.34 host) — expected, not a stop. `.vercelignore` verified with `git check-ignore`: excludes `.env*`, `source/`, `sprints/`, `fixtures/`, test/e2e/python scripts; keeps `validate.js`, `PROJECT-CARD.yml`, `scripts/lib/card.js`, `app/`.
 
 - [ ] Task 2: UI strings `app/ui/en.json` and `SCHEMA.md` §8 extension (P0)
   - Acceptance: every user-visible string for all screens, both modes, gate, answer panel (model answer, mark split, marking guide, "Also accept"), result and grades, generic figure label, `mode.insecure`; `{name}/{n}/{marks}` interpolation only; `SCHEMA.md` §8 lists the twelve child-hidden fields (Q3). No content file touched.

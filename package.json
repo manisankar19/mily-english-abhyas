@@ -10,9 +10,18 @@
     "test:readability": "python3 scripts/test_readability.py",
     "similarity": "python3 scripts/similarity.py",
     "readability": "python3 scripts/readability.py",
-    "check": "npm run validate && python3 scripts/similarity.py"
+    "check": "npm run validate && python3 scripts/similarity.py",
+    "build": "node build.js",
+    "test:build": "node scripts/test-build.js",
+    "serve": "node scripts/serve.js",
+    "dev": "node build.js && node scripts/serve.js",
+    "e2e": "node scripts/e2e.js"
   },
   "engines": {
     "node": ">=18"
-  }
+  },
+  "devDependencies": {
+    "playwright": "1.63.0"
+  },
+  "dependencies": {}
 }
