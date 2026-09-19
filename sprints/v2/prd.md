@@ -106,7 +106,12 @@ says otherwise.
 - **DV11 — Build reads the card.** Unlike Maths (hard-coded 8 papers / 54 items), `build.js` takes the paper list
   and the mock title from `PROJECT-CARD.yml` via `scripts/lib/card.js`; so `validate.js`, `PROJECT-CARD.yml` and
   `scripts/lib/card.js` must be uploaded (not in `.vercelignore`).
-- **Content notes found so far:** none. (Carried from v1, not app bugs: Ch 1 and mock items that refer to "the poem
+- **Content notes found so far:** (1) *Task 5:* four of the five SVGs carry their own accessible name (`<title>`, and on
+  three a root `role="img"` plus `aria-label`/`aria-labelledby`) whose text is the caption or close to it
+  (ch1 map, ch3 signs, ch4 park, ch6 story, hy scene all have a `<title>`). Inlined as is, that would put caption text
+  into the practice DOM and show it as a hover tooltip. **Handled in the renderer** (`stripSvgNames` in `app.js` removes
+  `<title>`/`<desc>` and root `role`/`aria-*` before insertion; the wrapper keeps the generic label), so no asset was
+  edited. Optional follow-up content task: drop those elements from the SVG files themselves. (Carried from v1, not app bugs: Ch 1 and mock items that refer to "the poem
   in your textbook"; Ch 6 "Braille sign" wording.)
 
 ---

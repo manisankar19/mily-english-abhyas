@@ -205,7 +205,7 @@ img,svg{max-width:100%}
   box-shadow:0 20px 60px rgba(5,12,24,.45); text-align:center;
 }
 .login-crest{font-size:44px; line-height:1}
-.login-crest::before{content:"🧮"}
+.login-crest::before{content:"📖"}
 .login-title{font-size:30px; color:var(--heading); margin-top:6px}
 .login-sub{margin:2px 0 22px; color:var(--muted); font-size:14px; font-weight:500}
 .login-error{
@@ -226,7 +226,7 @@ img,svg{max-width:100%}
   font-family:var(--font-head); line-height:1.2;
 }
 .topbar-home > span:last-child{white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
-.topbar-mark::before{content:"🧮"}
+.topbar-mark::before{content:"📖"}
 .topbar-right{display:flex; align-items:center; gap:10px; min-width:0}
 .who{font-size:14px; color:var(--on-navy-soft); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; max-width:34vw}
 .topbar .btn-ghost{background:rgba(255,255,255,.12); border-color:rgba(255,255,255,.25); color:var(--on-navy); white-space:nowrap}

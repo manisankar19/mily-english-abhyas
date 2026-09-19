@@ -48,9 +48,10 @@ rather than ≤ 10 five-minute tasks. Testing and security are in this sprint be
   - Files: app/app.js
   - Completed: 2026-09-19 — coordinator-written (see Task 3 note). Adapted from Maths `app.js`: login now reads `papersData.login` (from the card's `student_login`, no literal in `app.js`); cards iterate `papersData.order` (card `chapter_list` + `extra_papers`); `milyEnglish.*` keys. `tests/batch1.e2e.js` T4/T2/X2 checks pass in Chromium (7 cards in card order with titles, no unit names; wrong password error; session survives reload; logout).
 
-- [ ] Task 5: `app.js` — paper renderer for every type and stimulus (agent `js`) (P0)
+- [x] Task 5: `app.js` — paper renderer for every type and stimulus (agent `js`) (P0)
   - Acceptance: header (organisation, class, subject, marks, "2 hours", student); sections from `paper.sections`; `passage` paragraphs, `poem` one `.poem-line` per line, `q` newlines honoured, `_____` as `.blank`, inline figures with generic `aria-label` and no caption; `mcq`, `match` (right column rotated by one), all other types generic; `textContent` only for content; never reads `chapterSource`, `sourceChapter`, `difficulty`, `skill`.
   - Files: app/app.js
+  - Completed: 2026-09-19 — renderer adapted from Maths: header with "2 hours" from `durationMinutes`; sections, blocks and items from data; `passage` → one `<p>` per blank-line paragraph (`pre-line` inside), `poem` → one `.poem-line` per source line, handwriting copy text gets `.stimulus-copy`; `q` newlines via `pre-line`; `_____` → `.blank`; `mcq` options; `match` right column rotated by one; everything else question-only. Figures: inline SVG, generic `aria-label`, captions never read; **found** that four SVGs carry `<title>`/`aria-label` text equal to their captions — stripped at render (`stripSvgNames`), recorded in prd.md §5. `tests/batch1.e2e.js`: 142 passed, 0 failed. All five figures viewed once at 2× on the dark theme: legible. semgrep (p/javascript, p/secrets): 3 files, 0 findings; npm audit 0.
 
 - [ ] Task 6: Coordinator check and batch-1 commit (P0)
   - Acceptance: a dev harness page loads all seven papers in Chromium on localhost with 0 console errors; no hidden field (prd Q3) in DOM/attributes; no horizontal scroll at 390 px; CSS class names cross-checked against HTML/JS; content diff empty; commit "v2 batch 1: Tasks 1–6".

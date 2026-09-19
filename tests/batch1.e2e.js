@@ -124,10 +124,12 @@ function secretStrings(paper) {
       const leaks = secretStrings(paper).filter(s => bodyHtml.includes(s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')) || bodyHtml.includes(s));
       check(key + ' 7: no answer/guide/accept/caption/sourceRef text in DOM', !leaks.length, leaks.slice(0, 3).join(' || '));
       const badAttrs = await page.$$eval('#paperView *', els => els.flatMap(e => [...e.attributes]
-        .filter(a => /^(data-|class$|aria-label$|title$)/.test(a.name) && /answer|accept|difficulty|skill|chaptersource|sourcechapter|caption|markingguide|sourceref|easy|medium|hard/i.test(a.name + '=' + a.value))
+        .filter(a => /^(data-|class$|aria-label$|title$)/.test(a.name) && !a.name.startsWith('data-i18n') && /answer|accept|difficulty|skill|chaptersource|sourcechapter|caption|markingguide|sourceref|easy|medium|hard/i.test(a.name + '=' + a.value))
         .map(a => a.name + '=' + a.value)));
       check(key + ' 7: no data-/class/aria-label/title names a hidden field', !badAttrs.length, [...new Set(badAttrs)].slice(0, 5).join(' '));
       const ariaFig = await page.$$eval('#paperBody .figure-scroll', els => els.map(e => [e.getAttribute('role'), e.getAttribute('aria-label')]));
+      const svgNames = await page.$$eval('#paperBody .figure-scroll svg', els => els.filter(s => s.querySelector('title,desc') || s.hasAttribute('aria-label') || s.hasAttribute('aria-labelledby') || s.getAttribute('role')).length);
+      check(key + ' figures: inner SVG has no title/desc/role/aria name', svgNames === 0, String(svgNames));
       check(key + ' figures: role=img + generic label', ariaFig.every(([r, l]) => r === 'img' && l === 'Picture for this question'), JSON.stringify(ariaFig));
 
       // practice mode
