@@ -38,7 +38,10 @@ displayed a full-length `VERCEL_TOKEN` and the `GANESH_ENGLISH` placeholder in t
 (the owner had pasted values into the template). The owner has since moved them to `.env.local`,
 blanked the template, and — per the latest message — set real values. Neither current value is
 written in any file I created. The token *seen in the transcript* is the one that was in the
-template; if the owner's "real" token is the same one, rotating it is still advisable (owner's call).
+template. **The owner confirmed afterwards that they replaced the token immediately when the exposure was
+first reported**, so the exposed value is superseded. (This is the owner's statement; it was not independently
+checked — the token now in `.env.local` returned HTTP 200 when tested, which shows it is valid, not that it differs
+from the one displayed.)
 
 **Hard-stop check (instruction.md §12):** none triggered. The closest calls are Chapter 4 and
 Chapter 1 (thin). Revision 2 replaces the earlier qualitative judgement with a per-section

@@ -124,7 +124,8 @@ No secret was read into any file. Count-only scans: token and marking code in tr
 **0 / 0**; `.env.local` untracked, mode 600; the marking code occurs in no paper or figure (v2's collision check will pass on
 content). Semgrep (`p/javascript`, `p/python`, `p/secrets`, metrics off): 0 findings on `validate.js` and all Python scripts.
 **Two exposures to be honest about:** an early `cat` of `.env.local.example` printed a token and a placeholder into this
-session's output (the owner has since moved them; rotating the token is advisable, the owner's call), and the marking code is
+session's output. **The owner confirmed afterwards that they replaced the token immediately when it was reported**, so the
+exposed value is superseded (resolved). Second, the marking code is
 exactly 10 characters and contains one of the words *english*, *ganesh* or *mily*. The gate is a deterrent for a nine-year-old,
 not a security boundary. `npm audit` is not applicable (no dependencies).
 
@@ -173,5 +174,6 @@ not a security boundary. `npm audit` is not applicable (no dependencies).
    `sprints/v2/prd.md`, then `/prd` and `/dev`. Carry-overs already in the brief: `--skip-source-check` passed explicitly by
    `build.js`; Playwright `--with-deps` and the WebKit/glibc limit (a manual iPhone/iPad checklist); per-paper section lists;
    rubric and "Also accept" display in checking mode; the marking-code collision check.
-3. **Owner decisions still open:** whether to rotate the token; whether the paper header should print an assumed duration;
-   and (from the v2 brief §13) captions vs blueprint §5.5, and `SCHEMA.md` §8's child-hidden field list.
+3. **Owner decisions still open:** whether the paper header should print an assumed duration; and (from the v2 brief §13)
+   captions vs blueprint §5.5, and `SCHEMA.md` §8's child-hidden field list. (The token was already replaced; the marking
+   code will be rotated later through Vercel's environment.)
