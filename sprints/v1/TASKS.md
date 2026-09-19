@@ -194,6 +194,13 @@ record in the walkthrough, continue.
     nouns like *Panchatantra*); flags print for human judgement and fail unless the word is in the chapter or
     glossed in a question of the same block (a gloss = the word plus "(", "means" or a curly quote).
     The mock (chapter null) may use words from any chapter.
+  - **Amendment 2026-09-19 (found while reviewing the papers):** the stem check flagged the *plain word*
+    "symbol", which is a chapter word (a Braille symbol, a road-sign symbol), so the Ch 1 and Ch 6 agents each
+    rewrote their questions to avoid it ("sign"). The pattern was narrowed to the literary senses only
+    (*symbolism, symbolic, symbolise/-ize/-ed/-ing*). Tests first: 3 new fixtures (`symbol-plain` must pass;
+    `symbolise` and `symbolism` must still fail) — 1 red, then **17 passed, 0 failed**; semgrep 0 findings; all
+    six committed papers still pass. The papers were not changed: "Braille sign" (Ch 6) is understandable, and
+    the owner's read may restore the chapter's word "symbol".
 
 - [x] Task 5: Chapter 1 paper — Together We Can (P0) — one sub-agent; **thin-poem profile**
   - Follow **Protocol P** (below). Profile: A 30 · B 10 · C 20 · D 20 · E 20 (`prd.md` §3.6, §5.0);

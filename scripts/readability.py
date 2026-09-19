@@ -23,10 +23,11 @@ from similarity import ROOT, TEXT_CACHE, extract_source, tokens  # noqa: E402  (
 
 AVG_MAX, SENT_MAX, SYLLABLE_MAX = 12, 20, 3
 
-# Question stems beyond Class 4 (instruction.md 6.5): motive, irony, theme, author intent.
+# Question stems beyond Class 4 (instruction.md 6.5): motive, irony, theme, author intent. Only the LITERARY sense of
+# symbol is flagged (symbolism / symbolic / symbolise): the plain word is a chapter word (a Braille symbol, a road-sign symbol).
 STEM_FLAGS = [
     r"\btheme\b", r"\bmoral\b", r"\bauthor\b", r"\bpoet\b", r"\bwriter\b", r"\birony\b", r"\bironic\b",
-    r"\bsymbol(?:ism|ise|ize|ic|s)?\b", r"\bfigurative\b", r"\bmetaphor\b", r"\bsimile\b", r"\bintention\b",
+    r"\bsymbolism\b", r"\bsymbolic\b", r"\bsymboli[sz](?:e|es|ed|ing)\b", r"\bfigurative\b", r"\bmetaphor\b", r"\bsimile\b", r"\bintention\b",
     r"\bwhy do you think\b", r"\bmessage of the (?:poem|story|chapter|lesson)\b", r"\bpurpose of the (?:poem|story|writer|author)\b",
 ]
 STEM_RE = re.compile("|".join(STEM_FLAGS), re.I)
