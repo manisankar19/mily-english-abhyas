@@ -1,6 +1,6 @@
 # Sprint v2 — Tasks (Application shell, build & deploy) — mily-english-abhyas
 
-## Status: Batch 1 (Tasks 1–6) done 2026-09-19; batch 2 not started. Tasks written 2026-09-19.
+## Status: Tasks 1–16 done 2026-09-19 (batches 1–3); stopped at Task 17, the owner-approval gate. Tasks written 2026-09-19.
 
 Source of truth: `sprints/v2/prd.md` (with `sprints/v2/instruction.md`, which wins over `BLUEPRINT.md`). A task
 that conflicts with `prd.md` is wrong and defers to it. `CLAUDE.md` rules 1–8 apply to every task.
@@ -107,9 +107,10 @@ rather than ≤ 10 five-minute tasks. Testing and security are in this sprint be
   - Files: scripts/serve.js, scripts/e2e.js
   - Completed: 2026-09-19 — `e2e` sub-agent. `serve.js` (112 lines, 127.0.0.1 only, traversal refused). `e2e.js` (931 lines): checks 7–26 + X1–X5 from the served page's JSON; code from `process.env` only, all output redacted, self-grep of its output dir; check 22 copies the repo without `.env*`. Agent run on a harness page (throwaway code): 24/24 pass, min contrast 5.60:1; `--negative`: all 6 controls turned their check red. Check 23 uses `pdftotext -raw` (layout mode split a sentence around a blank). semgrep 0 (re-run by coordinator).
 
-- [ ] Task 16: Coordinator real build + local e2e, batch-3 commit (P0)
+- [x] Task 16: Coordinator real build + local e2e, batch-3 commit (P0)
   - Acceptance: full `npm run validate` passes; `npm run build` with the real code succeeds (summary line recorded, hash prefix only); `npm run test:build` green; local e2e all pass on Chromium (failures fixed or recorded); negative controls each turn their check red; commit "v2 batch 3: Tasks 12–16".
   - Files: (commit)
+  - Completed: 2026-09-19 — coordinator, with the **real** code (loaded into a shell variable from `.env.local` inside the command, never echoed). Full `npm run validate` (with source check) 7/7; `test:validator` 41/41; `test:build` 15/15. `node build.js` (via the `.env.local` fallback): `293.0 KB, 7 papers, 400 items, 5 figures, hash ea048e95c2a1…, source check skipped` — the plaintext-collision check passed (no hard stop). `node scripts/e2e.js` against `dist/` on localhost, Chromium: **24/24 PASS** (7–26, X1–X5; X2 static; 22 run on a temp copy without `.env*`), min contrast 5.60:1, redaction self-grep clean. Independent: code occurs 0× in `dist/`, 0× in e2e output, 0× in tracked files; `sha256sum` hash found once; one 64-hex string. `--negative` (throwaway code): 6/6 controls turned their check red — **but the check-23 control turned red through a click timeout on the broken page, not by detecting answer text in the PDF**, so that control is weaker than it looks (check 23 itself passes on the real page with every answer revealed, and Task 11 verified the same by hand). batch1 142/142, batch2 83/83. Content diff empty.
 
 ## Batch 4 — deploy, live e2e, walkthrough (coordinator only)
 
