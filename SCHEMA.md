@@ -122,8 +122,17 @@ Standard seven sections. Every item carries **`sourceChapter`**: an integer 1–
 
 ## 8. Fields that must never reach the child in practice mode (for v2)
 
-`answer`, `acceptable`, `answerPoints`, `markingGuide`, `difficulty`, `skill`, `chapterSource`, `sourceChapter`. (Maths kept an authoring-only field, `expr`, out of
-the page and proved it with a static check; do the same.) In practice mode only the question, options, match columns, stimuli and mark values are visible.
+Twelve fields (extended in v2 Task 2, `sprints/v2/instruction.md` §2 and `prd.md` §2 Q3):
+
+- item: `answer`, `acceptable`, `answerPoints`, `markingGuide`, `difficulty`, `skill`, `chapterSource`, `sourceChapter`;
+- stimulus: `original`, `sourceRef`, and a figure's `caption`;
+- paper: `sourceRef`.
+
+None of them may appear in the practice-mode DOM: not in visible text and not in any attribute (`data-*`, `title`, `aria-label`).
+Answer panels and captions are created only in checking mode and removed on re-lock. A figure gets a generic `aria-label` from
+`app/ui/en.json`, never its caption. `app/app.js` never reads `chapterSource`, `sourceChapter`, `difficulty` or `skill` (Maths kept
+its authoring-only field, `expr`, out of the page and proved it with a static check; v2 check X2 does the same). In practice mode only
+the question, options, match columns, stimuli and mark values are visible.
 
 ## 9. Not checked by the validator (still your job)
 

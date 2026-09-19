@@ -33,9 +33,10 @@ rather than ≤ 10 five-minute tasks. Testing and security are in this sprint be
   - Files: package.json, package-lock.json, .vercelignore, vercel.json
   - Completed: 2026-09-19 — playwright 1.63.0 pinned as devDependency, `dependencies` `{}`, npm audit 0. `--with-deps` failed (exit 1): Playwright fell back to ubuntu24.04 and called `apt-get` (not on AL2023, exit 127); no `dnf` pass needed because Chromium launched headless from the existing cache (`chromium-1243`). WebKit launch tried once: FAIL, "Host system is missing dependencies" (glibc 2.34 host) — expected, not a stop. `.vercelignore` verified with `git check-ignore`: excludes `.env*`, `source/`, `sprints/`, `fixtures/`, test/e2e/python scripts; keeps `validate.js`, `PROJECT-CARD.yml`, `scripts/lib/card.js`, `app/`.
 
-- [ ] Task 2: UI strings `app/ui/en.json` and `SCHEMA.md` §8 extension (P0)
+- [x] Task 2: UI strings `app/ui/en.json` and `SCHEMA.md` §8 extension (P0)
   - Acceptance: every user-visible string for all screens, both modes, gate, answer panel (model answer, mark split, marking guide, "Also accept"), result and grades, generic figure label, `mode.insecure`; `{name}/{n}/{marks}` interpolation only; `SCHEMA.md` §8 lists the twelve child-hidden fields (Q3). No content file touched.
   - Files: app/ui/en.json, SCHEMA.md
+  - Completed: 2026-09-19 — en.json with 98 keys (Maths set adapted to English, plus `stimulus.figureLabel`, `answer.accept`, `answer.acceptBlank`, `answer.pairs`); keys for batch-2 screens included now so `app.js` has one string source. Interpolation uses only the `{word}` syntax (Maths' variable names: code, count, got, letter, marks, name, n, title, total). `SCHEMA.md` §8 now lists the twelve fields. The key-check test runs in Task 6 (every `t()`/`data-i18n` key exists).
 
 - [ ] Task 3: `index.html` + `styles.css` — shell, login, chapter list, paper chrome (agent `shell`) (P0)
   - Acceptance: the prd.md §7 ids and classes exist; `<dialog id="checkDialog">`; light/dark/system tokens on `:root`; ≥ 16 px body; reduced-motion; `__SECRET_HASH__` not in these files; no external asset except a font with fallback.
