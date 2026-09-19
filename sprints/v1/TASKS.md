@@ -497,7 +497,7 @@ record in the walkthrough, continue.
     *confirm* (item counts, types used, stimulus kinds, figure count) were **settled at v1 close from the data**:
     54/58/58/54/58/58/60 items (400); types `short` 156, `fill-blank` 81, `one-word` 56, `mcq` 49, `true-false` 25,
     `long` 16, `handwriting` 10, `match` 7; stimuli 22 passages, 2 poems, 7 figure placements, no `table`; five
-    figure files; 19 items with newlines in `q`. The brief is now 376 lines.
+    figure files; 19 items with newlines in `q`. The brief is now 374 lines.
 
 ---
 
