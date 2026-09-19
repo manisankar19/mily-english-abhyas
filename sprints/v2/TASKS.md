@@ -60,17 +60,20 @@ rather than ≤ 10 five-minute tasks. Testing and security are in this sprint be
 
 ## Batch 2 — modes, gate, marking, result, print
 
-- [ ] Task 7: `app.js` — gate and checking mode (P0)
+- [x] Task 7: `app.js` — gate and checking mode (P0)
   - Acceptance: dialog opens from `#checkModeBtn`; Escape/cancel/backdrop close without unlocking; wrong code → error, field cleared, dialog open; `crypto.subtle` SHA-256 vs injected hash; `mode.insecure` when unavailable; in-memory boolean reset by reload, back, home, other paper, logout; toggle off without re-asking.
   - Files: app/app.js
+  - Completed: 2026-09-19 — `js` sub-agent. `showModal` gate; Escape/cancel/backdrop close without unlocking (a click on the dialog's own padding does not); wrong code clears and keeps the dialog; SHA-256 via `crypto.subtle`, `mode.insecure` without it (X1 tested by removing `crypto.subtle`); double-submit guard; in-memory `checkMode` reset by reload/back/home/other paper/logout. `tests/batch2.e2e.js` covers every gate case.
 
-- [ ] Task 8: `app.js` — answer panels and captions on demand (P0)
+- [x] Task 8: `app.js` — answer panels and captions on demand (P0)
   - Acceptance: per-item reveal and show-all build `.answer-panel` (model answer, `answerPoints` lines, `markingGuide` labelled, "Also accept" per blank for `fill-blank`/`one-word`, true `match` pairing) and captions after their figure; hide/re-lock **removes** them; none exist in practice mode.
   - Files: app/app.js
+  - Completed: 2026-09-19 — `js` sub-agent + one coordinator change. `.answer` created after `.item-tools`, removed on hide/re-lock/re-render: model answer (arrays as numbered lines), mark split, marking guide, Also accept (one line per blank), true match pairs; captions from a render-time WeakMap, never in an attribute, created on unlock after the figure and removed on re-lock. **Coordinator change:** "Also accept" now shows for *any* item with `acceptable` data — two Ch 3 `short` road-sign items (`english-c3-s5-b3-i1/-i2`) carry one list per sign that the fill-blank/one-word rule would have hidden from the parent (checked in Chromium). They are labelled "Blank 1/2"; "Part" would read better (minor).
 
-- [ ] Task 9: `app.js` — marks, score bar, clear, result screen (P0)
+- [x] Task 9: `app.js` — marks, score bar, clear, result screen (P0)
   - Acceptance: `0…marks` buttons per item stored by id per paper; score bar and checked count; clear marks; result table from `paper.sections` (code, stored title, obtained/marks, unmarked), total, percentage (1 dp, `.0` dropped), bands 90/75/60/40, unmarked warning; nothing hard-coded to 7 sections or 100.
   - Files: app/app.js
+  - Completed: 2026-09-19 — `js` sub-agent. Marks `0…marks` + clear per item, stored by id per paper; score bar; clear-all with confirm; result from `paper.sections` (`tr[data-section]`, stored titles), total row, 1-dp percentage with `.0` dropped, bands on the rounded value, unmarked warning as `p.rc-note.warn` (existing CSS). batch2 test: full marks = 100 and A+ on all 7 papers with every section full; mixed marking of ch1 (5 sections) and ch2 (7) equals numbers recomputed from JSON; marks survive reload. `tests/batch2.e2e.js` 83/83, `tests/batch1.e2e.js` 142/142, semgrep 0. Tasks 7–9 committed together (one file, one pass).
 
 - [x] Task 10: `styles.css` — checking UI, result, print (agent `shell`) (P0)
   - Acceptance: styles for panels, marks rows, score bar, result; print hides banner, dialog, marking UI, panels and captions, keeps poems and copy text unbroken with writing room; dark-mode figures legible via `currentColor`.
