@@ -1,6 +1,6 @@
 # Sprint v1 — Tasks (Content) — mily-english-abhyas
 
-## Status: In progress (3 of 14 tasks complete). Tasks written 2026-09-19. Owner-confirmed 2026-09-19: five sections for Ch 1/Ch 4 (Spelling folded into Vocabulary, Handwriting not carried); marking secret stands, owner rotates later via Vercel env.
+## Status: In progress (4 of 14 tasks complete — Tasks 1–4 done; session S1 finished; Task 5 not started). Tasks written 2026-09-19. Owner-confirmed 2026-09-19: five sections for Ch 1/Ch 4 (Spelling folded into Vocabulary, Handwriting not carried); marking secret stands, owner rotates later via Vercel env.
 
 Source of truth: `sprints/v1/prd.md` (Revision 2) — final. This file breaks it into atomic
 execution tasks; it does not re-derive scope, blueprint, schema or content plan. A task below that
@@ -163,7 +163,7 @@ record in the walkthrough, continue.
     text, not only `q` and stimuli (the Maths reuse found in a shared instruction line), with the allow-list
     masking generic wording. Semantic sample segments are split on sentence ends and newlines (≥ 4 words).
 
-- [ ] Task 4: `scripts/readability.py` — the §6.5 age gate (P0) — single owner, no sub-agent
+- [x] Task 4: `scripts/readability.py` — the §6.5 age gate (P0) — single owner, no sub-agent
   - Steps: for a paper, print per-authored-text numbers (A1/A2 stimuli, handwriting copy text):
     words, sentences, **average sentence length**, **longest sentence**, words of > 3 syllables not
     found in that chapter's cached text and not glossed in the item's `q`. For every item's `q`,
@@ -174,6 +174,26 @@ record in the walkthrough, continue.
   - Acceptance: fixture with a 24-word sentence → non-zero; fixture with "What is the theme of the
     poem?" → non-zero; clean fixture → 0; output is compact enough to paste into the walkthrough.
   - Files: `scripts/readability.py`, `fixtures/readability/*.json`
+  - Completed: 2026-09-19 — coordinator, no sub-agent. Test written first (red), then green:
+    **`python3 scripts/test_readability.py`: 14 passed, 0 failed.** Fixtures: a 24+-word sentence (26 words) →
+    exit 1; average 16.5 → exit 1; "What is the theme of the poem?" → exit 1; "Why do you think …" → exit 1;
+    an unglossed > 3-syllable word → exit 1, word named; the same word glossed → exit 0; a long word from the
+    chapter's own text excused, and **not** excused in a paper whose chapter lacks it; a poem measured line by
+    line; a speech tag (“…!” said Rina.) kept in its sentence (3, not the naive 4); clean → exit 0 in 5 lines,
+    easy/medium/hard mix printed for items and marks. **Mutation check (6 mutations):** disabling the average
+    check, the max-sentence check, the stem flags, the gloss exemption, the chapter exemption and the
+    speech-tag rule each turned exactly its own test red. **The check found a real weakness in my own
+    fixtures:** the `high-average` fixture also contained *carefully* (4 syllables), so it kept failing with the
+    average check disabled; the fixture was fixed to isolate one cause and the mutation re-run. Semgrep
+    (`p/python` + `p/secrets`, metrics off): 0 findings. **Calibration** (run once, not committed): the
+    textbook's own prose averages 9.4 / 13.7 / 12.0 / 12.8 words per sentence (Ch 2/3/5/6; the very long maxima
+    are partly extraction artifacts from unpunctuated rule lists), so the ≤ 12 target is realistic; the school's
+    own "tiny seed" unseen passage averages 12.0 but would **fail** the syllable rule on *eventually* and
+    *magnificent* — the gate is stricter on vocabulary than the school, as instruction §6.5 intends. The syllable
+    count is a vowel-group heuristic (it flags *extraordinary*, *carefully*, *everybody*, and would flag proper
+    nouns like *Panchatantra*); flags print for human judgement and fail unless the word is in the chapter or
+    glossed in a question of the same block (a gloss = the word plus "(", "means" or a curly quote).
+    The mock (chapter null) may use words from any chapter.
 
 - [ ] Task 5: Chapter 1 paper — Together We Can (P0) — one sub-agent; **thin-poem profile**
   - Follow **Protocol P** (below). Profile: A 30 · B 10 · C 20 · D 20 · E 20 (`prd.md` §3.6, §5.0);

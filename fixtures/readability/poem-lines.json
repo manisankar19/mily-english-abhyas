@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "2.0",
+  "subject": "english",
+  "chapter": 2,
+  "title": "Readability fixture",
+  "sections": [
+    {
+      "code": "A",
+      "title": "Reading",
+      "marks": 0,
+      "blocks": [
+        {
+          "num": "Q.1",
+          "instruction": "Read and answer.",
+          "items": [
+            {
+              "id": "english-c2-s1-b1-i1",
+              "type": "short",
+              "q": "Where does Rina fly her kite?",
+              "marks": 1,
+              "answer": "x",
+              "difficulty": "easy"
+            },
+            {
+              "id": "english-c2-s1-b1-i2",
+              "type": "short",
+              "q": "What does her brother hold?",
+              "marks": 2,
+              "answer": "x",
+              "difficulty": "medium"
+            },
+            {
+              "id": "english-c2-s1-b1-i3",
+              "type": "short",
+              "q": "Who claps at the end?",
+              "marks": 2,
+              "answer": "x",
+              "difficulty": "hard"
+            },
+            {
+              "id": "english-c2-s1-b1-i4",
+              "type": "short",
+              "q": "Why did they roll up the string?",
+              "marks": 1,
+              "answer": "x",
+              "difficulty": "hard"
+            }
+          ],
+          "stimulus": {
+            "kind": "poem",
+            "text": "Little drops of morning dew\nSparkle on the grass so new\nBirds wake up and start to sing\nWelcome to a day of spring\nThe sun comes up above the hill\nThe air is fresh and calm and still\nWe run and play until the night\nAnd close our eyes when it is light",
+            "original": true
+          }
+        }
+      ]
+    }
+  ]
+}

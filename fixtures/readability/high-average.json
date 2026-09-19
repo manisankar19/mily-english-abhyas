@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "2.0",
+  "subject": "english",
+  "chapter": 2,
+  "title": "Readability fixture",
+  "sections": [
+    {
+      "code": "A",
+      "title": "Reading",
+      "marks": 0,
+      "blocks": [
+        {
+          "num": "Q.1",
+          "instruction": "Read and answer.",
+          "items": [
+            {
+              "id": "english-c2-s1-b1-i1",
+              "type": "short",
+              "q": "Where does Rina fly her kite?",
+              "marks": 1,
+              "answer": "x",
+              "difficulty": "easy"
+            },
+            {
+              "id": "english-c2-s1-b1-i2",
+              "type": "short",
+              "q": "What does her brother hold?",
+              "marks": 2,
+              "answer": "x",
+              "difficulty": "medium"
+            },
+            {
+              "id": "english-c2-s1-b1-i3",
+              "type": "short",
+              "q": "Who claps at the end?",
+              "marks": 2,
+              "answer": "x",
+              "difficulty": "hard"
+            },
+            {
+              "id": "english-c2-s1-b1-i4",
+              "type": "short",
+              "q": "Why did they roll up the string?",
+              "marks": 1,
+              "answer": "x",
+              "difficulty": "hard"
+            }
+          ],
+          "stimulus": {
+            "kind": "passage",
+            "text": "Every Sunday morning Rina and her brother walk up the hill to fly their red kite. The wind blows from the river and the kite rises quickly above the tall green trees. Amit holds the string tightly while Rina runs across the grass and waves at the birds. When the sun goes down they roll the string slowly and walk home together in the cool evening.",
+            "original": true
+          }
+        }
+      ]
+    }
+  ]
+}

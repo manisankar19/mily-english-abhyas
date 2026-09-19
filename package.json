@@ -7,6 +7,7 @@
     "validate": "node validate.js",
     "test:validator": "node scripts/test-validator.js",
     "test:similarity": "python3 scripts/test_similarity.py",
+    "test:readability": "python3 scripts/test_readability.py",
     "similarity": "python3 scripts/similarity.py",
     "readability": "python3 scripts/readability.py",
     "check": "npm run validate && python3 scripts/similarity.py"
