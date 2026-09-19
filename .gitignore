@@ -1,0 +1,9 @@
+.env.local
+dist/
+node_modules/
+.vercel/
+source/.text-cache/
+scripts/*.npy
+__pycache__/
+test-results/
+playwright-report/
