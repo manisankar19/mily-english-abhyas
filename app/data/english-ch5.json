@@ -1,0 +1,1267 @@
+{
+  "schemaVersion": "2.0",
+  "subject": "english",
+  "subjectDisplay": "English",
+  "grade": 4,
+  "chapter": 5,
+  "locale": "en",
+  "numerals": "latn",
+  "title": "The Old Stag",
+  "subtitle": "English — Class 4 — Chapter 5",
+  "sourceRef": "Santoor Grade 4, Ch. 5",
+  "totalMarks": 100,
+  "durationMinutes": 120,
+  "sections": [
+    {
+      "code": "A",
+      "title": "Reading",
+      "marks": 25,
+      "blocks": [
+        {
+          "num": "Q.1",
+          "instruction": "Read the passage and answer the questions. Write True or False for the true-false questions.",
+          "stimulus": {
+            "kind": "passage",
+            "text": "A big mango tree stands beside the hill road near Kesari village. Nobody knows who planted it. It is older than Grandfather. Every summer, its branches bend low with yellow mangoes.\n\nThe whole village shares the tree. Each family picks mangoes on one day of the week only. On Monday, it is Meena’s family. On Tuesday, it is the potter’s family. The headman rings a brass bell at sunrise to mark the day. Children may collect fallen mangoes at any time. They must not shake the branches.\n\nTravellers rest in the cool shade and eat one mango for free. In autumn, everyone digs the soil around the roots and adds fresh compost. “A tree that feeds us needs food too,” says the headman.",
+            "original": true
+          },
+          "items": [
+            {
+              "id": "english-c5-s1-b1-i1",
+              "type": "mcq",
+              "q": "Where does the mango tree stand?",
+              "marks": 1,
+              "answer": "Beside the hill road",
+              "difficulty": "easy",
+              "options": [
+                "Beside the hill road",
+                "In a school garden",
+                "On a river bank"
+              ],
+              "skill": "reading: locate detail",
+              "chapterSource": "original-A1"
+            },
+            {
+              "id": "english-c5-s1-b1-i2",
+              "type": "mcq",
+              "q": "When does the headman ring the brass bell?",
+              "marks": 1,
+              "answer": "At sunrise",
+              "difficulty": "easy",
+              "options": [
+                "At sunrise",
+                "At noon",
+                "At midnight"
+              ],
+              "skill": "reading: locate detail",
+              "chapterSource": "original-A1"
+            },
+            {
+              "id": "english-c5-s1-b1-i3",
+              "type": "mcq",
+              "q": "What must the children not do?",
+              "marks": 1,
+              "answer": "Shake the branches",
+              "difficulty": "medium",
+              "options": [
+                "Shake the branches",
+                "Collect fallen mangoes",
+                "Walk on the hill road"
+              ],
+              "skill": "reading: rule in text",
+              "chapterSource": "original-A1"
+            },
+            {
+              "id": "english-c5-s1-b1-i4",
+              "type": "short",
+              "q": "What can travellers do at the mango tree?",
+              "marks": 2,
+              "answer": "They can rest in the cool shade (1) and eat one mango for free (1).",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "Rest in the cool shade",
+                  "marks": 1
+                },
+                {
+                  "point": "Eat one mango for free",
+                  "marks": 1
+                }
+              ],
+              "skill": "reading: two facts",
+              "chapterSource": "original-A1"
+            },
+            {
+              "id": "english-c5-s1-b1-i5",
+              "type": "short",
+              "q": "Write one thing the villagers do to keep the mango picking fair, and one thing they do to look after the tree.",
+              "marks": 2,
+              "answer": "Fair picking (1): each family picks on its own day of the week, or the headman rings a bell to mark the day, or children do not shake the branches (any one). Looking after the tree (1): in autumn they dig the soil around the roots, or they add fresh compost (any one).",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "One way of keeping the picking fair",
+                  "marks": 1
+                },
+                {
+                  "point": "One way of looking after the tree",
+                  "marks": 1
+                }
+              ],
+              "skill": "reading: two facts from two places",
+              "chapterSource": "original-A1"
+            },
+            {
+              "id": "english-c5-s1-b1-i6",
+              "type": "true-false",
+              "q": "The villagers know who planted the mango tree.",
+              "marks": 1,
+              "answer": "False. Nobody knows who planted it.",
+              "difficulty": "easy",
+              "skill": "reading: true or false",
+              "chapterSource": "original-A1"
+            },
+            {
+              "id": "english-c5-s1-b1-i7",
+              "type": "true-false",
+              "q": "Children may collect fallen mangoes at any time.",
+              "marks": 1,
+              "answer": "True.",
+              "difficulty": "medium",
+              "skill": "reading: true or false",
+              "chapterSource": "original-A1"
+            },
+            {
+              "id": "english-c5-s1-b1-i8",
+              "type": "one-word",
+              "q": "On which day of the week does Meena’s family pick mangoes?",
+              "marks": 1,
+              "answer": "Monday",
+              "difficulty": "easy",
+              "acceptable": [
+                "Monday",
+                "monday",
+                "on Monday"
+              ],
+              "skill": "reading: locate detail",
+              "chapterSource": "original-A1"
+            },
+            {
+              "id": "english-c5-s1-b1-i9",
+              "type": "one-word",
+              "q": "Which family picks mangoes on Tuesday?",
+              "marks": 1,
+              "answer": "the potter’s family",
+              "difficulty": "easy",
+              "acceptable": [
+                "the potter’s family",
+                "the potter’s",
+                "potter’s family",
+                "the potter",
+                "potter",
+                "potter’s"
+              ],
+              "skill": "reading: locate detail",
+              "chapterSource": "original-A1"
+            },
+            {
+              "id": "english-c5-s1-b1-i10",
+              "type": "one-word",
+              "q": "What colour are the mangoes on the tree?",
+              "marks": 1,
+              "answer": "yellow",
+              "difficulty": "easy",
+              "acceptable": [
+                "yellow",
+                "Yellow"
+              ],
+              "skill": "reading: locate detail",
+              "chapterSource": "original-A1"
+            },
+            {
+              "id": "english-c5-s1-b1-i11",
+              "type": "one-word",
+              "q": "What do the villagers add to the soil around the roots in autumn?",
+              "marks": 1,
+              "answer": "compost",
+              "difficulty": "medium",
+              "acceptable": [
+                "compost",
+                "fresh compost",
+                "Compost"
+              ],
+              "skill": "reading: locate detail",
+              "chapterSource": "original-A1"
+            }
+          ]
+        },
+        {
+          "num": "Q.2",
+          "instruction": "Read the text and answer the questions. Write True or False for the true-false questions. For the fill-in-the-blank questions, use a word from the text.",
+          "stimulus": {
+            "kind": "passage",
+            "text": "Our village pond is home to many fish. The elders fish there only twice a month. They lift the nets gently and throw the small fish back. Children feed the fish quietly, so the fish do not swim away. Last summer, a few boys fished greedily and took too many. The pond looked almost empty. The elders spoke kindly to the boys. Now everyone waits for the fishing day, and the fish swim happily again.",
+            "original": true
+          },
+          "items": [
+            {
+              "id": "english-c5-s1-b2-i1",
+              "type": "short",
+              "q": "Write two ways in which the elders take care of the fish in the pond.",
+              "marks": 2,
+              "answer": "Any two (1 each): they fish only twice a month; they lift the nets gently; they throw the small fish back.",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "First correct way",
+                  "marks": 1
+                },
+                {
+                  "point": "Second correct way",
+                  "marks": 1
+                }
+              ],
+              "skill": "reading: two facts",
+              "chapterSource": "original-A2"
+            },
+            {
+              "id": "english-c5-s1-b2-i2",
+              "type": "short",
+              "q": "What happened when a few boys fished greedily?",
+              "marks": 2,
+              "answer": "The boys took too many fish (1) and the pond looked almost empty (1).",
+              "difficulty": "easy",
+              "answerPoints": [
+                {
+                  "point": "They took too many fish",
+                  "marks": 1
+                },
+                {
+                  "point": "The pond looked almost empty",
+                  "marks": 1
+                }
+              ],
+              "skill": "reading: cause and effect",
+              "chapterSource": "original-A2"
+            },
+            {
+              "id": "english-c5-s1-b2-i3",
+              "type": "short",
+              "q": "How did the elders speak to the boys, and what does everyone do now?",
+              "marks": 2,
+              "answer": "The elders spoke kindly to the boys (1). Now everyone waits for the fishing day (1).",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "They spoke kindly to the boys",
+                  "marks": 1
+                },
+                {
+                  "point": "Everyone waits for the fishing day",
+                  "marks": 1
+                }
+              ],
+              "skill": "reading: two facts from two places",
+              "chapterSource": "original-A2"
+            },
+            {
+              "id": "english-c5-s1-b2-i4",
+              "type": "fill-blank",
+              "q": "The elders lift the nets _____.",
+              "marks": 1,
+              "answer": "gently",
+              "difficulty": "easy",
+              "blanks": 1,
+              "acceptable": [
+                "gently",
+                "Gently"
+              ],
+              "skill": "reading: adverb of manner",
+              "chapterSource": "original-A2"
+            },
+            {
+              "id": "english-c5-s1-b2-i5",
+              "type": "fill-blank",
+              "q": "The children feed the fish _____.",
+              "marks": 1,
+              "answer": "quietly",
+              "difficulty": "easy",
+              "blanks": 1,
+              "acceptable": [
+                "quietly",
+                "Quietly"
+              ],
+              "skill": "reading: adverb of manner",
+              "chapterSource": "original-A2"
+            },
+            {
+              "id": "english-c5-s1-b2-i6",
+              "type": "fill-blank",
+              "q": "After the boys took too many fish, the pond looked almost _____.",
+              "marks": 1,
+              "answer": "empty",
+              "difficulty": "medium",
+              "blanks": 1,
+              "acceptable": [
+                "empty",
+                "Empty"
+              ],
+              "skill": "reading: locate detail",
+              "chapterSource": "original-A2"
+            },
+            {
+              "id": "english-c5-s1-b2-i7",
+              "type": "true-false",
+              "q": "The elders fish in the pond every day.",
+              "marks": 1,
+              "answer": "False. They fish only twice a month.",
+              "difficulty": "easy",
+              "skill": "reading: true or false",
+              "chapterSource": "original-A2"
+            },
+            {
+              "id": "english-c5-s1-b2-i8",
+              "type": "true-false",
+              "q": "The elders were angry and shouted at the boys.",
+              "marks": 1,
+              "answer": "False. They spoke kindly to the boys.",
+              "difficulty": "medium",
+              "skill": "reading: true or false",
+              "chapterSource": "original-A2"
+            },
+            {
+              "id": "english-c5-s1-b2-i9",
+              "type": "mcq",
+              "q": "Which word from the text tells how the boys fished?",
+              "marks": 1,
+              "answer": "greedily",
+              "difficulty": "medium",
+              "options": [
+                "greedily",
+                "gently",
+                "quietly"
+              ],
+              "skill": "reading: adverb of manner",
+              "chapterSource": "original-A2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Textual Questions",
+      "marks": 13,
+      "blocks": [
+        {
+          "num": "Q.3",
+          "instruction": "Answer in one word or a few words.",
+          "items": [
+            {
+              "id": "english-c5-s2-b1-i1",
+              "type": "one-word",
+              "q": "Who said, “I have never eaten such juicy green leaves”?",
+              "marks": 1,
+              "answer": "a giraffe",
+              "difficulty": "easy",
+              "acceptable": [
+                "a giraffe",
+                "giraffe",
+                "the giraffe"
+              ],
+              "skill": "textual: who said",
+              "chapterSource": "Let us Read (dialogue)"
+            },
+            {
+              "id": "english-c5-s2-b1-i2",
+              "type": "one-word",
+              "q": "Which animal asked the stag how he was?",
+              "marks": 1,
+              "answer": "a deer",
+              "difficulty": "easy",
+              "acceptable": [
+                "a deer",
+                "deer",
+                "the deer"
+              ],
+              "skill": "textual: who said",
+              "chapterSource": "Let us Read (dialogue)"
+            },
+            {
+              "id": "english-c5-s2-b1-i3",
+              "type": "one-word",
+              "q": "What did some of the animals bring for the sick stag?",
+              "marks": 1,
+              "answer": "fresh leaves",
+              "difficulty": "easy",
+              "acceptable": [
+                "fresh leaves",
+                "leaves",
+                "some fresh leaves",
+                "green leaves"
+              ],
+              "skill": "textual: name one",
+              "chapterSource": "Let us Read (ending)"
+            }
+          ]
+        },
+        {
+          "num": "Q.4",
+          "instruction": "Answer the following questions.",
+          "items": [
+            {
+              "id": "english-c5-s2-b2-i1",
+              "type": "short",
+              "q": "Why did the old stag stop going down the hillock to meet his friends?",
+              "marks": 2,
+              "answer": "He had fallen ill (1) and he was too weak to come down (1).",
+              "difficulty": "easy",
+              "answerPoints": [
+                {
+                  "point": "He was ill / unwell",
+                  "marks": 1
+                },
+                {
+                  "point": "He was too weak to come down",
+                  "marks": 1
+                }
+              ],
+              "skill": "textual: Let us Think A2",
+              "chapterSource": "Let us Think A2"
+            },
+            {
+              "id": "english-c5-s2-b2-i2",
+              "type": "short",
+              "q": "Why did the sick stag eat the tender grass and rest for a while?",
+              "marks": 2,
+              "answer": "He knew that fresh, healthy food (1) and proper rest (1) would help him get better.",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "Fresh, healthy food would help him get well",
+                  "marks": 1
+                },
+                {
+                  "point": "Proper rest would help him get well",
+                  "marks": 1
+                }
+              ],
+              "skill": "textual: cause",
+              "chapterSource": "Let us Read"
+            },
+            {
+              "id": "english-c5-s2-b2-i3",
+              "type": "short",
+              "q": "Put these events in the order in which they happened in the story. Write the four letters in order.\n(a) The grass grew back after the rain.\n(b) The stag fell ill.\n(c) The animals ate the fresh grass on the hillock.\n(d) The animals decided to find food elsewhere.",
+              "marks": 2,
+              "answer": "b, c, d, a. (b) The stag fell ill; (c) the animals ate the grass on the hillock; (d) they decided to find food elsewhere; (a) the grass grew back after the rain. Split: b then c in the right order — 1; d then a in the right order — 1.",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "(b) before (c) placed correctly at the start",
+                  "marks": 1
+                },
+                {
+                  "point": "(d) before (a) placed correctly at the end",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "Correct order b, c, d, a — 2; the first two or the last two events in the right order — 1; neither — 0. Maximum 2.",
+              "skill": "textual: sequence events",
+              "chapterSource": "Let us Think A4"
+            },
+            {
+              "id": "english-c5-s2-b2-i4",
+              "type": "short",
+              "q": "How did the animals feel when they understood what they had done to the stag? What had made them forget their friend?",
+              "marks": 2,
+              "answer": "They felt ashamed (1). Their greed had made them forget their friend (1).",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "They felt ashamed",
+                  "marks": 1
+                },
+                {
+                  "point": "Their greed made them forget the stag",
+                  "marks": 1
+                }
+              ],
+              "skill": "textual: Let us Think A4",
+              "chapterSource": "Let us Think A4"
+            },
+            {
+              "id": "english-c5-s2-b2-i5",
+              "type": "short",
+              "q": "What would you do if you were visiting an ill friend and saw only one plate of fruit beside the bed? Write two sentences.",
+              "marks": 2,
+              "answer": "Model answer: I would leave the fruit for my friend. I would sit quietly and ask how my friend feels.",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "A sensible, kind action in a full sentence",
+                  "marks": 1
+                },
+                {
+                  "point": "A second sensible action or reason in a full sentence",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "Two sensible, kind answers in full sentences — 2; one answer, or two answers that are not in full sentences — 1; unrelated or selfish answer with no reason — 0. Accept any answer that thinks of the ill friend. Maximum 2.",
+              "skill": "textual: Think and Discuss",
+              "chapterSource": "Let us Think (Think and Discuss)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Creative Writing",
+      "marks": 12,
+      "blocks": [
+        {
+          "num": "Q.5",
+          "instruction": "Write five sentences on ONE of the two topics.",
+          "items": [
+            {
+              "id": "english-c5-s3-b1-i1",
+              "type": "long",
+              "q": "Write five sentences about a shady tree or a garden near your home.\nOR\nWrite five sentences about how you help a friend who is ill.",
+              "marks": 5,
+              "answer": "Model answer (garden): There is a small garden near my house. It has a big neem tree. The shady spot under the tree is cool. Birds sing there in the morning. I play there with my friends every evening.",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "Sentence 1 — complete and on the topic",
+                  "marks": 1
+                },
+                {
+                  "point": "Sentence 2 — complete and on the topic",
+                  "marks": 1
+                },
+                {
+                  "point": "Sentence 3 — complete and on the topic",
+                  "marks": 1
+                },
+                {
+                  "point": "Sentence 4 — complete and on the topic",
+                  "marks": 1
+                },
+                {
+                  "point": "Sentence 5 — complete and on the topic",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "One mark for each complete sentence on the chosen topic, up to 5. Deduct 1 for more than three mistakes in spelling, capital letters or full stops. Fewer than five sentences: give one mark per good sentence. Maximum 5.",
+              "skill": "writing: five sentences",
+              "chapterSource": "Let us Write"
+            }
+          ]
+        },
+        {
+          "num": "Q.6",
+          "instruction": "Complete the paragraph by following the hints.",
+          "items": [
+            {
+              "id": "english-c5-s3-b2-i1",
+              "type": "long",
+              "q": "Write a short paragraph about a helper you see every day, such as a postman, a gardener or a milkman. Follow these four hints, one sentence for each.\n1. Say who the helper is and what work the helper does.\n2. Say when the helper comes and how the helper works. Use an adverb of manner, such as carefully or cheerfully.\n3. Say how the people in your lane greet the helper.\n4. Say why you like the helper.",
+              "marks": 4,
+              "answer": "Model answer: Our postman is Ramesh uncle. He brings letters and parcels to every house. He comes at ten o’clock and puts the letters carefully into the letter box. People in our lane greet him warmly. I like him because he is always cheerful and helpful.",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "Hint 1 — the helper and the work, in a full sentence",
+                  "marks": 1
+                },
+                {
+                  "point": "Hint 2 — the time and an adverb of manner used correctly",
+                  "marks": 1
+                },
+                {
+                  "point": "Hint 3 — how people greet the helper",
+                  "marks": 1
+                },
+                {
+                  "point": "Hint 4 — a reason for liking the helper",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "One mark for each hint answered in a full sentence, up to 4. The adverb of manner in hint 2 must be spelt and used correctly, or that mark is lost. Deduct 1 for more than three mistakes in spelling or punctuation. Maximum 4.",
+              "skill": "writing: guided paragraph",
+              "chapterSource": "Let us Write B (own frame)"
+            }
+          ]
+        },
+        {
+          "num": "Q.7",
+          "instruction": "Make a sentence with each word.",
+          "items": [
+            {
+              "id": "english-c5-s3-b3-i1",
+              "type": "short",
+              "q": "Make a sentence with the word: stag",
+              "marks": 1,
+              "answer": "Model answer: The stag stood on the hill and looked at the valley.",
+              "difficulty": "easy",
+              "markingGuide": "A complete, sensible sentence that uses the word stag correctly — 1; the word is missing, misused, or the sentence is not complete — 0. Maximum 1.",
+              "skill": "writing: use a word",
+              "chapterSource": "New Words"
+            },
+            {
+              "id": "english-c5-s3-b3-i2",
+              "type": "short",
+              "q": "Make a sentence with the word: tender",
+              "marks": 1,
+              "answer": "Model answer: The goat ate the tender leaves of the young plant.",
+              "difficulty": "medium",
+              "markingGuide": "A complete, sensible sentence that uses the word tender correctly (soft and young) — 1; the word is missing, misused, or the sentence is not complete — 0. Maximum 1.",
+              "skill": "writing: use a word",
+              "chapterSource": "New Words"
+            },
+            {
+              "id": "english-c5-s3-b3-i3",
+              "type": "short",
+              "q": "Make a sentence with the word: cheerfully",
+              "marks": 1,
+              "answer": "Model answer: The children sang cheerfully on the bus.",
+              "difficulty": "medium",
+              "markingGuide": "A complete, sensible sentence in which cheerfully tells how something is done — 1; the word is missing, misused, or the sentence is not complete — 0. Maximum 1.",
+              "skill": "writing: use an adverb",
+              "chapterSource": "Let us Learn C"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Grammar",
+      "marks": 19,
+      "blocks": [
+        {
+          "num": "Q.8",
+          "instruction": "Choose the correct word from the brackets and fill in the blanks.",
+          "items": [
+            {
+              "id": "english-c5-s4-b1-i1",
+              "type": "fill-blank",
+              "q": "The tortoise walked _____ across the road. (slow / slowly)",
+              "marks": 1,
+              "answer": "slowly",
+              "difficulty": "easy",
+              "blanks": 1,
+              "acceptable": [
+                "slowly",
+                "Slowly"
+              ],
+              "skill": "grammar: adverb of manner",
+              "chapterSource": "Let us Learn C"
+            },
+            {
+              "id": "english-c5-s4-b1-i2",
+              "type": "fill-blank",
+              "q": "Kavya read the poem _____ so that everyone could hear. (loud / loudly)",
+              "marks": 1,
+              "answer": "loudly",
+              "difficulty": "easy",
+              "blanks": 1,
+              "acceptable": [
+                "loudly",
+                "Loudly"
+              ],
+              "skill": "grammar: adverb of manner",
+              "chapterSource": "Let us Learn C"
+            },
+            {
+              "id": "english-c5-s4-b1-i3",
+              "type": "fill-blank",
+              "q": "Grandmother sings _____ in the kitchen. (soft / softly)",
+              "marks": 1,
+              "answer": "softly",
+              "difficulty": "easy",
+              "blanks": 1,
+              "acceptable": [
+                "softly",
+                "Softly"
+              ],
+              "skill": "grammar: adverb of manner",
+              "chapterSource": "Let us Learn C"
+            },
+            {
+              "id": "english-c5-s4-b1-i4",
+              "type": "fill-blank",
+              "q": "The gardener watered the _____ plants. (healthy / healthily)",
+              "marks": 1,
+              "answer": "healthy",
+              "difficulty": "medium",
+              "blanks": 1,
+              "acceptable": [
+                "healthy",
+                "Healthy"
+              ],
+              "skill": "grammar: describing word",
+              "chapterSource": "Let us Learn B"
+            },
+            {
+              "id": "english-c5-s4-b1-i5",
+              "type": "fill-blank",
+              "q": "The _____ shopkeeper gave the child a free sweet. (friendly / friend)",
+              "marks": 1,
+              "answer": "friendly",
+              "difficulty": "medium",
+              "blanks": 1,
+              "acceptable": [
+                "friendly",
+                "Friendly"
+              ],
+              "skill": "grammar: describing word",
+              "chapterSource": "Let us Learn B"
+            }
+          ]
+        },
+        {
+          "num": "Q.9",
+          "instruction": "Rewrite the sentences as directed.",
+          "items": [
+            {
+              "id": "english-c5-s4-b2-i1",
+              "type": "short",
+              "q": "Change the word in brackets into an adverb and rewrite the sentence.\nThe girl sang (sweet).",
+              "marks": 2,
+              "answer": "The girl sang sweetly. (Also accept: The girl sweetly sang.) Split: adverb sweetly spelt correctly — 1; the rest of the sentence written correctly with a capital letter and full stop — 1.",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "Adverb sweetly spelt correctly",
+                  "marks": 1
+                },
+                {
+                  "point": "Full sentence copied correctly with capital letter and full stop",
+                  "marks": 1
+                }
+              ],
+              "skill": "grammar: make an adverb",
+              "chapterSource": "Let us Learn C"
+            },
+            {
+              "id": "english-c5-s4-b2-i2",
+              "type": "short",
+              "q": "Change the word in brackets into an adverb and rewrite the sentence.\nMeera closed the gate (careful).",
+              "marks": 2,
+              "answer": "Meera closed the gate carefully. (Also accept: Meera carefully closed the gate.) Split: adverb carefully spelt correctly — 1; the rest of the sentence written correctly with a capital letter and full stop — 1.",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "Adverb carefully spelt correctly",
+                  "marks": 1
+                },
+                {
+                  "point": "Full sentence copied correctly with capital letter and full stop",
+                  "marks": 1
+                }
+              ],
+              "skill": "grammar: make an adverb",
+              "chapterSource": "Let us Learn C"
+            },
+            {
+              "id": "english-c5-s4-b2-i3",
+              "type": "short",
+              "q": "Write two sentences about a rabbit. In the first sentence use the word quick to describe the rabbit. In the second sentence use the word quickly to tell how the rabbit ran.",
+              "marks": 2,
+              "answer": "Model answer: The rabbit is quick. The rabbit ran quickly into the bush. Split: quick describes the rabbit, e.g. a quick rabbit or the rabbit is quick — 1; quickly tells how the rabbit ran — 1.",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "A sentence in which quick describes the rabbit",
+                  "marks": 1
+                },
+                {
+                  "point": "A sentence in which quickly tells how the rabbit ran",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "First sentence uses quick as a describing word — 1; second sentence uses quickly to tell how the rabbit ran — 1. Each sentence must be complete. Maximum 2.",
+              "skill": "grammar: use adjective and adverb",
+              "chapterSource": "Let us Learn B and C"
+            }
+          ]
+        },
+        {
+          "num": "Q.10",
+          "instruction": "Do as directed.",
+          "items": [
+            {
+              "id": "english-c5-s4-b3-i1",
+              "type": "short",
+              "q": "Write the adverb of manner in the sentence, and the action word it tells more about.\nThe nurse spoke kindly to the sick child.",
+              "marks": 2,
+              "answer": "Adverb: kindly (1). Action word: spoke (1).",
+              "difficulty": "easy",
+              "answerPoints": [
+                {
+                  "point": "Adverb: kindly",
+                  "marks": 1
+                },
+                {
+                  "point": "Action word: spoke",
+                  "marks": 1
+                }
+              ],
+              "skill": "grammar: find the adverb",
+              "chapterSource": "Let us Learn C"
+            },
+            {
+              "id": "english-c5-s4-b3-i2",
+              "type": "short",
+              "q": "Two of these words tell how something is done. Write the two words.\nsoon   quickly   nearby   cheerfully   early",
+              "marks": 2,
+              "answer": "quickly (1) and cheerfully (1), in any order.",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "quickly",
+                  "marks": 1
+                },
+                {
+                  "point": "cheerfully",
+                  "marks": 1
+                }
+              ],
+              "skill": "grammar: adverbs of manner",
+              "chapterSource": "Let us Learn C"
+            },
+            {
+              "id": "english-c5-s4-b3-i3",
+              "type": "short",
+              "q": "Write the describing word in each sentence.\n(a) The friendly animals came to visit.\n(b) We rested in a shaded spot.",
+              "marks": 2,
+              "answer": "(a) friendly (1); (b) shaded (1).",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "(a) friendly",
+                  "marks": 1
+                },
+                {
+                  "point": "(b) shaded",
+                  "marks": 1
+                }
+              ],
+              "skill": "grammar: describing words",
+              "chapterSource": "Let us Learn B"
+            },
+            {
+              "id": "english-c5-s4-b3-i4",
+              "type": "short",
+              "q": "Each sentence has a mistake in the word that tells how. Rewrite each sentence correctly.\n(a) The bus moved slow up the hill.\n(b) The teacher spoke kind to the little girl.",
+              "marks": 2,
+              "answer": "(a) The bus moved slowly up the hill. (1) (b) The teacher spoke kindly to the little girl. (1)",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "(a) slow changed to slowly; rest of sentence correct",
+                  "marks": 1
+                },
+                {
+                  "point": "(b) kind changed to kindly; rest of sentence correct",
+                  "marks": 1
+                }
+              ],
+              "skill": "grammar: correct the adverb",
+              "chapterSource": "Let us Learn C"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "E",
+      "title": "Vocabulary",
+      "marks": 13,
+      "blocks": [
+        {
+          "num": "Q.11",
+          "instruction": "Match the words with their meanings.",
+          "items": [
+            {
+              "id": "english-c5-s5-b1-i1",
+              "type": "match",
+              "q": "Match each describing phrase with its meaning.",
+              "marks": 5,
+              "answer": "lush garden — thick, green and full of plants; tender leaves — soft and young; shaded lane — a path that has shade from trees; friendly neighbour — kind and pleasant to people; healthy breakfast — food that keeps the body strong.",
+              "difficulty": "medium",
+              "pairs": [
+                {
+                  "left": "lush garden",
+                  "right": "thick, green and full of plants"
+                },
+                {
+                  "left": "tender leaves",
+                  "right": "soft and young"
+                },
+                {
+                  "left": "shaded lane",
+                  "right": "a path that has shade from trees"
+                },
+                {
+                  "left": "friendly neighbour",
+                  "right": "kind and pleasant to people"
+                },
+                {
+                  "left": "healthy breakfast",
+                  "right": "food that keeps the body strong"
+                }
+              ],
+              "answerPoints": [
+                {
+                  "point": "lush garden matched correctly",
+                  "marks": 1
+                },
+                {
+                  "point": "tender leaves matched correctly",
+                  "marks": 1
+                },
+                {
+                  "point": "shaded lane matched correctly",
+                  "marks": 1
+                },
+                {
+                  "point": "friendly neighbour matched correctly",
+                  "marks": 1
+                },
+                {
+                  "point": "healthy breakfast matched correctly",
+                  "marks": 1
+                }
+              ],
+              "skill": "vocabulary: match",
+              "chapterSource": "Let us Learn A and B"
+            }
+          ]
+        },
+        {
+          "num": "Q.12",
+          "instruction": "Fill in the blanks using the words from the box.",
+          "items": [
+            {
+              "id": "english-c5-s5-b2-i1",
+              "type": "fill-blank",
+              "q": "Word box: hillock   sheltering   recovery\nThe old shed is _____ the goats from the rain. A small _____ rises behind the shed.",
+              "marks": 2,
+              "answer": [
+                "sheltering",
+                "hillock"
+              ],
+              "difficulty": "easy",
+              "blanks": 2,
+              "acceptable": [
+                [
+                  "sheltering"
+                ],
+                [
+                  "hillock"
+                ]
+              ],
+              "answerPoints": [
+                {
+                  "point": "sheltering",
+                  "marks": 1
+                },
+                {
+                  "point": "hillock",
+                  "marks": 1
+                }
+              ],
+              "skill": "vocabulary: word in context",
+              "chapterSource": "New Words"
+            },
+            {
+              "id": "english-c5-s5-b2-i2",
+              "type": "fill-blank",
+              "q": "Word box: stag   recovery   lush\nDadi made a quick _____ after her fever. Now she walks in the _____ green garden.",
+              "marks": 2,
+              "answer": [
+                "recovery",
+                "lush"
+              ],
+              "difficulty": "medium",
+              "blanks": 2,
+              "acceptable": [
+                [
+                  "recovery"
+                ],
+                [
+                  "lush"
+                ]
+              ],
+              "answerPoints": [
+                {
+                  "point": "recovery",
+                  "marks": 1
+                },
+                {
+                  "point": "lush",
+                  "marks": 1
+                }
+              ],
+              "skill": "vocabulary: word in context",
+              "chapterSource": "New Words"
+            }
+          ]
+        },
+        {
+          "num": "Q.13",
+          "instruction": "Answer as directed.",
+          "items": [
+            {
+              "id": "english-c5-s5-b3-i1",
+              "type": "short",
+              "q": "Write the opposite word for each.\n(a) quickly   (b) loudly",
+              "marks": 2,
+              "answer": "(a) slowly (1); (b) quietly, or softly (1).",
+              "difficulty": "easy",
+              "answerPoints": [
+                {
+                  "point": "(a) slowly",
+                  "marks": 1
+                },
+                {
+                  "point": "(b) quietly / softly",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "(a) slowly — 1; (b) quietly or softly — 1. Accept any clear opposite of the meaning. Maximum 2.",
+              "skill": "vocabulary: opposites",
+              "chapterSource": "Let us Learn C"
+            },
+            {
+              "id": "english-c5-s5-b3-i2",
+              "type": "short",
+              "q": "Write one sentence with the phrase shaded spot and one sentence with the phrase lush forest. Each sentence must show what the phrase means.",
+              "marks": 2,
+              "answer": "Model answer: We sat in a shaded spot under the neem tree to keep cool. The lush forest was thick with green trees and plants. Split: each sentence — 1.",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "A sentence that shows the meaning of shaded spot",
+                  "marks": 1
+                },
+                {
+                  "point": "A sentence that shows the meaning of lush forest",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "A complete sentence that shows the meaning of shaded spot (a place with shade) — 1; a complete sentence that shows the meaning of lush forest (thick and green) — 1. Maximum 2.",
+              "skill": "vocabulary: use in a sentence",
+              "chapterSource": "Let us Learn B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "title": "Spelling",
+      "marks": 12,
+      "blocks": [
+        {
+          "num": "Q.14",
+          "instruction": "Circle the correct spelling.",
+          "items": [
+            {
+              "id": "english-c5-s6-b1-i1",
+              "type": "mcq",
+              "q": "Circle the correct spelling.",
+              "marks": 2,
+              "answer": "cheerfully",
+              "difficulty": "easy",
+              "options": [
+                "cheerfully",
+                "cheerfuly",
+                "chearfully"
+              ],
+              "answerPoints": [
+                {
+                  "point": "Circles cheerfully",
+                  "marks": 2
+                }
+              ],
+              "skill": "spelling: choose",
+              "chapterSource": "Let us Learn C"
+            },
+            {
+              "id": "english-c5-s6-b1-i2",
+              "type": "mcq",
+              "q": "Circle the correct spelling.",
+              "marks": 2,
+              "answer": "carefully",
+              "difficulty": "medium",
+              "options": [
+                "carefuly",
+                "carefully",
+                "carfully"
+              ],
+              "answerPoints": [
+                {
+                  "point": "Circles carefully",
+                  "marks": 2
+                }
+              ],
+              "skill": "spelling: choose",
+              "chapterSource": "Let us Learn C"
+            },
+            {
+              "id": "english-c5-s6-b1-i3",
+              "type": "mcq",
+              "q": "Circle the correct spelling.",
+              "marks": 2,
+              "answer": "sheltering",
+              "difficulty": "hard",
+              "options": [
+                "sheltring",
+                "shelttering",
+                "sheltering"
+              ],
+              "answerPoints": [
+                {
+                  "point": "Circles sheltering",
+                  "marks": 2
+                }
+              ],
+              "skill": "spelling: choose",
+              "chapterSource": "Let us Learn C"
+            }
+          ]
+        },
+        {
+          "num": "Q.15",
+          "instruction": "Rearrange the jumbled letters to make a meaningful word.",
+          "items": [
+            {
+              "id": "english-c5-s6-b2-i1",
+              "type": "one-word",
+              "q": "Jumbled word: ulyodl. Write the word (starts with l; an adverb).",
+              "marks": 2,
+              "answer": "loudly",
+              "difficulty": "medium",
+              "acceptable": [
+                "loudly"
+              ],
+              "answerPoints": [
+                {
+                  "point": "All the right letters used",
+                  "marks": 1
+                },
+                {
+                  "point": "Letters in the right order, spelt correctly",
+                  "marks": 1
+                }
+              ],
+              "skill": "spelling: rearrange",
+              "chapterSource": "Let us Read"
+            },
+            {
+              "id": "english-c5-s6-b2-i2",
+              "type": "one-word",
+              "q": "Jumbled word: yhalthe. Write the word (starts with h; a describing word).",
+              "marks": 2,
+              "answer": "healthy",
+              "difficulty": "medium",
+              "acceptable": [
+                "healthy"
+              ],
+              "answerPoints": [
+                {
+                  "point": "All the right letters used",
+                  "marks": 1
+                },
+                {
+                  "point": "Letters in the right order, spelt correctly",
+                  "marks": 1
+                }
+              ],
+              "skill": "spelling: rearrange",
+              "chapterSource": "Let us Read"
+            },
+            {
+              "id": "english-c5-s6-b2-i3",
+              "type": "one-word",
+              "q": "Jumbled word: lyfdrine. Write the word (starts with f; a describing word).",
+              "marks": 2,
+              "answer": "friendly",
+              "difficulty": "hard",
+              "acceptable": [
+                "friendly"
+              ],
+              "answerPoints": [
+                {
+                  "point": "All the right letters used",
+                  "marks": 1
+                },
+                {
+                  "point": "Letters in the right order, spelt correctly",
+                  "marks": 1
+                }
+              ],
+              "skill": "spelling: rearrange",
+              "chapterSource": "Let us Read"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "title": "Handwriting",
+      "marks": 6,
+      "blocks": [
+        {
+          "num": "Q.16",
+          "instruction": "Write the following lines in neat handwriting.",
+          "stimulus": {
+            "kind": "passage",
+            "text": "After the rain, the garden looked fresh and green. Two sparrows sat on a shaded branch and sang cheerfully. The gardener smiled and watered the plants gently.",
+            "original": true
+          },
+          "items": [
+            {
+              "id": "english-c5-s7-b1-i1",
+              "type": "handwriting",
+              "q": "Write the passage in neat handwriting.",
+              "marks": 3,
+              "answer": "A neat, evenly spaced copy of the passage with correct capital letters and full stops.",
+              "difficulty": "easy",
+              "markingGuide": "Letters well formed, evenly spaced and on the line, with capital letters and full stops in the right places — 3; mostly neat with two or three slips — 2; hard to read or copied with many slips — 1. Deduct 1 if the copy is not finished. Maximum 3.",
+              "skill": "handwriting: copy",
+              "chapterSource": "original-G1"
+            }
+          ]
+        },
+        {
+          "num": "Q.17",
+          "instruction": "Write the following lines in neat handwriting.",
+          "stimulus": {
+            "kind": "passage",
+            "text": "Our postman rides a red cycle. He rings the bell twice and calls out our names. We take the letters carefully and thank him with a smile.",
+            "original": true
+          },
+          "items": [
+            {
+              "id": "english-c5-s7-b2-i1",
+              "type": "handwriting",
+              "q": "Write the passage in neat handwriting.",
+              "marks": 3,
+              "answer": "A neat, evenly spaced copy of the passage with correct capital letters and full stops.",
+              "difficulty": "medium",
+              "markingGuide": "Letters well formed, evenly spaced and on the line, with capital letters and full stops in the right places — 3; mostly neat with two or three slips — 2; hard to read or copied with many slips — 1. Deduct 1 if the copy is not finished. Maximum 3.",
+              "skill": "handwriting: copy",
+              "chapterSource": "original-G2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

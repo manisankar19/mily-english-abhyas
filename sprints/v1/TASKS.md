@@ -258,7 +258,7 @@ record in the walkthrough, continue.
     10 `hard` tags hand-audited; F3 viewed at 2×.
   - Files: `app/data/english-ch4.json`, `app/assets/english-ch4-park.svg`
 
-- [ ] Task 9: Chapter 5 paper — The Old Stag (P0) — one sub-agent; standard profile
+- [x] Task 9: Chapter 5 paper — The Old Stag (P0) — one sub-agent; standard profile
   - Follow **Protocol P**. Standard profile.
   - Content: A1 original unseen passage, a mango tree on a hill road shared by a village (~130 words);
     A2 original ~75-word text on a village pond and its fish. D: adverbs of manner and describing
@@ -269,6 +269,21 @@ record in the walkthrough, continue.
     excluded here.
   - Acceptance: Protocol P; sections `[25,13,12,19,13,12,6]`.
   - Files: `app/data/english-ch5.json`
+  - Completed: 2026-09-19 — one sub-agent wrote the file; the coordinator re-ran everything. 58 items, 100
+    marks, sections `[25,13,12,19,13,12,6]`; difficulty 23/23/12 (40/40/21 %). `validate.js` PASS;
+    `readability.py` exit 0 (A1 123 words avg 8.8 max 13; A2 75 words avg 9.4 max 13; copy texts 27 words;
+    0 stems; no long words); `similarity.py` exit 0, **0 shingle failures**, 8 semantic pairs all generic
+    instruction lines (as Ch 2), judged and logged. **Overlap check (the heaviest hazard):** a grep of the
+    paper for 20 distinctive strings from the school's L-5 worksheet found none; the one "fell" is story
+    narration inside a sequencing item, not the school's fall/fell test. Coordinator read all 58 items and
+    **fixed one curriculum-fidelity slip**: D3-4 asked the child to turn *happy* into *happily* (a y→i change
+    the chapter does not teach) — replaced with *slow → slowly* and re-validated. Left as written: the chapter's
+    own "which words tell how" exercise reused with a subset of its words (textbook-based, allowed); the extra
+    `chapterSource` on standard items (harmless, authoring-only, listed in SCHEMA §8). Notes carried forward:
+    the E1 `match` pairs are stored in answer order (v2 must shuffle); F2 jumbles carry a hint ("starts with l; an
+    adverb") — a deliberate easing; one A1 `one-word` item has a multi-word answer with variants listed; the B2
+    sequencing item keeps its (a)–(d) list inside `q` as text with newlines (v2 must preserve line breaks in `q`,
+    not only in stimuli — added to the v2 brief's rendering notes).
 
 - [ ] Task 10: Chapter 6 paper — Braille (P0) — one sub-agent; standard profile
   - Follow **Protocol P**. Standard profile.
