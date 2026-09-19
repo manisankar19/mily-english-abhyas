@@ -1,6 +1,6 @@
 # Sprint v2 — Tasks (Application shell, build & deploy) — mily-english-abhyas
 
-## Status: Not started. Tasks written 2026-09-19.
+## Status: Batch 1 (Tasks 1–6) done 2026-09-19; batch 2 not started. Tasks written 2026-09-19.
 
 Source of truth: `sprints/v2/prd.md` (with `sprints/v2/instruction.md`, which wins over `BLUEPRINT.md`). A task
 that conflicts with `prd.md` is wrong and defers to it. `CLAUDE.md` rules 1–8 apply to every task.
@@ -53,9 +53,10 @@ rather than ≤ 10 five-minute tasks. Testing and security are in this sprint be
   - Files: app/app.js
   - Completed: 2026-09-19 — renderer adapted from Maths: header with "2 hours" from `durationMinutes`; sections, blocks and items from data; `passage` → one `<p>` per blank-line paragraph (`pre-line` inside), `poem` → one `.poem-line` per source line, handwriting copy text gets `.stimulus-copy`; `q` newlines via `pre-line`; `_____` → `.blank`; `mcq` options; `match` right column rotated by one; everything else question-only. Figures: inline SVG, generic `aria-label`, captions never read; **found** that four SVGs carry `<title>`/`aria-label` text equal to their captions — stripped at render (`stripSvgNames`), recorded in prd.md §5. `tests/batch1.e2e.js`: 142 passed, 0 failed. All five figures viewed once at 2× on the dark theme: legible. semgrep (p/javascript, p/secrets): 3 files, 0 findings; npm audit 0.
 
-- [ ] Task 6: Coordinator check and batch-1 commit (P0)
+- [x] Task 6: Coordinator check and batch-1 commit (P0)
   - Acceptance: a dev harness page loads all seven papers in Chromium on localhost with 0 console errors; no hidden field (prd Q3) in DOM/attributes; no horizontal scroll at 390 px; CSS class names cross-checked against HTML/JS; content diff empty; commit "v2 batch 1: Tasks 1–6".
   - Files: (none new; commit)
+  - Completed: 2026-09-19 — `node tests/batch1.e2e.js` (Chromium, localhost, throwaway code): 142 passed, 0 failed — all 7 papers render every item and section, 0 console errors/warnings/failed requests, no hidden-field text or attribute in the practice DOM, no horizontal scroll at 390 px light and dark, body text ≥ 16 px. CSS/JS/HTML class cross-check: every class `app.js` creates has CSS; `.view`, `.paper-body`, `.hero-sub` are unstyled hooks (as in Maths). Viewed at 390 px: chapter list, ch1 poem, a ch5 item with newlines in `q`, a `match` item, a copy text. `npm run validate` 7/7; content diff vs `v1-content` empty. **Deviation:** committed once per task (CLAUDE.md rule 5), not once per batch.
 
 ## Batch 2 — modes, gate, marking, result, print
 
