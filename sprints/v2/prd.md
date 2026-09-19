@@ -161,6 +161,21 @@ Taken from the Maths `index.html`/`app.js`, renamed only where noted. Additions 
   cards, `data-section` on result rows, `data-i18n*` on static markup. No other `data-*` on content.
 - **Embedded data** (from the build, or the test harness before Task 12): `<script type="application/json">`
   with ids `uiStrings`, `papersData` (`{order, login, papers}`, order and login from the card) and `assetsData`.
+- **Checking-mode DOM (fixed before batch 2; all batch-2/3 agents build to it).** Per item, `renderItem()` appends
+  `div.item-tools` (attribute `hidden` in practice) containing `button.ans-btn` (`aria-expanded`) and `div.marks-row`
+  (`hidden` in practice) with `button.mk[data-val="0".."marks"]` (selected: `.on`) and `button.mk.mk-clear`
+  (`aria-label` from `marks.clearItem`). A marked item gets `.scored`. On reveal, `div.answer` is **created** right after
+  `.item-tools` and **removed** on hide/re-lock; its children, in order and only when the data has them: `b.ans-tag`,
+  `div.ans-text` (model answer; an array answer joins as "1. … 2. …" lines), `div.ans-points` (`b` + `ul > li`, one per
+  point, "point — n mark(s)"), `div.ans-guide` (`b` "Marking guide" + `p`), `div.ans-accept` (`fill-blank`/`one-word`
+  only: `b` "Also accept" + `ul > li`, one `li` per blank for multi-blank, prefixed "Blank n:", variants joined " / "),
+  `div.ans-pairs` (`match` only: `b` + `ol > li` "left — right" in stored order). Captions: in checking mode,
+  `p.stimulus-caption` is **created** directly after each `.figure-scroll` (inside its `figure`), text
+  `stimulus.captionTag` + caption; removed on re-lock. Nothing in `.answer` or `.stimulus-caption` exists in practice mode.
+- **Gate:** `#checkModeBtn` (gets `.on` when unlocked) opens `#checkDialog` via `showModal()`; `#checkError` shows
+  `mode.wrongCode` or `mode.insecure`. **Result:** `#resultView > .result-card` with `.rc-title`, `.rc-for`,
+  `.rc-score`, `.rc-pct`, `.rc-grade`, `.rc-note` (unmarked warning), `table.rc-table` with one `tr[data-section="<code>"]`
+  per section (cells: code, title as stored, checked "d/n", score "got / marks") then a total row, `.rc-actions`.
 - **Result:** `#resultView` with a table built from `paper.sections`.
 
 ## 8. Hard stops (brief §8, plus one)
