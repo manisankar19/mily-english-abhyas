@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title data-i18n="app.title"></title>
+<meta name="description" content="">
+<meta name="theme-color" content="#1e3a5f">
+<meta name="color-scheme" content="light dark">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700&family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%96%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ================= LOGIN ================= -->
+<section id="loginView" class="view login-view">
+  <div class="login-card">
+    <div class="login-crest" aria-hidden="true"></div>
+    <h1 class="login-title" data-i18n="login.heading"></h1>
+    <p class="login-sub" data-i18n="login.sub"></p>
+    <form id="loginForm" autocomplete="off">
+      <label class="field">
+        <span data-i18n="login.user"></span>
+        <input type="text" id="userInput" data-i18n-placeholder="login.userPlaceholder" autocapitalize="none" autocorrect="off" spellcheck="false" required>
+      </label>
+      <label class="field">
+        <span data-i18n="login.pass"></span>
+        <input type="password" id="passInput" required>
+      </label>
+      <p id="loginError" class="login-error" role="alert" data-i18n="login.error" hidden></p>
+      <button type="submit" class="btn btn-primary btn-block" data-i18n="login.submit"></button>
+    </form>
+  </div>
+</section>
+
+<!-- ================= APP SHELL ================= -->
+<div id="appShell" hidden>
+  <header class="topbar">
+    <button type="button" class="topbar-home" id="homeBtn" data-i18n-title="topbar.home"><span class="topbar-mark" aria-hidden="true"></span><span data-i18n="topbar.home"></span></button>
+    <div class="topbar-right">
+      <span class="who" id="whoLabel"></span>
+      <button type="button" class="btn btn-ghost btn-sm" id="logoutBtn" data-i18n="topbar.logout"></button>
+    </div>
+  </header>
+
+  <!-- ---------- CHAPTER LIST ---------- -->
+  <section id="chaptersView" class="view wrap">
+    <div class="hero">
+      <h2 id="heroName"></h2>
+      <p class="hero-sub" id="heroSub"></p>
+      <label class="field name-field">
+        <span data-i18n="chapters.nameLabel"></span>
+        <input type="text" id="nameInput" data-i18n-placeholder="chapters.namePlaceholder" autocomplete="off">
+      </label>
+    </div>
+    <div id="chapterGrid" class="chapter-grid"></div>
+    <div class="overall-card" id="overallCard"></div>
+  </section>
+
+  <!-- ---------- PAPER ---------- -->
+  <section id="paperView" class="view" hidden>
+    <div class="paper-wrap">
+      <div class="paper-head" id="paperHead"></div>
+      <p id="practiceBanner" class="practice-banner" data-i18n="paper.practiceBanner"></p>
+      <div class="paper-toolbar">
+        <button type="button" class="btn btn-ghost btn-sm" id="backBtn" data-i18n="paper.back"></button>
+        <button type="button" class="btn btn-ghost btn-sm" id="printBtn" data-i18n="paper.print"></button>
+        <button type="button" class="btn btn-ghost btn-sm" id="revealAllBtn" data-i18n="answer.showAll" hidden></button>
+        <button type="button" class="btn btn-ghost btn-sm danger" id="clearMarksBtn" data-i18n="marks.clear" hidden></button>
+        <button type="button" class="btn btn-ghost btn-sm" id="checkModeBtn" data-i18n="mode.lock"></button>
+      </div>
+      <div id="paperBody" class="paper-body"></div>
+      <div class="paper-foot">
+        <button type="button" class="btn btn-primary btn-block" id="resultBtn" data-i18n="result.button" hidden></button>
+      </div>
+    </div>
+    <div class="scorebar" id="scoreBar" hidden>
+      <div class="scorebar-inner">
+        <div class="sb-block">
+          <span class="sb-label" data-i18n="score.obtained"></span>
+          <span class="sb-value"><b id="sbGot"></b> / <span id="sbTotal"></span></span>
+        </div>
+        <div class="sb-meter"><div class="sb-fill" id="sbFill"></div></div>
+        <div class="sb-block sb-right">
+          <span class="sb-label" data-i18n="score.checked"></span>
+          <span class="sb-value"><b id="sbDone"></b> / <span id="sbCount"></span></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ---------- RESULT ---------- -->
+  <section id="resultView" class="view wrap" hidden></section>
+</div>
+
+<!-- ================= CHECKING-MODE GATE ================= -->
+<dialog id="checkDialog" class="check-dialog" aria-labelledby="checkTitle">
+  <form id="checkForm" class="check-form">
+    <h2 class="check-title" id="checkTitle" data-i18n="mode.dialogTitle"></h2>
+    <p class="check-sub" data-i18n="mode.dialogSub"></p>
+    <label class="field" for="checkInput">
+      <span data-i18n="mode.codeLabel"></span>
+      <input type="password" id="checkInput" autocomplete="off" autocapitalize="none" autocorrect="off" spellcheck="false">
+    </label>
+    <p id="checkError" class="check-error" role="alert" hidden></p>
+    <div class="check-actions">
+      <button type="button" id="checkCancel" class="btn btn-ghost btn-sm" data-i18n="mode.cancel"></button>
+      <button type="submit" id="checkSubmit" class="btn btn-primary btn-sm" data-i18n="mode.submit"></button>
+    </div>
+  </form>
+</dialog>
+
+<script src="app.js"></script>
+</body>
+</html>

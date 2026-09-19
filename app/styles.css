@@ -1,0 +1,799 @@
+/* =====================================================================
+   English Practice · Class 4 — styles
+   Copied from the Maths site (parity); English additions for text stimuli at the end.
+   ===================================================================== */
+
+/* ---------- tokens: light (base) ---------- */
+:root{
+  color-scheme:light;
+
+  --bg:#f3f5f9;
+  --paper:#ffffff;
+  --raised:#f7f9fc;
+  --ink:#1b2430;
+  --ink-soft:#4a5568;
+  --muted:#636e7c;
+  --line:#dde3ec;
+  --line-soft:#eef1f6;
+
+  --navy:#1e3a5f;          /* topbar, section bars, headings */
+  --navy-d:#162c48;
+  --on-navy:#ffffff;
+  --on-navy-soft:#c7d6e8;
+
+  --accent:#d97a1f;        /* saffron — marks, progress, rules */
+  --accent-ink:#8a5420;
+  --accent-soft:#fdf1e2;
+  --accent-line:#f0d9bd;
+
+  --good:#1f7f55;
+  --good-ink:#12523a;
+  --good-soft:#e9f6ef;
+  --good-line:#c6e5d5;
+
+  --bad:#c0392b;
+  --bad-soft:#fdecea;
+
+  --heading:#1e3a5f;       /* login / dialog titles */
+  --login-glow:#2b537f;
+  --login-from:#1e3a5f;
+  --login-to:#101d2e;
+  --backdrop:rgba(10,18,32,.55);
+  --edge-shadow:rgba(20,30,50,.28);   /* "more to scroll" hint on wide figures */
+  --accent-fill:#a85a12;   /* filled accent buttons (selected mark, unlocked mode) */
+  --on-accent:#ffffff;
+
+  --shadow:0 1px 2px rgba(20,30,50,.05), 0 8px 24px rgba(20,30,50,.07);
+  --shadow-lift:0 4px 10px rgba(20,30,50,.07), 0 14px 34px rgba(20,30,50,.1);
+  --radius:14px;
+
+  --font-body:"Noto Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-head:"Baloo 2", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono:ui-monospace, "SFMono-Regular", Menlo, Consolas, "Liberation Mono", monospace;
+}
+
+/* ---------- tokens: dark (system default, unless light is pinned) ---------- */
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+
+    --bg:#0e141d;
+    --paper:#171f2b;
+    --raised:#1d2634;
+    --ink:#e7edf6;
+    --ink-soft:#b3c0d0;
+    --muted:#8f9db0;
+    --line:#2d3848;
+    --line-soft:#232c39;
+
+    --navy:#20344e;
+    --navy-d:#192a40;
+    --on-navy:#eef4fc;
+    --on-navy-soft:#a9bdd6;
+
+    --accent:#e9963f;
+    --accent-ink:#f0b273;
+    --accent-soft:#2c2113;
+    --accent-line:#4a3620;
+
+    --good:#4fc08c;
+    --good-ink:#9bdcbd;
+    --good-soft:#132a21;
+    --good-line:#27503f;
+
+    --bad:#ef8577;
+    --bad-soft:#331d1b;
+
+    --heading:#e7edf6;
+    --login-glow:#223d5e;
+    --login-from:#15263c;
+    --login-to:#070d16;
+    --backdrop:rgba(0,0,0,.65);
+    --edge-shadow:rgba(231,237,246,.30);
+    --accent-fill:#e9963f;
+    --on-accent:#1b1206;
+
+    --shadow:0 1px 2px rgba(0,0,0,.35), 0 8px 24px rgba(0,0,0,.32);
+    --shadow-lift:0 4px 10px rgba(0,0,0,.4), 0 14px 34px rgba(0,0,0,.45);
+  }
+}
+
+/* ---------- tokens: dark (explicitly chosen) ---------- */
+:root[data-theme="dark"]{
+  color-scheme:dark;
+
+  --bg:#0e141d;
+  --paper:#171f2b;
+  --raised:#1d2634;
+  --ink:#e7edf6;
+  --ink-soft:#b3c0d0;
+  --muted:#8f9db0;
+  --line:#2d3848;
+  --line-soft:#232c39;
+
+  --navy:#20344e;
+  --navy-d:#192a40;
+  --on-navy:#eef4fc;
+  --on-navy-soft:#a9bdd6;
+
+  --accent:#e9963f;
+  --accent-ink:#f0b273;
+  --accent-soft:#2c2113;
+  --accent-line:#4a3620;
+
+  --good:#4fc08c;
+  --good-ink:#9bdcbd;
+  --good-soft:#132a21;
+  --good-line:#27503f;
+
+  --bad:#ef8577;
+  --bad-soft:#331d1b;
+
+  --heading:#e7edf6;
+  --login-glow:#223d5e;
+  --login-from:#15263c;
+  --login-to:#070d16;
+  --backdrop:rgba(0,0,0,.65);
+  --edge-shadow:rgba(231,237,246,.30);
+  --accent-fill:#e9963f;
+  --on-accent:#1b1206;
+
+  --shadow:0 1px 2px rgba(0,0,0,.35), 0 8px 24px rgba(0,0,0,.32);
+  --shadow-lift:0 4px 10px rgba(0,0,0,.4), 0 14px 34px rgba(0,0,0,.45);
+}
+
+/* ---------- base ---------- */
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%; text-size-adjust:100%}
+body{
+  margin:0; background:var(--bg); color:var(--ink);
+  font-family:var(--font-body);
+  font-size:16px; line-height:1.65; -webkit-font-smoothing:antialiased;
+  overflow-wrap:break-word;
+}
+h1,h2,h3,h4{font-family:var(--font-head); font-weight:700; line-height:1.3; margin:0; text-wrap:balance}
+p{margin:0}
+button,input{font-family:inherit; font-size:inherit; color:inherit}
+button{cursor:pointer}
+img,svg{max-width:100%}
+.wrap{max-width:1060px; margin:0 auto; padding:24px 16px 72px}
+[hidden]{display:none !important}
+:focus-visible{outline:2.5px solid var(--accent); outline-offset:2px; border-radius:6px}
+@media (prefers-reduced-motion: reduce){
+  *,*::before,*::after{
+    transition:none !important; animation:none !important; scroll-behavior:auto !important;
+  }
+}
+
+/* ---------- buttons ---------- */
+.btn{
+  display:inline-flex; align-items:center; justify-content:center; gap:6px;
+  border:1px solid transparent; border-radius:10px; padding:10px 16px;
+  font-weight:600; line-height:1.3; background:var(--paper); color:var(--ink);
+  transition:background .15s ease, border-color .15s ease, color .15s ease;
+}
+.btn:active{transform:translateY(1px)}
+.btn-primary{background:var(--navy); color:var(--on-navy); border-color:var(--navy)}
+.btn-primary:hover{background:var(--navy-d); border-color:var(--navy-d)}
+.btn-ghost{background:var(--paper); border-color:var(--line); color:var(--ink-soft)}
+.btn-ghost:hover{border-color:var(--muted); color:var(--ink)}
+.btn-ghost.danger{color:var(--bad)}
+.btn-sm{padding:7px 12px; font-size:14px; border-radius:9px}
+.btn-block{width:100%}
+.btn[disabled]{opacity:.6; cursor:progress}
+
+/* ---------- fields ---------- */
+.field{display:block; margin-bottom:14px; text-align:left}
+.field > span{display:block; font-size:14px; font-weight:600; color:var(--ink-soft); margin-bottom:6px}
+.field input{
+  width:100%; padding:11px 14px; border:1.5px solid var(--line); border-radius:10px;
+  background:var(--paper); color:var(--ink); outline:none; font-size:16px;
+}
+.field input::placeholder{color:var(--muted)}
+.field input:focus{border-color:var(--accent); box-shadow:0 0 0 3px var(--accent-soft)}
+
+/* ---------- login ---------- */
+.login-view{
+  min-height:100vh; min-height:100dvh; display:grid; place-items:center;
+  padding:24px 16px calc(24px + env(safe-area-inset-bottom));
+  background:
+    radial-gradient(1100px 500px at 50% -10%, var(--login-glow) 0%, transparent 60%),
+    linear-gradient(160deg, var(--login-from) 0%, var(--login-to) 100%);
+}
+.login-card{
+  width:100%; max-width:400px; background:var(--paper); border-radius:20px; padding:34px 28px 30px;
+  box-shadow:0 20px 60px rgba(5,12,24,.45); text-align:center;
+}
+.login-crest{font-size:44px; line-height:1}
+.login-crest::before{content:"🧮"}
+.login-title{font-size:30px; color:var(--heading); margin-top:6px}
+.login-sub{margin:2px 0 22px; color:var(--muted); font-size:14px; font-weight:500}
+.login-error{
+  background:var(--bad-soft); color:var(--bad); border-radius:9px; padding:8px 12px;
+  font-size:14px; font-weight:600; margin:0 0 12px;
+}
+
+/* ---------- topbar ---------- */
+.topbar{
+  position:sticky; top:0; z-index:40; background:var(--navy); color:var(--on-navy);
+  display:flex; align-items:center; justify-content:space-between; gap:12px;
+  padding:10px 16px; padding-top:calc(10px + env(safe-area-inset-top));
+  padding-left:calc(16px + env(safe-area-inset-left)); padding-right:calc(16px + env(safe-area-inset-right));
+}
+.topbar-home{
+  background:none; border:none; color:var(--on-navy); font-weight:700; font-size:18px;
+  display:flex; align-items:center; gap:8px; padding:4px 2px; min-width:0;
+  font-family:var(--font-head); line-height:1.2;
+}
+.topbar-home > span:last-child{white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+.topbar-mark::before{content:"🧮"}
+.topbar-right{display:flex; align-items:center; gap:10px; min-width:0}
+.who{font-size:14px; color:var(--on-navy-soft); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; max-width:34vw}
+.topbar .btn-ghost{background:rgba(255,255,255,.12); border-color:rgba(255,255,255,.25); color:var(--on-navy); white-space:nowrap}
+.topbar .btn-ghost:hover{background:rgba(255,255,255,.2); color:var(--on-navy)}
+
+/* ---------- hero ---------- */
+.hero{
+  background:var(--paper); border:1px solid var(--line); border-radius:var(--radius);
+  padding:22px 22px 18px; box-shadow:var(--shadow); margin-bottom:22px;
+}
+.hero h2{font-size:25px; color:var(--ink)}
+.hero p{margin:6px 0 14px; color:var(--ink-soft); font-size:16px}
+.hero p:empty{margin:0 0 14px}
+.name-field{max-width:340px; margin-bottom:0}
+
+/* ---------- chapter grid ---------- */
+.chapter-grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(250px,1fr)); gap:14px}
+.ch-card{
+  background:var(--paper); border:1px solid var(--line); border-radius:var(--radius); padding:18px;
+  cursor:pointer; box-shadow:var(--shadow);
+  transition:transform .16s ease, box-shadow .16s ease, border-color .16s ease;
+  text-align:left; display:flex; flex-direction:column; gap:10px; font:inherit; color:inherit;
+  width:100%; min-width:0;
+}
+.ch-card:hover{transform:translateY(-2px); border-color:var(--accent-line); box-shadow:var(--shadow-lift)}
+.ch-top{display:flex; align-items:center; gap:12px; min-width:0}
+.ch-top > :not(.ch-num){min-width:0; display:flex; flex-direction:column; gap:2px}
+.ch-num{
+  flex:none; width:44px; height:44px; border-radius:12px; background:var(--accent-soft);
+  color:var(--accent-ink); display:grid; place-items:center;
+  font-family:var(--font-head); font-size:22px; font-weight:700; line-height:1;
+}
+.ch-name{font-family:var(--font-head); font-weight:600; font-size:19px; color:var(--ink); line-height:1.3; min-width:0}
+.ch-meta{font-size:13.5px; color:var(--muted)}
+.ch-bar{height:7px; border-radius:99px; background:var(--line-soft); overflow:hidden}
+.ch-bar > *{display:block; height:100%; width:0; background:var(--accent); border-radius:99px; transition:width .3s}
+.ch-status{display:flex; justify-content:space-between; gap:8px; flex-wrap:wrap; font-size:13.5px; font-weight:600; color:var(--ink-soft)}
+.ch-status .done,.ch-status.done{color:var(--good)}
+
+.overall-card{
+  margin-top:22px; background:var(--paper); border:1px solid var(--line); border-radius:var(--radius);
+  padding:18px 22px; box-shadow:var(--shadow); font-size:15px; color:var(--ink-soft);
+}
+.overall-card:empty{display:none}
+.overall-card b{color:var(--ink); font-size:18px}
+
+/* =====================================================================
+   Paper
+   ===================================================================== */
+.paper-wrap{max-width:900px; margin:0 auto; padding:22px 16px 130px}
+.paper-head{
+  background:var(--paper); border:1px solid var(--line); border-top:5px solid var(--navy);
+  border-radius:var(--radius); padding:22px; box-shadow:var(--shadow); text-align:center;
+}
+.ph-org{font-family:var(--font-head); font-weight:700; font-size:21px; color:var(--ink); line-height:1.3}
+.ph-sub{font-size:13.5px; color:var(--muted); margin-top:1px}
+.ph-title{font-family:var(--font-head); font-weight:700; font-size:25px; line-height:1.3; margin-top:12px; color:var(--ink)}
+.ph-rule{border:0; border-top:1px dashed var(--line); margin:14px 0; height:0}
+.ph-grid{
+  display:flex; flex-wrap:wrap; gap:8px 26px; justify-content:center;
+  font-size:15px; color:var(--ink-soft); font-variant-numeric:tabular-nums;
+}
+.ph-grid b,.ph-grid strong{color:var(--ink)}
+.ph-note{
+  margin-top:14px; background:var(--accent-soft); border:1px solid var(--accent-line); border-radius:10px;
+  padding:10px 14px; font-size:14px; color:var(--accent-ink); text-align:left;
+}
+
+.paper-toolbar{display:flex; flex-wrap:wrap; gap:8px; margin:16px 0}
+
+/* ---------- sections ---------- */
+.section{margin-top:24px}
+.section-head{
+  background:var(--navy); color:var(--on-navy); border-radius:11px; padding:11px 18px;
+  display:flex; justify-content:space-between; align-items:center; gap:4px 12px; flex-wrap:wrap;
+  font-family:var(--font-head); font-weight:600; font-size:19px; line-height:1.35;
+}
+.section-head > *{margin:0; font:inherit; color:inherit}
+.section-head > :last-child:not(:first-child){
+  font-family:var(--font-body); font-size:14.5px; font-weight:600; color:var(--on-navy-soft); white-space:nowrap;
+}
+
+/* ---------- blocks ---------- */
+.block{
+  background:var(--paper); border:1px solid var(--line); border-radius:var(--radius);
+  padding:18px 20px; margin-top:12px; box-shadow:var(--shadow);
+}
+.block-head{display:flex; gap:10px; align-items:baseline; margin-bottom:4px}
+.block-num{font-weight:700; color:var(--accent-ink); flex:none; font-size:16px; font-variant-numeric:tabular-nums}
+.block-inst{font-weight:600; color:var(--ink); font-size:16px; min-width:0}
+
+/* ---------- items ---------- */
+.item{border-top:1px solid var(--line-soft); padding:14px 0 12px; min-width:0}
+.block-head + .item,
+.block-head + .stimulus + .item{border-top:1px dashed var(--line); margin-top:10px}
+.item-q{display:flex; gap:10px; align-items:flex-start}
+.item-label{flex:none; font-weight:700; color:var(--ink-soft); min-width:30px; font-size:17px; line-height:1.75}
+.item-text{flex:1; min-width:0; white-space:pre-wrap; font-size:17.5px; line-height:1.75; color:var(--ink)}
+.item-marks{
+  flex:none; background:var(--line-soft); color:var(--ink-soft); border-radius:99px;
+  padding:1px 10px; font-size:13px; font-weight:700; align-self:flex-start; margin-top:4px;
+  font-variant-numeric:tabular-nums; white-space:nowrap;
+}
+.item.scored .item-marks{background:var(--accent-soft); color:var(--accent-ink)}
+/* everything under the question row lines up with the question text */
+.item > :not(.item-q){margin-left:40px}
+
+/* blank runs (____) inside question text */
+.blank{
+  display:inline-block; min-width:3.2em; height:1.1em; vertical-align:-0.2em;
+  border-bottom:2px solid var(--ink-soft); color:transparent; overflow:hidden;
+  white-space:nowrap; margin:0 2px; user-select:none;
+}
+
+/* ---------- stimuli ---------- */
+.stimulus{margin:12px 0 4px; min-width:0; max-width:100%}
+.item > .stimulus{margin-top:10px; margin-bottom:6px}
+figure.stimulus{margin-right:0}
+.stimulus-figure{
+  background:var(--raised); border:1px solid var(--line-soft); border-radius:10px;
+  padding:12px; color:var(--ink);
+}
+.figure-scroll{
+  overflow-x:auto; overflow-y:hidden; max-width:100%; color:var(--ink);
+  -webkit-overflow-scrolling:touch; text-align:center;
+  /* scroll shadows: an edge shade appears only on a side that has more figure to scroll to */
+  background:
+    linear-gradient(to right, var(--raised) 35%, transparent) left center / 28px 100% no-repeat local,
+    linear-gradient(to left, var(--raised) 35%, transparent) right center / 28px 100% no-repeat local,
+    radial-gradient(farthest-side at 0 50%, var(--edge-shadow), transparent) left center / 12px 100% no-repeat scroll,
+    radial-gradient(farthest-side at 100% 50%, var(--edge-shadow), transparent) right center / 12px 100% no-repeat scroll;
+  background-color:var(--raised);
+}
+.figure-scroll svg,
+.stimulus-figure svg{
+  display:block; margin:0 auto; max-width:100%; height:auto; color:var(--ink);
+}
+
+.stimulus-layout,.stimulus-table{color:var(--ink)}
+.layout-scroll{
+  overflow-x:auto; max-width:100%; -webkit-overflow-scrolling:touch;
+}
+.layout-scroll pre,
+.stimulus-layout pre,
+.stimulus-table pre{
+  display:inline-block; min-width:min(100%, 12ch); margin:0; vertical-align:top;
+  font-family:var(--font-mono); font-size:17px; line-height:1.55; white-space:pre;
+  tab-size:4; font-variant-ligatures:none;
+  background:var(--raised); color:var(--ink);
+  border:1px solid var(--line); border-left:4px solid var(--accent-line);
+  border-radius:10px; padding:12px 18px;
+}
+.stimulus-table pre{border-left-color:var(--line)}
+
+/* □ in layouts/tables: always a visible box, exactly one monospace cell wide */
+.blank-box{
+  /* 1.4ch box with -0.2ch side margins: looks square but still advances exactly 1ch */
+  display:inline-block; width:1.4ch; margin:0 -.2ch; height:.9em; vertical-align:-0.1em;
+  border:2px solid currentColor; border-radius:2px;
+  color:inherit; font-size:inherit; line-height:1; text-align:center;
+  overflow:hidden; text-indent:200%; white-space:nowrap;
+}
+
+.stimulus-text{
+  white-space:pre-wrap; background:var(--raised); border:1px solid var(--line-soft);
+  border-left:4px solid var(--accent); border-radius:10px; padding:14px 16px;
+  font-size:17px; line-height:1.8; color:var(--ink);
+}
+
+/* ---------- mcq options: (a) (b) (c) (d) ---------- */
+ol.options{
+  list-style:none; counter-reset:opt; padding:0; margin-top:8px; margin-bottom:0;
+  display:grid; grid-template-columns:repeat(auto-fill, minmax(170px, 1fr)); gap:6px 18px;
+}
+ol.options > li{
+  counter-increment:opt; font-size:17px; line-height:1.6; color:var(--ink);
+  display:flex; gap:6px; min-width:0;
+}
+ol.options > li::before{
+  content:"(" counter(opt, lower-alpha) ")"; flex:none;
+  font-weight:700; color:var(--ink-soft); min-width:2em;
+}
+
+/* ---------- match: Column A (1, 2, 3) / Column B ((a), (b), (c)) ---------- */
+.match > *{min-width:0}
+.match{
+  display:grid; grid-template-columns:repeat(2, minmax(0, 1fr)); gap:10px 18px;
+  margin-top:10px;
+}
+.match-left,.match-right{
+  min-width:0; background:var(--raised); border:1px solid var(--line-soft); border-radius:10px;
+  padding:10px 14px; margin:0; font-size:17px; line-height:1.6; color:var(--ink);
+}
+.match-left{counter-reset:mleft}
+.match-right{counter-reset:mright}
+.match-left ol,.match-left ul,.match-right ol,.match-right ul,
+ol.match-left,ul.match-left,ol.match-right,ul.match-right{list-style:none; padding-left:0; margin:0}
+ol.match-left,ul.match-left,ol.match-right,ul.match-right{padding:10px 14px}
+.match-left li,.match-right li{display:flex; gap:6px; padding:3px 0; min-width:0}
+.match-left li{counter-increment:mleft}
+.match-right li{counter-increment:mright}
+.match-left li::before{content:counter(mleft) "."; flex:none; font-weight:700; color:var(--ink-soft); min-width:1.6em}
+.match-right li::before{content:"(" counter(mright, lower-alpha) ")"; flex:none; font-weight:700; color:var(--ink-soft); min-width:2em}
+.match-head{
+  display:block; margin:0 0 4px; font-family:var(--font-body); font-size:13.5px; font-weight:700;
+  color:var(--muted); text-transform:uppercase; letter-spacing:.04em;
+}
+
+/* ---------- true / false hint ---------- */
+.tf-hint{margin-top:4px; font-size:14px; font-style:italic; color:var(--muted)}
+
+/* ---------- item types (print spacing arrives with the print stylesheet) ---------- */
+.type-draw .stimulus-figure{background:var(--raised)}
+
+.paper-foot{margin-top:28px}
+
+/* =====================================================================
+   Checking mode: banner, mode button, gate dialog
+   ===================================================================== */
+.practice-banner,
+#practiceBanner{
+  margin:14px 0 0; background:var(--accent-soft); border:1px solid var(--accent-line);
+  border-radius:10px; padding:11px 16px; font-size:14.5px; font-weight:600;
+  color:var(--accent-ink); text-align:center; line-height:1.6;
+}
+
+/* locked (practice): the neutral .btn-ghost look; unlocked: filled saffron */
+#checkModeBtn.on{background:var(--accent-fill); border-color:var(--accent-fill); color:var(--on-accent)}
+#checkModeBtn.on:hover{background:var(--accent-ink); border-color:var(--accent-ink); color:var(--on-accent)}
+
+#checkDialog,
+.check-dialog{
+  width:min(360px, calc(100vw - 32px)); max-width:360px; margin:auto;
+  border:1px solid var(--line); border-radius:18px;
+  padding:26px 24px 22px; background:var(--paper); color:var(--ink);
+  box-shadow:0 20px 60px rgba(5,12,24,.45);
+}
+#checkDialog::backdrop{background:var(--backdrop)}
+.check-form{display:flex; flex-direction:column}
+.check-title{font-size:20px; color:var(--heading); margin:0 0 4px}
+.check-sub{font-size:14.5px; line-height:1.55; color:var(--ink-soft); margin:0 0 16px}
+.check-form .field{margin-bottom:12px}
+#checkError,
+.check-error{
+  background:var(--bad-soft); color:var(--bad); border-radius:9px; padding:8px 12px;
+  font-size:14px; font-weight:600; line-height:1.5; margin:0 0 14px;
+}
+.check-actions{display:flex; justify-content:flex-end; gap:10px; margin-top:4px}
+.check-actions .btn{min-height:40px}
+
+/* =====================================================================
+   Checking mode: per-item tools, answer panel, marks
+   ===================================================================== */
+.item-tools{
+  display:flex; flex-wrap:wrap; align-items:center; gap:10px 14px; margin-top:10px;
+}
+.ans-btn{
+  display:inline-flex; align-items:center; gap:6px; min-height:36px;
+  background:var(--good-soft); border:1px solid var(--good-line); color:var(--good-ink);
+  border-radius:9px; padding:6px 13px; font-size:14px; font-weight:700; line-height:1.3;
+  transition:border-color .15s ease, background .15s ease;
+}
+.ans-btn:hover{border-color:var(--good)}
+
+.answer{
+  margin-top:10px; background:var(--good-soft); border:1px solid var(--good-line);
+  border-left:4px solid var(--good); border-radius:10px; padding:12px 15px;
+  font-size:16px; line-height:1.7; color:var(--good-ink); min-width:0;
+}
+.ans-tag{
+  display:block; font-size:12.5px; font-weight:700; letter-spacing:.05em; text-transform:uppercase;
+  color:var(--good-ink); margin-bottom:2px;
+}
+.ans-text{display:block; white-space:pre-wrap; font-size:16.5px; font-weight:600; color:var(--good-ink)}
+.ans-points{margin-top:10px; padding-top:8px; border-top:1px dashed var(--good-line); font-size:15px}
+.ans-points ul,.ans-points ol,
+ul.ans-points,ol.ans-points{list-style:none; margin:0; padding:0}
+ul.ans-points,ol.ans-points{padding-top:8px}
+.ans-points li{position:relative; padding:2px 0 2px 16px}
+.ans-points li::before{content:""; position:absolute; left:2px; top:.8em; width:6px; height:6px; border-radius:50%; background:var(--good)}
+.ans-points > :not(ul):not(ol):not(li),
+.ans-guide > :first-child:not(:only-child){
+  display:block; font-size:12.5px; font-weight:700; letter-spacing:.05em; text-transform:uppercase; margin-bottom:2px;
+}
+.ans-guide{
+  margin-top:10px; padding-top:8px; border-top:1px dashed var(--good-line);
+  font-size:15px; white-space:pre-wrap; color:var(--good-ink);
+}
+
+.marks-row{display:flex; align-items:center; gap:6px 8px; flex-wrap:wrap}
+.marks-row > span{font-size:14px; font-weight:600; color:var(--ink-soft); margin-right:2px}
+.mk,.mk-clear{
+  min-width:36px; height:36px; padding:0 10px; border:1.5px solid var(--line);
+  background:var(--paper); border-radius:9px; font-weight:700; color:var(--ink-soft);
+  font-size:15px; line-height:1; font-variant-numeric:tabular-nums;
+  display:inline-flex; align-items:center; justify-content:center;
+  transition:background .12s ease, border-color .12s ease, color .12s ease;
+}
+.mk:hover{border-color:var(--accent); color:var(--ink)}
+.mk.on{background:var(--accent-fill); border-color:var(--accent-fill); color:var(--on-accent)}
+.mk-clear{color:var(--bad); border-style:dashed; position:relative; font-size:0; color:transparent}
+/* the ✕ is drawn, not a glyph, so it never shows as a missing-glyph box */
+.mk-clear::before,.mk-clear::after{
+  content:""; position:absolute; left:50%; top:50%; width:14px; height:2px; border-radius:2px;
+  background:var(--bad); transform:translate(-50%,-50%) rotate(45deg);
+}
+.mk-clear::after{transform:translate(-50%,-50%) rotate(-45deg)}
+.mk-clear:hover{border-color:var(--bad); background:var(--bad-soft)}
+.item.scored .item-marks{background:var(--accent-soft); color:var(--accent-ink); box-shadow:inset 0 0 0 1px var(--accent-line)}
+
+/* captions (checking mode only): directly under the figure / layout / table box */
+.stimulus-caption{
+  margin:8px 0 0; font-size:14.5px; line-height:1.55; font-style:italic;
+  color:var(--ink-soft); text-align:left; white-space:normal;
+}
+.stimulus-caption b,.stimulus-caption strong,.stimulus-caption > span:first-child:not(:only-child){
+  font-style:normal; font-weight:700; margin-right:4px; color:var(--ink-soft);
+}
+.stimulus-figure .stimulus-caption{padding:8px 4px 0; border-top:1px dashed var(--line)}
+
+.paper-foot{margin-top:28px}
+.paper-foot .btn{min-height:48px; font-size:17px}
+
+/* ---------- score bar (fixed, checking mode only) ---------- */
+#scoreBar,
+.scorebar{
+  position:fixed; left:0; right:0; bottom:0; z-index:45; background:var(--paper);
+  border-top:1px solid var(--line); box-shadow:0 -6px 24px rgba(10,18,32,.12); color:var(--ink);
+}
+.scorebar-inner{
+  max-width:900px; margin:0 auto; display:flex; align-items:center; gap:16px;
+  padding:10px calc(16px + env(safe-area-inset-right)) calc(10px + env(safe-area-inset-bottom)) calc(16px + env(safe-area-inset-left));
+}
+.sb-block{display:flex; flex-direction:column; line-height:1.3; flex:none}
+.sb-right{text-align:right}
+.sb-label{font-size:12.5px; color:var(--ink-soft); font-weight:600}
+.sb-value{font-size:15px; color:var(--ink-soft); font-weight:600; font-variant-numeric:tabular-nums; white-space:nowrap}
+.sb-value b{font-size:22px; color:var(--ink); font-family:var(--font-head); font-weight:700}
+.sb-meter{flex:1; height:9px; background:var(--line-soft); border-radius:99px; overflow:hidden; min-width:40px}
+.sb-fill{height:100%; width:0; background:var(--accent); border-radius:99px; transition:width .3s ease}
+/* room under the paper so the fixed bar never covers the last item or the result button */
+.paper-wrap{padding-bottom:calc(130px + env(safe-area-inset-bottom))}
+
+/* =====================================================================
+   Result
+   ===================================================================== */
+.result-card{
+  background:var(--paper); border:1px solid var(--line); border-radius:18px; padding:28px 24px;
+  box-shadow:var(--shadow); text-align:center; max-width:720px; margin:0 auto; color:var(--ink);
+}
+.rc-title{font-family:var(--font-head); font-weight:700; font-size:27px; line-height:1.3; color:var(--ink); margin:0}
+.rc-for{color:var(--ink-soft); font-size:15px; margin:2px 0 18px}
+.rc-score{font-family:var(--font-head); font-weight:700; font-size:58px; line-height:1.05; color:var(--ink); font-variant-numeric:tabular-nums}
+.rc-score small{font-size:26px; color:var(--ink-soft); font-weight:600}
+.rc-pct{font-size:20px; font-weight:700; color:var(--accent-ink); margin-top:4px; font-variant-numeric:tabular-nums}
+.rc-grade{
+  display:inline-block; margin-top:12px; background:var(--good-soft); color:var(--good-ink);
+  border:1px solid var(--good-line); border-radius:99px; padding:6px 20px; font-weight:700; font-size:16px;
+}
+.rc-note{
+  margin:14px auto 0; color:var(--ink-soft); font-size:15.5px; max-width:560px;
+}
+.rc-note + .rc-note{margin-top:8px}
+.rc-warn,.rc-note.warn,.rc-note.bad{
+  background:var(--accent-soft); border:1px solid var(--accent-line); color:var(--accent-ink);
+  border-radius:10px; padding:8px 14px; font-weight:600;
+}
+.rc-table{
+  width:100%; border-collapse:collapse; margin-top:22px; font-size:15.5px; text-align:left;
+  font-variant-numeric:tabular-nums; color:var(--ink);
+}
+.rc-table caption{caption-side:top; text-align:left; font-weight:700; padding-bottom:6px}
+.rc-table th,.rc-table td{border-bottom:1px solid var(--line-soft); padding:10px 8px; text-align:left; vertical-align:top}
+.rc-table thead th,.rc-table tr:first-child th{font-size:13px; color:var(--ink-soft); font-weight:700; border-bottom:1.5px solid var(--line)}
+.rc-table td:nth-child(n+3),.rc-table th:nth-child(n+3){text-align:right; white-space:nowrap}
+.rc-table td:last-child{font-weight:700}
+.rc-table tr[data-section] td:first-child{font-weight:700; color:var(--accent-ink)}
+.rc-table tbody tr:last-child:not([data-section]) td,
+.rc-table tfoot td,.rc-table tfoot th,
+.rc-table tr.rc-total td,.rc-table tr.total td{
+  border-bottom:none; border-top:2px solid var(--line); font-weight:700; color:var(--ink);
+}
+.rc-actions{display:flex; flex-wrap:wrap; gap:10px; justify-content:center; margin-top:24px}
+.rc-actions > *{flex:1 1 180px}
+.rc-actions .btn{min-height:44px}
+
+/* =====================================================================
+   Responsive
+   ===================================================================== */
+@media (max-width:520px){
+  .wrap{padding:18px 12px 60px}
+  .paper-wrap{padding:16px 12px calc(130px + env(safe-area-inset-bottom))}
+  .topbar{gap:8px; padding-left:calc(12px + env(safe-area-inset-left)); padding-right:calc(12px + env(safe-area-inset-right))}
+  .topbar-home{font-size:16.5px}
+  .who{display:none}
+  .hero{padding:18px 16px 16px}
+  .hero h2{font-size:22px}
+  .name-field{max-width:none}
+  .chapter-grid{grid-template-columns:1fr}
+  .login-card{padding:28px 20px 24px}
+  .paper-head{padding:18px 14px}
+  .ph-org{font-size:19px}
+  .ph-title{font-size:21px}
+  .ph-grid{gap:4px 16px; font-size:14.5px}
+  .section-head{padding:10px 14px; font-size:17.5px}
+  .block{padding:15px 14px}
+  .item-label{min-width:26px}
+  .item-text{line-height:1.65}
+  .item-label{line-height:1.65}
+  /* options, match and hints stay under the question text; stimuli use the full width */
+  .item > :not(.item-q){margin-left:36px}
+  .item > .stimulus{margin-left:0}
+  .stimulus-figure{padding:8px}
+  /* Very wide figures would shrink to unreadable text on a phone: keep them near their
+     authored size and let .figure-scroll scroll sideways instead of the page. */
+  .figure-scroll svg:is([width^="5"],[width^="6"]):not([width^="5."]):not([width^="6."]){max-width:none; width:auto}
+  .figure-scroll svg:is([width^="7"],[width^="8"],[width^="9"]):not([width^="7."]):not([width^="8."]):not([width^="9."]){max-width:none; width:640px}
+  .figure-scroll{text-align:left}
+  .figure-scroll svg{margin:0}
+  .layout-scroll pre,.stimulus-layout pre,.stimulus-table pre{font-size:15.5px; padding:10px 12px}
+  ol.options{grid-template-columns:repeat(2, minmax(0, 1fr)); gap:4px 12px}
+  .match{grid-template-columns:1fr}
+  .practice-banner,#practiceBanner{padding:10px 12px; font-size:14px}
+  #checkDialog,.check-dialog{padding:20px 16px 16px}
+  .check-actions{justify-content:stretch}
+  .check-actions .btn{flex:1}
+  .item > .item-tools{margin-left:0}
+  .item-tools{gap:10px}
+  .item-tools > .marks-row{flex-basis:100%; gap:6px}
+  .marks-row > span{margin-right:4px}
+  .answer{padding:10px 12px}
+  .item > .answer{margin-left:0}
+  .mk,.mk-clear{min-width:38px; height:38px; padding:0 8px}
+  .scorebar-inner{gap:12px; padding-left:calc(12px + env(safe-area-inset-left)); padding-right:calc(12px + env(safe-area-inset-right))}
+  .sb-value b{font-size:19px}
+  .sb-label{font-size:12px}
+  .result-card{padding:22px 14px}
+  .rc-title{font-size:23px}
+  .rc-score{font-size:46px}
+  .rc-score small{font-size:22px}
+  .rc-table{font-size:14.5px}
+  .rc-table th,.rc-table td{padding:8px 4px}
+  .rc-table td{overflow-wrap:break-word}
+  .rc-actions > *{flex:1 1 100%}
+}
+
+/* =====================================================================
+   Print — a clean question paper (or only the result card).
+   Answers, captions, banner, dialog and every marking control never print,
+   whichever mode is on.
+   ===================================================================== */
+@page{margin:14mm 12mm}
+@media print{
+  :root,
+  :root:not([data-theme="light"]),
+  :root[data-theme="dark"]{
+    color-scheme:light;
+    --bg:#ffffff; --paper:#ffffff; --raised:#ffffff;
+    --ink:#000000; --ink-soft:#1a1a1a; --muted:#333333;
+    --line:#9a9a9a; --line-soft:#c8c8c8;
+    --navy:#e6e6e6; --navy-d:#e6e6e6; --on-navy:#000000; --on-navy-soft:#222222;
+    --accent:#000000; --accent-ink:#000000; --accent-soft:#ffffff; --accent-line:#9a9a9a;
+    --accent-fill:#000000; --on-accent:#ffffff;
+    --good:#000000; --good-ink:#000000; --good-soft:#ffffff; --good-line:#9a9a9a;
+    --bad:#000000; --bad-soft:#ffffff;
+    --heading:#000000; --edge-shadow:transparent;
+    --shadow:none; --shadow-lift:none;
+  }
+
+  .topbar,
+  .paper-toolbar,
+  #practiceBanner,
+  .practice-banner,
+  #scoreBar,
+  .scorebar,
+  .paper-foot,
+  #resultBtn,
+  .item-tools,
+  .marks-row,
+  .ans-btn,
+  .answer,
+  #checkDialog,
+  .stimulus-caption,
+  .rc-actions{display:none !important}
+  #checkDialog::backdrop{display:none !important; background:transparent !important}
+  .tf-hint{display:block !important; color:#000 !important}
+
+  html,body{background:#fff !important; color:#000 !important}
+  body{font-size:12pt; line-height:1.5}
+  *,*::before,*::after{box-shadow:none !important; text-shadow:none !important; transition:none !important; animation:none !important}
+
+  .wrap,.paper-wrap{max-width:none; margin:0; padding:0 !important}
+  .paper-head,.block,.result-card,.stimulus-figure{background:#fff !important; box-shadow:none !important}
+  .paper-head{border:1px solid #000; border-top:3px solid #000; border-radius:0; padding:10pt}
+  .ph-note{background:#fff !important; border-color:#9a9a9a; color:#000}
+  .block{border:none; border-radius:0; padding:6pt 0 0; margin-top:8pt}
+  .section{margin-top:12pt}
+  .section-head{
+    background:#e6e6e6 !important; color:#000 !important; border-radius:0; padding:5pt 10pt;
+    -webkit-print-color-adjust:exact; print-color-adjust:exact;
+    break-after:avoid; page-break-after:avoid;
+  }
+  .section-head > *{color:#000 !important}
+  .block-head,.stimulus{break-after:avoid; page-break-after:avoid}
+  /* An item-level stimulus is the item's last printed child; its break-after:avoid would
+     propagate to the gap before the NEXT item and force Chromium to split that item instead.
+     .item already has break-inside:avoid, so the stimulus stays with its question anyway. */
+  .item > .stimulus{break-after:auto; page-break-after:auto}
+  .item{break-inside:avoid; page-break-inside:avoid; border-top-color:#c8c8c8}
+  .item-text,.item-label,.block-inst,.block-num,ol.options > li,.match-left,.match-right{color:#000 !important}
+  .item-text{font-size:12.5pt}
+  .item-marks{background:#fff !important; color:#000 !important; border:1px solid #000}
+
+  /* writing space under each question */
+  .item.type-mcq,.item.type-true-false,.item.type-one-word,.item.type-fill-blank,.item.type-match{padding-bottom:1.2cm}
+  .item.type-short,.item.type-numeric{padding-bottom:3cm}
+  .item.type-draw{padding-bottom:5cm}
+
+  /* figures and layouts: never clipped, always black, fit the page width */
+  .figure-scroll,.layout-scroll{overflow:visible !important; background:none !important; color:#000 !important}
+  .stimulus-figure,.stimulus-layout,.stimulus-table,.figure-scroll svg,.stimulus-figure svg{color:#000 !important}
+  .figure-scroll svg{max-width:100% !important; width:auto; height:auto !important}
+  .stimulus-figure{border:1px solid #c8c8c8; padding:6pt}
+  .layout-scroll pre,.stimulus-layout pre,.stimulus-table pre{
+    background:#fff !important; color:#000 !important; border:1px solid #9a9a9a; white-space:pre; font-size:11.5pt;
+  }
+  .blank-box{border-color:#000}
+  .blank{border-bottom-color:#000}
+  .match-left,.match-right{background:#fff !important; border-color:#9a9a9a}
+
+  /* result print: only the card */
+  .result-card{border:1px solid #000; border-radius:0; max-width:none}
+  .rc-grade{background:#fff !important; color:#000 !important; border-color:#000}
+  .rc-pct,.rc-for,.rc-note,.rc-score small{color:#000 !important}
+}
+
+/* =====================================================================
+   English additions — text stimuli (passage, poem, copy text), q newlines
+   Content is set with textContent; line breaks come from the DOM (one
+   element per paragraph / poem line) or from white-space:pre-line.
+   ===================================================================== */
+.item-text{white-space:pre-line; overflow-wrap:anywhere}
+ol.options > li,.match-left li,.match-right li{overflow-wrap:anywhere}
+
+.stimulus-passage,.stimulus-poem{
+  background:var(--raised); border:1px solid var(--line-soft);
+  border-left:4px solid var(--accent); border-radius:10px; padding:14px 16px;
+  font-size:17px; line-height:1.8; color:var(--ink); overflow-wrap:anywhere;
+}
+.stimulus-passage p{margin:0; white-space:pre-line}
+.stimulus-passage p + p{margin-top:.8em}
+.stimulus-poem{border-left-color:var(--navy)}
+.poem-line{display:block; min-height:1.8em; padding-left:1.5em; text-indent:-1.5em}
+
+/* handwriting copy text: set apart, room to write below it in print */
+.stimulus-copy{border-left-style:double; border-left-width:6px}
+
+/* the generic body for a type the papers do not use */
+.item-generic{font-size:14px; color:var(--muted)}
+
+@media (max-width:520px){
+  .stimulus-passage,.stimulus-poem{padding:12px 12px; font-size:16.5px}
+}
+
+@media print{
+  .stimulus-passage,.stimulus-poem{background:#fff !important; color:#000 !important; border:1px solid #9a9a9a; border-left:3px solid #000}
+  .stimulus-poem,.stimulus-copy{break-inside:avoid; page-break-inside:avoid}
+  .item.type-handwriting{padding-bottom:6cm}
+  .item.type-long{padding-bottom:5cm}
+}

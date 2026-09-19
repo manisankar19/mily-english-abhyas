@@ -143,14 +143,19 @@ Taken from the Maths `index.html`/`app.js`, renamed only where noted. Additions 
   `#sbCount`, `#sbFill`.
 - **Gate:** `<dialog id="checkDialog">`, `#checkForm`, `#checkTitle`, `#checkInput`, `#checkError`,
   `#checkSubmit`, `#checkCancel`.
-- **Paper body classes:** `.section`, `.section-head`, `.block`, `.block-num`, `.block-instr`, `.item`,
-  `.item-q` (pre-line), `.item-marks`, `.options`, `.match`, `.match-col`, `.match-head`, **new** `.stim`,
-  `.stim-passage` (`p` per paragraph), `.stim-poem` (`.poem-line` per line), `.stim-figure` (own `overflow-x`
-  box), `.stim-copy` (handwriting copy text), `.blank` (non-wrapping line), `.caption`, `.answer-panel`
-  (children **new** `.ans-model`, `.ans-points`, `.ans-guide`, `.ans-accept`), `.reveal-btn`, `.marks-row`,
-  `.mark-btn` (`data-val`), `.mark-clear`; state classes `.on`, `.scored`.
-- **Data hooks:** `data-i` (item index), `data-val` (mark value); items may carry `data-id` (the item id only — ids
-  contain no answer text). No other `data-*` on content.
+- **Paper body classes** *(amended in Task 3 to the names the Maths code actually uses; the first draft had guessed some)*:
+  `.section`, `.section-head`, `.block`, `.block-head`, `.block-num`, `.block-inst`, `.item` (+ `.type-{type}`),
+  `.item-q`, `.item-label`, `.item-text` (`pre-line`), `.item-marks`, `.blank`, `ol.options`, `.match`,
+  `.match-left`, `.match-right`, `.match-head`, `.tf-hint`, `.stimulus`, `.stimulus-figure` > `.figure-scroll`
+  (`role="img"`, own `overflow-x`), **new** `.stimulus-passage` (`p` per paragraph), **new** `.stimulus-poem`
+  (`.poem-line` per line), **new** `.stimulus-copy` (handwriting copy text), **new** `.item-generic`. Checking
+  mode (batch 2): `.item-tools`, `.ans-btn`, `.answer` (`.ans-tag`, `.ans-text`, `.ans-points`, `.ans-guide`,
+  **new** `.ans-accept`, **new** `.ans-pairs`), `.stimulus-caption`, `.marks-row`, `.mk` (`data-val`),
+  `.mk-clear`; state classes `.on`, `.scored`. Also `#nameInput` (student name, as Maths).
+- **Data hooks:** `data-item-id` (the item id only; ids hold no answer text), `data-val`, `data-paper-key` on
+  cards, `data-section` on result rows, `data-i18n*` on static markup. No other `data-*` on content.
+- **Embedded data** (from the build, or the test harness before Task 12): `<script type="application/json">`
+  with ids `uiStrings`, `papersData` (`{order, login, papers}`, order and login from the card) and `assetsData`.
 - **Result:** `#resultView` with a table built from `paper.sections`.
 
 ## 8. Hard stops (brief §8, plus one)

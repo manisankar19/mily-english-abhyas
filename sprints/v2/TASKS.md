@@ -38,9 +38,10 @@ rather than ≤ 10 five-minute tasks. Testing and security are in this sprint be
   - Files: app/ui/en.json, SCHEMA.md
   - Completed: 2026-09-19 — en.json with 98 keys (Maths set adapted to English, plus `stimulus.figureLabel`, `answer.accept`, `answer.acceptBlank`, `answer.pairs`); keys for batch-2 screens included now so `app.js` has one string source. Interpolation uses only the `{word}` syntax (Maths' variable names: code, count, got, letter, marks, name, n, title, total). `SCHEMA.md` §8 now lists the twelve fields. The key-check test runs in Task 6 (every `t()`/`data-i18n` key exists).
 
-- [ ] Task 3: `index.html` + `styles.css` — shell, login, chapter list, paper chrome (agent `shell`) (P0)
+- [x] Task 3: `index.html` + `styles.css` — shell, login, chapter list, paper chrome (agent `shell`) (P0)
   - Acceptance: the prd.md §7 ids and classes exist; `<dialog id="checkDialog">`; light/dark/system tokens on `:root`; ≥ 16 px body; reduced-motion; `__SECRET_HASH__` not in these files; no external asset except a font with fallback.
   - Files: app/index.html, app/styles.css
+  - Completed: 2026-09-19 — done by the coordinator, not a `shell` sub-agent (copying and adapting two files was faster than briefing one; `app.js` is also written by the coordinator, so single ownership holds). `index.html` copied from Maths (icon changed; strings via `data-i18n`); `styles.css` copied whole (tokens light/dark/system, reduced motion, print, and the Maths checking-mode/result rules, which Task 10 will review) plus an English block: `.item-text` `pre-line` + `overflow-wrap:anywhere`, `.stimulus-passage`, `.stimulus-poem`/`.poem-line`, `.stimulus-copy`, print rules keeping poems and copy text unbroken. prd.md §7 amended to the real class names. Test harness `tests/harness.js` + `tests/batch1.e2e.js` written first; its Task 3 static checks pass.
 
 - [ ] Task 4: `app.js` — login, chapter cards from the card data, navigation, storage helper (agent `js`) (P0)
   - Acceptance: login from `student_login`; seven cards built from the embedded card (`chapters` + `extra_papers`) showing number, title, marks, progress; home/back/logout; `milyEnglish.*` keys; strings only from `en.json`; `__SECRET_HASH__` occurs exactly once.

@@ -7,3 +7,4 @@ scripts/*.npy
 __pycache__/
 test-results/
 playwright-report/
+tests/screenshots/
