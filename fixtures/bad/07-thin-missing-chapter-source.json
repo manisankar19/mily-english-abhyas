@@ -1,0 +1,13 @@
+{
+  "_note": "thin paper: a Section B item with no chapterSource",
+  "_base": "thin-ch1",
+  "_expect": [
+    "CHAPTER_SOURCE"
+  ],
+  "ops": [
+    {
+      "op": "delete",
+      "path": "sections/1/blocks/0/items/0/chapterSource"
+    }
+  ]
+}

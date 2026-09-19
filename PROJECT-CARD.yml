@@ -44,8 +44,14 @@ paper_overrides:     # §3.6 — Ch 1 and Ch 4 only (owner-confirmed: five secti
       - { code: E, title: "Vocabulary",        marks: 20 }
     difficulty_target: { easy: 20, medium: 40, hard: 40 }   # % of items; standard papers use 40/40/20
     hard_floor_pct: 35                                       # validator: hard items >= 35 % of items
+    hard_cap_pct: 50                                         # validator: ... and <= 50 %
     require_chapter_source: true                             # §3.6 capacity ledger
   ch4: *thin_poem
+
+mock_allocation:     # prd.md §5.1 — mock marks by item `sourceChapter` (10+19+12+10+14+14 = 79) plus the two general pools; total 100
+  chapters: { 1: 10, 2: 19, 3: 12, 4: 10, 5: 14, 6: 14 }
+  general_unseen: 13        # item sourceChapter "general-unseen" (the original unseen passage, A1)
+  general_sample_only: 8    # item sourceChapter "general-sample-only" (the seven topics the samples test but the chapters do not teach)
 
 chapter_list:        # titles as printed on each chapter opener
   - { n: 1, file: desa101, title: "Together We Can",        unit: "Unit 1: My Land" }

@@ -1,0 +1,13 @@
+{
+  "_note": "a 5-mark long writing item with answerPoints but no rubric (markingGuide)",
+  "_base": "standard-ch2",
+  "_expect": [
+    "JUDGEMENT_GUIDE"
+  ],
+  "ops": [
+    {
+      "op": "delete",
+      "path": "sections/2/blocks/0/items/0/markingGuide"
+    }
+  ]
+}

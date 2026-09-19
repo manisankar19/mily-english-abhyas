@@ -1,0 +1,14 @@
+{
+  "_note": "a straight double quote in content",
+  "_base": "standard-ch2",
+  "_expect": [
+    "STRAIGHT_QUOTE"
+  ],
+  "ops": [
+    {
+      "op": "set",
+      "path": "sections/1/blocks/1/items/0/q",
+      "value": "Why did Rina say \"yes\" to Amit?"
+    }
+  ]
+}

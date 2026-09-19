@@ -1,0 +1,20 @@
+{
+  "_note": "thin paper declared 25/15/20/20/20 instead of 30/10/20/20/20",
+  "_base": "thin-ch1",
+  "_expect": [
+    "SECTION_SUM",
+    "SECTION_PROFILE"
+  ],
+  "ops": [
+    {
+      "op": "set",
+      "path": "sections/0/marks",
+      "value": 25
+    },
+    {
+      "op": "set",
+      "path": "sections/1/marks",
+      "value": 15
+    }
+  ]
+}

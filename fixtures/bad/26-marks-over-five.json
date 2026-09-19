@@ -1,0 +1,14 @@
+{
+  "_note": "an item worth 6 marks (marks must stay 1-5); sums also break",
+  "_base": "standard-ch2",
+  "_expectAtLeast": [
+    "MARKS_RANGE"
+  ],
+  "ops": [
+    {
+      "op": "set",
+      "path": "sections/2/blocks/0/items/0/marks",
+      "value": 6
+    }
+  ]
+}

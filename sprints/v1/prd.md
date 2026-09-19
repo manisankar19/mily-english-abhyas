@@ -195,8 +195,13 @@ paper_overrides:     # §3.6 — Ch 1 and Ch 4 only; every other paper uses sect
       - { code: E, title: "Vocabulary",        marks: 20 }
     difficulty_target: { easy: 20, medium: 40, hard: 40 }   # % of items; standard papers use 40/40/20
     hard_floor_pct: 35                                       # validator: hard items ≥ 35 % of items
+    hard_cap_pct: 50                                         # validator: ... and <= 50 %
     require_chapter_source: true                             # §3.6 capacity ledger
   ch4: *thin_poem
+mock_allocation:     # §5.1 — mock marks by item `sourceChapter`; added to the card in Task 2 (with hard_cap_pct)
+  chapters: { 1: 10, 2: 19, 3: 12, 4: 10, 5: 14, 6: 14 }
+  general_unseen: 13
+  general_sample_only: 8
 chapter_list:        # titles as printed on each chapter opener
   - { n: 1, file: desa101, title: "Together We Can",        unit: "Unit 1: My Land" }
   - { n: 2, file: desa102, title: "The Tinkling Bells",     unit: "Unit 1: My Land" }
@@ -497,13 +502,18 @@ Base is the blueprint's schema 2.0 and the Maths adaptations. Additions:
 2. **`acceptable`** — required on every `fill-blank` and `one-word` item; array of accepted strings
    including the primary `answer`. For a multi-blank item, an **array of arrays**, one per blank.
 3. **`difficulty`** — `easy | medium | hard`, **required** on every item (optional in the blueprint).
-4. **`sourceChapter`** (integer 1–6) — required on every item of `english-hy` only; drives §5.1.
+4. **`sourceChapter`** — required on every item of `english-hy` only; drives §5.1. An integer 1–6, or the
+   string `"general-unseen"` (the original unseen passage, 13 marks) or `"general-sample-only"` (the seven
+   sample-only topics, 8 marks), because those 21 marks belong to no chapter. The card carries the allocation
+   as `mock_allocation`. *(Amended in Task 2.)*
 5. **`stimulus.kind`** already allows `passage | poem`; a `handwriting` item's copy text lives in
    `stimulus.text` (instruction §6.4). A dictation/spelling item, if any, puts one word per
    `answerPoints` entry. (The samples test neither dictation nor cursive; not planned.)
 6. **Integer `marks`** everywhere; each paper `totalMarks: 100`, `durationMinutes` from the card.
 7. **Item ids:** `english-c{n}-s{section}-b{block}-i{item}` (chapter papers) and
-   `english-hy-s{section}-b{block}-i{item}` (mock); `s1…s7` = sections A…G.
+   `english-chy-s{section}-b{block}-i{item}` (mock — `hy` is the chapter token, as in the Maths build's
+   `maths-chy-…`, so the blueprint's `c{chapter}` pattern still holds); `s1…s7` = sections A…G.
+   *(Amended in Task 2: this said `english-hy-…`.)*
 8. **Curly typography:** blanks are exactly `_____`; **no straight `"` or `'` anywhere in content**
    (apostrophes are `’`), which the validator enforces.
 9. **`chapterSource`** (string) — required on every item **outside Section A** in papers whose card
@@ -529,7 +539,10 @@ Plus, from instruction §6:
 
 11. **§6.1** — any 10-word window of a `passage` or `poem` stimulus that also occurs in the extracted
     text of **any file under `source/`** fails. `stimulus.original` present; `original:true` ⇒ no
-    hit, `original:false` ⇒ `sourceRef` set.
+    hit, `original:false` ⇒ `sourceRef` set (a `passage` may never be `original:false`). The check
+    **fails loudly** if source text cannot be extracted; `--skip-source-check` turns it off explicitly
+    for a build where `source/` is intentionally absent (Maths' `.vercelignore` excludes `source/`,
+    so a v2 Vercel build needs the flag — carried into the v2 brief). *(Amended in Task 2.)*
 12. **§6.2** — every `long`, `handwriting`, `activity`, `draw` and creative-writing item has a
     `markingGuide` that is ≥ 40 characters and contains a digit.
 13. **§6.3** — `acceptable` present on every `fill-blank`/`one-word`, containing the `answer`.
@@ -562,7 +575,7 @@ Euler's-formula bug passed every automated check. That is stated in the walkthro
 | 4 | Every paper totals 100; section marks equal the card (Ch 1 and Ch 4: their `paper_overrides` profile 30/10/20/20/20) | `jq '[.sections[].marks]\|add'` → 100; `jq '[.sections[].marks]'` → `[30,10,20,20,20]` for `english-ch1` and `english-ch4`; validator |
 | 5 | Item count 45–60 per paper | `jq '[.sections[].blocks[].items[]]\|length'` |
 | 6 | Reuse check clean | `python3 scripts/similarity.py` exits 0; every semantic pair ≥ 0.85 listed in walkthrough with a judgement |
-| 7 | Mock allocation matches §5.1 | `jq` sum of `marks` by `sourceChapter` = 10/19/12/10/14/14 |
+| 7 | Mock allocation matches §5.1 | `jq` sum of `marks` by `sourceChapter` = 10/19/12/10/14/14, plus 13 `general-unseen` and 8 `general-sample-only` |
 | 8 | Every passage/poem stimulus `original:true`; none from the samples or textbook | validator check 11 |
 | 9 | Readability numbers recorded per paper (avg sentence ≤ 12, max ≤ 20, no >3-syllable word unless glossed) | script output pasted into walkthrough |
 | 10 | Every figure exists and was viewed | `ls app/assets`; walkthrough list of "viewed / not viewed" (target: none unviewed) |

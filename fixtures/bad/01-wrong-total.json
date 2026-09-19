@@ -1,0 +1,14 @@
+{
+  "_note": "paper total 99 but items sum to 100 (wrong paper total)",
+  "_base": "standard-ch2",
+  "_expect": [
+    "TOTAL_MISMATCH"
+  ],
+  "ops": [
+    {
+      "op": "set",
+      "path": "totalMarks",
+      "value": 99
+    }
+  ]
+}

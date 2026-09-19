@@ -1,0 +1,13 @@
+{
+  "_note": "mock item with no sourceChapter",
+  "_base": "mock-hy",
+  "_expect": [
+    "MOCK_SOURCE"
+  ],
+  "ops": [
+    {
+      "op": "delete",
+      "path": "sections/1/blocks/1/items/0/sourceChapter"
+    }
+  ]
+}

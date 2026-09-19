@@ -1,6 +1,6 @@
 # Sprint v1 — Tasks (Content) — mily-english-abhyas
 
-## Status: In progress (1 of 14 tasks complete). Tasks written 2026-09-19. Owner-confirmed 2026-09-19: five sections for Ch 1/Ch 4 (Spelling folded into Vocabulary, Handwriting not carried); marking secret stands, owner rotates later via Vercel env.
+## Status: In progress (2 of 14 tasks complete). Tasks written 2026-09-19. Owner-confirmed 2026-09-19: five sections for Ch 1/Ch 4 (Spelling folded into Vocabulary, Handwriting not carried); marking secret stands, owner rotates later via Vercel env.
 
 Source of truth: `sprints/v1/prd.md` (Revision 2) — final. This file breaks it into atomic
 execution tasks; it does not re-derive scope, blueprint, schema or content plan. A task below that
@@ -78,7 +78,7 @@ record in the walkthrough, continue.
     scan yet (no code; no dependencies, so no lockfile for `npm audit`; `semgrep --config auto` refuses
     to run with metrics off) — semgrep runs with a named pack from Task 2.
 
-- [ ] Task 2: Schema + `validate.js`, proved against bad fixtures (P0) — single owner, no sub-agent
+- [x] Task 2: Schema + `validate.js`, proved against bad fixtures (P0) — single owner, no sub-agent
   - **Step 0 — mandatory, before any code (owner instruction):** read in full
     `../mily-maths-abhyas/validate.js`, `../mily-maths-abhyas/sprints/v1/walkthrough.md` **and**
     `../mily-maths-abhyas/sprints/v2/walkthrough.md`. Record what was carried over, dropped, and
@@ -102,6 +102,37 @@ record in the walkthrough, continue.
     with a per-chapter mark mismatch. Step 0 notes are present.
   - Files: `validate.js`, `SCHEMA.md`, `scripts/test-validator.js`, `fixtures/good/*.json`,
     `fixtures/bad/*.json`, `package.json` (adds `test:validator`)
+  - **Step 0 notes (read first, in full: Maths `validate.js` 311 lines, Maths v1 walkthrough, Maths v2
+    walkthrough).** *Carried over:* zero-dependency Node; `validatePaper` collects **all** errors; PASS/FAIL
+    per file and exit 1; `0 papers found.` exit 0; the whole-document placeholder scan; `difficulty` required
+    from day one (Maths retrofitted it after Ch 4 shipped untagged); stimulus checks at **block and item**
+    level (Maths added item level late); `answerPoints` must sum to `marks`; mock = `chapter: null` +
+    `paperCode`. *Dropped:* the `expr` evaluator, `layout` stimuli, `Rs` and fraction-glyph checks, the exact
+    54-item and per-section item counts (the blueprint's 45–60 replaces them). *Changed because of the v2
+    walkthrough:* Maths' `build.js` ran `validate.js` unchanged and hard-coded 8 papers and 54 items, which its
+    own limitations section calls a maintenance trap — so every expectation here (sections, marks, chapter
+    titles, mock title, mock allocation, expected paper list for `--strict`) is read from `PROJECT-CARD.yml`.
+    Its `.vercelignore` excludes `source/`, so check 11 cannot run in a Vercel build: it fails loudly by
+    default and has an explicit `--skip-source-check` (carried into the v2 brief, Task 14). Its `expr` field
+    was kept out of the page and proved by a static check; `SCHEMA.md` §8 lists the English authoring-only
+    fields for the same treatment. *Not added:* a mechanical "was this taught?" check (the Maths Euler bug) —
+    curriculum fidelity stays by hand (PRD §9); a caption-gives-answer check stays a Task 12 by-hand step.
+  - Completed: 2026-09-19 — coordinator, no sub-agent. **`node scripts/test-validator.js`: 41 passed, 0
+    failed** (harness written first and confirmed red; then green): card reader equals PyYAML; 3 good fixtures
+    (standard 58 items, thin 54 items / 21 hard, mock 58 items) validate clean; **28 bad fixtures** each fail
+    with the *named* error — the 9 required (wrong total · missing rubric · missing `acceptable` · copied
+    passage · straight quote · thin hard < 35 % · thin missing `chapterSource` · thin wrong section marks · mock
+    allocation mismatch) plus 19 extras covering the rest of the blueprint's ten checks and §6 rules; 6 CLI
+    checks (0 papers, `--strict`, exit codes, `--skip-source-check`, unreadable card). **Mutation check:**
+    disabling each of 5 checks in turn turned exactly its own fixture red; file restored byte-identical.
+    Semgrep (`p/javascript` + `p/secrets`, metrics off): 104 rules, 5 files, 0 findings. `npm audit`: no
+    dependencies, no lockfile, nothing to audit. **One bug found and fixed by the tests:** the blank-length rule
+    flagged an *id* containing an underscore; it now skips `id` and `asset` fields.
+    **Deviations from the task as written (all recorded in `prd.md`):** added `scripts/lib/card.js` (a
+    YAML-subset reader — Node has no YAML parser and there are no runtime dependencies), `fixtures/make-good.js`
+    (deterministic generator) and 19 extra bad fixtures; added `hard_cap_pct` and `mock_allocation` to
+    `PROJECT-CARD.yml`; mock ids are `english-chy-…` (PRD §8 said `english-hy-…`, which broke the blueprint
+    pattern); mock `sourceChapter` also allows `"general-unseen"` / `"general-sample-only"`.
 
 - [ ] Task 3: `scripts/similarity.py` (P0) — single owner, no sub-agent
   - Steps: extract text of every file under `source/` once into `source/.text-cache/` (reusing Task

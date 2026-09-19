@@ -1,0 +1,15 @@
+{
+  "_note": "one chapter-2 item re-tagged chapter 3, so per-chapter marks no longer match the card",
+  "_base": "mock-hy",
+  "_expect": [
+    "MOCK_ALLOCATION"
+  ],
+  "ops": [
+    {
+      "op": "moveSourceChapter",
+      "from": 2,
+      "to": 3,
+      "count": 1
+    }
+  ]
+}

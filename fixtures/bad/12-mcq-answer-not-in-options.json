@@ -1,0 +1,14 @@
+{
+  "_note": "mcq answer is not one of the options",
+  "_base": "standard-ch2",
+  "_expect": [
+    "MCQ_ANSWER"
+  ],
+  "ops": [
+    {
+      "op": "set",
+      "path": "sections/0/blocks/0/items/0/answer",
+      "value": "Option nine"
+    }
+  ]
+}

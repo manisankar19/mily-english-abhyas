@@ -1,0 +1,14 @@
+{
+  "_note": "a block with true-false items whose instruction lacks True or False",
+  "_base": "standard-ch2",
+  "_expect": [
+    "TF_INSTRUCTION"
+  ],
+  "ops": [
+    {
+      "op": "set",
+      "path": "sections/0/blocks/1/instruction",
+      "value": "Read the text and answer the questions."
+    }
+  ]
+}

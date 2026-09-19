@@ -1,0 +1,19 @@
+{
+  "_note": "referenced asset does not exist on disk",
+  "_base": "standard-ch2",
+  "_expect": [
+    "ASSET_MISSING"
+  ],
+  "ops": [
+    {
+      "op": "set",
+      "path": "sections/0/blocks/0/stimulus/asset",
+      "value": "assets/does-not-exist.svg"
+    },
+    {
+      "op": "set",
+      "path": "sections/0/blocks/0/stimulus/caption",
+      "value": "A picture of a kite."
+    }
+  ]
+}

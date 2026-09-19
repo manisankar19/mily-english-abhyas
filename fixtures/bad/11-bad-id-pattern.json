@@ -1,0 +1,14 @@
+{
+  "_note": "id does not match {subject}-c{chapter}-s{section}-b{block}-i{item}",
+  "_base": "standard-ch2",
+  "_expect": [
+    "ID_PATTERN"
+  ],
+  "ops": [
+    {
+      "op": "set",
+      "path": "sections/0/blocks/0/items/0/id",
+      "value": "bad_id_1"
+    }
+  ]
+}

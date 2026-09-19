@@ -1,0 +1,13 @@
+{
+  "_note": "difficulty tag missing",
+  "_base": "standard-ch2",
+  "_expect": [
+    "DIFFICULTY"
+  ],
+  "ops": [
+    {
+      "op": "delete",
+      "path": "sections/0/blocks/0/items/0/difficulty"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "_note": "rubric under 40 characters and without a digit",
+  "_base": "standard-ch2",
+  "_expect": [
+    "JUDGEMENT_GUIDE"
+  ],
+  "ops": [
+    {
+      "op": "set",
+      "path": "sections/2/blocks/0/items/0/markingGuide",
+      "value": "Good writing."
+    }
+  ]
+}

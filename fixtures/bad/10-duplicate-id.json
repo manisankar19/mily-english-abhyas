@@ -1,0 +1,14 @@
+{
+  "_note": "two items share an id",
+  "_base": "standard-ch2",
+  "_expect": [
+    "DUP_ID"
+  ],
+  "ops": [
+    {
+      "op": "set",
+      "path": "sections/0/blocks/0/items/1/id",
+      "value": "english-c2-s1-b1-i1"
+    }
+  ]
+}

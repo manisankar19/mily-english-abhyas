@@ -1,0 +1,14 @@
+{
+  "_note": "passage replaced by a 12-word run taken at test time from the cached textbook text",
+  "_base": "standard-ch2",
+  "_expect": [
+    "SOURCE_WINDOW"
+  ],
+  "ops": [
+    {
+      "op": "set",
+      "path": "sections/0/blocks/0/stimulus/text",
+      "value": "{{SOURCE_WINDOW}}"
+    }
+  ]
+}

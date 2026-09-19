@@ -1,0 +1,14 @@
+{
+  "_note": "mock sourceChapter outside 1-6 and not a general tag",
+  "_base": "mock-hy",
+  "_expect": [
+    "MOCK_SOURCE"
+  ],
+  "ops": [
+    {
+      "op": "set",
+      "path": "sections/1/blocks/1/items/0/sourceChapter",
+      "value": 9
+    }
+  ]
+}

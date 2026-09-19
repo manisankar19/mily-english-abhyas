@@ -1,0 +1,33 @@
+{
+  "_note": "21 items removed, leaving 37 (< 45); sums also break",
+  "_base": "standard-ch2",
+  "_expectAtLeast": [
+    "ITEM_COUNT"
+  ],
+  "ops": [
+    {
+      "op": "delete",
+      "path": "sections/5/blocks/1"
+    },
+    {
+      "op": "delete",
+      "path": "sections/5/blocks/0"
+    },
+    {
+      "op": "delete",
+      "path": "sections/3/blocks/2"
+    },
+    {
+      "op": "delete",
+      "path": "sections/3/blocks/1"
+    },
+    {
+      "op": "delete",
+      "path": "sections/2/blocks/2"
+    },
+    {
+      "op": "delete",
+      "path": "sections/1/blocks/1"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "_note": "mock title differs from the card",
+  "_base": "mock-hy",
+  "_expect": [
+    "TITLE_MISMATCH"
+  ],
+  "ops": [
+    {
+      "op": "set",
+      "path": "title",
+      "value": "Half-Yearly Paper"
+    }
+  ]
+}

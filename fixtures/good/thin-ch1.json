@@ -1,0 +1,1194 @@
+{
+  "schemaVersion": "2.0",
+  "subject": "english",
+  "subjectDisplay": "English",
+  "grade": 4,
+  "chapter": 1,
+  "locale": "en",
+  "numerals": "latn",
+  "title": "Together We Can",
+  "subtitle": "English — Class 4 — Chapter 1",
+  "sourceRef": "Santoor Grade 4, Ch. 1",
+  "totalMarks": 100,
+  "durationMinutes": 120,
+  "sections": [
+    {
+      "code": "A",
+      "title": "Reading",
+      "marks": 30,
+      "blocks": [
+        {
+          "num": "Q.1",
+          "instruction": "Read the passage and answer the questions. Write True or False for the true-false questions.",
+          "stimulus": {
+            "kind": "passage",
+            "text": "Rina has a small red kite. She flies it on the hill every Sunday. The wind is strong today, so the kite goes very high. Her brother Amit holds the string while she runs. They laugh and clap. When the sun sets, they roll up the string and walk home together.",
+            "original": true
+          },
+          "items": [
+            {
+              "id": "english-c1-s1-b1-i1",
+              "type": "mcq",
+              "q": "Fixture question 1: which option is correct?",
+              "marks": 1,
+              "answer": "Option one",
+              "difficulty": "easy",
+              "options": [
+                "Option one",
+                "Option two",
+                "Option three"
+              ],
+              "skill": "fixture",
+              "chapterSource": "original-A1"
+            },
+            {
+              "id": "english-c1-s1-b1-i2",
+              "type": "mcq",
+              "q": "Fixture question 2: which option is correct?",
+              "marks": 1,
+              "answer": "Option one",
+              "difficulty": "easy",
+              "options": [
+                "Option one",
+                "Option two",
+                "Option three"
+              ],
+              "skill": "fixture",
+              "chapterSource": "original-A1"
+            },
+            {
+              "id": "english-c1-s1-b1-i3",
+              "type": "mcq",
+              "q": "Fixture question 3: which option is correct?",
+              "marks": 1,
+              "answer": "Option one",
+              "difficulty": "medium",
+              "options": [
+                "Option one",
+                "Option two",
+                "Option three"
+              ],
+              "skill": "fixture",
+              "chapterSource": "original-A1"
+            },
+            {
+              "id": "english-c1-s1-b1-i4",
+              "type": "short",
+              "q": "Fixture question 4: answer in full sentences.",
+              "marks": 2,
+              "answer": "Fixture model answer 4.",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "Fixture point 1",
+                  "marks": 1
+                },
+                {
+                  "point": "Fixture point 2",
+                  "marks": 1
+                }
+              ],
+              "skill": "fixture",
+              "chapterSource": "original-A1"
+            },
+            {
+              "id": "english-c1-s1-b1-i5",
+              "type": "short",
+              "q": "Fixture question 5: answer in full sentences.",
+              "marks": 2,
+              "answer": "Fixture model answer 5.",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "Fixture point 1",
+                  "marks": 1
+                },
+                {
+                  "point": "Fixture point 2",
+                  "marks": 1
+                }
+              ],
+              "skill": "fixture",
+              "chapterSource": "original-A1"
+            },
+            {
+              "id": "english-c1-s1-b1-i6",
+              "type": "short",
+              "q": "Fixture question 6: answer in full sentences.",
+              "marks": 2,
+              "answer": "Fixture model answer 6.",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "Fixture point 1",
+                  "marks": 1
+                },
+                {
+                  "point": "Fixture point 2",
+                  "marks": 1
+                }
+              ],
+              "skill": "fixture",
+              "chapterSource": "original-A1"
+            },
+            {
+              "id": "english-c1-s1-b1-i7",
+              "type": "true-false",
+              "q": "Fixture statement 7 is about the text.",
+              "marks": 1,
+              "answer": "True",
+              "difficulty": "easy",
+              "skill": "fixture",
+              "chapterSource": "original-A1"
+            },
+            {
+              "id": "english-c1-s1-b1-i8",
+              "type": "true-false",
+              "q": "Fixture statement 8 is about the text.",
+              "marks": 1,
+              "answer": "True",
+              "difficulty": "medium",
+              "skill": "fixture",
+              "chapterSource": "original-A1"
+            },
+            {
+              "id": "english-c1-s1-b1-i9",
+              "type": "one-word",
+              "q": "Fixture question 9: give one word.",
+              "marks": 1,
+              "answer": "word",
+              "difficulty": "easy",
+              "acceptable": [
+                "word",
+                "term"
+              ],
+              "skill": "fixture",
+              "chapterSource": "original-A1"
+            },
+            {
+              "id": "english-c1-s1-b1-i10",
+              "type": "one-word",
+              "q": "Fixture question 10: give one word.",
+              "marks": 1,
+              "answer": "word",
+              "difficulty": "medium",
+              "acceptable": [
+                "word",
+                "term"
+              ],
+              "skill": "fixture",
+              "chapterSource": "original-A1"
+            },
+            {
+              "id": "english-c1-s1-b1-i11",
+              "type": "short",
+              "q": "Fixture question 11: answer in full sentences.",
+              "marks": 3,
+              "answer": "Fixture model answer 11.",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "Fixture point 1",
+                  "marks": 1
+                },
+                {
+                  "point": "Fixture point 2",
+                  "marks": 1
+                },
+                {
+                  "point": "Fixture point 3",
+                  "marks": 1
+                }
+              ],
+              "skill": "fixture",
+              "chapterSource": "original-A1"
+            }
+          ]
+        },
+        {
+          "num": "Q.2",
+          "instruction": "Read the poem and answer the questions.",
+          "stimulus": {
+            "kind": "poem",
+            "text": "Little drops of morning dew\nSparkle on the grass so new\nBirds wake up and start to sing\nWelcome to a day of spring",
+            "original": true
+          },
+          "items": [
+            {
+              "id": "english-c1-s1-b2-i1",
+              "type": "short",
+              "q": "Fixture question 12: answer in full sentences.",
+              "marks": 2,
+              "answer": "Fixture model answer 12.",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "Fixture point 1",
+                  "marks": 1
+                },
+                {
+                  "point": "Fixture point 2",
+                  "marks": 1
+                }
+              ],
+              "skill": "fixture",
+              "chapterSource": "original-A2"
+            },
+            {
+              "id": "english-c1-s1-b2-i2",
+              "type": "short",
+              "q": "Fixture question 13: answer in full sentences.",
+              "marks": 2,
+              "answer": "Fixture model answer 13.",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "Fixture point 1",
+                  "marks": 1
+                },
+                {
+                  "point": "Fixture point 2",
+                  "marks": 1
+                }
+              ],
+              "skill": "fixture",
+              "chapterSource": "original-A2"
+            },
+            {
+              "id": "english-c1-s1-b2-i3",
+              "type": "short",
+              "q": "Fixture question 14: answer in full sentences.",
+              "marks": 2,
+              "answer": "Fixture model answer 14.",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "Fixture point 1",
+                  "marks": 1
+                },
+                {
+                  "point": "Fixture point 2",
+                  "marks": 1
+                }
+              ],
+              "skill": "fixture",
+              "chapterSource": "original-A2"
+            },
+            {
+              "id": "english-c1-s1-b2-i4",
+              "type": "fill-blank",
+              "q": "Fixture sentence 15 has a _____ here.",
+              "marks": 1,
+              "answer": "gap",
+              "difficulty": "easy",
+              "blanks": 1,
+              "acceptable": [
+                "gap",
+                "space"
+              ],
+              "skill": "fixture",
+              "chapterSource": "original-A2"
+            },
+            {
+              "id": "english-c1-s1-b2-i5",
+              "type": "fill-blank",
+              "q": "Fixture sentence 16 has a _____ here.",
+              "marks": 1,
+              "answer": "gap",
+              "difficulty": "easy",
+              "blanks": 1,
+              "acceptable": [
+                "gap",
+                "space"
+              ],
+              "skill": "fixture",
+              "chapterSource": "original-A2"
+            },
+            {
+              "id": "english-c1-s1-b2-i6",
+              "type": "fill-blank",
+              "q": "Fixture sentence 17 has a _____ here.",
+              "marks": 1,
+              "answer": "gap",
+              "difficulty": "medium",
+              "blanks": 1,
+              "acceptable": [
+                "gap",
+                "space"
+              ],
+              "skill": "fixture",
+              "chapterSource": "original-A2"
+            },
+            {
+              "id": "english-c1-s1-b2-i7",
+              "type": "mcq",
+              "q": "Fixture question 18: which option is correct?",
+              "marks": 1,
+              "answer": "Option one",
+              "difficulty": "easy",
+              "options": [
+                "Option one",
+                "Option two",
+                "Option three"
+              ],
+              "skill": "fixture",
+              "chapterSource": "original-A2"
+            },
+            {
+              "id": "english-c1-s1-b2-i8",
+              "type": "mcq",
+              "q": "Fixture question 19: which option is correct?",
+              "marks": 1,
+              "answer": "Option one",
+              "difficulty": "medium",
+              "options": [
+                "Option one",
+                "Option two",
+                "Option three"
+              ],
+              "skill": "fixture",
+              "chapterSource": "original-A2"
+            },
+            {
+              "id": "english-c1-s1-b2-i9",
+              "type": "short",
+              "q": "Fixture question 20: answer in full sentences.",
+              "marks": 3,
+              "answer": "Fixture model answer 20.",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "Fixture point 1",
+                  "marks": 1
+                },
+                {
+                  "point": "Fixture point 2",
+                  "marks": 1
+                },
+                {
+                  "point": "Fixture point 3",
+                  "marks": 1
+                }
+              ],
+              "skill": "fixture",
+              "chapterSource": "original-A2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Textual Questions",
+      "marks": 10,
+      "blocks": [
+        {
+          "num": "Q.3",
+          "instruction": "Answer the following questions.",
+          "items": [
+            {
+              "id": "english-c1-s2-b1-i1",
+              "type": "short",
+              "q": "Fixture question 21: answer in full sentences.",
+              "marks": 2,
+              "answer": "Fixture model answer 21.",
+              "difficulty": "easy",
+              "answerPoints": [
+                {
+                  "point": "Fixture point 1",
+                  "marks": 1
+                },
+                {
+                  "point": "Fixture point 2",
+                  "marks": 1
+                }
+              ],
+              "skill": "fixture",
+              "chapterSource": "fixture chapter source 1"
+            },
+            {
+              "id": "english-c1-s2-b1-i2",
+              "type": "short",
+              "q": "Fixture question 22: answer in full sentences.",
+              "marks": 2,
+              "answer": "Fixture model answer 22.",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "Fixture point 1",
+                  "marks": 1
+                },
+                {
+                  "point": "Fixture point 2",
+                  "marks": 1
+                }
+              ],
+              "skill": "fixture",
+              "chapterSource": "fixture chapter source 2"
+            },
+            {
+              "id": "english-c1-s2-b1-i3",
+              "type": "short",
+              "q": "Fixture question 23: answer in full sentences.",
+              "marks": 2,
+              "answer": "Fixture model answer 23.",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "Fixture point 1",
+                  "marks": 1
+                },
+                {
+                  "point": "Fixture point 2",
+                  "marks": 1
+                }
+              ],
+              "skill": "fixture",
+              "chapterSource": "fixture chapter source 3"
+            },
+            {
+              "id": "english-c1-s2-b1-i4",
+              "type": "short",
+              "q": "Fixture question 24: answer in full sentences.",
+              "marks": 2,
+              "answer": "Fixture model answer 24.",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "Fixture point 1",
+                  "marks": 1
+                },
+                {
+                  "point": "Fixture point 2",
+                  "marks": 1
+                }
+              ],
+              "skill": "fixture",
+              "chapterSource": "fixture chapter source 4"
+            },
+            {
+              "id": "english-c1-s2-b1-i5",
+              "type": "short",
+              "q": "Fixture question 25: answer in full sentences.",
+              "marks": 2,
+              "answer": "Fixture model answer 25.",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "Fixture point 1",
+                  "marks": 1
+                },
+                {
+                  "point": "Fixture point 2",
+                  "marks": 1
+                }
+              ],
+              "skill": "fixture",
+              "chapterSource": "fixture chapter source 5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Creative Writing",
+      "marks": 20,
+      "blocks": [
+        {
+          "num": "Q.4",
+          "instruction": "Write five sentences about a team you know. OR write about a game you played.",
+          "items": [
+            {
+              "id": "english-c1-s3-b1-i1",
+              "type": "long",
+              "q": "Fixture task 26: write in full sentences.",
+              "marks": 5,
+              "answer": "A clear, well-written response covering the task, item 26.",
+              "difficulty": "hard",
+              "markingGuide": "Award 1 mark for each of 5 clear points in full sentences. Deduct 1 for more than three spelling errors. Maximum 5.",
+              "answerPoints": [
+                {
+                  "point": "Fixture point 1",
+                  "marks": 1
+                },
+                {
+                  "point": "Fixture point 2",
+                  "marks": 1
+                },
+                {
+                  "point": "Fixture point 3",
+                  "marks": 1
+                },
+                {
+                  "point": "Fixture point 4",
+                  "marks": 1
+                },
+                {
+                  "point": "Fixture point 5",
+                  "marks": 1
+                }
+              ],
+              "skill": "fixture",
+              "chapterSource": "fixture chapter source 1"
+            }
+          ]
+        },
+        {
+          "num": "Q.5",
+          "instruction": "Complete the paragraph about your favourite festival.",
+          "items": [
+            {
+              "id": "english-c1-s3-b2-i1",
+              "type": "long",
+              "q": "Fixture task 27: write in full sentences.",
+              "marks": 5,
+              "answer": "A clear, well-written response covering the task, item 27.",
+              "difficulty": "hard",
+              "markingGuide": "Award 1 mark for each of 5 clear points in full sentences. Deduct 1 for more than three spelling errors. Maximum 5.",
+              "answerPoints": [
+                {
+                  "point": "Fixture point 1",
+                  "marks": 1
+                },
+                {
+                  "point": "Fixture point 2",
+                  "marks": 1
+                },
+                {
+                  "point": "Fixture point 3",
+                  "marks": 1
+                },
+                {
+                  "point": "Fixture point 4",
+                  "marks": 1
+                },
+                {
+                  "point": "Fixture point 5",
+                  "marks": 1
+                }
+              ],
+              "skill": "fixture",
+              "chapterSource": "fixture chapter source 1"
+            }
+          ]
+        },
+        {
+          "num": "Q.6",
+          "instruction": "Write what will happen next.",
+          "items": [
+            {
+              "id": "english-c1-s3-b3-i1",
+              "type": "long",
+              "q": "Fixture task 28: write in full sentences.",
+              "marks": 5,
+              "answer": "A clear, well-written response covering the task, item 28.",
+              "difficulty": "hard",
+              "markingGuide": "Award 1 mark for each of 5 clear points in full sentences. Deduct 1 for more than three spelling errors. Maximum 5.",
+              "answerPoints": [
+                {
+                  "point": "Fixture point 1",
+                  "marks": 1
+                },
+                {
+                  "point": "Fixture point 2",
+                  "marks": 1
+                },
+                {
+                  "point": "Fixture point 3",
+                  "marks": 1
+                },
+                {
+                  "point": "Fixture point 4",
+                  "marks": 1
+                },
+                {
+                  "point": "Fixture point 5",
+                  "marks": 1
+                }
+              ],
+              "skill": "fixture",
+              "chapterSource": "fixture chapter source 1"
+            }
+          ]
+        },
+        {
+          "num": "Q.7",
+          "instruction": "Make a sentence with each word.",
+          "items": [
+            {
+              "id": "english-c1-s3-b4-i1",
+              "type": "short",
+              "q": "Fixture question 29: answer in full sentences.",
+              "marks": 1,
+              "answer": "Fixture model answer 29.",
+              "difficulty": "medium",
+              "skill": "fixture",
+              "markingGuide": "Complete sentence with a capital letter and a full stop, using the word correctly — 1; otherwise — 0.",
+              "chapterSource": "fixture chapter source 1"
+            },
+            {
+              "id": "english-c1-s3-b4-i2",
+              "type": "short",
+              "q": "Fixture question 30: answer in full sentences.",
+              "marks": 1,
+              "answer": "Fixture model answer 30.",
+              "difficulty": "medium",
+              "skill": "fixture",
+              "markingGuide": "Complete sentence with a capital letter and a full stop, using the word correctly — 1; otherwise — 0.",
+              "chapterSource": "fixture chapter source 2"
+            },
+            {
+              "id": "english-c1-s3-b4-i3",
+              "type": "short",
+              "q": "Fixture question 31: answer in full sentences.",
+              "marks": 1,
+              "answer": "Fixture model answer 31.",
+              "difficulty": "medium",
+              "skill": "fixture",
+              "markingGuide": "Complete sentence with a capital letter and a full stop, using the word correctly — 1; otherwise — 0.",
+              "chapterSource": "fixture chapter source 3"
+            },
+            {
+              "id": "english-c1-s3-b4-i4",
+              "type": "short",
+              "q": "Fixture question 32: answer in full sentences.",
+              "marks": 1,
+              "answer": "Fixture model answer 32.",
+              "difficulty": "medium",
+              "skill": "fixture",
+              "markingGuide": "Complete sentence with a capital letter and a full stop, using the word correctly — 1; otherwise — 0.",
+              "chapterSource": "fixture chapter source 4"
+            },
+            {
+              "id": "english-c1-s3-b4-i5",
+              "type": "short",
+              "q": "Fixture question 33: answer in full sentences.",
+              "marks": 1,
+              "answer": "Fixture model answer 33.",
+              "difficulty": "hard",
+              "skill": "fixture",
+              "markingGuide": "Complete sentence with a capital letter and a full stop, using the word correctly — 1; otherwise — 0.",
+              "chapterSource": "fixture chapter source 5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Grammar",
+      "marks": 20,
+      "blocks": [
+        {
+          "num": "Q.8",
+          "instruction": "Fill in the blanks.",
+          "items": [
+            {
+              "id": "english-c1-s4-b1-i1",
+              "type": "fill-blank",
+              "q": "Fixture sentence 34 has a _____ here.",
+              "marks": 1,
+              "answer": "gap",
+              "difficulty": "easy",
+              "blanks": 1,
+              "acceptable": [
+                "gap",
+                "space"
+              ],
+              "skill": "fixture",
+              "chapterSource": "fixture chapter source 1"
+            },
+            {
+              "id": "english-c1-s4-b1-i2",
+              "type": "fill-blank",
+              "q": "Fixture sentence 35 has a _____ here.",
+              "marks": 1,
+              "answer": "gap",
+              "difficulty": "easy",
+              "blanks": 1,
+              "acceptable": [
+                "gap",
+                "space"
+              ],
+              "skill": "fixture",
+              "chapterSource": "fixture chapter source 2"
+            },
+            {
+              "id": "english-c1-s4-b1-i3",
+              "type": "fill-blank",
+              "q": "Fixture sentence 36 has a _____ here.",
+              "marks": 1,
+              "answer": "gap",
+              "difficulty": "easy",
+              "blanks": 1,
+              "acceptable": [
+                "gap",
+                "space"
+              ],
+              "skill": "fixture",
+              "chapterSource": "fixture chapter source 3"
+            },
+            {
+              "id": "english-c1-s4-b1-i4",
+              "type": "fill-blank",
+              "q": "Fixture sentence 37 has a _____ here.",
+              "marks": 1,
+              "answer": "gap",
+              "difficulty": "medium",
+              "blanks": 1,
+              "acceptable": [
+                "gap",
+                "space"
+              ],
+              "skill": "fixture",
+              "chapterSource": "fixture chapter source 4"
+            },
+            {
+              "id": "english-c1-s4-b1-i5",
+              "type": "fill-blank",
+              "q": "Fixture sentence 38 has a _____ here.",
+              "marks": 1,
+              "answer": "gap",
+              "difficulty": "medium",
+              "blanks": 1,
+              "acceptable": [
+                "gap",
+                "space"
+              ],
+              "skill": "fixture",
+              "chapterSource": "fixture chapter source 5"
+            },
+            {
+              "id": "english-c1-s4-b1-i6",
+              "type": "fill-blank",
+              "q": "Fixture sentence 39 has a _____ here.",
+              "marks": 1,
+              "answer": "gap",
+              "difficulty": "hard",
+              "blanks": 1,
+              "acceptable": [
+                "gap",
+                "space"
+              ],
+              "skill": "fixture",
+              "chapterSource": "fixture chapter source 6"
+            }
+          ]
+        },
+        {
+          "num": "Q.9",
+          "instruction": "Rewrite the sentences as directed.",
+          "items": [
+            {
+              "id": "english-c1-s4-b2-i1",
+              "type": "short",
+              "q": "Fixture question 40: answer in full sentences.",
+              "marks": 2,
+              "answer": "Fixture model answer 40.",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "Fixture point 1",
+                  "marks": 1
+                },
+                {
+                  "point": "Fixture point 2",
+                  "marks": 1
+                }
+              ],
+              "skill": "fixture",
+              "chapterSource": "fixture chapter source 1"
+            },
+            {
+              "id": "english-c1-s4-b2-i2",
+              "type": "short",
+              "q": "Fixture question 41: answer in full sentences.",
+              "marks": 2,
+              "answer": "Fixture model answer 41.",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "Fixture point 1",
+                  "marks": 1
+                },
+                {
+                  "point": "Fixture point 2",
+                  "marks": 1
+                }
+              ],
+              "skill": "fixture",
+              "chapterSource": "fixture chapter source 2"
+            },
+            {
+              "id": "english-c1-s4-b2-i3",
+              "type": "short",
+              "q": "Fixture question 42: answer in full sentences.",
+              "marks": 2,
+              "answer": "Fixture model answer 42.",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "Fixture point 1",
+                  "marks": 1
+                },
+                {
+                  "point": "Fixture point 2",
+                  "marks": 1
+                }
+              ],
+              "skill": "fixture",
+              "chapterSource": "fixture chapter source 3"
+            }
+          ]
+        },
+        {
+          "num": "Q.10",
+          "instruction": "Write four sentences using the rule.",
+          "items": [
+            {
+              "id": "english-c1-s4-b3-i1",
+              "type": "short",
+              "q": "Fixture question 43: answer in full sentences.",
+              "marks": 4,
+              "answer": "Fixture model answer 43.",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "Fixture point 1",
+                  "marks": 1
+                },
+                {
+                  "point": "Fixture point 2",
+                  "marks": 1
+                },
+                {
+                  "point": "Fixture point 3",
+                  "marks": 1
+                },
+                {
+                  "point": "Fixture point 4",
+                  "marks": 1
+                }
+              ],
+              "skill": "fixture",
+              "chapterSource": "fixture chapter source 1"
+            },
+            {
+              "id": "english-c1-s4-b3-i2",
+              "type": "short",
+              "q": "Fixture question 44: answer in full sentences.",
+              "marks": 4,
+              "answer": "Fixture model answer 44.",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "Fixture point 1",
+                  "marks": 1
+                },
+                {
+                  "point": "Fixture point 2",
+                  "marks": 1
+                },
+                {
+                  "point": "Fixture point 3",
+                  "marks": 1
+                },
+                {
+                  "point": "Fixture point 4",
+                  "marks": 1
+                }
+              ],
+              "skill": "fixture",
+              "chapterSource": "fixture chapter source 2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "E",
+      "title": "Vocabulary",
+      "marks": 20,
+      "blocks": [
+        {
+          "num": "Q.11",
+          "instruction": "Match the words with their meanings.",
+          "items": [
+            {
+              "id": "english-c1-s5-b1-i1",
+              "type": "match",
+              "q": "Fixture question 45: match the words with their meanings.",
+              "marks": 5,
+              "answer": "Word 1-Meaning 1; Word 2-Meaning 2; Word 3-Meaning 3; Word 4-Meaning 4; Word 5-Meaning 5",
+              "difficulty": "medium",
+              "pairs": [
+                {
+                  "left": "Word 1",
+                  "right": "Meaning 1"
+                },
+                {
+                  "left": "Word 2",
+                  "right": "Meaning 2"
+                },
+                {
+                  "left": "Word 3",
+                  "right": "Meaning 3"
+                },
+                {
+                  "left": "Word 4",
+                  "right": "Meaning 4"
+                },
+                {
+                  "left": "Word 5",
+                  "right": "Meaning 5"
+                }
+              ],
+              "answerPoints": [
+                {
+                  "point": "Fixture point 1",
+                  "marks": 1
+                },
+                {
+                  "point": "Fixture point 2",
+                  "marks": 1
+                },
+                {
+                  "point": "Fixture point 3",
+                  "marks": 1
+                },
+                {
+                  "point": "Fixture point 4",
+                  "marks": 1
+                },
+                {
+                  "point": "Fixture point 5",
+                  "marks": 1
+                }
+              ],
+              "skill": "fixture",
+              "chapterSource": "fixture chapter source 1"
+            }
+          ]
+        },
+        {
+          "num": "Q.12",
+          "instruction": "Fill in the blanks with the words from the box.",
+          "items": [
+            {
+              "id": "english-c1-s5-b2-i1",
+              "type": "fill-blank",
+              "q": "Fixture sentence 46 has a _____ here.",
+              "marks": 1,
+              "answer": "gap",
+              "difficulty": "easy",
+              "blanks": 1,
+              "acceptable": [
+                "gap",
+                "space"
+              ],
+              "skill": "fixture",
+              "chapterSource": "fixture chapter source 1"
+            },
+            {
+              "id": "english-c1-s5-b2-i2",
+              "type": "fill-blank",
+              "q": "Fixture sentence 47 has a _____ here.",
+              "marks": 1,
+              "answer": "gap",
+              "difficulty": "easy",
+              "blanks": 1,
+              "acceptable": [
+                "gap",
+                "space"
+              ],
+              "skill": "fixture",
+              "chapterSource": "fixture chapter source 2"
+            },
+            {
+              "id": "english-c1-s5-b2-i3",
+              "type": "fill-blank",
+              "q": "Fixture sentence 48 has a _____ here.",
+              "marks": 1,
+              "answer": "gap",
+              "difficulty": "medium",
+              "blanks": 1,
+              "acceptable": [
+                "gap",
+                "space"
+              ],
+              "skill": "fixture",
+              "chapterSource": "fixture chapter source 3"
+            },
+            {
+              "id": "english-c1-s5-b2-i4",
+              "type": "fill-blank",
+              "q": "Fixture sentence 49 has a _____ here.",
+              "marks": 1,
+              "answer": "gap",
+              "difficulty": "medium",
+              "blanks": 1,
+              "acceptable": [
+                "gap",
+                "space"
+              ],
+              "skill": "fixture",
+              "chapterSource": "fixture chapter source 4"
+            }
+          ]
+        },
+        {
+          "num": "Q.13",
+          "instruction": "Answer in one line.",
+          "items": [
+            {
+              "id": "english-c1-s5-b3-i1",
+              "type": "short",
+              "q": "Fixture question 50: answer in full sentences.",
+              "marks": 2,
+              "answer": "Fixture model answer 50.",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "Fixture point 1",
+                  "marks": 1
+                },
+                {
+                  "point": "Fixture point 2",
+                  "marks": 1
+                }
+              ],
+              "skill": "fixture",
+              "chapterSource": "fixture chapter source 1"
+            },
+            {
+              "id": "english-c1-s5-b3-i2",
+              "type": "short",
+              "q": "Fixture question 51: answer in full sentences.",
+              "marks": 2,
+              "answer": "Fixture model answer 51.",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "Fixture point 1",
+                  "marks": 1
+                },
+                {
+                  "point": "Fixture point 2",
+                  "marks": 1
+                }
+              ],
+              "skill": "fixture",
+              "chapterSource": "fixture chapter source 2"
+            }
+          ]
+        },
+        {
+          "num": "Q.14",
+          "instruction": "Circle the correct spelling.",
+          "items": [
+            {
+              "id": "english-c1-s5-b4-i1",
+              "type": "mcq",
+              "q": "Fixture question 52: which option is correct?",
+              "marks": 2,
+              "answer": "Option one",
+              "difficulty": "easy",
+              "options": [
+                "Option one",
+                "Option two",
+                "Option three"
+              ],
+              "answerPoints": [
+                {
+                  "point": "Fixture point 1",
+                  "marks": 1
+                },
+                {
+                  "point": "Fixture point 2",
+                  "marks": 1
+                }
+              ],
+              "skill": "fixture",
+              "chapterSource": "fixture chapter source 1"
+            },
+            {
+              "id": "english-c1-s5-b4-i2",
+              "type": "mcq",
+              "q": "Fixture question 53: which option is correct?",
+              "marks": 2,
+              "answer": "Option one",
+              "difficulty": "hard",
+              "options": [
+                "Option one",
+                "Option two",
+                "Option three"
+              ],
+              "answerPoints": [
+                {
+                  "point": "Fixture point 1",
+                  "marks": 1
+                },
+                {
+                  "point": "Fixture point 2",
+                  "marks": 1
+                }
+              ],
+              "skill": "fixture",
+              "chapterSource": "fixture chapter source 2"
+            }
+          ]
+        },
+        {
+          "num": "Q.15",
+          "instruction": "Rearrange the jumbled letters to make three words.",
+          "items": [
+            {
+              "id": "english-c1-s5-b5-i1",
+              "type": "fill-blank",
+              "q": "Fixture sentence 54 has _____ and _____ and _____ here.",
+              "marks": 3,
+              "answer": [
+                "gap1",
+                "gap2",
+                "gap3"
+              ],
+              "difficulty": "hard",
+              "blanks": 3,
+              "acceptable": [
+                [
+                  "gap1",
+                  "gap1s"
+                ],
+                [
+                  "gap2",
+                  "gap2s"
+                ],
+                [
+                  "gap3",
+                  "gap3s"
+                ]
+              ],
+              "answerPoints": [
+                {
+                  "point": "Fixture point 1",
+                  "marks": 1
+                },
+                {
+                  "point": "Fixture point 2",
+                  "marks": 1
+                },
+                {
+                  "point": "Fixture point 3",
+                  "marks": 1
+                }
+              ],
+              "skill": "fixture",
+              "chapterSource": "fixture chapter source 1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

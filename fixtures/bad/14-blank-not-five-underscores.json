@@ -1,0 +1,15 @@
+{
+  "_note": "four underscores instead of exactly five",
+  "_base": "standard-ch2",
+  "_expect": [
+    "BLANK_LEN",
+    "FILL_BLANK_NO_BLANK"
+  ],
+  "ops": [
+    {
+      "op": "set",
+      "path": "sections/3/blocks/0/items/0/q",
+      "value": "Fixture sentence 1 has a ____ here."
+    }
+  ]
+}

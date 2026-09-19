@@ -1,0 +1,19 @@
+{
+  "_note": "answerPoints sum 1 but the item is worth 2; tests answerPoints arithmetic",
+  "_base": "standard-ch2",
+  "_expect": [
+    "ANSWER_POINTS_SUM"
+  ],
+  "ops": [
+    {
+      "op": "set",
+      "path": "sections/0/blocks/0/items/3/answerPoints",
+      "value": [
+        {
+          "point": "one",
+          "marks": 1
+        }
+      ]
+    }
+  ]
+}

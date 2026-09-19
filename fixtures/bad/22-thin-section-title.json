@@ -1,0 +1,14 @@
+{
+  "_note": "thin paper: Section E renamed Spelling",
+  "_base": "thin-ch1",
+  "_expect": [
+    "SECTION_PROFILE"
+  ],
+  "ops": [
+    {
+      "op": "set",
+      "path": "sections/4/title",
+      "value": "Spelling"
+    }
+  ]
+}

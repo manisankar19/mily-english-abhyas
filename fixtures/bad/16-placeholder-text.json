@@ -1,0 +1,14 @@
+{
+  "_note": "placeholder text",
+  "_base": "standard-ch2",
+  "_expect": [
+    "PLACEHOLDER"
+  ],
+  "ops": [
+    {
+      "op": "set",
+      "path": "sections/1/blocks/1/items/0/q",
+      "value": "TODO write this question"
+    }
+  ]
+}

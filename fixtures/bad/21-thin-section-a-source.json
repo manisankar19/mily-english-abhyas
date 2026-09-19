@@ -1,0 +1,14 @@
+{
+  "_note": "thin paper: a Section A item must say original-A1 or original-A2",
+  "_base": "thin-ch1",
+  "_expect": [
+    "CHAPTER_SOURCE"
+  ],
+  "ops": [
+    {
+      "op": "set",
+      "path": "sections/0/blocks/0/items/0/chapterSource",
+      "value": "Let us Read"
+    }
+  ]
+}

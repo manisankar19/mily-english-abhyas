@@ -1,0 +1,13 @@
+{
+  "_note": "fill-blank without an acceptable list",
+  "_base": "standard-ch2",
+  "_expect": [
+    "ACCEPTABLE_MISSING"
+  ],
+  "ops": [
+    {
+      "op": "delete",
+      "path": "sections/3/blocks/0/items/0/acceptable"
+    }
+  ]
+}

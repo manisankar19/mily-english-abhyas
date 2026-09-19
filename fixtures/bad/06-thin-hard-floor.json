@@ -1,0 +1,15 @@
+{
+  "_note": "thin paper: 6 of 21 hard items demoted, leaving 15/54 = 28 % < 35 %",
+  "_base": "thin-ch1",
+  "_expect": [
+    "HARD_FLOOR"
+  ],
+  "ops": [
+    {
+      "op": "setDifficulty",
+      "from": "hard",
+      "to": "medium",
+      "count": 6
+    }
+  ]
+}

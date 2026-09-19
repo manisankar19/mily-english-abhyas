@@ -1,0 +1,14 @@
+{
+  "_note": "a passage stimulus marked original:false (unseen passages must be original)",
+  "_base": "standard-ch2",
+  "_expect": [
+    "ORIGINAL_REQUIRED"
+  ],
+  "ops": [
+    {
+      "op": "set",
+      "path": "sections/0/blocks/0/stimulus/original",
+      "value": false
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "_note": "thin paper: 31 of 54 items hard = 57 % > 50 %",
+  "_base": "thin-ch1",
+  "_expect": [
+    "HARD_CAP"
+  ],
+  "ops": [
+    {
+      "op": "setDifficulty",
+      "from": "medium",
+      "to": "hard",
+      "count": 10
+    }
+  ]
+}
