@@ -515,6 +515,20 @@ ul.ans-points,ol.ans-points{padding-top:8px}
   margin-top:10px; padding-top:8px; border-top:1px dashed var(--good-line);
   font-size:15px; white-space:pre-wrap; color:var(--good-ink);
 }
+/* English: "Also accept" (fill-blank / one-word) and the true pairs (match) */
+.ans-accept,.ans-pairs{
+  margin-top:10px; padding-top:8px; border-top:1px dashed var(--good-line);
+  font-size:16px; color:var(--good-ink); overflow-wrap:anywhere;
+}
+.ans-accept > b,.ans-pairs > b,.ans-points > b,.ans-guide > b{
+  display:block; font-size:12.5px; font-weight:700; letter-spacing:.05em; text-transform:uppercase; margin-bottom:2px;
+}
+.ans-accept ul,.ans-pairs ol{margin:0; padding:0 0 0 1.4em}
+.ans-accept ul{list-style:disc}
+.ans-pairs ol{list-style:decimal}
+.ans-accept li,.ans-pairs li{padding:2px 0; min-width:0}
+.ans-accept li::marker,.ans-pairs li::marker{color:var(--good)}
+.answer,.ans-text,.ans-points,.ans-guide{overflow-wrap:anywhere}
 
 .marks-row{display:flex; align-items:center; gap:6px 8px; flex-wrap:wrap}
 .marks-row > span{font-size:14px; font-weight:600; color:var(--ink-soft); margin-right:2px}
@@ -669,7 +683,8 @@ ul.ans-points,ol.ans-points{padding-top:8px}
   .rc-score small{font-size:22px}
   .rc-table{font-size:14.5px}
   .rc-table th,.rc-table td{padding:8px 4px}
-  .rc-table td{overflow-wrap:break-word}
+  .rc-table td{overflow-wrap:anywhere}
+  .rc-table td:nth-child(2){width:100%}
   .rc-actions > *{flex:1 1 100%}
 }
 
@@ -785,7 +800,7 @@ ol.options > li,.match-left li,.match-right li{overflow-wrap:anywhere}
 .stimulus-copy{border-left-style:double; border-left-width:6px}
 
 /* the generic body for a type the papers do not use */
-.item-generic{font-size:14px; color:var(--muted)}
+.item-generic{font-size:16px; color:var(--ink-soft)}
 
 @media (max-width:520px){
   .stimulus-passage,.stimulus-poem{padding:12px 12px; font-size:16.5px}
@@ -796,4 +811,11 @@ ol.options > li,.match-left li,.match-right li{overflow-wrap:anywhere}
   .stimulus-poem,.stimulus-copy{break-inside:avoid; page-break-inside:avoid}
   .item.type-handwriting{padding-bottom:6cm}
   .item.type-long{padding-bottom:5cm}
+  /* copy text: kept whole, with ruled-free room to write the copy under it */
+  .stimulus-copy{margin-bottom:1.5cm}
+  /* belt and braces: checking-mode panels never print, whichever mode is on */
+  .answer,.answer *,.ans-accept,.ans-pairs,.ans-tag,.ans-text,.ans-points,.ans-guide,
+  .stimulus-caption,.item-tools,.marks-row,.mk,.mk-clear,.ans-btn,dialog{display:none !important}
+  dialog::backdrop{display:none !important}
+  .figure-scroll svg,.stimulus-figure svg{background:#fff !important; color:#000 !important}
 }

@@ -72,9 +72,10 @@ rather than ≤ 10 five-minute tasks. Testing and security are in this sprint be
   - Acceptance: `0…marks` buttons per item stored by id per paper; score bar and checked count; clear marks; result table from `paper.sections` (code, stored title, obtained/marks, unmarked), total, percentage (1 dp, `.0` dropped), bands 90/75/60/40, unmarked warning; nothing hard-coded to 7 sections or 100.
   - Files: app/app.js
 
-- [ ] Task 10: `styles.css` — checking UI, result, print (agent `shell`) (P0)
+- [x] Task 10: `styles.css` — checking UI, result, print (agent `shell`) (P0)
   - Acceptance: styles for panels, marks rows, score bar, result; print hides banner, dialog, marking UI, panels and captions, keeps poems and copy text unbroken with writing room; dark-mode figures legible via `currentColor`.
   - Files: app/styles.css
+  - Completed: 2026-09-19 — `shell` sub-agent (+24/−2 lines, reviewed by the coordinator): `.ans-accept`/`.ans-pairs` styles, shared small-caps labels, `overflow-wrap:anywhere` on answer parts and result cells, `.item-generic` raised to 16 px, print rules hiding every checking-mode class (and `dialog`) in any mode, room under copy text, figures black on white in print. Agent verified on a static contract fixture (outside the repo): no overflow at 390 px light/dark, `pdftotext` of print shows questions/poem/copy text and none of the answer/caption/marking text. Real-paper print (check 23) is verified at Task 16.
 
 - [ ] Task 11: Coordinator check and batch-2 commit (P0)
   - Acceptance: in Chromium with a throwaway hash: gate cases, reveal/hide on one item of each type in use, full marks = 100 on Ch 1 and one seven-section paper, print preview free of answers; content diff empty; commit "v2 batch 2: Tasks 7–11".
