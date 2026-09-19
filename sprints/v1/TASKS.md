@@ -209,7 +209,7 @@ record in the walkthrough, continue.
     `chapterSource` checks pass; coordinator hand-audits 10 `hard` tags; F1 viewed at 2×.
   - Files: `app/data/english-ch1.json`, `app/assets/english-ch1-map.svg`
 
-- [ ] Task 6: Chapter 2 paper — The Tinkling Bells (P0) — one sub-agent; standard profile
+- [x] Task 6: Chapter 2 paper — The Tinkling Bells (P0) — one sub-agent; standard profile
   - Follow **Protocol P**. Standard seven sections 25/13/12/19/13/12/6, 58 items, 40/40/20.
   - Content: A1 original unseen passage, a boy finds a neighbour's cricket ball and returns it (~130
     words); A2 original ~70-word text on three kites (comparison). D: comparative and superlative
@@ -217,6 +217,18 @@ record in the walkthrough, continue.
     story's plot beats with new names in A-section texts. No figure.
   - Acceptance: Protocol P; sections `[25,13,12,19,13,12,6]`.
   - Files: `app/data/english-ch2.json`
+  - Completed: 2026-09-19 — one sub-agent wrote the file; the coordinator re-ran everything. 58 items, 100
+    marks, sections `[25,13,12,19,13,12,6]`; difficulty 24/22/12 (41/38/21 %). `validate.js` PASS;
+    `readability.py` exit 0 (A1 141 words avg 8.3 max 14; A2 68 words avg 6.8 max 10; copy texts 21 and 25
+    words; 0 stems flagged; no long words); `similarity.py` (shingle + semantic) exit 0, **0 shingle failures**;
+    semantic pass listed 8 pairs, all judged **generic instruction lines** with no content overlap ("Circle the
+    correct spelling." ×6 and "Write the passage in neat handwriting." ×2 against the same generic wording in
+    the samples; the phrases are allow-listed for the shingle pass). Coordinator read all 58 items: one
+    defensible answer each; grammar limited to regular *-er/-est* (no doubling, y→i, irregulars, "more/most");
+    A1 shares none of the chapter's beats. No figure. Notes carried forward: the E1 `match` pairs are stored
+    in answer order, so **v2's renderer must shuffle the right-hand column** (Maths used a deterministic
+    derangement); E1 *hide–show* is the most arguable opposite but is unique within its 5-pair match; open
+    opinion items (A1 Q4, B2-5, C2) rest on rubrics.
 
 - [ ] Task 7: Chapter 3 paper — Be Smart, Be Safe (P0) — one sub-agent; standard profile
   - Follow **Protocol P**. Standard profile.

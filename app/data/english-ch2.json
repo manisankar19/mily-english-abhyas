@@ -1,0 +1,1182 @@
+{
+  "schemaVersion": "2.0",
+  "subject": "english",
+  "subjectDisplay": "English",
+  "grade": 4,
+  "chapter": 2,
+  "locale": "en",
+  "numerals": "latn",
+  "title": "The Tinkling Bells",
+  "subtitle": "English — Class 4 — Chapter 2",
+  "sourceRef": "Santoor Grade 4, Ch. 2",
+  "totalMarks": 100,
+  "durationMinutes": 120,
+  "sections": [
+    {
+      "code": "A",
+      "title": "Reading",
+      "marks": 25,
+      "blocks": [
+        {
+          "num": "Q.1",
+          "instruction": "Read the passage and answer the questions. Write True or False for the true-false questions.",
+          "stimulus": {
+            "kind": "passage",
+            "text": "Tarun plays cricket in the lane behind his house. One evening, his tennis ball rolled under a thorny hedge. He crawled in to get it. There, next to the ball, he found a red cricket ball. It was hard and new. The name Sameer was painted on it in white.\n\nTarun knew Sameer. He lived in the yellow house at the end of the lane. Tarun wanted to keep the ball. His own ball was old and worn, and nobody had seen him find it. But he thought of Sameer, looking for it under every bush.\n\nSo Tarun walked to the yellow house and knocked on the door. Sameer opened it. “My ball!” he cried. “I have looked for it for three days!” Tarun smiled and gave it to him. Then the two boys went to the lane and played together.",
+            "original": true
+          },
+          "items": [
+            {
+              "type": "mcq",
+              "q": "Where does Tarun play cricket?",
+              "marks": 1,
+              "answer": "in the lane behind his house",
+              "difficulty": "easy",
+              "options": [
+                "in the lane behind his house",
+                "in a big stadium",
+                "on the school roof"
+              ],
+              "id": "english-c2-s1-b1-i1"
+            },
+            {
+              "type": "mcq",
+              "q": "Why did Tarun crawl under the hedge?",
+              "marks": 1,
+              "answer": "to get his tennis ball",
+              "difficulty": "easy",
+              "options": [
+                "to get his tennis ball",
+                "to look for Sameer",
+                "to pick some thorns"
+              ],
+              "id": "english-c2-s1-b1-i2"
+            },
+            {
+              "type": "mcq",
+              "q": "Where did Sameer live?",
+              "marks": 1,
+              "answer": "in the yellow house at the end of the lane",
+              "difficulty": "medium",
+              "options": [
+                "in the yellow house at the end of the lane",
+                "in a blue house near the park",
+                "in a house behind the school"
+              ],
+              "id": "english-c2-s1-b1-i3"
+            },
+            {
+              "type": "short",
+              "q": "Tarun wanted to keep the red cricket ball. Write two things from the passage that made him want to keep it.",
+              "marks": 2,
+              "answer": "Any two of: his own ball was old and worn (1); nobody had seen him find the red ball (1); the red ball was hard and new (1). Two points — 2 marks.",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "First correct reason from the passage, for example his own ball was old and worn",
+                  "marks": 1
+                },
+                {
+                  "point": "Second correct reason from the passage, for example nobody had seen him find it, or the red ball was hard and new",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "Any two different reasons from the passage — 2; one reason — 1; a reason not in the passage — 0. Do not deduct for spelling in this question.",
+              "id": "english-c2-s1-b1-i4"
+            },
+            {
+              "type": "short",
+              "q": "What did Sameer say when he saw his ball? For how many days had he been looking for it?",
+              "marks": 2,
+              "answer": "He said, “My ball!” (1 mark). He had been looking for it for three days (1 mark).",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "Sameer said, “My ball!”",
+                  "marks": 1
+                },
+                {
+                  "point": "He had looked for it for three days",
+                  "marks": 1
+                }
+              ],
+              "id": "english-c2-s1-b1-i5"
+            },
+            {
+              "type": "true-false",
+              "q": "The name Sameer was painted on the red ball.",
+              "marks": 1,
+              "answer": "True",
+              "difficulty": "easy",
+              "id": "english-c2-s1-b1-i6"
+            },
+            {
+              "type": "true-false",
+              "q": "Tarun kept the red ball and told no one.",
+              "marks": 1,
+              "answer": "False. He took it to Sameer’s house and gave it back.",
+              "difficulty": "medium",
+              "id": "english-c2-s1-b1-i7"
+            },
+            {
+              "type": "one-word",
+              "q": "What colour was the cricket ball that Tarun found?",
+              "marks": 1,
+              "answer": "red",
+              "difficulty": "easy",
+              "acceptable": [
+                "red"
+              ],
+              "id": "english-c2-s1-b1-i8"
+            },
+            {
+              "type": "one-word",
+              "q": "What colour was the house where Sameer lived?",
+              "marks": 1,
+              "answer": "yellow",
+              "difficulty": "easy",
+              "acceptable": [
+                "yellow"
+              ],
+              "id": "english-c2-s1-b1-i9"
+            },
+            {
+              "type": "one-word",
+              "q": "Whose name was painted on the ball?",
+              "marks": 1,
+              "answer": "Sameer",
+              "difficulty": "easy",
+              "acceptable": [
+                "Sameer",
+                "sameer"
+              ],
+              "id": "english-c2-s1-b1-i10"
+            },
+            {
+              "type": "one-word",
+              "q": "What did Tarun knock on?",
+              "marks": 1,
+              "answer": "the door",
+              "difficulty": "medium",
+              "acceptable": [
+                "the door",
+                "door",
+                "Sameer’s door",
+                "the door of the yellow house"
+              ],
+              "id": "english-c2-s1-b1-i11"
+            }
+          ]
+        },
+        {
+          "num": "Q.2",
+          "instruction": "Read the text and answer the questions. Write True or False for the true-false questions.",
+          "stimulus": {
+            "kind": "passage",
+            "text": "On Sunday, three kites flew over the field. Meera’s red kite was high. Zoya’s green kite was higher than Meera’s kite. Kabir’s yellow kite was the highest of all. It looked the smallest from the ground. Meera’s tail was short. Zoya’s tail was longer than Meera’s tail. Kabir’s tail was the longest. The children ran, clapped and cheered. Then the wind grew slow, and the kites came down.",
+            "original": true
+          },
+          "items": [
+            {
+              "type": "short",
+              "q": "Whose kite flew higher, Meera’s or Zoya’s? Answer in one full sentence. Use the word than.",
+              "marks": 2,
+              "answer": "Zoya’s kite flew higher than Meera’s kite. (1 mark for Zoya; 1 mark for a full sentence with than.)",
+              "difficulty": "easy",
+              "answerPoints": [
+                {
+                  "point": "Names Zoya’s kite",
+                  "marks": 1
+                },
+                {
+                  "point": "Writes a full sentence that uses higher and than",
+                  "marks": 1
+                }
+              ],
+              "id": "english-c2-s1-b2-i1"
+            },
+            {
+              "type": "short",
+              "q": "Compare Meera’s tail and Kabir’s tail. Write one sentence. Use an -er word and than.",
+              "marks": 2,
+              "answer": "Kabir’s tail was longer than Meera’s tail. (Also accept: Meera’s tail was shorter than Kabir’s tail.) 1 mark for the correct -er word (longer or shorter); 1 mark for than with the two names in the right order.",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "Uses longer (or shorter) correctly",
+                  "marks": 1
+                },
+                {
+                  "point": "Uses than with the two names in the right order",
+                  "marks": 1
+                }
+              ],
+              "id": "english-c2-s1-b2-i2"
+            },
+            {
+              "type": "short",
+              "q": "What happened to the wind at the end? What happened to the kites?",
+              "marks": 2,
+              "answer": "The wind grew slow (1 mark). The kites came down (1 mark).",
+              "difficulty": "easy",
+              "answerPoints": [
+                {
+                  "point": "The wind grew slow",
+                  "marks": 1
+                },
+                {
+                  "point": "The kites came down",
+                  "marks": 1
+                }
+              ],
+              "id": "english-c2-s1-b2-i3"
+            },
+            {
+              "type": "fill-blank",
+              "q": "The _____ kite was the highest of all.",
+              "marks": 1,
+              "answer": "yellow",
+              "difficulty": "easy",
+              "acceptable": [
+                "yellow"
+              ],
+              "id": "english-c2-s1-b2-i4"
+            },
+            {
+              "type": "fill-blank",
+              "q": "Zoya’s tail was _____ than Meera’s tail.",
+              "marks": 1,
+              "answer": "longer",
+              "difficulty": "medium",
+              "acceptable": [
+                "longer"
+              ],
+              "id": "english-c2-s1-b2-i5"
+            },
+            {
+              "type": "fill-blank",
+              "q": "On Sunday, three kites flew over the _____.",
+              "marks": 1,
+              "answer": "field",
+              "difficulty": "easy",
+              "acceptable": [
+                "field",
+                "the field"
+              ],
+              "id": "english-c2-s1-b2-i6"
+            },
+            {
+              "type": "true-false",
+              "q": "Kabir’s kite was the lowest kite.",
+              "marks": 1,
+              "answer": "False. It was the highest kite.",
+              "difficulty": "easy",
+              "id": "english-c2-s1-b2-i7"
+            },
+            {
+              "type": "true-false",
+              "q": "Kabir’s tail was the longest.",
+              "marks": 1,
+              "answer": "True",
+              "difficulty": "easy",
+              "id": "english-c2-s1-b2-i8"
+            },
+            {
+              "type": "mcq",
+              "q": "Which kite looked the smallest from the ground?",
+              "marks": 1,
+              "answer": "Kabir’s yellow kite",
+              "difficulty": "medium",
+              "options": [
+                "Meera’s red kite",
+                "Zoya’s green kite",
+                "Kabir’s yellow kite"
+              ],
+              "id": "english-c2-s1-b2-i9"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Textual Questions",
+      "marks": 13,
+      "blocks": [
+        {
+          "num": "Q.3",
+          "instruction": "Who said it? Answer in one word or name.",
+          "items": [
+            {
+              "type": "one-word",
+              "q": "Who said, “It is stealing”?",
+              "marks": 1,
+              "answer": "Kamala",
+              "difficulty": "easy",
+              "acceptable": [
+                "Kamala",
+                "Kamla",
+                "Chinna’s mother",
+                "Chinna’s mom",
+                "his mother",
+                "the mother",
+                "mother",
+                "Amma"
+              ],
+              "id": "english-c2-s2-b1-i1"
+            },
+            {
+              "type": "one-word",
+              "q": "Who said, “You are an honest boy”?",
+              "marks": 1,
+              "answer": "the fruit seller",
+              "difficulty": "easy",
+              "acceptable": [
+                "the fruit seller",
+                "fruit seller",
+                "the seller",
+                "seller"
+              ],
+              "id": "english-c2-s2-b1-i2"
+            },
+            {
+              "type": "one-word",
+              "q": "Who gave Chinna the money that went missing?",
+              "marks": 1,
+              "answer": "Dadaji",
+              "difficulty": "medium",
+              "acceptable": [
+                "Dadaji",
+                "his grandfather",
+                "grandfather",
+                "Chinna’s grandfather",
+                "Dada"
+              ],
+              "id": "english-c2-s2-b1-i3"
+            }
+          ]
+        },
+        {
+          "num": "Q.4",
+          "instruction": "Answer the following questions.",
+          "items": [
+            {
+              "type": "short",
+              "q": "Why did Chinna give the tinkling bells back to Chacha and walk home feeling sad?",
+              "marks": 2,
+              "answer": "He searched his pockets and could not find his money (1 mark), so he had nothing to pay Chacha for the bells (1 mark).",
+              "difficulty": "easy",
+              "answerPoints": [
+                {
+                  "point": "His money was missing",
+                  "marks": 1
+                },
+                {
+                  "point": "He could not pay for the bells",
+                  "marks": 1
+                }
+              ],
+              "id": "english-c2-s2-b2-i1"
+            },
+            {
+              "type": "short",
+              "q": "What did Kamala do to make Chinna feel better?",
+              "marks": 2,
+              "answer": "Any two: she laid her hands softly on his shoulders / wiped his tears (1 mark); she spoke gently, said sorry, told him not to cry or promised to give him money for the bells (1 mark).",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "One kind thing she did, for example laid her hands on his shoulders or wiped his tears",
+                  "marks": 1
+                },
+                {
+                  "point": "One kind thing she said, for example told him not to cry or promised him money for the bells",
+                  "marks": 1
+                }
+              ],
+              "id": "english-c2-s2-b2-i2"
+            },
+            {
+              "type": "short",
+              "q": "The fruit seller made a mistake. What was it? What did Chinna do about it in the end?",
+              "marks": 2,
+              "answer": "The fruit seller gave Chinna ten rupees extra as change (1 mark). Chinna ran back and returned the extra money (1 mark).",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "The fruit seller gave ten rupees extra",
+                  "marks": 1
+                },
+                {
+                  "point": "Chinna returned the extra money",
+                  "marks": 1
+                }
+              ],
+              "id": "english-c2-s2-b2-i3"
+            },
+            {
+              "type": "short",
+              "q": "What did Kamala ask Chinna about his lost money? What did she say the fruit seller would feel?",
+              "marks": 2,
+              "answer": "She asked how he felt when his money went missing (1 mark). She said the fruit seller would feel the same, sad and angry, when he learnt of the mistake (1 mark).",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "She asked how he felt when his money went missing",
+                  "marks": 1
+                },
+                {
+                  "point": "The fruit seller would feel the same way (sad and angry)",
+                  "marks": 1
+                }
+              ],
+              "id": "english-c2-s2-b2-i4"
+            },
+            {
+              "type": "short",
+              "q": "What would you do if you found a pencil box on the school playground? Write two sentences.",
+              "marks": 2,
+              "answer": "Model answer: I would take the pencil box to my teacher. I would feel happy because its owner would get it back. (1 mark for what you would do; 1 mark for how you would feel or why.)",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "A clear sentence saying what the child would do",
+                  "marks": 1
+                },
+                {
+                  "point": "A second sentence saying how the child would feel or why",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "Any sensible, honest answer in two full sentences: what I would do — 1; how I would feel or why — 1. Maximum 2. Answers are the child’s own opinion; mark the writing, not the choice.",
+              "id": "english-c2-s2-b2-i5"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Creative Writing",
+      "marks": 12,
+      "blocks": [
+        {
+          "num": "Q.5",
+          "instruction": "Write five sentences about the national flag of India. OR write five sentences about the peacock, our national bird.",
+          "items": [
+            {
+              "type": "long",
+              "q": "Write five sentences about the national flag of India. OR write five sentences about the peacock, our national bird.",
+              "marks": 5,
+              "answer": "Flag model: India’s national flag is called the Tiranga. It has three colours: saffron, white and green. The saffron band is at the top and the green band is at the bottom. A blue wheel called the Ashoka Chakra is in the middle of the white band. We hoist the flag on Republic Day and on Independence Day. Peacock model: The peacock is India’s national bird. It has a shiny blue neck. Its long tail is full of bright feathers. It spreads its tail like a fan and dances when the rain comes. Many children love to look at it.",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "Sentence 1: a correct fact or opening sentence about the chosen topic",
+                  "marks": 1
+                },
+                {
+                  "point": "Sentence 2: a second correct fact",
+                  "marks": 1
+                },
+                {
+                  "point": "Sentence 3: a third correct fact",
+                  "marks": 1
+                },
+                {
+                  "point": "Sentence 4: a fourth correct fact",
+                  "marks": 1
+                },
+                {
+                  "point": "Sentence 5: a fifth sentence (a fact or the child’s own feeling)",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "One mark for each correct, complete sentence about the chosen topic: five sentences — 5; four — 4; three — 3; two — 2; one — 1. Deduct 1 for more than three spelling or punctuation errors. Maximum 5.",
+              "id": "english-c2-s3-b1-i1"
+            }
+          ]
+        },
+        {
+          "num": "Q.6",
+          "instruction": "Read the situation. Write four sentences to tell what you would do.",
+          "items": [
+            {
+              "type": "long",
+              "q": "In a class game, the teacher writes 12 points for your team on the board. But your team scored only 10 points. You are the only one who has noticed. Write four sentences. Say what you would do, what you would say to the teacher, and why.",
+              "marks": 4,
+              "answer": "Model answer: I would go to the teacher after the game. I would say, “Ma’am, my team scored 10 points, not 12.” It is the truth, and the other team should get a fair result. I would feel calm and proud afterwards.",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "A sentence saying what the child would do",
+                  "marks": 1
+                },
+                {
+                  "point": "A sentence giving the words the child would say to the teacher",
+                  "marks": 1
+                },
+                {
+                  "point": "A sentence giving a reason (why)",
+                  "marks": 1
+                },
+                {
+                  "point": "A fourth full sentence about the situation, such as how the child would feel",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "One mark for each full sentence that answers the situation: what I would do, what I would say, why, and one more idea — four sentences — 4; three — 3; two — 2; one — 1. Answers are the child’s own opinion. Deduct 1 for more than three spelling errors. Maximum 4.",
+              "id": "english-c2-s3-b2-i1"
+            }
+          ]
+        },
+        {
+          "num": "Q.7",
+          "instruction": "Make a sentence with each word.",
+          "items": [
+            {
+              "type": "short",
+              "q": "careful",
+              "marks": 1,
+              "answer": "Model answer: Meera is careful when she crosses the road.",
+              "difficulty": "easy",
+              "answerPoints": [
+                {
+                  "point": "A correct, sensible sentence using careful",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "A correct, sensible sentence that uses the word careful — 1; word missing or sentence makes no sense — 0. Do not deduct for one small spelling slip. Maximum 1.",
+              "id": "english-c2-s3-b3-i1"
+            },
+            {
+              "type": "short",
+              "q": "praised",
+              "marks": 1,
+              "answer": "Model answer: The teacher praised Rohan for his neat work.",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "A correct, sensible sentence using praised",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "A correct, sensible sentence that uses the word praised (praise or praises is not enough) — 1; otherwise — 0. Do not deduct for one small spelling slip. Maximum 1.",
+              "id": "english-c2-s3-b3-i2"
+            },
+            {
+              "type": "short",
+              "q": "whispered",
+              "marks": 1,
+              "answer": "Model answer: The girl whispered a secret in her friend’s ear.",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "A correct, sensible sentence using whispered",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "A correct, sensible sentence that uses the word whispered — 1; word missing or sentence makes no sense — 0. Do not deduct for one small spelling slip. Maximum 1.",
+              "id": "english-c2-s3-b3-i3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Grammar",
+      "marks": 19,
+      "blocks": [
+        {
+          "num": "Q.8",
+          "instruction": "Fill in each blank with the -er or -est form of the word in brackets.",
+          "items": [
+            {
+              "type": "fill-blank",
+              "q": "A rabbit is _____ than a tortoise. (fast)",
+              "marks": 1,
+              "answer": "faster",
+              "difficulty": "easy",
+              "acceptable": [
+                "faster"
+              ],
+              "id": "english-c2-s4-b1-i1"
+            },
+            {
+              "type": "fill-blank",
+              "q": "Of the three pencils, the green one is the _____. (short)",
+              "marks": 1,
+              "answer": "shortest",
+              "difficulty": "easy",
+              "acceptable": [
+                "shortest"
+              ],
+              "id": "english-c2-s4-b1-i2"
+            },
+            {
+              "type": "fill-blank",
+              "q": "The evening is _____ than the afternoon. (cool)",
+              "marks": 1,
+              "answer": "cooler",
+              "difficulty": "medium",
+              "acceptable": [
+                "cooler"
+              ],
+              "id": "english-c2-s4-b1-i3"
+            },
+            {
+              "type": "fill-blank",
+              "q": "That banyan tree is the _____ tree in our village. (old)",
+              "marks": 1,
+              "answer": "oldest",
+              "difficulty": "medium",
+              "acceptable": [
+                "oldest"
+              ],
+              "id": "english-c2-s4-b1-i4"
+            },
+            {
+              "type": "fill-blank",
+              "q": "My grandfather’s stick is _____ than my ruler. (long)",
+              "marks": 1,
+              "answer": "longer",
+              "difficulty": "medium",
+              "acceptable": [
+                "longer"
+              ],
+              "id": "english-c2-s4-b1-i5"
+            }
+          ]
+        },
+        {
+          "num": "Q.9",
+          "instruction": "Rewrite the sentences as directed.",
+          "items": [
+            {
+              "type": "short",
+              "q": "Join the two sentences into one. Use the -er form of long and the word than. Rope A is two metres long. Rope B is three metres long.",
+              "marks": 2,
+              "answer": "Rope B is longer than Rope A. (1 mark for longer; 1 mark for than with the ropes in the right order.)",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "Uses longer",
+                  "marks": 1
+                },
+                {
+                  "point": "Uses than with Rope B first and Rope A second",
+                  "marks": 1
+                }
+              ],
+              "id": "english-c2-s4-b2-i1"
+            },
+            {
+              "type": "short",
+              "q": "The mango tree is six metres tall. The neem tree is nine metres tall. The peepal tree is twelve metres tall. Write one sentence about the peepal tree. Use the -est form of tall.",
+              "marks": 2,
+              "answer": "The peepal tree is the tallest tree. (Also accept: The peepal tree is the tallest of the three.) 1 mark for the tallest; 1 mark for a full, correct sentence about the peepal tree.",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "Uses the tallest",
+                  "marks": 1
+                },
+                {
+                  "point": "A full, correct sentence about the peepal tree",
+                  "marks": 1
+                }
+              ],
+              "id": "english-c2-s4-b2-i2"
+            },
+            {
+              "type": "short",
+              "q": "Ravi is older than Sita. Write a sentence about Sita with the same meaning. Use younger and than.",
+              "marks": 2,
+              "answer": "Sita is younger than Ravi. (1 mark for younger; 1 mark for than with Sita first and Ravi second.)",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "Uses younger",
+                  "marks": 1
+                },
+                {
+                  "point": "Uses than with Sita first and Ravi second",
+                  "marks": 1
+                }
+              ],
+              "id": "english-c2-s4-b2-i3"
+            }
+          ]
+        },
+        {
+          "num": "Q.10",
+          "instruction": "Do as directed.",
+          "items": [
+            {
+              "type": "short",
+              "q": "Read the sentence: “The mango is sweeter than the lemon.” Write (a) the word that compares two things and (b) the small word that goes with it.",
+              "marks": 2,
+              "answer": "(a) sweeter (1 mark); (b) than (1 mark).",
+              "difficulty": "easy",
+              "answerPoints": [
+                {
+                  "point": "sweeter",
+                  "marks": 1
+                },
+                {
+                  "point": "than",
+                  "marks": 1
+                }
+              ],
+              "id": "english-c2-s4-b3-i1"
+            },
+            {
+              "type": "short",
+              "q": "Write the -er form and the -est form of the word sharp.",
+              "marks": 2,
+              "answer": "sharper (1 mark); sharpest (1 mark).",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "sharper",
+                  "marks": 1
+                },
+                {
+                  "point": "sharpest",
+                  "marks": 1
+                }
+              ],
+              "id": "english-c2-s4-b3-i2"
+            },
+            {
+              "type": "short",
+              "q": "There is a mistake in this sentence. Write the sentence correctly: Rita is tallest than Mona.",
+              "marks": 2,
+              "answer": "Rita is taller than Mona. (1 mark for taller; 1 mark for the rest of the sentence written correctly.)",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "Changes tallest to taller",
+                  "marks": 1
+                },
+                {
+                  "point": "Writes the whole sentence correctly",
+                  "marks": 1
+                }
+              ],
+              "id": "english-c2-s4-b3-i3"
+            },
+            {
+              "type": "short",
+              "q": "Compare two people in your family. Write one sentence with an -er word and than.",
+              "marks": 2,
+              "answer": "Model answer: My father is taller than my mother. (1 mark for a correct -er word; 1 mark for than and a sensible sentence.)",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "Uses a correct -er word",
+                  "marks": 1
+                },
+                {
+                  "point": "Uses than and the sentence makes sense",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "A correct -er word — 1; than used correctly in a sensible sentence — 1. Accept any correct -er form: taller, shorter, older, younger (bigger or heavier are also correct English). Maximum 2.",
+              "id": "english-c2-s4-b3-i4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "E",
+      "title": "Vocabulary",
+      "marks": 13,
+      "blocks": [
+        {
+          "num": "Q.11",
+          "instruction": "Match each word with its opposite.",
+          "items": [
+            {
+              "type": "match",
+              "q": "Match each word in the first column with its opposite in the second column.",
+              "marks": 5,
+              "answer": "give–take; inside–outside; happy–sad; love–hate; hide–show",
+              "difficulty": "medium",
+              "pairs": [
+                {
+                  "left": "give",
+                  "right": "take"
+                },
+                {
+                  "left": "inside",
+                  "right": "outside"
+                },
+                {
+                  "left": "happy",
+                  "right": "sad"
+                },
+                {
+                  "left": "love",
+                  "right": "hate"
+                },
+                {
+                  "left": "hide",
+                  "right": "show"
+                }
+              ],
+              "answerPoints": [
+                {
+                  "point": "give – take",
+                  "marks": 1
+                },
+                {
+                  "point": "inside – outside",
+                  "marks": 1
+                },
+                {
+                  "point": "happy – sad",
+                  "marks": 1
+                },
+                {
+                  "point": "love – hate",
+                  "marks": 1
+                },
+                {
+                  "point": "hide – show",
+                  "marks": 1
+                }
+              ],
+              "id": "english-c2-s5-b1-i1"
+            }
+          ]
+        },
+        {
+          "num": "Q.12",
+          "instruction": "Fill in the blanks with words from the box. Box: tinkling, mischievous, consoled, reward, respect, courage.",
+          "items": [
+            {
+              "type": "fill-blank",
+              "q": "The _____ puppy hid my socks under the bed. Its little bell made a _____ sound as it ran.",
+              "marks": 2,
+              "answer": [
+                "mischievous",
+                "tinkling"
+              ],
+              "difficulty": "easy",
+              "acceptable": [
+                [
+                  "mischievous"
+                ],
+                [
+                  "tinkling"
+                ]
+              ],
+              "blanks": 2,
+              "answerPoints": [
+                {
+                  "point": "mischievous",
+                  "marks": 1
+                },
+                {
+                  "point": "tinkling",
+                  "marks": 1
+                }
+              ],
+              "id": "english-c2-s5-b2-i1"
+            },
+            {
+              "type": "fill-blank",
+              "q": "Grandma _____ the crying boy with a hug. The teacher gave Meena a _____ for her neat work.",
+              "marks": 2,
+              "answer": [
+                "consoled",
+                "reward"
+              ],
+              "difficulty": "medium",
+              "acceptable": [
+                [
+                  "consoled"
+                ],
+                [
+                  "reward"
+                ]
+              ],
+              "blanks": 2,
+              "answerPoints": [
+                {
+                  "point": "consoled",
+                  "marks": 1
+                },
+                {
+                  "point": "reward",
+                  "marks": 1
+                }
+              ],
+              "id": "english-c2-s5-b2-i2"
+            }
+          ]
+        },
+        {
+          "num": "Q.13",
+          "instruction": "Answer the questions.",
+          "items": [
+            {
+              "type": "short",
+              "q": "Write the opposite of the word in brackets. (a) The shop will (close) at nine. (b) A (little) boy carried the bag.",
+              "marks": 2,
+              "answer": "(a) open (1 mark); (b) big or large (1 mark).",
+              "difficulty": "easy",
+              "answerPoints": [
+                {
+                  "point": "open",
+                  "marks": 1
+                },
+                {
+                  "point": "big (or large)",
+                  "marks": 1
+                }
+              ],
+              "id": "english-c2-s5-b3-i1"
+            },
+            {
+              "type": "short",
+              "q": "Write in your own words what each word means. (a) shopkeeper (b) honest",
+              "marks": 2,
+              "answer": "(a) A person who sells things in a shop (1 mark). (b) A person who tells the truth and does not steal or cheat (1 mark).",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "shopkeeper: a person who sells things in a shop",
+                  "marks": 1
+                },
+                {
+                  "point": "honest: a person who tells the truth and does not steal or cheat",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "Each meaning in the child’s own words, correct and clear — 1 mark each. Two correct meanings — 2; one — 1. Maximum 2.",
+              "id": "english-c2-s5-b3-i2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "title": "Spelling",
+      "marks": 12,
+      "blocks": [
+        {
+          "num": "Q.14",
+          "instruction": "Circle the correct spelling.",
+          "items": [
+            {
+              "type": "mcq",
+              "q": "Circle the correct spelling.",
+              "marks": 2,
+              "answer": "village",
+              "difficulty": "easy",
+              "options": [
+                "vilage",
+                "village",
+                "villege"
+              ],
+              "answerPoints": [
+                {
+                  "point": "Circles the correct spelling: village",
+                  "marks": 2
+                }
+              ],
+              "id": "english-c2-s6-b1-i1"
+            },
+            {
+              "type": "mcq",
+              "q": "Circle the correct spelling.",
+              "marks": 2,
+              "answer": "vegetables",
+              "difficulty": "medium",
+              "options": [
+                "vegtables",
+                "vegitables",
+                "vegetables"
+              ],
+              "answerPoints": [
+                {
+                  "point": "Circles the correct spelling: vegetables",
+                  "marks": 2
+                }
+              ],
+              "id": "english-c2-s6-b1-i2"
+            },
+            {
+              "type": "mcq",
+              "q": "Circle the correct spelling.",
+              "marks": 2,
+              "answer": "beautiful",
+              "difficulty": "hard",
+              "options": [
+                "beautiful",
+                "beutiful",
+                "beautifull"
+              ],
+              "answerPoints": [
+                {
+                  "point": "Circles the correct spelling: beautiful",
+                  "marks": 2
+                }
+              ],
+              "id": "english-c2-s6-b1-i3"
+            }
+          ]
+        },
+        {
+          "num": "Q.15",
+          "instruction": "Unscramble the letters to spell a word from the story.",
+          "items": [
+            {
+              "type": "one-word",
+              "q": "Unscramble the letters to spell a word from the story. The word starts with p. Letters: t o k c e p",
+              "marks": 2,
+              "answer": "pocket",
+              "difficulty": "easy",
+              "acceptable": [
+                "pocket"
+              ],
+              "answerPoints": [
+                {
+                  "point": "Uses all the letters to make the word pocket",
+                  "marks": 1
+                },
+                {
+                  "point": "Spells pocket correctly",
+                  "marks": 1
+                }
+              ],
+              "id": "english-c2-s6-b2-i1"
+            },
+            {
+              "type": "one-word",
+              "q": "Unscramble the letters to spell a word from the story. The word starts with m. Letters: k e t r a m",
+              "marks": 2,
+              "answer": "market",
+              "difficulty": "medium",
+              "acceptable": [
+                "market"
+              ],
+              "answerPoints": [
+                {
+                  "point": "Uses all the letters to make the word market",
+                  "marks": 1
+                },
+                {
+                  "point": "Spells market correctly",
+                  "marks": 1
+                }
+              ],
+              "id": "english-c2-s6-b2-i2"
+            },
+            {
+              "type": "one-word",
+              "q": "Unscramble the letters to spell a word from the story. The word starts with m. Letters: e m k a t s i",
+              "marks": 2,
+              "answer": "mistake",
+              "difficulty": "hard",
+              "acceptable": [
+                "mistake"
+              ],
+              "answerPoints": [
+                {
+                  "point": "Uses all the letters to make the word mistake",
+                  "marks": 1
+                },
+                {
+                  "point": "Spells mistake correctly",
+                  "marks": 1
+                }
+              ],
+              "id": "english-c2-s6-b2-i3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "title": "Handwriting",
+      "marks": 6,
+      "blocks": [
+        {
+          "num": "Q.16",
+          "instruction": "Write the following lines in neat handwriting.",
+          "stimulus": {
+            "kind": "passage",
+            "text": "Honesty makes a heart calm. When we speak the truth, we feel light and free. Our friends and family trust us.",
+            "original": true
+          },
+          "items": [
+            {
+              "type": "handwriting",
+              "q": "Write the passage in neat handwriting.",
+              "marks": 3,
+              "answer": "A neat, evenly spaced copy of the passage with every capital letter and full stop in place.",
+              "difficulty": "easy",
+              "answerPoints": [
+                {
+                  "point": "Letters well formed",
+                  "marks": 1
+                },
+                {
+                  "point": "Even spacing between letters and words",
+                  "marks": 1
+                },
+                {
+                  "point": "Neat lines with capitals and full stops copied correctly",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "Letter formation — 1; even spacing between words — 1; neatness and correct capitals and punctuation — 1. Deduct 1 for more than three copying mistakes. Maximum 3.",
+              "id": "english-c2-s7-b1-i1"
+            }
+          ]
+        },
+        {
+          "num": "Q.17",
+          "instruction": "Write the following lines in neat handwriting.",
+          "stimulus": {
+            "kind": "passage",
+            "text": "Isha asked, “May I use your ruler, Neel?” Neel smiled and said, “Yes, but take care of it.” Isha thanked him and got to work.",
+            "original": true
+          },
+          "items": [
+            {
+              "type": "handwriting",
+              "q": "Write the passage in neat handwriting.",
+              "marks": 3,
+              "answer": "A neat, evenly spaced copy of the passage with the speech marks, commas, capital letters and full stops in place.",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "Letters well formed",
+                  "marks": 1
+                },
+                {
+                  "point": "Even spacing between letters and words",
+                  "marks": 1
+                },
+                {
+                  "point": "Neat lines with speech marks, capitals and full stops copied correctly",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "Letter formation — 1; even spacing between words — 1; neatness and correct speech marks, capitals and punctuation — 1. Deduct 1 for more than three copying mistakes. Maximum 3.",
+              "id": "english-c2-s7-b2-i1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
