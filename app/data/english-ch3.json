@@ -1,0 +1,1253 @@
+{
+  "schemaVersion": "2.0",
+  "subject": "english",
+  "subjectDisplay": "English",
+  "grade": 4,
+  "chapter": 3,
+  "locale": "en",
+  "numerals": "latn",
+  "title": "Be Smart, Be Safe",
+  "subtitle": "English — Class 4 — Chapter 3",
+  "sourceRef": "Santoor Grade 4, Ch. 3",
+  "totalMarks": 100,
+  "durationMinutes": 120,
+  "sections": [
+    {
+      "code": "A",
+      "title": "Reading",
+      "marks": 25,
+      "blocks": [
+        {
+          "num": "Q.1",
+          "instruction": "Read the passage and answer the questions. Write True or False for the true-false questions.",
+          "stimulus": {
+            "kind": "passage",
+            "text": "It was raining hard on Monday morning. Aarav stood at the bus stop with his mother. He held a big blue umbrella. Six other children stood in a line. Nobody pushed or shouted. They all waited for the number 12 bus.\n\nA small girl at the end of the line had no umbrella. Her bag was getting wet. Aarav stepped closer and held his umbrella over her. “Thank you,” she said, and smiled. Her name was Diya.\n\nSoon the bus came with its lights on. The driver opened the door. The children got in one by one. Aarav found a window seat. Diya sat next to him. The rain drummed on the roof all the way to school.",
+            "original": true
+          },
+          "items": [
+            {
+              "id": "english-c3-s1-b1-i1",
+              "type": "mcq",
+              "q": "Who was with Aarav at the bus stop?",
+              "marks": 1,
+              "answer": "his mother",
+              "difficulty": "easy",
+              "options": [
+                "his mother",
+                "his teacher",
+                "the bus driver"
+              ],
+              "skill": "reading: direct recall"
+            },
+            {
+              "id": "english-c3-s1-b1-i2",
+              "type": "mcq",
+              "q": "Which bus were the children waiting for?",
+              "marks": 1,
+              "answer": "The number 12 bus",
+              "difficulty": "easy",
+              "options": [
+                "The number 12 bus",
+                "The number 21 bus",
+                "The number 2 bus"
+              ],
+              "skill": "reading: direct recall"
+            },
+            {
+              "id": "english-c3-s1-b1-i3",
+              "type": "mcq",
+              "q": "What did Aarav do for Diya?",
+              "marks": 1,
+              "answer": "He held his umbrella over her",
+              "difficulty": "medium",
+              "options": [
+                "He held his umbrella over her",
+                "He gave her his bag",
+                "He bought her a new umbrella"
+              ],
+              "skill": "reading: understanding"
+            },
+            {
+              "id": "english-c3-s1-b1-i4",
+              "type": "short",
+              "q": "Why did Aarav hold his umbrella over Diya?",
+              "marks": 2,
+              "answer": "Diya had no umbrella (1 mark), and her bag was getting wet (1 mark).",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "She had no umbrella",
+                  "marks": 1
+                },
+                {
+                  "point": "Her bag was getting wet",
+                  "marks": 1
+                }
+              ],
+              "skill": "reading: cause"
+            },
+            {
+              "id": "english-c3-s1-b1-i5",
+              "type": "short",
+              "q": "Write two things the children did at the bus stop or on the bus to show good manners.",
+              "marks": 2,
+              "answer": "Any two: they stood in a line; nobody pushed or shouted; they got in the bus one by one (1 mark each).",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "First correct thing from the passage",
+                  "marks": 1
+                },
+                {
+                  "point": "Second correct thing from the passage",
+                  "marks": 1
+                }
+              ],
+              "skill": "reading: two points from two places"
+            },
+            {
+              "id": "english-c3-s1-b1-i6",
+              "type": "true-false",
+              "q": "Aarav had no umbrella.",
+              "marks": 1,
+              "answer": "False. He held a big blue umbrella.",
+              "difficulty": "easy",
+              "skill": "reading: true or false"
+            },
+            {
+              "id": "english-c3-s1-b1-i7",
+              "type": "true-false",
+              "q": "Diya sat next to Aarav on the bus.",
+              "marks": 1,
+              "answer": "True",
+              "difficulty": "easy",
+              "skill": "reading: true or false"
+            },
+            {
+              "id": "english-c3-s1-b1-i8",
+              "type": "one-word",
+              "q": "What colour was Aarav’s umbrella?",
+              "marks": 1,
+              "answer": "blue",
+              "difficulty": "easy",
+              "acceptable": [
+                "blue",
+                "big blue",
+                "a blue umbrella"
+              ],
+              "skill": "reading: one word"
+            },
+            {
+              "id": "english-c3-s1-b1-i9",
+              "type": "one-word",
+              "q": "On which day of the week did the story happen?",
+              "marks": 1,
+              "answer": "Monday",
+              "difficulty": "easy",
+              "acceptable": [
+                "Monday",
+                "on Monday"
+              ],
+              "skill": "reading: one word"
+            },
+            {
+              "id": "english-c3-s1-b1-i10",
+              "type": "one-word",
+              "q": "What was the small girl’s name?",
+              "marks": 1,
+              "answer": "Diya",
+              "difficulty": "easy",
+              "acceptable": [
+                "Diya"
+              ],
+              "skill": "reading: one word"
+            },
+            {
+              "id": "english-c3-s1-b1-i11",
+              "type": "one-word",
+              "q": "Who opened the door of the bus?",
+              "marks": 1,
+              "answer": "the driver",
+              "difficulty": "medium",
+              "acceptable": [
+                "the driver",
+                "driver",
+                "the bus driver",
+                "bus driver"
+              ],
+              "skill": "reading: one word"
+            }
+          ]
+        },
+        {
+          "num": "Q.2",
+          "instruction": "Read the note and answer the questions. Write True or False for the true-false questions.",
+          "stimulus": {
+            "kind": "passage",
+            "text": "A note from Amma\nPlease be careful in the kitchen. There is some water on the floor near the sink. Wipe it up at once, or you may slip. Keep the rice and the sugar in closed boxes. Put the milk in the fridge. Four chairs stand near the stove. Push them back to the wall. The hot pan can burn your hand, so do not touch it. Call an adult if you need help.",
+            "original": true
+          },
+          "items": [
+            {
+              "id": "english-c3-s1-b2-i1",
+              "type": "short",
+              "q": "Where is there some water, and why must you wipe it up?",
+              "marks": 2,
+              "answer": "The water is on the floor near the sink (1 mark). You must wipe it up so that nobody slips (1 mark).",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "On the floor near the sink",
+                  "marks": 1
+                },
+                {
+                  "point": "So that you do not slip",
+                  "marks": 1
+                }
+              ],
+              "skill": "reading: two points"
+            },
+            {
+              "id": "english-c3-s1-b2-i2",
+              "type": "short",
+              "q": "Where should the rice and the sugar be kept? Where should the milk be put?",
+              "marks": 2,
+              "answer": "The rice and the sugar should be kept in closed boxes (1 mark). The milk should be put in the fridge (1 mark).",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "Rice and sugar: in closed boxes",
+                  "marks": 1
+                },
+                {
+                  "point": "Milk: in the fridge",
+                  "marks": 1
+                }
+              ],
+              "skill": "reading: two points"
+            },
+            {
+              "id": "english-c3-s1-b2-i3",
+              "type": "short",
+              "q": "Write two things in the note that can hurt a person. Say how each one can hurt.",
+              "marks": 2,
+              "answer": "The water on the floor can make you slip (1 mark). The hot pan can burn your hand (1 mark).",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "Water on the floor, and you may slip",
+                  "marks": 1
+                },
+                {
+                  "point": "Hot pan, and it can burn your hand",
+                  "marks": 1
+                }
+              ],
+              "skill": "reading: two-part answer from two places"
+            },
+            {
+              "id": "english-c3-s1-b2-i4",
+              "type": "fill-blank",
+              "q": "There is some water near the _____.",
+              "marks": 1,
+              "answer": "sink",
+              "difficulty": "easy",
+              "blanks": 1,
+              "acceptable": [
+                "sink",
+                "the sink"
+              ],
+              "skill": "reading: fill in"
+            },
+            {
+              "id": "english-c3-s1-b2-i5",
+              "type": "fill-blank",
+              "q": "If you need help, call an _____.",
+              "marks": 1,
+              "answer": "adult",
+              "difficulty": "easy",
+              "blanks": 1,
+              "acceptable": [
+                "adult"
+              ],
+              "skill": "reading: fill in"
+            },
+            {
+              "id": "english-c3-s1-b2-i6",
+              "type": "fill-blank",
+              "q": "The four chairs must be pushed back to the _____.",
+              "marks": 1,
+              "answer": "wall",
+              "difficulty": "medium",
+              "blanks": 1,
+              "acceptable": [
+                "wall",
+                "the wall"
+              ],
+              "skill": "reading: fill in"
+            },
+            {
+              "id": "english-c3-s1-b2-i7",
+              "type": "true-false",
+              "q": "The water is on the kitchen table.",
+              "marks": 1,
+              "answer": "False. It is on the floor.",
+              "difficulty": "easy",
+              "skill": "reading: true or false"
+            },
+            {
+              "id": "english-c3-s1-b2-i8",
+              "type": "true-false",
+              "q": "Four chairs stand near the stove.",
+              "marks": 1,
+              "answer": "True",
+              "difficulty": "medium",
+              "skill": "reading: true or false"
+            },
+            {
+              "id": "english-c3-s1-b2-i9",
+              "type": "mcq",
+              "q": "Who wrote the note?",
+              "marks": 1,
+              "answer": "Amma",
+              "difficulty": "easy",
+              "options": [
+                "Amma",
+                "the teacher",
+                "the shopkeeper"
+              ],
+              "skill": "reading: direct recall"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Textual Questions",
+      "marks": 13,
+      "blocks": [
+        {
+          "num": "Q.3",
+          "instruction": "Give a short answer to each question.",
+          "items": [
+            {
+              "id": "english-c3-s2-b1-i1",
+              "type": "one-word",
+              "q": "Who wrote the letter to the children?",
+              "marks": 1,
+              "answer": "the traffic police",
+              "difficulty": "easy",
+              "acceptable": [
+                "the traffic police",
+                "traffic police",
+                "The Traffic Police",
+                "the police",
+                "police"
+              ],
+              "skill": "textual: who"
+            },
+            {
+              "id": "english-c3-s2-b1-i2",
+              "type": "one-word",
+              "q": "Name the two colours of a zebra crossing.",
+              "marks": 1,
+              "answer": "black and white",
+              "difficulty": "easy",
+              "acceptable": [
+                "black and white",
+                "white and black",
+                "black & white",
+                "black, white",
+                "black white",
+                "white black"
+              ],
+              "skill": "textual: name"
+            },
+            {
+              "id": "english-c3-s2-b1-i3",
+              "type": "one-word",
+              "q": "Which rule is called “Be Alert”? Write its number.",
+              "marks": 1,
+              "answer": "Rule 6",
+              "difficulty": "medium",
+              "acceptable": [
+                "Rule 6",
+                "6",
+                "six",
+                "rule six",
+                "Rule number 6",
+                "sixth",
+                "6th",
+                "the sixth rule"
+              ],
+              "skill": "textual: recall"
+            }
+          ]
+        },
+        {
+          "num": "Q.4",
+          "instruction": "Answer the following questions in full sentences.",
+          "items": [
+            {
+              "id": "english-c3-s2-b2-i1",
+              "type": "short",
+              "q": "Why did the traffic police write the letter to the children?",
+              "marks": 2,
+              "answer": "They wrote to share simple safety tips with the children (1 mark), so that the children stay safe on the roads and help keep the roads accident-free (1 mark).",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "To share safety tips / rules with the children",
+                  "marks": 1
+                },
+                {
+                  "point": "So that the children stay safe on the roads (or the roads stay accident-free)",
+                  "marks": 1
+                }
+              ],
+              "skill": "textual: purpose of the letter, two places in the text"
+            },
+            {
+              "id": "english-c3-s2-b2-i2",
+              "type": "short",
+              "q": "How do the children reach school, according to the letter? Write any two ways.",
+              "marks": 2,
+              "answer": "Any two: on foot; by bicycle; by bus (1 mark each).",
+              "difficulty": "easy",
+              "answerPoints": [
+                {
+                  "point": "First way",
+                  "marks": 1
+                },
+                {
+                  "point": "Second way",
+                  "marks": 1
+                }
+              ],
+              "skill": "textual: recall"
+            },
+            {
+              "id": "english-c3-s2-b2-i3",
+              "type": "short",
+              "q": "What should you stick on your clothes when you walk on a road in the evening? How does it help?",
+              "marks": 2,
+              "answer": "Reflective stickers (1 mark). They help the drivers to see you clearly (1 mark).",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "Reflective stickers",
+                  "marks": 1
+                },
+                {
+                  "point": "Drivers can see you clearly",
+                  "marks": 1
+                }
+              ],
+              "skill": "textual: Rule 5"
+            },
+            {
+              "id": "english-c3-s2-b2-i4",
+              "type": "short",
+              "q": "Where are traffic lights installed? Which colour must the pedestrian signal show before you cross?",
+              "marks": 2,
+              "answer": "Traffic lights are installed on very busy roads (1 mark). You must wait for the pedestrian signal to turn green (1 mark).",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "On very busy roads",
+                  "marks": 1
+                },
+                {
+                  "point": "Green",
+                  "marks": 1
+                }
+              ],
+              "skill": "textual: Rule 2"
+            },
+            {
+              "id": "english-c3-s2-b2-i5",
+              "type": "short",
+              "q": "What would you do if your friend asked you to run across a busy road just for fun? Give a reason.",
+              "marks": 2,
+              "answer": "Model answer: I would say no and walk with my friend to the zebra crossing, because a car or a bus may come suddenly and hurt us. (Any sensible action and a sensible reason.)",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "A sensible action, for example: say no, tell a grown-up, use the zebra crossing",
+                  "marks": 1
+                },
+                {
+                  "point": "A reason that mentions danger, vehicles or an accident",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "Think and discuss. A sensible action (says no, calls the friend back, tells a grown-up, uses the zebra crossing) — 1; a reason about danger, vehicles or accidents — 1. An action with no reason — 1. Maximum 2.",
+              "skill": "textual: Think and discuss"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Creative Writing",
+      "marks": 12,
+      "blocks": [
+        {
+          "num": "Q.5",
+          "instruction": "Write five sentences. Choose one topic.",
+          "items": [
+            {
+              "id": "english-c3-s3-b1-i1",
+              "type": "long",
+              "q": "Write five sentences about the road near your school. You can say what you see, what you hear and how you stay safe there. OR Write five sentences about the way you come to school every day.",
+              "marks": 5,
+              "answer": "Model answer: The road near my school is very busy. I see buses, cars and bicycles there. I hear many horns. I use the zebra crossing to cross the road. I walk on the footpath and hold my father’s hand.",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "Sentence 1: clear and on the topic",
+                  "marks": 1
+                },
+                {
+                  "point": "Sentence 2: clear and on the topic",
+                  "marks": 1
+                },
+                {
+                  "point": "Sentence 3: clear and on the topic",
+                  "marks": 1
+                },
+                {
+                  "point": "Sentence 4: clear and on the topic",
+                  "marks": 1
+                },
+                {
+                  "point": "Sentence 5: clear and on the topic",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "One mark for each clear sentence on the chosen topic, five sentences in all — 5. A sentence that is off the topic or has no verb — 0 for that sentence. Deduct 1 for more than three spelling errors. Never go below 0. Maximum 5.",
+              "skill": "creative: five sentences"
+            }
+          ]
+        },
+        {
+          "num": "Q.6",
+          "instruction": "Write a letter of thanks. Follow the four steps.",
+          "items": [
+            {
+              "id": "english-c3-s3-b2-i1",
+              "type": "long",
+              "q": "Write a short thank-you letter to the traffic police. Follow the four steps. Step 1: Begin with “Dear Officer,” and say who you are (your name and class). Step 2: Thank the police for one thing they do for children. Step 3: Write one road-safety rule you have learnt. Step 4: Promise one thing you will do, and end with “Yours sincerely,” and your name.",
+              "marks": 4,
+              "answer": "Model letter: Dear Officer, I am Riya of Class 4. Thank you for helping us cross the busy road near our school. I have learnt that we must walk on the footpath. I promise that I will always use the zebra crossing. Yours sincerely, Riya",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "Step 1: opens with Dear Officer and says who the writer is",
+                  "marks": 1
+                },
+                {
+                  "point": "Step 2: thanks the police for one thing",
+                  "marks": 1
+                },
+                {
+                  "point": "Step 3: writes one road-safety rule",
+                  "marks": 1
+                },
+                {
+                  "point": "Step 4: makes one promise and closes with Yours sincerely and a name",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "One mark for each of the four steps done in full sentences — 4; a step that is missing or unclear — 0 for that step. Deduct 1 for more than three spelling errors. Never go below 0. Maximum 4.",
+              "skill": "creative: guided letter"
+            }
+          ]
+        },
+        {
+          "num": "Q.7",
+          "instruction": "Make a sentence of your own with each word.",
+          "items": [
+            {
+              "id": "english-c3-s3-b3-i1",
+              "type": "short",
+              "q": "Make a sentence with the word “alert”.",
+              "marks": 1,
+              "answer": "Model answer: A good pedestrian stays alert near the road.",
+              "difficulty": "easy",
+              "markingGuide": "A sentence that uses the word correctly and makes sense — 1; the word missing, or used wrongly — 0. Ignore one small spelling slip. Maximum 1.",
+              "skill": "creative: make a sentence"
+            },
+            {
+              "id": "english-c3-s3-b3-i2",
+              "type": "short",
+              "q": "Make a sentence with the word “careful”.",
+              "marks": 1,
+              "answer": "Model answer: Be careful when you cross the road.",
+              "difficulty": "medium",
+              "markingGuide": "A sentence that uses the word correctly and makes sense — 1; the word missing, or used wrongly — 0. Ignore one small spelling slip. Maximum 1.",
+              "skill": "creative: make a sentence"
+            },
+            {
+              "id": "english-c3-s3-b3-i3",
+              "type": "short",
+              "q": "Make a sentence with the word “accident”.",
+              "marks": 1,
+              "answer": "Model answer: The driver stopped in time, so there was no accident.",
+              "difficulty": "medium",
+              "markingGuide": "A sentence that uses the word correctly and makes sense — 1; the word missing, or used wrongly — 0. Ignore one small spelling slip. Maximum 1.",
+              "skill": "creative: make a sentence"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Grammar",
+      "marks": 19,
+      "blocks": [
+        {
+          "num": "Q.8",
+          "instruction": "Fill in each blank with the word countable or uncountable.",
+          "items": [
+            {
+              "id": "english-c3-s4-b1-i1",
+              "type": "fill-blank",
+              "q": "The noun “helmets” is _____.",
+              "marks": 1,
+              "answer": "countable",
+              "difficulty": "easy",
+              "blanks": 1,
+              "acceptable": [
+                "countable",
+                "C"
+              ],
+              "skill": "grammar: countable or uncountable"
+            },
+            {
+              "id": "english-c3-s4-b1-i2",
+              "type": "fill-blank",
+              "q": "The noun “sand” is _____.",
+              "marks": 1,
+              "answer": "uncountable",
+              "difficulty": "easy",
+              "blanks": 1,
+              "acceptable": [
+                "uncountable",
+                "U"
+              ],
+              "skill": "grammar: countable or uncountable"
+            },
+            {
+              "id": "english-c3-s4-b1-i3",
+              "type": "fill-blank",
+              "q": "The noun “books” is _____.",
+              "marks": 1,
+              "answer": "countable",
+              "difficulty": "easy",
+              "blanks": 1,
+              "acceptable": [
+                "countable",
+                "C"
+              ],
+              "skill": "grammar: countable or uncountable"
+            },
+            {
+              "id": "english-c3-s4-b1-i4",
+              "type": "fill-blank",
+              "q": "The noun “air” is _____.",
+              "marks": 1,
+              "answer": "uncountable",
+              "difficulty": "medium",
+              "blanks": 1,
+              "acceptable": [
+                "uncountable",
+                "U"
+              ],
+              "skill": "grammar: countable or uncountable"
+            },
+            {
+              "id": "english-c3-s4-b1-i5",
+              "type": "fill-blank",
+              "q": "The noun “milk” is _____.",
+              "marks": 1,
+              "answer": "uncountable",
+              "difficulty": "medium",
+              "blanks": 1,
+              "acceptable": [
+                "uncountable",
+                "U"
+              ],
+              "skill": "grammar: countable or uncountable"
+            }
+          ]
+        },
+        {
+          "num": "Q.9",
+          "instruction": "Rewrite the sentences as directed.",
+          "items": [
+            {
+              "id": "english-c3-s4-b2-i1",
+              "type": "short",
+              "q": "Meena added some sugar to the halwa. Rewrite the sentence with “three spoons of” in place of “some”.",
+              "marks": 2,
+              "answer": "Meena added three spoons of sugar to the halwa.",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "Uses three spoons of sugar",
+                  "marks": 1
+                },
+                {
+                  "point": "The rest of the sentence is unchanged and correct",
+                  "marks": 1
+                }
+              ],
+              "skill": "grammar: make an uncountable noun countable"
+            },
+            {
+              "id": "english-c3-s4-b2-i2",
+              "type": "short",
+              "q": "Aman ate two bowls of rice and drank two bottles of milk. Rewrite the sentence with “some” in place of both counting phrases.",
+              "marks": 2,
+              "answer": "Aman ate some rice and drank some milk.",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "some rice",
+                  "marks": 1
+                },
+                {
+                  "point": "some milk",
+                  "marks": 1
+                }
+              ],
+              "skill": "grammar: two-step rewrite"
+            },
+            {
+              "id": "english-c3-s4-b2-i3",
+              "type": "short",
+              "q": "Sam drank three waters. Rewrite the sentence correctly.",
+              "marks": 2,
+              "answer": "Sam drank three bottles of water. (Also correct: three glasses / cups / jugs of water, or Sam drank some water, or Sam drank water.)",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "Water is not counted directly: a counting word before “of water”, or “some water”",
+                  "marks": 1
+                },
+                {
+                  "point": "The rest of the sentence is correct and complete",
+                  "marks": 1
+                }
+              ],
+              "skill": "grammar: spot and correct"
+            }
+          ]
+        },
+        {
+          "num": "Q.10",
+          "instruction": "Do as directed.",
+          "items": [
+            {
+              "id": "english-c3-s4-b3-i1",
+              "type": "short",
+              "q": "Write the countable noun and the uncountable noun in this sentence. Cows drink water.",
+              "marks": 2,
+              "answer": "Countable noun: cows. Uncountable noun: water.",
+              "difficulty": "easy",
+              "answerPoints": [
+                {
+                  "point": "Countable noun: cows",
+                  "marks": 1
+                },
+                {
+                  "point": "Uncountable noun: water",
+                  "marks": 1
+                }
+              ],
+              "skill": "grammar: find the nouns"
+            },
+            {
+              "id": "english-c3-s4-b3-i2",
+              "type": "short",
+              "q": "Write these words in two lists, Countable and Uncountable: pencils, rice, cars, sugar, chairs, sand.",
+              "marks": 2,
+              "answer": "Countable: pencils, cars, chairs. Uncountable: rice, sugar, sand.",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "Countable list: pencils, cars, chairs",
+                  "marks": 1
+                },
+                {
+                  "point": "Uncountable list: rice, sugar, sand",
+                  "marks": 1
+                }
+              ],
+              "skill": "grammar: classify"
+            },
+            {
+              "id": "english-c3-s4-b3-i3",
+              "type": "short",
+              "q": "Write a counting phrase for each noun. Use a number and a container word, for example “two jugs of water”. (a) sand (b) sugar",
+              "marks": 2,
+              "answer": "Model answer: (a) two buckets of sand (b) three spoons of sugar. Also correct: bags, heaps, handfuls, trucks of sand; bags, packets, cups, kilos, spoons of sugar.",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "A number and a container word before “of sand”",
+                  "marks": 1
+                },
+                {
+                  "point": "A number and a container word before “of sugar”",
+                  "marks": 1
+                }
+              ],
+              "skill": "grammar: compose counting phrases"
+            },
+            {
+              "id": "english-c3-s4-b3-i4",
+              "type": "short",
+              "q": "Write two sentences. Use a countable noun from the box in one sentence and an uncountable noun from the box in the other. Box: buses, milk, pencils, sand",
+              "marks": 2,
+              "answer": "Model answer: Two buses stopped at the school gate. The children played in the sand.",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "A correct sentence with buses or pencils",
+                  "marks": 1
+                },
+                {
+                  "point": "A correct sentence with milk or sand",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "One sentence with a countable noun from the box (buses or pencils), used correctly — 1; one sentence with an uncountable noun from the box (milk or sand), not made plural — 1. Maximum 2.",
+              "skill": "grammar: use the rule"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "E",
+      "title": "Vocabulary",
+      "marks": 13,
+      "blocks": [
+        {
+          "num": "Q.11",
+          "instruction": "Match the words with their meanings.",
+          "items": [
+            {
+              "id": "english-c3-s5-b1-i1",
+              "type": "match",
+              "q": "Match the words with their meanings.",
+              "marks": 5,
+              "answer": "pedestrian – a person who goes on foot; footpath – a path beside the road for people to walk on; reflective – able to shine back light so that it can be seen; distract – to take your attention away from something; zebra crossing – a marked place on the road for people to cross",
+              "difficulty": "medium",
+              "pairs": [
+                {
+                  "left": "pedestrian",
+                  "right": "a person who goes on foot"
+                },
+                {
+                  "left": "footpath",
+                  "right": "a path beside the road for people to walk on"
+                },
+                {
+                  "left": "reflective",
+                  "right": "able to shine back light so that it can be seen"
+                },
+                {
+                  "left": "distract",
+                  "right": "to take your attention away from something"
+                },
+                {
+                  "left": "zebra crossing",
+                  "right": "a marked place on the road for people to cross"
+                }
+              ],
+              "answerPoints": [
+                {
+                  "point": "pedestrian",
+                  "marks": 1
+                },
+                {
+                  "point": "footpath",
+                  "marks": 1
+                },
+                {
+                  "point": "reflective",
+                  "marks": 1
+                },
+                {
+                  "point": "distract",
+                  "marks": 1
+                },
+                {
+                  "point": "zebra crossing",
+                  "marks": 1
+                }
+              ],
+              "skill": "vocabulary: word and meaning"
+            }
+          ]
+        },
+        {
+          "num": "Q.12",
+          "instruction": "Fill in the blanks with words from the box. Box: traffic lights, zebra crossing, reflective, distract, footpath",
+          "items": [
+            {
+              "id": "english-c3-s5-b2-i1",
+              "type": "fill-blank",
+              "q": "The bus stopped when the _____ turned red. Then Mira used the _____ to reach the other side of the road.",
+              "marks": 2,
+              "answer": [
+                "traffic lights",
+                "zebra crossing"
+              ],
+              "difficulty": "easy",
+              "blanks": 2,
+              "acceptable": [
+                [
+                  "traffic lights",
+                  "traffic light",
+                  "the traffic lights"
+                ],
+                [
+                  "zebra crossing",
+                  "the zebra crossing"
+                ]
+              ],
+              "answerPoints": [
+                {
+                  "point": "traffic lights",
+                  "marks": 1
+                },
+                {
+                  "point": "zebra crossing",
+                  "marks": 1
+                }
+              ],
+              "skill": "vocabulary: word in context"
+            },
+            {
+              "id": "english-c3-s5-b2-i2",
+              "type": "fill-blank",
+              "q": "The _____ sticker on my bag shines in the dark. Loud music can _____ you when a horn blows.",
+              "marks": 2,
+              "answer": [
+                "reflective",
+                "distract"
+              ],
+              "difficulty": "medium",
+              "blanks": 2,
+              "acceptable": [
+                [
+                  "reflective"
+                ],
+                [
+                  "distract"
+                ]
+              ],
+              "answerPoints": [
+                {
+                  "point": "reflective",
+                  "marks": 1
+                },
+                {
+                  "point": "distract",
+                  "marks": 1
+                }
+              ],
+              "skill": "vocabulary: word in context"
+            }
+          ]
+        },
+        {
+          "num": "Q.13",
+          "instruction": "Look at the four road signs. Use the help box to write what each sign means. Help box: Right turn, U turn, No left turn, Danger ahead",
+          "stimulus": {
+            "kind": "figure",
+            "asset": "assets/english-ch3-signs.svg",
+            "caption": "Four road signs, numbered 1 to 4"
+          },
+          "items": [
+            {
+              "id": "english-c3-s5-b3-i1",
+              "type": "short",
+              "q": "Write what sign 1 and sign 3 mean.",
+              "marks": 2,
+              "answer": "Sign 1: U turn. Sign 3: No left turn.",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "Sign 1: U turn",
+                  "marks": 1
+                },
+                {
+                  "point": "Sign 3: No left turn",
+                  "marks": 1
+                }
+              ],
+              "acceptable": [
+                [
+                  "U turn",
+                  "U-turn",
+                  "a U turn",
+                  "turn back",
+                  "turn around",
+                  "turn round",
+                  "you may turn back here"
+                ],
+                [
+                  "No left turn",
+                  "do not turn left",
+                  "don’t turn left",
+                  "left turn not allowed",
+                  "no turning left",
+                  "you must not turn left"
+                ]
+              ],
+              "skill": "vocabulary: road signs"
+            },
+            {
+              "id": "english-c3-s5-b3-i2",
+              "type": "short",
+              "q": "Write what sign 2 and sign 4 mean.",
+              "marks": 2,
+              "answer": "Sign 2: Danger ahead. Sign 4: Right turn.",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "Sign 2: Danger ahead",
+                  "marks": 1
+                },
+                {
+                  "point": "Sign 4: Right turn",
+                  "marks": 1
+                }
+              ],
+              "acceptable": [
+                [
+                  "Danger ahead",
+                  "danger",
+                  "there is danger ahead",
+                  "danger sign",
+                  "be careful, danger ahead"
+                ],
+                [
+                  "Right turn",
+                  "turn right",
+                  "right turn ahead",
+                  "the road turns right",
+                  "you may turn right"
+                ]
+              ],
+              "skill": "vocabulary: road signs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "title": "Spelling",
+      "marks": 12,
+      "blocks": [
+        {
+          "num": "Q.14",
+          "instruction": "Circle the correct spelling.",
+          "items": [
+            {
+              "id": "english-c3-s6-b1-i1",
+              "type": "mcq",
+              "q": "Circle the correct spelling.",
+              "marks": 2,
+              "answer": "pedestrian",
+              "difficulty": "medium",
+              "options": [
+                "pedestrain",
+                "pedestrian",
+                "padestrian"
+              ],
+              "answerPoints": [
+                {
+                  "point": "Correct spelling circled",
+                  "marks": 2
+                }
+              ],
+              "skill": "spelling: circle the correct spelling"
+            },
+            {
+              "id": "english-c3-s6-b1-i2",
+              "type": "mcq",
+              "q": "Circle the correct spelling.",
+              "marks": 2,
+              "answer": "dangerous",
+              "difficulty": "easy",
+              "options": [
+                "dangerus",
+                "dangrous",
+                "dangerous"
+              ],
+              "answerPoints": [
+                {
+                  "point": "Correct spelling circled",
+                  "marks": 2
+                }
+              ],
+              "skill": "spelling: circle the correct spelling"
+            },
+            {
+              "id": "english-c3-s6-b1-i3",
+              "type": "mcq",
+              "q": "Circle the correct spelling.",
+              "marks": 2,
+              "answer": "reflective",
+              "difficulty": "hard",
+              "options": [
+                "reflectiv",
+                "reflective",
+                "refelctive"
+              ],
+              "answerPoints": [
+                {
+                  "point": "Correct spelling circled",
+                  "marks": 2
+                }
+              ],
+              "skill": "spelling: circle the correct spelling"
+            }
+          ]
+        },
+        {
+          "num": "Q.15",
+          "instruction": "Rearrange the jumbled letters to make a meaningful word.",
+          "items": [
+            {
+              "id": "english-c3-s6-b2-i1",
+              "type": "one-word",
+              "q": "FFCRTIA",
+              "marks": 2,
+              "answer": "traffic",
+              "difficulty": "easy",
+              "acceptable": [
+                "traffic"
+              ],
+              "answerPoints": [
+                {
+                  "point": "All the letters used, none missing or extra",
+                  "marks": 1
+                },
+                {
+                  "point": "The word is spelt correctly",
+                  "marks": 1
+                }
+              ],
+              "skill": "spelling: rearrange the letters"
+            },
+            {
+              "id": "english-c3-s6-b2-i2",
+              "type": "one-word",
+              "q": "SGNORICS",
+              "marks": 2,
+              "answer": "crossing",
+              "difficulty": "medium",
+              "acceptable": [
+                "crossing"
+              ],
+              "answerPoints": [
+                {
+                  "point": "All the letters used, none missing or extra",
+                  "marks": 1
+                },
+                {
+                  "point": "The word is spelt correctly",
+                  "marks": 1
+                }
+              ],
+              "skill": "spelling: rearrange the letters"
+            },
+            {
+              "id": "english-c3-s6-b2-i3",
+              "type": "one-word",
+              "q": "TVEFEIRELC",
+              "marks": 2,
+              "answer": "reflective",
+              "difficulty": "hard",
+              "acceptable": [
+                "reflective"
+              ],
+              "answerPoints": [
+                {
+                  "point": "All the letters used, none missing or extra",
+                  "marks": 1
+                },
+                {
+                  "point": "The word is spelt correctly",
+                  "marks": 1
+                }
+              ],
+              "skill": "spelling: rearrange the letters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "title": "Handwriting",
+      "marks": 6,
+      "blocks": [
+        {
+          "num": "Q.16",
+          "instruction": "Write the following lines in neat handwriting.",
+          "stimulus": {
+            "kind": "passage",
+            "text": "On Sundays, Baba and I ride our bicycles to the park. I wear my helmet and ring my bell at every turn. We stop to drink water under a big banyan tree.",
+            "original": true
+          },
+          "items": [
+            {
+              "id": "english-c3-s7-b1-i1",
+              "type": "handwriting",
+              "q": "Copy the lines in your best handwriting.",
+              "marks": 3,
+              "answer": "A neat, evenly spaced copy with the capital letters, commas and full stops in place.",
+              "difficulty": "easy",
+              "markingGuide": "Letters well formed — 1; even spacing between letters and words — 1; neat writing with correct capital letters and punctuation — 1. Maximum 3.",
+              "skill": "handwriting"
+            }
+          ]
+        },
+        {
+          "num": "Q.17",
+          "instruction": "Write the following lines in neat handwriting.",
+          "stimulus": {
+            "kind": "passage",
+            "text": "Our class has a small garden near the gate. “Please water the plants,” says Miss Rao. We fill our mugs and walk slowly.",
+            "original": true
+          },
+          "items": [
+            {
+              "id": "english-c3-s7-b2-i1",
+              "type": "handwriting",
+              "q": "Copy the lines in your best handwriting.",
+              "marks": 3,
+              "answer": "A neat, evenly spaced copy with the speech marks, comma and full stops in place.",
+              "difficulty": "medium",
+              "markingGuide": "Letters well formed — 1; even spacing between letters and words — 1; neat writing with correct capital letters, speech marks and punctuation — 1. Maximum 3.",
+              "skill": "handwriting"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

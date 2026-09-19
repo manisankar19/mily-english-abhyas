@@ -230,7 +230,7 @@ record in the walkthrough, continue.
     derangement); E1 *hide–show* is the most arguable opposite but is unique within its 5-pair match; open
     opinion items (A1 Q4, B2-5, C2) rest on rubrics.
 
-- [ ] Task 7: Chapter 3 paper — Be Smart, Be Safe (P0) — one sub-agent; standard profile
+- [x] Task 7: Chapter 3 paper — Be Smart, Be Safe (P0) — one sub-agent; standard profile
   - Follow **Protocol P**. Standard profile.
   - Content: A1 original unseen passage, a rainy morning at a bus stop (~120 words); A2 original
     ~75-word note on kitchen safety at home. D: countable / uncountable nouns; C may include a
@@ -242,6 +242,21 @@ record in the walkthrough, continue.
   - Acceptance: Protocol P; sections `[25,13,12,19,13,12,6]`; F2 viewed at 2× and its caption
     checked against its items.
   - Files: `app/data/english-ch3.json`, `app/assets/english-ch3-signs.svg`
+  - Completed: 2026-09-19 — one sub-agent wrote both files; the coordinator re-ran everything. 58 items, 100
+    marks, sections `[25,13,12,19,13,12,6]`; difficulty 23/23/12 (40/40/21 %). `validate.js` PASS;
+    `readability.py` exit 0 (A1 118 words avg 6.9 max 12; A2 75 words avg 7.5 max 12; copy texts 32 and 23
+    words; 0 stems; no long words); `similarity.py` exit 0, **0 shingle failures**, 8 semantic pairs all
+    generic instruction lines ("Circle the correct spelling.", "Match the words with their meanings."), judged
+    and logged. **Figure F2 viewed once at 2×:** four clean, legible signs numbered 1–4 (U turn, danger ahead, no
+    left turn, right turn), `currentColor` only (0 literal colours), all four from the chapter's help box and
+    none of the four the school sample used; caption "Four road signs, numbered 1 to 4" names no meaning; the
+    block instruction's help box lists only those four names, so each sign has one defensible meaning.
+    Overlap with the school's Poem-3 worksheet grepped (23 strings): only chapter vocabulary (*distract*,
+    *stickers*), one textbook fact asked differently ("Where are traffic lights installed?"), and *loud music*
+    in a fill-blank — none of the school's questions or lists. Countable/uncountable nouns are all unambiguous.
+    Notes carried forward: D2-3 ("Sam drank three waters") accepts several corrections, all listed; the F2 jumble
+    SGNORICS can also spell the rare word *scorings* (unhinted; judged acceptable for Class 4); the two E3 sign items
+    are `short` with an `acceptable` array of arrays, which the validator does not check but does not reject.
 
 - [ ] Task 8: Chapter 4 paper — One Thing at a Time (P0) — one sub-agent; **thin-poem profile**
   - Follow **Protocol P**. Profile as Task 5 (A 30 · B 10 · C 20 · D 20 · E 20; 54 items; hard ≥ 35 %;

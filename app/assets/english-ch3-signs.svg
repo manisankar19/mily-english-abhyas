@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 240" width="660" height="240" role="img" aria-labelledby="t">
+  <title id="t">Four road signs, numbered 1 to 4</title>
+  <g fill="none" stroke="currentColor" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+    <!-- 1: circle sign with a U-shaped arrow -->
+    <circle cx="85" cy="95" r="62"/>
+    <path d="M65 132 V90 A20 20 0 0 1 105 90 V114" stroke-width="9" stroke-linecap="butt"/>
+    <!-- 2: triangle sign with an exclamation mark -->
+    <path d="M245 36 L185 142 L305 142 Z"/>
+    <!-- 3: circle sign, left-bending arrow, diagonal bar -->
+    <circle cx="405" cy="95" r="62"/>
+    <path d="M430 132 V100 A18 18 0 0 0 412 82 H392" stroke-width="9" stroke-linecap="butt"/>
+    <path d="M361 51 L449 139"/>
+    <!-- 4: circle sign with a right-bending arrow -->
+    <circle cx="565" cy="95" r="62"/>
+    <path d="M540 132 V100 A18 18 0 0 1 558 82 H578" stroke-width="9" stroke-linecap="butt"/>
+  </g>
+  <g fill="currentColor">
+    <polygon points="93,112 117,112 105,134"/>
+    <rect x="239" y="68" width="12" height="42" rx="5"/>
+    <circle cx="245" cy="126" r="7"/>
+    <polygon points="394,70 394,94 372,82"/>
+    <polygon points="576,70 576,94 598,82"/>
+  </g>
+  <g fill="currentColor" font-family="sans-serif" font-size="28" font-weight="700" text-anchor="middle">
+    <text x="85" y="216">1</text>
+    <text x="245" y="216">2</text>
+    <text x="405" y="216">3</text>
+    <text x="565" y="216">4</text>
+  </g>
+</svg>
