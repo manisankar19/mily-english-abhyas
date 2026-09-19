@@ -83,13 +83,15 @@ rather than ≤ 10 five-minute tasks. Testing and security are in this sprint be
 
 ## Batch 3 — build, README, local e2e
 
-- [ ] Task 12: `build.js` (agent `build`) (P0)
+- [x] Task 12: `build.js` (agent `build`) (P0)
   - Acceptance: brief §4 steps 1–6 and §5 exactly — validator with explicit `--skip-source-check`; card-driven paper list; secret resolution (env, then `.env.local` only if absent; empty = error; < 10 chars refused); placeholder exactly once; SVGs inlined as `<svg>`; JSON escaping by replacement functions; asserts (one 64-hex hash, no local `src`/`href`, no plaintext code, ≤ 4 MB); write last; one-line summary with "source check skipped".
   - Files: build.js
+  - Completed: 2026-09-19 — `build` sub-agent (185 lines, zero deps); coordinator reviewed secret resolution, validator flag, collision check and write-last (temp file + rename). Same page structure as `tests/harness.js`; card-driven; exports its functions. Throwaway build: `292.8 KB, 7 papers, 400 items, 5 figures, … source check skipped`. semgrep 0. Note: `<!--` in inlined JS becomes `<\!--` (safe only in strings/comments; none in app.js); unused-key warning is loose.
 
-- [ ] Task 13: `scripts/test-build.js` — committed build failure suite (agent `build`) (P0)
+- [x] Task 13: `scripts/test-build.js` — committed build failure suite (agent `build`) (P0)
   - Acceptance: `npm run test:build` runs on temp copies with throwaway codes: unset, empty, short, placeholder missing/doubled, missing asset, invalid paper, plaintext collision, `</script` in data — each exits non-zero and writes nothing; a control build exits 0 with one file.
   - Files: scripts/test-build.js
+  - Completed: 2026-09-19 — `build` sub-agent; 15 cases on temp copies with throwaway codes (11 failure, 4 success incl. `</script`/`<!--` escaping, `.env.local` fallback, env precedence, control build = one file, one hash = sha256(code)). Coordinator tightened every failure case to also assert its own error message (the agent had flagged that gap): 15/15 pass. The missing-asset case is caught by the validator first, so `build.js`'s own asset check is defence in depth, not separately tested.
 
 - [x] Task 14: `README.md` (agent `docs`) (P0)
   - Acceptance: every brief §11 item, including the verbatim deterrent sentence, Secrets table without values or shape, login "not a security control", two section profiles, assumed duration, source check local-only, git-integration and Deployment Protection notes; live URL left as a placeholder for Task 19.
