@@ -355,7 +355,7 @@ record in the walkthrough, continue.
   - Acceptance: file exists; no claim of "tested" for anything only read; lists match the actual run.
   - Files: `sprints/v1/walkthrough.md`
 
-- [ ] Task 14: Draft `sprints/v2/instruction.md` (P0) — coordinator
+- [x] Task 14: Draft `sprints/v2/instruction.md` (P0) — coordinator
   - Steps: start from `../mily-maths-abhyas/sprints/v2/instruction.md` and adjust for English: fewer
     figures (five, inline SVG), longer text stimuli, **rubric display in checking mode**, results that
     render **per-paper section lists** (Ch 1 and Ch 4 have five sections, `prd.md` D9), the assumed
@@ -365,6 +365,20 @@ record in the walkthrough, continue.
   - Acceptance: the file exists, states its own preflight and hard stops, and does not contradict
     `prd.md` or `BLUEPRINT.md`.
   - Files: `sprints/v2/instruction.md`
+  - Completed: 2026-09-19 — **drafted by a sub-agent** (a deviation: this task was listed "coordinator"; it was
+    delegated because it is an isolated document with no dependency on the papers) and **read in full by the
+    coordinator**, who then added two rendering notes found while reviewing the papers (newlines inside `q`;
+    `match` pairs stored in answer order, so the renderer must derange the right column). 364 lines (Maths is
+    316); 0 placeholders; no secret in it. It carries the HANDOFF parking lot (`--skip-source-check` passed
+    explicitly by `build.js`; Playwright `--with-deps`; the WebKit/glibc limit and a manual iPhone/iPad list),
+    per-paper section lists (five vs seven), rubric / "Also accept" / mark-split display in checking mode, the
+    authoring-only field list (12 fields; SCHEMA §8 lists 8 — to be extended in v2 batch 1), a committed
+    `scripts/test-build.js`, and the `.vercelignore` rule that `validate.js`, `PROJECT-CARD.yml` and
+    `scripts/lib/card.js` must stay in the upload. Five open questions are recorded in its §13 (card count = 7,
+    captions vs BLUEPRINT §5.5, SCHEMA §8 gap, printing an assumed duration, file-name case). One error of
+    mine in the prompt ("nine cards") was caught by the agent and corrected to seven. Its §2 facts marked
+    *confirm* (item counts, types used, figure count) are to be confirmed against
+    `sprints/v1/walkthrough.md` when Task 13 closes.
 
 ---
 
