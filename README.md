@@ -5,7 +5,7 @@ Education Society, 2025-26). It holds seven fixed question papers: one per chapt
 Chapters 1–6, plus a Half-Yearly mock paper covering Chapters 1–6. Each paper is worth
 100 marks. Mily writes her answers on paper; a parent marks them using the site.
 
-**Live site:** <to be filled at deploy, Task 19> — Vercel project `mily-english-abhyas`.
+**Live site:** https://mily-english-abhyas.vercel.app — Vercel project `mily-english-abhyas`.
 
 Who uses it:
 
@@ -149,6 +149,7 @@ vercel rollback <deployment-url-or-id> --token "$T"
 
 or, in the Vercel dashboard → Deployments, promote a previous deployment to production.
 
-- **Git integration:** after `vercel link`, the project may be connected to the git remote, and a
-  push to `main` may then deploy to production.
+- **Git integration:** `vercel link` connected this project to the private GitHub repo
+  `manisankar19/mily-english-abhyas`, so **a push to `main` deploys to production** (Vercel runs
+  `node build.js` with the Production `GANESH_ENGLISH`). Push only what you would deploy.
 - **Deployment Protection** is left at Vercel's default.
