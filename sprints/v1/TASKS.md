@@ -195,7 +195,7 @@ record in the walkthrough, continue.
     glossed in a question of the same block (a gloss = the word plus "(", "means" or a curly quote).
     The mock (chapter null) may use words from any chapter.
 
-- [ ] Task 5: Chapter 1 paper — Together We Can (P0) — one sub-agent; **thin-poem profile**
+- [x] Task 5: Chapter 1 paper — Together We Can (P0) — one sub-agent; **thin-poem profile**
   - Follow **Protocol P** (below). Profile: A 30 · B 10 · C 20 · D 20 · E 20 (`prd.md` §3.6, §5.0);
     54 items; `hard` ≥ 35 % of items (target ~39 %); `chapterSource` on every non-A item.
   - Content: A1 original unseen passage, watering turns in a school garden (110–150 words); A2 original
@@ -208,6 +208,22 @@ record in the walkthrough, continue.
   - Acceptance: Protocol P; `jq '[.sections[].marks]'` → `[30,10,20,20,20]`; hard-share and
     `chapterSource` checks pass; coordinator hand-audits 10 `hard` tags; F1 viewed at 2×.
   - Files: `app/data/english-ch1.json`, `app/assets/english-ch1-map.svg`
+  - Completed: 2026-09-19 — one sub-agent wrote both files; the coordinator re-ran everything. **Capacity gate
+    held: 100 marks and 54 items from the chapter's own material plus the two original A texts, no padding.**
+    Sections `[30,10,20,20,20]`; every item has `chapterSource` (A items `original-A1` / `original-A2`); 23
+    chapter words all used. `validate.js` PASS; `readability.py` exit 0 (A1 132 words avg 8.2 max 12; A2 poem 59
+    words, 8 lines, longest 8; 0 stems; no long words); `similarity.py` exit 0, **0 shingle failures**, 2 semantic
+    pairs = the generic "Match the words with their meanings." line, judged and logged. **Figure F1 viewed
+    once at 2×:** a clean 2×3 grid (back row Bookstore / Hospital / Park, front row Post Office / Bank / School,
+    Main Road below, doors on the road), `currentColor` only, caption lists the places and no positions. Section
+    D uses only *behind, between, near, in front of* and *will* (the only other word is "at" in the instruction
+    "Look again at the map"); eight formats; E2 accepts both *bunch* and *bouquet*. **Hand-audit of the hard
+    tags (10 sampled): 7 sound; one downgraded** — E4-2 was hard only because *communicate* is 11 letters (harder
+    language, not a lever), now medium. Result: **hard 19 of 54 = 35.2 %, one item above the 35 % floor — no
+    slack**; any further downgrade fails `HARD_FLOOR`. By marks the paper is 54 % hard (the 5-mark writing
+    tasks). Borderline items for the owner's read: Q.8 items 1–4 are unique only "using each word once" (the
+    school is also *near* the park); C2 (guided paragraph) and D2-1 are the softest remaining hard tags. The
+    word *symbol* was avoided in questions because the readability stem flag matches it (see Task 4 note).
 
 - [x] Task 6: Chapter 2 paper — The Tinkling Bells (P0) — one sub-agent; standard profile
   - Follow **Protocol P**. Standard seven sections 25/13/12/19/13/12/6, 58 items, 40/40/20.

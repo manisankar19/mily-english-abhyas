@@ -1,0 +1,1197 @@
+{
+  "schemaVersion": "2.0",
+  "subject": "english",
+  "subjectDisplay": "English",
+  "grade": 4,
+  "chapter": 1,
+  "locale": "en",
+  "numerals": "latn",
+  "title": "Together We Can",
+  "subtitle": "English — Class 4 — Chapter 1",
+  "sourceRef": "Santoor Grade 4, Ch. 1",
+  "totalMarks": 100,
+  "durationMinutes": 120,
+  "sections": [
+    {
+      "code": "A",
+      "title": "Reading",
+      "marks": 30,
+      "blocks": [
+        {
+          "num": "Q.1",
+          "instruction": "Read the passage and answer the questions. Write True or False for the true-false questions.",
+          "stimulus": {
+            "kind": "passage",
+            "text": "The school was closed for the summer holidays. But the garden still needed water. So Mrs Rao, the class teacher, made a list. Two children came each morning with a bucket. The sun was hot, so they came early. On Monday, Meena and Zoya watered the roses. On Tuesday, Arjun and Kabir watered the tomato plants. On Wednesday, Farah and Dev cleaned the paths and watered the marigolds. They poured the water slowly near the roots. Mohan Kaka, the watchman, opened the gate for them every day. He also filled the buckets at the tap. On the last day, all the children came together. The roses were red and pink. The tomatoes were round and ripe. Mrs Rao gave each child one tomato to take home. Everyone was proud of the garden.",
+            "original": true
+          },
+          "items": [
+            {
+              "id": "english-c1-s1-b1-i1",
+              "type": "mcq",
+              "q": "Why did the children come to the school during the holidays?",
+              "marks": 1,
+              "answer": "To water the garden",
+              "difficulty": "easy",
+              "options": [
+                "To water the garden",
+                "To take an exam",
+                "To buy tomatoes"
+              ],
+              "skill": "literal recall",
+              "chapterSource": "original-A1"
+            },
+            {
+              "id": "english-c1-s1-b1-i2",
+              "type": "mcq",
+              "q": "How many children came each morning?",
+              "marks": 1,
+              "answer": "Two",
+              "difficulty": "easy",
+              "options": [
+                "Two",
+                "Three",
+                "Five"
+              ],
+              "skill": "literal recall",
+              "chapterSource": "original-A1"
+            },
+            {
+              "id": "english-c1-s1-b1-i3",
+              "type": "mcq",
+              "q": "Who watered the tomato plants?",
+              "marks": 1,
+              "answer": "Arjun and Kabir",
+              "difficulty": "medium",
+              "options": [
+                "Meena and Zoya",
+                "Arjun and Kabir",
+                "Farah and Dev"
+              ],
+              "skill": "find the detail",
+              "chapterSource": "original-A1"
+            },
+            {
+              "id": "english-c1-s1-b1-i4",
+              "type": "short",
+              "q": "What did Farah and Dev do on Wednesday?",
+              "marks": 2,
+              "answer": "They cleaned the paths (1) and watered the marigolds (1).",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "cleaned the paths",
+                  "marks": 1
+                },
+                {
+                  "point": "watered the marigolds",
+                  "marks": 1
+                }
+              ],
+              "skill": "two details",
+              "chapterSource": "original-A1"
+            },
+            {
+              "id": "english-c1-s1-b1-i5",
+              "type": "short",
+              "q": "What did Mrs Rao make at the start, and what did she give each child on the last day?",
+              "marks": 2,
+              "answer": "She made a list (1). She gave each child one tomato to take home (1).",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "a list",
+                  "marks": 1
+                },
+                {
+                  "point": "one tomato to take home",
+                  "marks": 1
+                }
+              ],
+              "skill": "two-part answer from two places",
+              "chapterSource": "original-A1"
+            },
+            {
+              "id": "english-c1-s1-b1-i6",
+              "type": "short",
+              "q": "These jobs are in the wrong order. Write a, b and c in the order in which they were done. (a) Farah and Dev watered the marigolds. (b) Meena and Zoya watered the roses. (c) Arjun and Kabir watered the tomato plants.",
+              "marks": 2,
+              "answer": "b, c, a. (b) roses on Monday, (c) tomato plants on Tuesday, (a) marigolds on Wednesday. Full order — 2; b first but c and a swapped — 1; b not first — 0.",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "b comes first",
+                  "marks": 1
+                },
+                {
+                  "point": "c comes second and a comes third",
+                  "marks": 1
+                }
+              ],
+              "skill": "sequencing",
+              "chapterSource": "original-A1"
+            },
+            {
+              "id": "english-c1-s1-b1-i7",
+              "type": "true-false",
+              "q": "The school was closed for the summer holidays.",
+              "marks": 1,
+              "answer": "True. The first sentence says so.",
+              "difficulty": "easy",
+              "skill": "true-false",
+              "chapterSource": "original-A1"
+            },
+            {
+              "id": "english-c1-s1-b1-i8",
+              "type": "true-false",
+              "q": "Farah and Dev watered the roses.",
+              "marks": 1,
+              "answer": "False. Meena and Zoya watered the roses; Farah and Dev watered the marigolds.",
+              "difficulty": "medium",
+              "skill": "true-false",
+              "chapterSource": "original-A1"
+            },
+            {
+              "id": "english-c1-s1-b1-i9",
+              "type": "one-word",
+              "q": "Which flowers did Farah and Dev water? Write one word from the passage.",
+              "marks": 1,
+              "answer": "marigolds",
+              "difficulty": "easy",
+              "acceptable": [
+                "marigolds",
+                "marigold"
+              ],
+              "skill": "one word from the text",
+              "chapterSource": "original-A1"
+            },
+            {
+              "id": "english-c1-s1-b1-i10",
+              "type": "one-word",
+              "q": "On which day did Arjun and Kabir water the plants? Write one word.",
+              "marks": 1,
+              "answer": "Tuesday",
+              "difficulty": "easy",
+              "acceptable": [
+                "Tuesday",
+                "tuesday"
+              ],
+              "skill": "one word from the text",
+              "chapterSource": "original-A1"
+            },
+            {
+              "id": "english-c1-s1-b1-i11",
+              "type": "short",
+              "q": "(a) Who made the list? (1 mark) (b) Write two ways in which Mohan Kaka helped the children. (2 marks)",
+              "marks": 3,
+              "answer": "(a) Mrs Rao, the class teacher (1). (b) He opened the gate for them every day (1). He filled the buckets at the tap (1).",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "Mrs Rao (the class teacher)",
+                  "marks": 1
+                },
+                {
+                  "point": "opened the gate every day",
+                  "marks": 1
+                },
+                {
+                  "point": "filled the buckets at the tap",
+                  "marks": 1
+                }
+              ],
+              "skill": "two-part answer from two places",
+              "chapterSource": "original-A1"
+            }
+          ]
+        },
+        {
+          "num": "Q.2",
+          "instruction": "Read the poem and answer the questions.",
+          "stimulus": {
+            "kind": "poem",
+            "text": "The sun sinks low, the sky is gold.\nFour runners wait, so brave and bold.\nAsha runs first and passes the stick.\nRavi takes it and runs so quick.\nThen Meena takes it, her steps so light.\nSunil is last and holds it tight.\nHe crosses the line and hears the crowd.\nFour friends hug and cheer out loud.",
+            "original": true
+          },
+          "items": [
+            {
+              "id": "english-c1-s1-b2-i1",
+              "type": "short",
+              "q": "Write the names of the four runners in the order in which they run.",
+              "marks": 2,
+              "answer": "Asha, Ravi, Meena, Sunil. All four in order — 2; Asha first and Sunil last but the middle two swapped — 1.",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "Asha first and Sunil last",
+                  "marks": 1
+                },
+                {
+                  "point": "Ravi second and Meena third",
+                  "marks": 1
+                }
+              ],
+              "skill": "sequencing",
+              "chapterSource": "original-A2"
+            },
+            {
+              "id": "english-c1-s1-b2-i2",
+              "type": "short",
+              "q": "What time of day is the race? Write the words from the poem that tell you.",
+              "marks": 2,
+              "answer": "It is evening (or sunset) (1). “The sun sinks low, the sky is gold.” (either half of the line) (1).",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "evening / sunset / late afternoon",
+                  "marks": 1
+                },
+                {
+                  "point": "the sun sinks low / the sky is gold",
+                  "marks": 1
+                }
+              ],
+              "skill": "clue from the text",
+              "chapterSource": "original-A2"
+            },
+            {
+              "id": "english-c1-s1-b2-i3",
+              "type": "short",
+              "q": "What do the four friends do when the race ends?",
+              "marks": 2,
+              "answer": "They hug (1) and cheer out loud (1).",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "hug",
+                  "marks": 1
+                },
+                {
+                  "point": "cheer out loud",
+                  "marks": 1
+                }
+              ],
+              "skill": "two details",
+              "chapterSource": "original-A2"
+            },
+            {
+              "id": "english-c1-s1-b2-i4",
+              "type": "fill-blank",
+              "q": "The sun sinks low and the sky is _____.",
+              "marks": 1,
+              "answer": "gold",
+              "difficulty": "easy",
+              "blanks": 1,
+              "acceptable": [
+                "gold",
+                "golden"
+              ],
+              "skill": "poem detail",
+              "chapterSource": "original-A2"
+            },
+            {
+              "id": "english-c1-s1-b2-i5",
+              "type": "fill-blank",
+              "q": "Ravi takes the stick and runs so _____.",
+              "marks": 1,
+              "answer": "quick",
+              "difficulty": "easy",
+              "blanks": 1,
+              "acceptable": [
+                "quick",
+                "quickly",
+                "fast"
+              ],
+              "skill": "poem detail",
+              "chapterSource": "original-A2"
+            },
+            {
+              "id": "english-c1-s1-b2-i6",
+              "type": "fill-blank",
+              "q": "Meena’s steps are so _____.",
+              "marks": 1,
+              "answer": "light",
+              "difficulty": "medium",
+              "blanks": 1,
+              "acceptable": [
+                "light",
+                "lightly"
+              ],
+              "skill": "poem detail",
+              "chapterSource": "original-A2"
+            },
+            {
+              "id": "english-c1-s1-b2-i7",
+              "type": "mcq",
+              "q": "How many runners are in the team?",
+              "marks": 1,
+              "answer": "Four",
+              "difficulty": "easy",
+              "options": [
+                "Three",
+                "Four",
+                "Five"
+              ],
+              "skill": "poem detail",
+              "chapterSource": "original-A2"
+            },
+            {
+              "id": "english-c1-s1-b2-i8",
+              "type": "mcq",
+              "q": "Who takes the stick after Ravi?",
+              "marks": 1,
+              "answer": "Meena",
+              "difficulty": "medium",
+              "options": [
+                "Asha",
+                "Meena",
+                "Sunil"
+              ],
+              "skill": "sequence in the poem",
+              "chapterSource": "original-A2"
+            },
+            {
+              "id": "english-c1-s1-b2-i9",
+              "type": "short",
+              "q": "(a) Who passes the stick to Ravi? (1 mark) (b) Write two things that Sunil does in the last part of the race. (2 marks)",
+              "marks": 3,
+              "answer": "(a) Asha (1). (b) Any two: he holds the stick tight (1); he crosses the line (1); he hears the crowd (1).",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "Asha",
+                  "marks": 1
+                },
+                {
+                  "point": "first thing Sunil does (holds the stick tight / crosses the line / hears the crowd)",
+                  "marks": 1
+                },
+                {
+                  "point": "second thing Sunil does",
+                  "marks": 1
+                }
+              ],
+              "skill": "two-part answer from two places",
+              "chapterSource": "original-A2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Textual Questions",
+      "marks": 10,
+      "blocks": [
+        {
+          "num": "Q.3",
+          "instruction": "Answer the following questions. Use the poem “Together We Can” and the activities in your textbook to help you.",
+          "items": [
+            {
+              "id": "english-c1-s2-b1-i1",
+              "type": "short",
+              "q": "The poem says, “Helping each other, we never fall.” Give two reasons why helping each other is important for a team.",
+              "marks": 2,
+              "answer": "Any two sensible reasons, 1 mark each. For example: the team stays strong and does not give up (1); the work is done faster (1); nobody feels alone (1).",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "first sensible reason",
+                  "marks": 1
+                },
+                {
+                  "point": "second sensible reason",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "One mark for each sensible reason, written in a sentence. Two reasons — 2; one reason — 1. Repeating the same reason twice earns 1. Maximum 2.",
+              "skill": "poem meaning",
+              "chapterSource": "poem l.2; Let us Think A2"
+            },
+            {
+              "id": "english-c1-s2-b1-i2",
+              "type": "short",
+              "q": "Look at lines 5 and 6 of the poem in your textbook. What does the team always do, win or lose? What is always there for the team?",
+              "marks": 2,
+              "answer": "The team always shares (1). Their bond of trust is always there (1).",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "they always share",
+                  "marks": 1
+                },
+                {
+                  "point": "the bond of trust is always there",
+                  "marks": 1
+                }
+              ],
+              "skill": "two lines of the poem",
+              "chapterSource": "poem l.5-6"
+            },
+            {
+              "id": "english-c1-s2-b1-i3",
+              "type": "short",
+              "q": "Look at lines 7 and 8 of the poem in your textbook. What two things happen when each hand is joined?",
+              "marks": 2,
+              "answer": "The goal is near (1). Team spirit fills the air with cheer (1).",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "the goal is near",
+                  "marks": 1
+                },
+                {
+                  "point": "team spirit fills the air with cheer",
+                  "marks": 1
+                }
+              ],
+              "skill": "two lines of the poem",
+              "chapterSource": "poem l.7-8; Let us Think A1"
+            },
+            {
+              "id": "english-c1-s2-b1-i4",
+              "type": "short",
+              "q": "Imagine that your team loses a game. Write two sentences: how you would feel, and what you would say to your team.",
+              "marks": 2,
+              "answer": "Any sensible feeling in a full sentence (1); any kind or encouraging words to the team in a full sentence (1). For example: I would feel sad. I would say, “Well tried, we will do better next time.”",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "how you would feel",
+                  "marks": 1
+                },
+                {
+                  "point": "what you would say to the team",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "One mark for a sentence about feelings; one mark for a sentence of kind words to the team. Both — 2; one — 1. Maximum 2.",
+              "skill": "own words",
+              "chapterSource": "Let us Think B3"
+            },
+            {
+              "id": "english-c1-s2-b1-i5",
+              "type": "short",
+              "q": "Honeybees and ants both work as a team. (a) How do honeybees tell their hive members where the flowers are? (b) Write one thing that ants do as a team using signals.",
+              "marks": 2,
+              "answer": "(a) They do a waggle dance (1). (b) Any one: they find food, defend their colony, or build nests (1).",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "a waggle dance",
+                  "marks": 1
+                },
+                {
+                  "point": "find food / defend their colony / build nests",
+                  "marks": 1
+                }
+              ],
+              "skill": "two facts from two places",
+              "chapterSource": "Know You Do (honeybees and ants)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Creative Writing",
+      "marks": 20,
+      "blocks": [
+        {
+          "num": "Q.4",
+          "instruction": "Write in your notebook.",
+          "items": [
+            {
+              "id": "english-c1-s3-b1-i1",
+              "type": "long",
+              "q": "Write five sentences on ONE of these. (a) Sameer sees a small girl drop her books in the corridor. He is picking them up for her. Write five sentences about what Sameer is doing now and what will happen next. OR (b) Write five sentences to tell a friend how to make the paper cut-out figure from the “Working Together” activity in your textbook. Use the words first, next, then, after that and last.",
+              "marks": 5,
+              "answer": "Model for (a): Sameer is picking up the girl’s books. He is smiling at her. He is putting the books in her bag. The girl will say thank you. She will walk to her class with a happy face. Model for (b): First, fold a sheet of paper. Next, draw one side of a body along the fold. Then cut along the drawing. After that, unfold the paper gently. Last, colour the figure.",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "sentence 1 on the topic",
+                  "marks": 1
+                },
+                {
+                  "point": "sentence 2 on the topic",
+                  "marks": 1
+                },
+                {
+                  "point": "sentence 3 on the topic",
+                  "marks": 1
+                },
+                {
+                  "point": "sentence 4 on the topic",
+                  "marks": 1
+                },
+                {
+                  "point": "sentence 5 on the topic",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "One mark for each sentence on the chosen topic that is complete and makes sense: five sentences — 5; four — 4; three — 3; two — 2; one — 1. For (a), at least two sentences must say what will happen next using will; if none uses will, deduct 1. For (b), the steps must be correct and in order. Deduct 1 for more than three spelling errors. Minimum 0.",
+              "skill": "scenario writing",
+              "chapterSource": "Let us Write (what is happening, what will happen next); Let us Do A (Working Together)"
+            }
+          ]
+        },
+        {
+          "num": "Q.5",
+          "instruction": "Write a paragraph in your notebook.",
+          "items": [
+            {
+              "id": "english-c1-s3-b2-i1",
+              "type": "long",
+              "q": "Families in our country keep many festivals and cook many kinds of food. Write a paragraph of five or six sentences about a festival that your family enjoys. These lines will help you. 1. The festival my family enjoys most is … 2. To get ready, we … 3. The best food on the table is … 4. The people who come together are … 5. My favourite part is … because …",
+              "marks": 5,
+              "answer": "Model: The festival my family enjoys most is Diwali. To get ready, we clean the house and make small lamps. The best food on the table is jalebi. My uncles, aunts and cousins come together at our house. My favourite part is lighting the lamps because the whole street looks bright.",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "names the festival",
+                  "marks": 1
+                },
+                {
+                  "point": "says how the family gets ready",
+                  "marks": 1
+                },
+                {
+                  "point": "names a food",
+                  "marks": 1
+                },
+                {
+                  "point": "says who comes together",
+                  "marks": 1
+                },
+                {
+                  "point": "gives a favourite part with a reason",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "One mark for each of the five points, written in a full sentence: all five points — 5; four — 4; three — 3; two — 2; one — 1. Deduct 1 for more than three spelling errors or missing capital letters and full stops. Minimum 0.",
+              "skill": "guided paragraph",
+              "chapterSource": "Let us Speak (favourite food and festival)"
+            }
+          ]
+        },
+        {
+          "num": "Q.6",
+          "instruction": "Think about the situation and write your answer.",
+          "items": [
+            {
+              "id": "english-c1-s3-b3-i1",
+              "type": "long",
+              "q": "You are the leader of a group that is making a poster. Two of your teammates cannot agree on the colours. Write what you would do to bring your team together again. Write five sentences and give at least three things you would do.",
+              "marks": 5,
+              "answer": "Model: I would ask each teammate to say what they want. I would listen to both of them without interrupting. Then I would ask them to take turns: one colour for the sky and one for the ground. I would say that the poster is for the whole team. In the end we would all colour it together.",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "first sensible step",
+                  "marks": 1
+                },
+                {
+                  "point": "second sensible step",
+                  "marks": 1
+                },
+                {
+                  "point": "third sensible step",
+                  "marks": 1
+                },
+                {
+                  "point": "the team works together at the end",
+                  "marks": 1
+                },
+                {
+                  "point": "full sentences with correct spelling",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "Three or more different, sensible steps in full sentences and the team working together again — 5; three steps — 4; two steps — 3; one step — 2; only a wish with no action (for example, they should be friends) — 1. Deduct 1 for more than three spelling errors. Minimum 0.",
+              "skill": "scenario, own words",
+              "chapterSource": "Let us Think B4"
+            }
+          ]
+        },
+        {
+          "num": "Q.7",
+          "instruction": "Make a sentence with each word. Use will in sentences (iv) and (v).",
+          "items": [
+            {
+              "id": "english-c1-s3-b4-i1",
+              "type": "short",
+              "q": "(i) teamwork",
+              "marks": 1,
+              "answer": "Model: We finished the project because of good teamwork.",
+              "difficulty": "easy",
+              "markingGuide": "One mark for a correct sentence that uses the word teamwork. No mark if the word is missing or the sentence does not make sense. Maximum 1.",
+              "skill": "make a sentence",
+              "chapterSource": "poem l.4"
+            },
+            {
+              "id": "english-c1-s3-b4-i2",
+              "type": "short",
+              "q": "(ii) bundle",
+              "marks": 1,
+              "answer": "Model: Grandfather tied a bundle of sticks with a rope.",
+              "difficulty": "medium",
+              "markingGuide": "One mark for a correct sentence that uses the word bundle. No mark if the word is missing or the sentence does not make sense. Maximum 1.",
+              "skill": "make a sentence",
+              "chapterSource": "Let us Learn A (bundle of sticks)"
+            },
+            {
+              "id": "english-c1-s3-b4-i3",
+              "type": "short",
+              "q": "(iii) bouquet",
+              "marks": 1,
+              "answer": "Model: Nisha gave the singer a bouquet of roses.",
+              "difficulty": "medium",
+              "markingGuide": "One mark for a correct sentence that uses the word bouquet. No mark if the word is missing or the sentence does not make sense. Maximum 1.",
+              "skill": "make a sentence",
+              "chapterSource": "Let us Learn A (bouquet)"
+            },
+            {
+              "id": "english-c1-s3-b4-i4",
+              "type": "short",
+              "q": "(iv) defend",
+              "marks": 1,
+              "answer": "Model: The ants will defend their colony.",
+              "difficulty": "hard",
+              "markingGuide": "One mark for a correct sentence that uses the word defend and will. No mark if the word is missing or the sentence does not make sense. Maximum 1.",
+              "skill": "make a sentence",
+              "chapterSource": "Know You Do (ants defend their colony)"
+            },
+            {
+              "id": "english-c1-s3-b4-i5",
+              "type": "short",
+              "q": "(v) languages",
+              "marks": 1,
+              "answer": "Model: We will learn many languages.",
+              "difficulty": "hard",
+              "markingGuide": "One mark for a correct sentence that uses the word languages and will. No mark if the word is missing or the sentence does not make sense. Maximum 1.",
+              "skill": "make a sentence",
+              "chapterSource": "Let us Speak (languages); Let us Write (will)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Grammar",
+      "marks": 20,
+      "blocks": [
+        {
+          "num": "Q.8",
+          "instruction": "Look at the map. Imagine that you stand at the road and look at the buildings. For 1 to 4, fill in the blanks with the words from the box. Use each word once. Box: behind, between, near, in front of. For 5 and 6, choose the correct word from the brackets.",
+          "stimulus": {
+            "kind": "figure",
+            "asset": "assets/english-ch1-map.svg",
+            "caption": "A street map. It shows these places: bank, school, post office, hospital, bookstore and park. The road is called Main Road."
+          },
+          "items": [
+            {
+              "id": "english-c1-s4-b1-i1",
+              "type": "fill-blank",
+              "q": "The school is _____ the park.",
+              "marks": 1,
+              "answer": "in front of",
+              "difficulty": "easy",
+              "blanks": 1,
+              "acceptable": [
+                "in front of"
+              ],
+              "skill": "preposition from the map",
+              "chapterSource": "Let us Learn B (prepositions)"
+            },
+            {
+              "id": "english-c1-s4-b1-i2",
+              "type": "fill-blank",
+              "q": "The bank is _____ the post office and the school.",
+              "marks": 1,
+              "answer": "between",
+              "difficulty": "easy",
+              "blanks": 1,
+              "acceptable": [
+                "between"
+              ],
+              "skill": "preposition from the map",
+              "chapterSource": "Let us Learn B (prepositions)"
+            },
+            {
+              "id": "english-c1-s4-b1-i3",
+              "type": "fill-blank",
+              "q": "The hospital is _____ the bank.",
+              "marks": 1,
+              "answer": "behind",
+              "difficulty": "medium",
+              "blanks": 1,
+              "acceptable": [
+                "behind"
+              ],
+              "skill": "preposition from the map",
+              "chapterSource": "Let us Learn B (prepositions)"
+            },
+            {
+              "id": "english-c1-s4-b1-i4",
+              "type": "fill-blank",
+              "q": "The post office is _____ the bank.",
+              "marks": 1,
+              "answer": "near",
+              "difficulty": "medium",
+              "blanks": 1,
+              "acceptable": [
+                "near"
+              ],
+              "skill": "preposition from the map",
+              "chapterSource": "Let us Learn B (prepositions)"
+            },
+            {
+              "id": "english-c1-s4-b1-i5",
+              "type": "fill-blank",
+              "q": "The park is _____ the hospital. (near / in front of)",
+              "marks": 1,
+              "answer": "near",
+              "difficulty": "medium",
+              "blanks": 1,
+              "acceptable": [
+                "near"
+              ],
+              "skill": "preposition from the map",
+              "chapterSource": "Let us Learn B (prepositions)"
+            },
+            {
+              "id": "english-c1-s4-b1-i6",
+              "type": "fill-blank",
+              "q": "The post office is _____ the bookstore. (behind / in front of)",
+              "marks": 1,
+              "answer": "in front of",
+              "difficulty": "medium",
+              "blanks": 1,
+              "acceptable": [
+                "in front of"
+              ],
+              "skill": "preposition from the map",
+              "chapterSource": "Let us Learn B (prepositions)"
+            }
+          ]
+        },
+        {
+          "num": "Q.9",
+          "instruction": "Do as directed. Use will to talk about the future.",
+          "items": [
+            {
+              "id": "english-c1-s4-b2-i1",
+              "type": "short",
+              "q": "Rewrite each sentence with will. (a) Meena waters the plants. (b) Asha stands behind Ravi and cheers loudly.",
+              "marks": 2,
+              "answer": "(a) Meena will water the plants. (1) (b) Asha will stand behind Ravi and cheer loudly. (1) Also accept: Asha will stand behind Ravi and will cheer loudly.",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "Meena will water the plants",
+                  "marks": 1
+                },
+                {
+                  "point": "Asha will stand behind Ravi and (will) cheer loudly",
+                  "marks": 1
+                }
+              ],
+              "skill": "present to future",
+              "chapterSource": "Let us Write (note: will for the future)"
+            },
+            {
+              "id": "english-c1-s4-b2-i2",
+              "type": "fill-blank",
+              "q": "Complete each sentence with will and the word from the brackets. (a) Tomorrow, Kabir _____ the plants near the school. (water) (b) Next week, our class _____ the hospital. (visit)",
+              "marks": 2,
+              "answer": [
+                "will water",
+                "will visit"
+              ],
+              "difficulty": "medium",
+              "blanks": 2,
+              "acceptable": [
+                [
+                  "will water"
+                ],
+                [
+                  "will visit"
+                ]
+              ],
+              "answerPoints": [
+                {
+                  "point": "will water",
+                  "marks": 1
+                },
+                {
+                  "point": "will visit",
+                  "marks": 1
+                }
+              ],
+              "skill": "complete with will",
+              "chapterSource": "Let us Write (note: will for the future)"
+            },
+            {
+              "id": "english-c1-s4-b2-i3",
+              "type": "short",
+              "q": "Rearrange the words to make a sentence. Begin with a capital letter and end with a full stop. (a) will / near / stop / bus / hospital / the / the (b) will / behind / children / school / play / the / the",
+              "marks": 2,
+              "answer": "(a) The bus will stop near the hospital. (1) (b) The children will play behind the school. (1) Also accept: Near the hospital, the bus will stop. / Behind the school, the children will play.",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "The bus will stop near the hospital.",
+                  "marks": 1
+                },
+                {
+                  "point": "The children will play behind the school.",
+                  "marks": 1
+                }
+              ],
+              "skill": "unscramble",
+              "chapterSource": "Let us Learn B; Let us Write (will)"
+            }
+          ]
+        },
+        {
+          "num": "Q.10",
+          "instruction": "Write your answers.",
+          "items": [
+            {
+              "id": "english-c1-s4-b3-i1",
+              "type": "short",
+              "q": "Look again at the map for Q.8. (a) Write one true sentence about the map, using behind. (b) Write one true sentence about the map, using between. (c) Write one sentence about what you will do tomorrow. (d) Write one sentence about what you will do next week. Use will in (c) and (d).",
+              "marks": 4,
+              "answer": "(a) One of: The hospital is behind the bank. / The bookstore is behind the post office. / The park is behind the school. (1) (b) One of: The bank is between the post office and the school. / The hospital is between the bookstore and the park. (1) (c) and (d) Any sensible sentence with will, for example: I will play cricket tomorrow. / I will visit my aunt next week. (1 each)",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "(a) true sentence with behind",
+                  "marks": 1
+                },
+                {
+                  "point": "(b) true sentence with between",
+                  "marks": 1
+                },
+                {
+                  "point": "(c) sentence with will about tomorrow",
+                  "marks": 1
+                },
+                {
+                  "point": "(d) sentence with will about next week",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "Check (a) and (b) against the map: the sentence must be true and use the word correctly. For (c) and (d) the sentence must use will and a plain action word. One mark each, 4 in all. Do not deduct for spelling in this item.",
+              "skill": "read the map and write; write what you will do next",
+              "chapterSource": "Let us Learn B (map); Let us Write (will)"
+            },
+            {
+              "id": "english-c1-s4-b3-i2",
+              "type": "short",
+              "q": "Each sentence has one mistake. Write each sentence correctly. For (c) and (d), use the map for Q.8. (a) Tomorrow, Asha will plays cricket. (b) Next week, we will visiting the hospital. (c) The school is behind the park. (d) The park is between the hospital.",
+              "marks": 4,
+              "answer": "(a) Tomorrow, Asha will play cricket. (1) (b) Next week, we will visit the hospital. (1) (c) The school is in front of the park. (1) (Also accept: The park is behind the school.) (d) The park is near the hospital. (1) (Accept any true, correct sentence that keeps the park and the hospital.)",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "(a) will play",
+                  "marks": 1
+                },
+                {
+                  "point": "(b) will visit",
+                  "marks": 1
+                },
+                {
+                  "point": "(c) in front of the park (or the park is behind the school)",
+                  "marks": 1
+                },
+                {
+                  "point": "(d) near the hospital",
+                  "marks": 1
+                }
+              ],
+              "skill": "spot and correct",
+              "chapterSource": "Let us Learn B (map); Let us Write (will)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "E",
+      "title": "Vocabulary",
+      "marks": 20,
+      "blocks": [
+        {
+          "num": "Q.11",
+          "instruction": "Match the words with their meanings.",
+          "items": [
+            {
+              "id": "english-c1-s5-b1-i1",
+              "type": "match",
+              "q": "Match the words with their meanings.",
+              "marks": 5,
+              "answer": "unity – the feeling of being together as one group; bond – a close link that ties people together; trust – the belief that someone is honest and will not let you down; cheer – to shout happily to support someone; share – to give a part of what you have to someone else",
+              "difficulty": "medium",
+              "pairs": [
+                {
+                  "left": "unity",
+                  "right": "the feeling of being together as one group"
+                },
+                {
+                  "left": "bond",
+                  "right": "a close link that ties people together"
+                },
+                {
+                  "left": "trust",
+                  "right": "the belief that someone is honest and will not let you down"
+                },
+                {
+                  "left": "cheer",
+                  "right": "to shout happily to support someone"
+                },
+                {
+                  "left": "share",
+                  "right": "to give a part of what you have to someone else"
+                }
+              ],
+              "answerPoints": [
+                {
+                  "point": "unity",
+                  "marks": 1
+                },
+                {
+                  "point": "bond",
+                  "marks": 1
+                },
+                {
+                  "point": "trust",
+                  "marks": 1
+                },
+                {
+                  "point": "cheer",
+                  "marks": 1
+                },
+                {
+                  "point": "share",
+                  "marks": 1
+                }
+              ],
+              "skill": "word meanings",
+              "chapterSource": "poem l.1-10 and Let us Speak (unity)"
+            }
+          ]
+        },
+        {
+          "num": "Q.12",
+          "instruction": "Fill in the blanks with the words from the box. Use each word once. Box: choir, swarm, grove, bunch.",
+          "items": [
+            {
+              "id": "english-c1-s5-b2-i1",
+              "type": "fill-blank",
+              "q": "A _____ of bees buzzed around the hive.",
+              "marks": 1,
+              "answer": "swarm",
+              "difficulty": "easy",
+              "blanks": 1,
+              "acceptable": [
+                "swarm"
+              ],
+              "skill": "collective noun",
+              "chapterSource": "Let us Learn A (collective nouns)"
+            },
+            {
+              "id": "english-c1-s5-b2-i2",
+              "type": "fill-blank",
+              "q": "A _____ of boys sang at the school function.",
+              "marks": 1,
+              "answer": "choir",
+              "difficulty": "easy",
+              "blanks": 1,
+              "acceptable": [
+                "choir"
+              ],
+              "skill": "collective noun",
+              "chapterSource": "Let us Learn A (collective nouns)"
+            },
+            {
+              "id": "english-c1-s5-b2-i3",
+              "type": "fill-blank",
+              "q": "A _____ of mango trees grew near the pond.",
+              "marks": 1,
+              "answer": "grove",
+              "difficulty": "medium",
+              "blanks": 1,
+              "acceptable": [
+                "grove"
+              ],
+              "skill": "collective noun",
+              "chapterSource": "Let us Learn A (collective nouns)"
+            },
+            {
+              "id": "english-c1-s5-b2-i4",
+              "type": "fill-blank",
+              "q": "Meera gave her teacher a _____ of flowers.",
+              "marks": 1,
+              "answer": "bunch",
+              "difficulty": "medium",
+              "blanks": 1,
+              "acceptable": [
+                "bunch",
+                "bouquet"
+              ],
+              "skill": "collective noun",
+              "chapterSource": "Let us Learn A (bunch / bouquet of flowers)"
+            }
+          ]
+        },
+        {
+          "num": "Q.13",
+          "instruction": "Answer the questions.",
+          "items": [
+            {
+              "id": "english-c1-s5-b3-i1",
+              "type": "short",
+              "q": "Write the word from the chapter for each meaning. (a) the sweet liquid inside a flower that bees collect (b) a large group of ants that live and work together",
+              "marks": 2,
+              "answer": "(a) nectar (1) (b) colony (1)",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "nectar",
+                  "marks": 1
+                },
+                {
+                  "point": "colony",
+                  "marks": 1
+                }
+              ],
+              "skill": "word for a meaning",
+              "chapterSource": "Know You Do (nectar, colony)"
+            },
+            {
+              "id": "english-c1-s5-b3-i2",
+              "type": "short",
+              "q": "Write two sentences of your own. Use “a herd of” in one sentence and “a pack of” in the other.",
+              "marks": 2,
+              "answer": "For example: A herd of cows crossed the road. (1) A pack of wolves ran through the forest. (1)",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "sentence with a herd of and a sensible noun",
+                  "marks": 1
+                },
+                {
+                  "point": "sentence with a pack of and a sensible noun",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "One mark for each sentence that uses the group word with a sensible noun (herd: cows, sheep, deer, elephants; pack: wolves, dogs, cards). Two — 2; one — 1. Do not deduct for spelling in this item.",
+              "skill": "use collective nouns",
+              "chapterSource": "Let us Learn A (herd, pack)"
+            }
+          ]
+        },
+        {
+          "num": "Q.14",
+          "instruction": "Circle the correct spelling.",
+          "items": [
+            {
+              "id": "english-c1-s5-b4-i1",
+              "type": "mcq",
+              "q": "Circle the correct spelling. (the customs that families follow for many years)",
+              "marks": 2,
+              "answer": "traditions",
+              "difficulty": "medium",
+              "options": [
+                "traditions",
+                "tradishions",
+                "traditsions"
+              ],
+              "answerPoints": [
+                {
+                  "point": "circles traditions",
+                  "marks": 2
+                }
+              ],
+              "skill": "spelling",
+              "chapterSource": "Let us Speak (traditions)"
+            },
+            {
+              "id": "english-c1-s5-b4-i2",
+              "type": "mcq",
+              "q": "Circle the correct spelling. (to talk or share news with others)",
+              "marks": 2,
+              "answer": "communicate",
+              "difficulty": "medium",
+              "options": [
+                "communicate",
+                "comunicate",
+                "communikate",
+                "commmunicate"
+              ],
+              "answerPoints": [
+                {
+                  "point": "circles communicate",
+                  "marks": 2
+                }
+              ],
+              "skill": "spelling",
+              "chapterSource": "Know You Do (communicate)"
+            }
+          ]
+        },
+        {
+          "num": "Q.15",
+          "instruction": "Rearrange the jumbled letters to make meaningful words.",
+          "items": [
+            {
+              "id": "english-c1-s5-b5-i1",
+              "type": "fill-blank",
+              "q": "Put the letters in order to write three words from this chapter. (a) ILGSNSA = _____ (b) VOEORCME = _____ (c) AFTESSVIL = _____",
+              "marks": 3,
+              "answer": [
+                "signals",
+                "overcome",
+                "festivals"
+              ],
+              "difficulty": "hard",
+              "blanks": 3,
+              "acceptable": [
+                [
+                  "signals"
+                ],
+                [
+                  "overcome"
+                ],
+                [
+                  "festivals"
+                ]
+              ],
+              "answerPoints": [
+                {
+                  "point": "signals",
+                  "marks": 1
+                },
+                {
+                  "point": "overcome",
+                  "marks": 1
+                },
+                {
+                  "point": "festivals",
+                  "marks": 1
+                }
+              ],
+              "skill": "unscramble",
+              "chapterSource": "Know You Do (signals); poem l.4 (overcome); Let us Speak (festivals)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
