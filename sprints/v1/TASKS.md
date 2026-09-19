@@ -1,6 +1,6 @@
 # Sprint v1 — Tasks (Content) — mily-english-abhyas
 
-## Status: Not started (0 of 14 tasks complete). Tasks written 2026-09-19.
+## Status: In progress (1 of 14 tasks complete). Tasks written 2026-09-19. Owner-confirmed 2026-09-19: five sections for Ch 1/Ch 4 (Spelling folded into Vocabulary, Handwriting not carried); marking secret stands, owner rotates later via Vercel env.
 
 Source of truth: `sprints/v1/prd.md` (Revision 2) — final. This file breaks it into atomic
 execution tasks; it does not re-derive scope, blueprint, schema or content plan. A task below that
@@ -44,7 +44,7 @@ record in the walkthrough, continue.
 
 ---
 
-- [ ] Task 1: Project setup, Project Card and `source/INTAKE.md` (P0) — coordinator, single owner
+- [x] Task 1: Project setup, Project Card and `source/INTAKE.md` (P0) — coordinator, single owner
   - **Depends on:** owner has run `bash setup.sh` (git repository exists, `BLUEPRINT.md` at repo root).
     Step 0 checks this; if not, **stop and ask the owner to run it** — it is safe now (token in
     git-ignored `.env.local`, template blank). Do not `git init` around it.
@@ -68,6 +68,15 @@ record in the walkthrough, continue.
     marks or pad from outside the chapter; Tasks 5 and 8 do not start.
   - Files: `package.json`, `PROJECT-CARD.yml`, `source/INTAKE.md` (the one file under `source/`
     allowed to be generated; nothing else there is touched)
+  - Completed: 2026-09-19 — coordinator, no sub-agent. Acceptance checks written first (3 red), then
+    green: 28/28 (`package.json` no deps; card parses, `chapters` 6 = 6 files, default and `ch1`/`ch4`
+    sections sum to 100; INTAKE covers all 9 files). `source/.text-cache/` created (git-ignored).
+    **Capacity gate: PASS for Ch 1 and Ch 4 — no §12 stop.** Ch 1: B 13/8, C 10/6, D 8 formats,
+    E 23/20. Ch 4: B 9/8, C 7/6, D 9 formats/8, E 21/20 — a margin of exactly one on every threshold;
+    Vocabulary rests on three gloss-dependent words (*trifled, halves, balm*): rejecting one leaves
+    margin 0, rejecting two **fails** the threshold (see `INTAKE.md` §5). Security scan: nothing to
+    scan yet (no code; no dependencies, so no lockfile for `npm audit`; `semgrep --config auto` refuses
+    to run with metrics off) — semgrep runs with a named pack from Task 2.
 
 - [ ] Task 2: Schema + `validate.js`, proved against bad fixtures (P0) — single owner, no sub-agent
   - **Step 0 — mandatory, before any code (owner instruction):** read in full

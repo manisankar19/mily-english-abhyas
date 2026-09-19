@@ -237,9 +237,9 @@ marks — leaving three tens to share. The owner asked to weight four sections a
 passage, grammar, vocabulary, writing), and seven floors of ten make that arithmetically
 impossible. Dropping F and G is the only way to weight all four, and the school's own Poem-3
 worksheet carries neither. Spelling practice survives inside Vocabulary (E4, E5 below); **handwriting
-practice is not carried in these two papers.** If the owner would rather keep handwriting, the
-seven-section alternative is **A 20 · B 10 · C 20 · D 20 · E 10 · F 10 · G 10** (Vocabulary is then
-not weighted above the floor); it is a card edit, needed before the Ch 1 and Ch 4 paper tasks begin.
+practice is not carried in these two papers.** *(Owner-confirmed 2026-09-19.)* The rejected
+seven-section alternative was **A 20 · B 10 · C 20 · D 20 · E 10 · F 10 · G 10** (Vocabulary not
+weighted above the floor).
 
 **Block patterns** (same for both papers; contents in §5.0). Marks by block, item type × count:
 
@@ -634,8 +634,9 @@ Euler's-formula bug passed every automated check. That is stated in the walkthro
   (a) **five sections, not seven** — Spelling and Handwriting are not carried; marks are
   **A 30 · B 10 · C 20 · D 20 · E 20** (multiples of ten), against the standard 25/13/12/19/13/12/6.
   This is a *judgement call*: multiples of ten across seven sections cannot weight four sections,
-  so the choice is between five sections (chosen) and seven with a 10-mark floor each (the
-  alternative in §3.6). The owner may overrule it before the Ch 1 / Ch 4 paper tasks;
+  so the choice was between five sections and seven with a 10-mark floor each (the alternative in
+  §3.6). **Owner-confirmed 2026-09-19: five sections; Spelling folded into Vocabulary; Handwriting
+  not carried on these two papers;**
   (b) **Reading is 30 marks from two short original texts** — the largest Reading weight in the set;
   (c) **harder difficulty mix**, 20/40/40 with a validator floor of 35 % `hard`, against the
   standard 40/40/20 — for a stronger student, with hardness confined to the *task* (§3.6 lever

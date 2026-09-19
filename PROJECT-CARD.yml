@@ -1,0 +1,56 @@
+# Project Card — mily-english-abhyas
+# Confirmed against source/ (see source/INTAKE.md) and sprints/v1/prd.md §3.5, Revision 2.
+# Values that instruction.md §2 marked "verify" are confirmed from source/, never from memory or from the Maths card.
+
+subject_code:        english
+subject_display:     English
+grade:               4
+board_or_school:     "Atomic Energy Education Society"
+academic_year:       "2025-26"
+
+locale:              en
+numerals:            latn
+content_language:    English
+
+textbook:            "Santoor, Grade 4 (English)"   # confirmed: every page footer reads "Santoor Grade 4"; no cover in source/
+chapters:            6                                # confirmed: 6 files, desa101–desa106, all titles read
+extra_papers:        [ { code: hy, title: "Half-Yearly Mock Paper (Chapters 1–6)" } ]
+sets_per_chapter:    1
+total_marks:         100
+duration_minutes:    120   # ASSUMED — NOT in source (the worksheets print none). Accepted assumption, prd.md D4.
+
+repo_name:           mily-english-abhyas
+vercel_project:      mily-english-abhyas
+student_login:       { user: "Mily", pass: "2026" }
+marking_secret_env:  GANESH_ENGLISH
+
+section_blueprint:   # §3.2–3.3 — skill-based; titles verbatim from sample L-6; 40 -> 100 by mean of L-5 and L-6 x 2.5
+  - { code: A, title: "Reading",           marks: 25 }
+  - { code: B, title: "Textual Questions", marks: 13 }
+  - { code: C, title: "Creative Writing",  marks: 12 }
+  - { code: D, title: "Grammar",           marks: 19 }
+  - { code: E, title: "Vocabulary",        marks: 13 }
+  - { code: F, title: "Spelling",          marks: 12 }
+  - { code: G, title: "Handwriting",       marks: 6 }
+
+paper_overrides:     # §3.6 — Ch 1 and Ch 4 only (owner-confirmed: five sections, Spelling folded into Vocabulary, Handwriting not carried); every other paper uses section_blueprint above
+  ch1: &thin_poem
+    profile: thin-poem
+    section_blueprint:
+      - { code: A, title: "Reading",           marks: 30 }
+      - { code: B, title: "Textual Questions", marks: 10 }
+      - { code: C, title: "Creative Writing",  marks: 20 }
+      - { code: D, title: "Grammar",           marks: 20 }
+      - { code: E, title: "Vocabulary",        marks: 20 }
+    difficulty_target: { easy: 20, medium: 40, hard: 40 }   # % of items; standard papers use 40/40/20
+    hard_floor_pct: 35                                       # validator: hard items >= 35 % of items
+    require_chapter_source: true                             # §3.6 capacity ledger
+  ch4: *thin_poem
+
+chapter_list:        # titles as printed on each chapter opener
+  - { n: 1, file: desa101, title: "Together We Can",        unit: "Unit 1: My Land" }
+  - { n: 2, file: desa102, title: "The Tinkling Bells",     unit: "Unit 1: My Land" }
+  - { n: 3, file: desa103, title: "Be Smart, Be Safe",      unit: "Unit 1: My Land" }
+  - { n: 4, file: desa104, title: "One Thing at a Time",    unit: "Unit 2: My Beautiful World" }
+  - { n: 5, file: desa105, title: "The Old Stag",           unit: "Unit 2: My Beautiful World" }
+  - { n: 6, file: desa106, title: "Braille",                unit: "Unit 2: My Beautiful World" }

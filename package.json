@@ -1,0 +1,16 @@
+{
+  "name": "mily-english-abhyas",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Class IV English practice-paper site for Mily (Atomic Energy Education Society, 2025-26).",
+  "scripts": {
+    "validate": "node validate.js",
+    "test:validator": "node scripts/test-validator.js",
+    "similarity": "python3 scripts/similarity.py",
+    "readability": "python3 scripts/readability.py",
+    "check": "npm run validate && python3 scripts/similarity.py"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
