@@ -6,8 +6,7 @@ rules 1–8 bind every session and sub-agent. Read for this PRD, in full: the br
 `sprints/v1/walkthrough.md`, `sprints/v1/HANDOFF.md`, `SCHEMA.md`; `sprints/v1/prd.md` §1 header, §3.6, §8, §12;
 `../mily-maths-abhyas/sprints/v2/walkthrough.md` skimmed (how-run, deploy record, decisions, limitations).
 
-**Status: draft for owner review.** No `TASKS.md`, no application code. Five items in §2 need the owner's
-confirmation before `/prd` plans them.
+**Status: planned.** `TASKS.md` written by `/prd` on the §2 defaults (owner has not ticked Q1–Q5). No application code yet.
 
 ---
 
@@ -184,3 +183,33 @@ reads `.env.local` or touches a token.
 - **R5 — Git integration side effect** of `vercel link` would make a later push to `main` deploy to production
   (§4); README documents it.
 - **R6 — Dark-mode figures unverified** (v1 limitation 8); check 26 covers it against the real CSS.
+
+---
+
+## 12. User stories, architecture, dependencies (added by `/prd`)
+
+Overview, goals and out-of-scope are §1; this adds what the `/prd` skill also requires.
+
+**User stories**
+- As Mily, I want to sign in and pick a chapter card, so that I get a clean question paper to answer in my workbook.
+- As Mily, I want passages and poems laid out like a printed paper on my phone or iPad, so that I can read them without sideways scrolling.
+- As the parent, I want to unlock checking mode with a code, so that I can see the model answer, mark split, marking guide and "Also accept" list one question at a time.
+- As the parent, I want to tap marks per item and see a section-wise result, so that I know which skills need work.
+- As the parent, I want to print a paper with no answers or marking UI, so that Mily can write on it offline.
+- As the owner, I want one self-contained file deployed by CLI, with the code only as a hash, so that the deploy cannot half-fail and the code is never committed.
+
+**Architecture**
+```
+PROJECT-CARD.yml ─┐        app/index.html · styles.css · app.js (__SECRET_HASH__) · ui/en.json
+scripts/lib/card.js┤                              │
+app/data/*.json ───┼─▶ build.js ─ validate --strict --skip-source-check
+app/assets/*.svg ──┘      │ sha256(GANESH_ENGLISH) → hash; inline CSS/JS/JSON/SVG; assert; write last
+                          ▼
+                    dist/index.html (one file) ──▶ scripts/serve.js (localhost) ──▶ scripts/e2e.js (Chromium)
+                          └────────▶ vercel deploy --prod (after owner approval) ──▶ e2e on live URL
+Browser: login → chapters (from card) → paper (practice | checking in memory) → result (from paper.sections)
+         marks → localStorage milyEnglish.* ; nothing leaves the browser
+```
+
+**Dependencies:** v1 closed and tagged `v1-content` (§0); Node ≥ 18; Playwright 1.63.0 with cached Chromium
+(dev dependency only; `dependencies` stays `{}`); valid Vercel token (§0 row 3); owner approval for deploy and push (§4).
