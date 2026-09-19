@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "2.0",
+  "subject": "english",
+  "chapter": 2,
+  "title": "Similarity fixture",
+  "sections": [
+    {
+      "code": "A",
+      "title": "Reading",
+      "marks": 1,
+      "blocks": [
+        {
+          "num": "Q.1",
+          "instruction": "Read the passage and answer the questions.",
+          "items": [
+            {
+              "id": "english-c2-s1-b1-i1",
+              "type": "short",
+              "q": "Answer the following questions.",
+              "marks": 1,
+              "answer": "x",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

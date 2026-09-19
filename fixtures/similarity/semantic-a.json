@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "2.0",
+  "subject": "english",
+  "chapter": 2,
+  "title": "Similarity fixture",
+  "sections": [
+    {
+      "code": "A",
+      "title": "Reading",
+      "marks": 2,
+      "blocks": [
+        {
+          "num": "Q.1",
+          "instruction": "Answer the questions.",
+          "items": [
+            {
+              "id": "english-c2-s1-b1-i1",
+              "type": "short",
+              "q": "Why did the kite fly so high?",
+              "marks": 1,
+              "answer": "x",
+              "difficulty": "easy"
+            },
+            {
+              "id": "english-c2-s1-b1-i2",
+              "type": "short",
+              "q": "How many books are on the table?",
+              "marks": 1,
+              "answer": "x",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

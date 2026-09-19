@@ -1,6 +1,6 @@
 # Sprint v1 — Tasks (Content) — mily-english-abhyas
 
-## Status: In progress (2 of 14 tasks complete). Tasks written 2026-09-19. Owner-confirmed 2026-09-19: five sections for Ch 1/Ch 4 (Spelling folded into Vocabulary, Handwriting not carried); marking secret stands, owner rotates later via Vercel env.
+## Status: In progress (3 of 14 tasks complete). Tasks written 2026-09-19. Owner-confirmed 2026-09-19: five sections for Ch 1/Ch 4 (Spelling folded into Vocabulary, Handwriting not carried); marking secret stands, owner rotates later via Vercel env.
 
 Source of truth: `sprints/v1/prd.md` (Revision 2) — final. This file breaks it into atomic
 execution tasks; it does not re-derive scope, blueprint, schema or content plan. A task below that
@@ -134,7 +134,7 @@ record in the walkthrough, continue.
     `PROJECT-CARD.yml`; mock ids are `english-chy-…` (PRD §8 said `english-hy-…`, which broke the blueprint
     pattern); mock `sourceChapter` also allows `"general-unseen"` / `"general-sample-only"`.
 
-- [ ] Task 3: `scripts/similarity.py` (P0) — single owner, no sub-agent
+- [x] Task 3: `scripts/similarity.py` (P0) — single owner, no sub-agent
   - Steps: extract text of every file under `source/` once into `source/.text-cache/` (reusing Task
     2's `<basename>.txt` naming; skip files whose cache is newer). **Shingle pass (hard fail):** any
     6-word shingle shared between an item's `q` or a stimulus and the **sample** text, except an
@@ -148,6 +148,20 @@ record in the walkthrough, continue.
     list; `.npy` and `.text-cache/` are git-ignored (`git check-ignore`); the script is quiet on a
     clean corpus. `pip` state recorded (CPU torch, `sentence-transformers 5.1.2`).
   - Files: `scripts/similarity.py`, `fixtures/similarity/*.json`
+  - Completed: 2026-09-19 — coordinator, no sub-agent. Test written first (9 of 10 red), then green:
+    **`python3 scripts/test_similarity.py`: 10 passed, 0 failed.** Covers: a sample sentence lifted into an
+    item → exit 1 with the shingle and item id named; clean fixture → exit 0 in 3 lines; generic instruction
+    phrases allow-listed; a textbook line the samples do not use is **not** a hard failure (only samples are
+    shingled); the kite near-paraphrase (0.96, mock vs chapter) is listed while the 0.82 pair is not at the
+    0.85 threshold; vectors cached as `.npy` and a second run embeds 0 new; `.npy` and `.text-cache/`
+    git-ignored (3/3 paths); `--no-semantic`; no papers → exit 0. The sample-copy and textbook-line fixtures
+    are built at run time from the cache — no source text is committed. **Mutation check:** disabling the
+    shingle match, the allow-list masking, the threshold and the exit code (one at a time) each turned exactly
+    its own test red; file restored byte-identical. Semgrep (`p/python` + `p/secrets`, metrics off): 187
+    rules, 2 files, 0 findings. Environment: CPU torch 2.8.0+cpu, sentence-transformers 5.1.2, numpy 2.0.2
+    (installed with `pip install --user` during preflight). The shingle pass also checks block `instruction`
+    text, not only `q` and stimuli (the Maths reuse found in a shared instruction line), with the allow-list
+    masking generic wording. Semantic sample segments are split on sentence ends and newlines (≥ 4 words).
 
 - [ ] Task 4: `scripts/readability.py` — the §6.5 age gate (P0) — single owner, no sub-agent
   - Steps: for a paper, print per-authored-text numbers (A1/A2 stimuli, handwriting copy text):

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "2.0",
+  "subject": "english",
+  "chapter": 2,
+  "title": "Similarity fixture",
+  "sections": [
+    {
+      "code": "A",
+      "title": "Reading",
+      "marks": 3,
+      "blocks": [
+        {
+          "num": "Q.1",
+          "instruction": "Answer the questions.",
+          "items": [
+            {
+              "id": "english-c2-s1-b1-i1",
+              "type": "short",
+              "q": "Which fruit is red?",
+              "marks": 1,
+              "answer": "x",
+              "difficulty": "easy"
+            },
+            {
+              "id": "english-c2-s1-b1-i2",
+              "type": "short",
+              "q": "Where does the river start?",
+              "marks": 1,
+              "answer": "x",
+              "difficulty": "easy"
+            },
+            {
+              "id": "english-c2-s1-b1-i3",
+              "type": "short",
+              "q": "What colour is the sky at noon?",
+              "marks": 1,
+              "answer": "x",
+              "difficulty": "easy"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
