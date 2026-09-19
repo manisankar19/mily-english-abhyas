@@ -440,10 +440,16 @@ record in the walkthrough, continue.
     nature); no figure caption repeats an answer from its block; ids well-formed and unique; American spellings:
     one *mom* inside an `acceptable` list. **Secrets, count-only:** token and marking code in tracked files 0 / 0,
     in all 15 commits of history 0 / 0, and the marking code occurs in no paper or figure. **Human read — say
-    precisely who:** the coordinator (an AI, in this session) read **every item of every paper**, in every case
-    against the chapter text for its own paper, and fixed three defects (Ch 5 y→i item; Ch 4 W/P routine task; two
-    downgraded hard tags). **No human has read the papers yet**; the owner's read (`SETUP.md` §6) is pending. The
-    machine checks are not a substitute for it.
+    precisely who and how much:** the coordinator (an AI, in this session) read **the question and model answer of
+    every item of every paper as printed by `jq`**, judging single-answer, grammar-inside-the-chapter and
+    age-appropriateness by eye. **Limits of that read:** the view truncated long questions and long model answers at
+    about 300 characters, so the tails of some 4–5-mark writing items were not read; for five of the seven papers
+    (Ch 1, 3, 4, 5, 6) only the opening of each A-section passage was in view, so those passages were checked by the
+    answer-support script and by `readability.py`, not read end to end; and "against the chapter text" means the
+    automated recall check for Section B plus the coordinator's reading of the six chapters at the start of the
+    sprint, not a line-by-line comparison. The read found and fixed three defects (Ch 5 y→i item; Ch 4 W/P routine
+    task; two hard tags downgraded). **No human has read the papers yet**; the owner's read (`SETUP.md` §6) is
+    pending and is the real gate. The machine checks are not a substitute for it.
 
 - [ ] Task 13: `sprints/v1/walkthrough.md` (P0) — coordinator (use the `/walkthrough` skill, **lower-case filename**)
   - Must contain, per `instruction.md` §13 and `prd.md`: what was built and files changed; the
