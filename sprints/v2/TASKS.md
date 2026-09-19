@@ -80,9 +80,10 @@ rather than ≤ 10 five-minute tasks. Testing and security are in this sprint be
   - Files: app/styles.css
   - Completed: 2026-09-19 — `shell` sub-agent (+24/−2 lines, reviewed by the coordinator): `.ans-accept`/`.ans-pairs` styles, shared small-caps labels, `overflow-wrap:anywhere` on answer parts and result cells, `.item-generic` raised to 16 px, print rules hiding every checking-mode class (and `dialog`) in any mode, room under copy text, figures black on white in print. Agent verified on a static contract fixture (outside the repo): no overflow at 390 px light/dark, `pdftotext` of print shows questions/poem/copy text and none of the answer/caption/marking text. Real-paper print (check 23) is verified at Task 16.
 
-- [ ] Task 11: Coordinator check and batch-2 commit (P0)
+- [x] Task 11: Coordinator check and batch-2 commit (P0)
   - Acceptance: in Chromium with a throwaway hash: gate cases, reveal/hide on one item of each type in use, full marks = 100 on Ch 1 and one seven-section paper, print preview free of answers; content diff empty; commit "v2 batch 2: Tasks 7–11".
   - Files: (commit)
+  - Completed: 2026-09-19 — coordinator re-ran `tests/batch1.e2e.js` (142/142) and `tests/batch2.e2e.js` (83/83) in Chromium with throwaway codes; checked the Ch 3 sign items' Also accept by hand in the browser; viewed the agent's multi-blank panel, caption and ch1 result screenshots. Print with **every answer revealed** in checking mode, Ch 1 / Ch 3 / mock → PDF → `pdftotext`: 0 hits for Model answer, Also accept, Marking guide, Figure description, Practice mode, Marks given, Hide answer; section heads and Q.1 present; the Ch 1 poem lands whole on one page. `npm run validate` 7/7, content diff empty.
 
 ## Batch 3 — build, README, local e2e
 
