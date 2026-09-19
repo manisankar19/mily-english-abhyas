@@ -1,6 +1,6 @@
 # Sprint v2 — Tasks (Application shell, build & deploy) — mily-english-abhyas
 
-## Status: Tasks 1–16 done 2026-09-19 (batches 1–3); stopped at Task 17, the owner-approval gate. Tasks written 2026-09-19.
+## Status: All 20 tasks done 2026-09-19. Live at https://mily-english-abhyas.vercel.app; walkthrough written. Tasks written 2026-09-19.
 
 Source of truth: `sprints/v2/prd.md` (with `sprints/v2/instruction.md`, which wins over `BLUEPRINT.md`). A task
 that conflicts with `prd.md` is wrong and defers to it. `CLAUDE.md` rules 1–8 apply to every task.
@@ -129,6 +129,7 @@ rather than ≤ 10 five-minute tasks. Testing and security are in this sprint be
   - Files: README.md
   - Completed: 2026-09-19 — `node scripts/e2e.js --url https://mily-english-abhyas.vercel.app` with the real code from env, Chromium: **23 PASS, 0 FAIL, 1 N/A** (22 is build-only), min contrast 5.60:1, redaction self-grep clean. Deployment Protection did not block the production host (HTTP 200). Live page source is byte-identical to the local `dist/index.html` (299,990 bytes) and contains the code 0 times (count-only). README: live URL filled in; git-integration note now states the repo is connected.
 
-- [ ] Task 20: `sprints/v2/walkthrough.md` (P0)
+- [x] Task 20: `sprints/v2/walkthrough.md` (P0)
   - Acceptance: browser-tested vs read-only per check; Chromium-only, no Safari/WebKit/Firefox/touch results stated; source check local-only; 120 minutes assumed; deploy record; limitations; ends with the brief §12 iPhone/iPad checklist; commit.
   - Files: sprints/v2/walkthrough.md
+  - Completed: 2026-09-19 — written by the coordinator: browser-tested vs static per check (local and live), Chromium-only statement, source check local-only, 120 min assumed, deploy record (incl. the push and the BLOCKED git deployment, `COMMIT_AUTHOR_REQUIRED`), limitations, and the brief §12 iPhone/iPad checklist.
