@@ -408,7 +408,7 @@ record in the walkthrough, continue.
     accepts many sentences; the E3 opposites (*whispered–shouted, buy–sell*) are the Ch 2 chapter's own pairs, which
     the Ch 2 paper deliberately avoided.
 
-- [ ] Task 12: Coordinator cross-paper verification (P0) — **fresh session; not delegated**
+- [x] Task 12: Coordinator cross-paper verification (P0) — **fresh session; not delegated**
   - Steps (small scripts or `jq`, not a sub-agent): `node validate.js --strict`; `python3
     scripts/similarity.py` and a written judgement on every semantic pair ≥ 0.85; the readability
     table for all seven papers; a difficulty-mix table for all seven (Ch 1 and Ch 4 skewed, the
@@ -422,6 +422,28 @@ record in the walkthrough, continue.
   - Acceptance: every check above passes or is recorded as a known limitation; every fix has its own
     commit; a table of all seven papers' totals, item counts and section marks equals `prd.md`.
   - Files: none new (fixes go to the owning paper JSON)
+  - Completed: 2026-09-19 — done by the coordinator, **not delegated**, but **in the same session as Tasks 5–11
+    rather than a fresh one** (a deviation: the owner asked for all remaining tasks in one run, so the "fresh
+    session" is not independent of the authoring session; the walkthrough says so). Every result is from a run:
+    `node validate.js --strict` (full, with the source check): **7/7 PASS**. `npm run check`: validate 7/7 and
+    similarity over all seven — **0 shingle failures in 400 items; 108 semantic pairs, all generic instruction
+    lines, none a content re-skin**. `readability.py` on all seven: **RESULT PASS ×7**, 0 stems. Test suites:
+    41 + 10 + 17 passed, 0 failed. **Independent recompute** (throwaway script, not committed): every paper 100
+    marks; items 54 / 58 / 58 / 54 / 58 / 58 / 60; hard share 35.2 / 20.7 / 20.7 / 35.2 / 20.7 / 19.0 / 20.0 %;
+    section marks `[30,10,20,20,20]` for Ch 1 and Ch 4, `[25,13,12,19,13,12,6]` for the rest. **All 19 jumbled
+    answers unscramble to their answer** (15 by an anagram test on the question text, 3 spaced-letter Ch 2 items by
+    a second script, 1 hit was a word-order item, not a jumble). **74 single-answer Section A items checked against
+    their own passages: all supported** (the one exception, the mock's "how many people sat under the umbrella →
+    four", is a counting item and correct). **Section B answers checked against the chapter text: the only low-recall
+    answers are the five open opinion items**, whose model answers are examples by design. No cross-paper exact
+    duplicate; no answer given away in a question (the mock's odd-one-out lists its answer among its options by
+    nature); no figure caption repeats an answer from its block; ids well-formed and unique; American spellings:
+    one *mom* inside an `acceptable` list. **Secrets, count-only:** token and marking code in tracked files 0 / 0,
+    in all 15 commits of history 0 / 0, and the marking code occurs in no paper or figure. **Human read — say
+    precisely who:** the coordinator (an AI, in this session) read **every item of every paper**, in every case
+    against the chapter text for its own paper, and fixed three defects (Ch 5 y→i item; Ch 4 W/P routine task; two
+    downgraded hard tags). **No human has read the papers yet**; the owner's read (`SETUP.md` §6) is pending. The
+    machine checks are not a substitute for it.
 
 - [ ] Task 13: `sprints/v1/walkthrough.md` (P0) — coordinator (use the `/walkthrough` skill, **lower-case filename**)
   - Must contain, per `instruction.md` §13 and `prd.md`: what was built and files changed; the
