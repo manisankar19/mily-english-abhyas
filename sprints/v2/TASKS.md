@@ -114,9 +114,10 @@ rather than ≤ 10 five-minute tasks. Testing and security are in this sprint be
 
 ## Batch 4 — deploy, live e2e, walkthrough (coordinator only)
 
-- [ ] Task 17: **Owner approval gate** (P0)
+- [x] Task 17: **Owner approval gate** (P0)
   - Acceptance: stop and report local results; proceed only after the owner approves `vercel link` / deploy (and says whether to push).
   - Files: —
+  - Completed: 2026-09-19 — stopped after Task 16 and reported. **Owner approved** (in this session): `vercel link` for project `mily-english-abhyas`, the production deploy (Tasks 18–20), and a push to the private GitHub repo `manisankar19/mily-english-abhyas`.
 
 - [ ] Task 18: Link, env var, production deploy (P0)
   - Acceptance: `vercel link` (scope reported); `GANESH_ENGLISH` added to Production on stdin without newline before the first deploy; `vercel deploy --prod --yes`; token only in a shell variable, unset after; `git status` side effects recorded; `/v6/deployments/{id}/files` has no `.env*`, `source/`, `sprints/`, and has `validate.js`, `PROJECT-CARD.yml`, `scripts/lib/card.js`; hostname read from the project's domains.
