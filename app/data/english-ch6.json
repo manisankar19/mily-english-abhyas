@@ -1,0 +1,1214 @@
+{
+  "schemaVersion": "2.0",
+  "subject": "english",
+  "subjectDisplay": "English",
+  "grade": 4,
+  "chapter": 6,
+  "locale": "en",
+  "numerals": "latn",
+  "title": "Braille",
+  "subtitle": "English — Class 4 — Chapter 6",
+  "sourceRef": "Santoor Grade 4, Ch. 6",
+  "totalMarks": 100,
+  "durationMinutes": 120,
+  "sections": [
+    {
+      "code": "A",
+      "title": "Reading",
+      "marks": 25,
+      "blocks": [
+        {
+          "num": "Q.1",
+          "instruction": "Read the passage and answer the questions. Write True or False for the true-false questions. Write one word for the one-word questions.",
+          "stimulus": {
+            "kind": "passage",
+            "text": "Monday, 9 October\n\nWe took the little blue train from Kalka this morning. Papa found seats near the window. The train climbed the hills very slowly. The engine whistled, toot, toot, at every turn. It went through many dark tunnels. I counted fourteen before lunch! In each tunnel, my brother Kabir shouted, “Boo!” Everyone laughed. At a small station, an old woman sold roasted corn. Mummy bought some for us. Outside, tall pine trees stood in the mist. The air felt cold, so I wore my red sweater. Far below, a river shone like a silver ribbon. A monkey sat on a wall and watched us go by. By evening, we reached Shimla. My legs are tired, but I am very happy. Tomorrow we will walk on the Mall Road.",
+            "original": true
+          },
+          "items": [
+            {
+              "id": "english-c6-s1-b1-i1",
+              "type": "mcq",
+              "q": "Where did the train journey begin?",
+              "marks": 1,
+              "answer": "Kalka",
+              "difficulty": "easy",
+              "options": [
+                "Kalka",
+                "Delhi",
+                "Mumbai"
+              ],
+              "skill": "reading: recall"
+            },
+            {
+              "id": "english-c6-s1-b1-i2",
+              "type": "mcq",
+              "q": "What did Kabir shout in each tunnel?",
+              "marks": 1,
+              "answer": "“Boo!”",
+              "difficulty": "easy",
+              "options": [
+                "“Boo!”",
+                "“Stop!”",
+                "“Hurry!”"
+              ],
+              "skill": "reading: recall"
+            },
+            {
+              "id": "english-c6-s1-b1-i3",
+              "type": "mcq",
+              "q": "Why did the girl put on her red sweater?",
+              "marks": 1,
+              "answer": "The air felt cold.",
+              "difficulty": "medium",
+              "options": [
+                "The air felt cold.",
+                "It was her birthday.",
+                "Kabir asked her to."
+              ],
+              "skill": "reading: cause"
+            },
+            {
+              "id": "english-c6-s1-b1-i4",
+              "type": "short",
+              "q": "What did the girl count, and how many were there?",
+              "marks": 2,
+              "answer": "She counted the tunnels (1). There were fourteen (1).",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "tunnels",
+                  "marks": 1
+                },
+                {
+                  "point": "fourteen",
+                  "marks": 1
+                }
+              ],
+              "skill": "reading: two facts"
+            },
+            {
+              "id": "english-c6-s1-b1-i5",
+              "type": "short",
+              "q": "Here are four things that happened. Write the letters in the order in which they happened.\n(a) The girl put on her red sweater.\n(b) The train left Kalka.\n(c) The family reached Shimla.\n(d) Mummy bought roasted corn.",
+              "marks": 2,
+              "answer": "b, d, a, c — the train left Kalka, Mummy bought corn, the girl put on her sweater, the family reached Shimla. First two correct (b, d) = 1; last two correct (a, c) = 1.",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "First two events in order: b, d",
+                  "marks": 1
+                },
+                {
+                  "point": "Last two events in order: a, c",
+                  "marks": 1
+                }
+              ],
+              "skill": "reading: sequencing"
+            },
+            {
+              "id": "english-c6-s1-b1-i6",
+              "type": "true-false",
+              "q": "An old woman sold roasted corn at a small station.",
+              "marks": 1,
+              "answer": "True",
+              "difficulty": "easy",
+              "skill": "reading: recall"
+            },
+            {
+              "id": "english-c6-s1-b1-i7",
+              "type": "true-false",
+              "q": "Kabir counted the tunnels.",
+              "marks": 1,
+              "answer": "False — the girl counted them.",
+              "difficulty": "medium",
+              "skill": "reading: recall"
+            },
+            {
+              "id": "english-c6-s1-b1-i8",
+              "type": "one-word",
+              "q": "Who found seats near the window?",
+              "marks": 1,
+              "answer": "Papa",
+              "difficulty": "easy",
+              "acceptable": [
+                "Papa",
+                "papa",
+                "Father",
+                "father",
+                "Dad",
+                "dad",
+                "her father",
+                "the girl’s father"
+              ],
+              "skill": "reading: recall"
+            },
+            {
+              "id": "english-c6-s1-b1-i9",
+              "type": "one-word",
+              "q": "What colour was the little train?",
+              "marks": 1,
+              "answer": "blue",
+              "difficulty": "easy",
+              "acceptable": [
+                "blue",
+                "Blue"
+              ],
+              "skill": "reading: recall"
+            },
+            {
+              "id": "english-c6-s1-b1-i10",
+              "type": "one-word",
+              "q": "Which hill town did the family reach by evening?",
+              "marks": 1,
+              "answer": "Shimla",
+              "difficulty": "easy",
+              "acceptable": [
+                "Shimla",
+                "shimla",
+                "Simla",
+                "simla"
+              ],
+              "skill": "reading: recall"
+            },
+            {
+              "id": "english-c6-s1-b1-i11",
+              "type": "one-word",
+              "q": "What kind of tall trees stood in the mist?",
+              "marks": 1,
+              "answer": "pine",
+              "difficulty": "medium",
+              "acceptable": [
+                "pine",
+                "Pine",
+                "pines",
+                "pine trees",
+                "Pine trees",
+                "tall pine trees"
+              ],
+              "skill": "reading: recall"
+            }
+          ]
+        },
+        {
+          "num": "Q.2",
+          "instruction": "Read the text and answer the questions. Write True or False for the true-false questions.",
+          "stimulus": {
+            "kind": "passage",
+            "text": "On Sunday morning, Rohan went to the market with his aunt. The lanes were full of people. A man was shouting, “Fresh tomatoes, only ten rupees!” Two women were choosing green beans. A boy was carrying a heavy basket on his head. Some children were eating hot jalebis. A brown cow was standing near the gate. The shopkeepers were weighing potatoes and counting coins. Rohan was holding his aunt’s hand tightly. He did not want to get lost in the crowd.",
+            "original": true
+          },
+          "items": [
+            {
+              "id": "english-c6-s1-b2-i1",
+              "type": "short",
+              "q": "What were the two women doing, and what was the boy carrying?",
+              "marks": 2,
+              "answer": "The two women were choosing green beans (1). The boy was carrying a heavy basket (on his head) (1).",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "choosing green beans",
+                  "marks": 1
+                },
+                {
+                  "point": "a heavy basket",
+                  "marks": 1
+                }
+              ],
+              "skill": "reading: two facts"
+            },
+            {
+              "id": "english-c6-s1-b2-i2",
+              "type": "short",
+              "q": "What were the shopkeepers doing? Write two things.",
+              "marks": 2,
+              "answer": "They were weighing potatoes (1) and counting coins (1).",
+              "difficulty": "easy",
+              "answerPoints": [
+                {
+                  "point": "weighing potatoes",
+                  "marks": 1
+                },
+                {
+                  "point": "counting coins",
+                  "marks": 1
+                }
+              ],
+              "skill": "reading: recall"
+            },
+            {
+              "id": "english-c6-s1-b2-i3",
+              "type": "short",
+              "q": "Who went to the market with Rohan? How was Rohan holding that person’s hand?",
+              "marks": 2,
+              "answer": "His aunt (1). He was holding her hand tightly (1).",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "his aunt",
+                  "marks": 1
+                },
+                {
+                  "point": "tightly",
+                  "marks": 1
+                }
+              ],
+              "skill": "reading: two facts"
+            },
+            {
+              "id": "english-c6-s1-b2-i4",
+              "type": "fill-blank",
+              "q": "A man was _____ about fresh tomatoes.",
+              "marks": 1,
+              "answer": "shouting",
+              "difficulty": "easy",
+              "acceptable": [
+                "shouting",
+                "calling",
+                "yelling",
+                "calling out",
+                "shouting out"
+              ],
+              "skill": "reading: recall"
+            },
+            {
+              "id": "english-c6-s1-b2-i5",
+              "type": "fill-blank",
+              "q": "Some children were _____ hot jalebis.",
+              "marks": 1,
+              "answer": "eating",
+              "difficulty": "easy",
+              "acceptable": [
+                "eating",
+                "having",
+                "enjoying"
+              ],
+              "skill": "reading: recall"
+            },
+            {
+              "id": "english-c6-s1-b2-i6",
+              "type": "fill-blank",
+              "q": "The cow was _____ near the gate.",
+              "marks": 1,
+              "answer": "standing",
+              "difficulty": "medium",
+              "acceptable": [
+                "standing",
+                "waiting",
+                "resting"
+              ],
+              "skill": "reading: recall"
+            },
+            {
+              "id": "english-c6-s1-b2-i7",
+              "type": "true-false",
+              "q": "The lanes were empty.",
+              "marks": 1,
+              "answer": "False — the lanes were full of people.",
+              "difficulty": "easy",
+              "skill": "reading: recall"
+            },
+            {
+              "id": "english-c6-s1-b2-i8",
+              "type": "true-false",
+              "q": "Rohan went to the market on a Sunday morning.",
+              "marks": 1,
+              "answer": "True",
+              "difficulty": "medium",
+              "skill": "reading: recall"
+            },
+            {
+              "id": "english-c6-s1-b2-i9",
+              "type": "mcq",
+              "q": "What colour was the cow?",
+              "marks": 1,
+              "answer": "brown",
+              "difficulty": "easy",
+              "options": [
+                "brown",
+                "black",
+                "white"
+              ],
+              "skill": "reading: recall"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Textual Questions",
+      "marks": 13,
+      "blocks": [
+        {
+          "num": "Q.3",
+          "instruction": "Answer in one word or one number.",
+          "items": [
+            {
+              "id": "english-c6-s2-b1-i1",
+              "type": "one-word",
+              "q": "In which city did Louis Braille study at the Royal Institute?",
+              "marks": 1,
+              "answer": "Paris",
+              "difficulty": "easy",
+              "acceptable": [
+                "Paris",
+                "paris"
+              ],
+              "skill": "textual: recall"
+            },
+            {
+              "id": "english-c6-s2-b1-i2",
+              "type": "one-word",
+              "q": "How old was Louis when he joined the Royal Institute?",
+              "marks": 1,
+              "answer": "ten",
+              "difficulty": "easy",
+              "acceptable": [
+                "ten",
+                "10",
+                "ten years",
+                "10 years",
+                "ten years old",
+                "10 years old"
+              ],
+              "skill": "textual: recall"
+            },
+            {
+              "id": "english-c6-s2-b1-i3",
+              "type": "one-word",
+              "q": "How many Braille signs are there, one for each letter of the English alphabet?",
+              "marks": 1,
+              "answer": "twenty-six",
+              "difficulty": "medium",
+              "acceptable": [
+                "twenty-six",
+                "twenty six",
+                "26",
+                "Twenty-six"
+              ],
+              "skill": "textual: recall"
+            }
+          ]
+        },
+        {
+          "num": "Q.4",
+          "instruction": "Answer the following questions.",
+          "items": [
+            {
+              "id": "english-c6-s2-b2-i1",
+              "type": "short",
+              "q": "Name two things that Louis used to learn letters at the Institute.",
+              "marks": 2,
+              "answer": "Any two of: wood, cloth, pins (arranged in pincushions) — 1 mark each.",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "first thing: wood, cloth or pins",
+                  "marks": 1
+                },
+                {
+                  "point": "second thing: wood, cloth or pins",
+                  "marks": 1
+                }
+              ],
+              "skill": "textual: recall"
+            },
+            {
+              "id": "english-c6-s2-b2-i2",
+              "type": "short",
+              "q": "What was ‘Night Writing’ made of? Who invented it?",
+              "marks": 2,
+              "answer": "It was made of raised dots and dashes (1). An army man, Captain Charles Barbier de la Serre, invented it (1).",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "raised dots and dashes",
+                  "marks": 1
+                },
+                {
+                  "point": "an army man / Captain Barbier",
+                  "marks": 1
+                }
+              ],
+              "skill": "textual: two facts"
+            },
+            {
+              "id": "english-c6-s2-b2-i3",
+              "type": "short",
+              "q": "What does each Braille sign stand for? Who gave the world the Braille alphabet?",
+              "marks": 2,
+              "answer": "Each sign stands for one letter of the English alphabet (1). Louis Braille gave it (1).",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "one letter of the English alphabet",
+                  "marks": 1
+                },
+                {
+                  "point": "Louis Braille",
+                  "marks": 1
+                }
+              ],
+              "skill": "textual: two facts"
+            },
+            {
+              "id": "english-c6-s2-b2-i4",
+              "type": "short",
+              "q": "Can a person who can see learn Braille? What can that person write in Braille?",
+              "marks": 2,
+              "answer": "Yes, people with sight can learn Braille too (1). They can write small poems and stories in it (1).",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "Yes / people with sight can learn it",
+                  "marks": 1
+                },
+                {
+                  "point": "small poems and stories",
+                  "marks": 1
+                }
+              ],
+              "skill": "textual: two facts"
+            },
+            {
+              "id": "english-c6-s2-b2-i5",
+              "type": "short",
+              "q": "What would you do if all the lights in your house went out for a whole evening? Write two things.",
+              "marks": 2,
+              "answer": "Any two sensible answers, for example: light a candle or use a torch (1); sit together and tell stories, or hold a parent’s hand and move slowly (1).",
+              "difficulty": "hard",
+              "markingGuide": "Two sensible things in full sentences — 2; one sensible thing — 1; nothing relevant — 0. Any safe, sensible answer is acceptable. Maximum 2.",
+              "answerPoints": [
+                {
+                  "point": "first sensible thing",
+                  "marks": 1
+                },
+                {
+                  "point": "second sensible thing",
+                  "marks": 1
+                }
+              ],
+              "skill": "textual: opinion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Creative Writing",
+      "marks": 12,
+      "blocks": [
+        {
+          "num": "Q.5",
+          "instruction": "Write five sentences on ONE of these topics.",
+          "items": [
+            {
+              "id": "english-c6-s3-b1-i1",
+              "type": "long",
+              "q": "(a) What we should do to keep our eyes safe.\nOR\n(b) How you can help a classmate who cannot see small print well, for example one who wears thick glasses or holds a book very close to the eyes.",
+              "marks": 5,
+              "answer": "Model (a): We should never play with sharp things near our eyes. We should stay far from firecrackers when they are lit. We should not rub our eyes with dirty hands. We should read in good light. We should wash our eyes with clean water if dust goes in. Model (b): I can bring a printout with big letters for my friend. I can read the board aloud for her. I can let her sit near the front. I can hold her hand on the stairs. I can lend her my notes.",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "sentence 1",
+                  "marks": 1
+                },
+                {
+                  "point": "sentence 2",
+                  "marks": 1
+                },
+                {
+                  "point": "sentence 3",
+                  "marks": 1
+                },
+                {
+                  "point": "sentence 4",
+                  "marks": 1
+                },
+                {
+                  "point": "sentence 5",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "One mark for each sentence that is on the chosen topic, makes sense and is a complete sentence — up to 5. Deduct 1 in all if there are more than three spelling or full-stop errors. Maximum 5.",
+              "skill": "writing: five sentences"
+            }
+          ]
+        },
+        {
+          "num": "Q.6",
+          "instruction": "Look at the picture story. Write one sentence for each panel (1, 2, 3 and 4) telling what was happening. Use was or were with an action word ending in -ing.",
+          "stimulus": {
+            "kind": "figure",
+            "asset": "assets/english-ch6-story.svg",
+            "caption": "A picture story in four panels, numbered 1 to 4"
+          },
+          "items": [
+            {
+              "id": "english-c6-s3-b2-i1",
+              "type": "long",
+              "q": "Write four sentences, one for each panel of the picture story.",
+              "marks": 4,
+              "answer": "Model: 1. The children were running home under an umbrella. 2. The mother was drying the boy’s hair with a towel. 3. The girl was reading a book, and the boy was drawing. 4. The children were jumping in a puddle, and the dog was running.",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "panel 1 sentence",
+                  "marks": 1
+                },
+                {
+                  "point": "panel 2 sentence",
+                  "marks": 1
+                },
+                {
+                  "point": "panel 3 sentence",
+                  "marks": 1
+                },
+                {
+                  "point": "panel 4 sentence",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "One mark for each panel: the sentence matches the picture AND uses was or were with an -ing word correctly — 1; matches the picture but the was/were or -ing form is wrong — 0. Four panels, maximum 4. Accept any true detail, for example the rain falling, the cat sleeping.",
+              "skill": "writing: picture, past continuous"
+            }
+          ]
+        },
+        {
+          "num": "Q.7",
+          "instruction": "Make a sentence with each word.",
+          "items": [
+            {
+              "id": "english-c6-s3-b3-i1",
+              "type": "short",
+              "q": "Make a sentence with the word ‘Braille’.",
+              "marks": 1,
+              "answer": "Model: Braille helps people who cannot see to read with their fingers.",
+              "difficulty": "easy",
+              "markingGuide": "A complete sentence that uses the word correctly — 1; the word is used wrongly or the sentence is incomplete — 0. Maximum 1.",
+              "skill": "writing: use a word"
+            },
+            {
+              "id": "english-c6-s3-b3-i2",
+              "type": "short",
+              "q": "Make a sentence with the word ‘blacksmith’.",
+              "marks": 1,
+              "answer": "Model: The blacksmith made a strong iron gate.",
+              "difficulty": "easy",
+              "markingGuide": "A complete sentence that uses the word correctly — 1; the word is used wrongly or the sentence is incomplete — 0. Maximum 1.",
+              "skill": "writing: use a word"
+            },
+            {
+              "id": "english-c6-s3-b3-i3",
+              "type": "short",
+              "q": "Make a sentence with the word ‘nearby’.",
+              "marks": 1,
+              "answer": "Model: There is a small park nearby.",
+              "difficulty": "medium",
+              "markingGuide": "A complete sentence that uses the word correctly — 1; the word is used wrongly or the sentence is incomplete — 0. Maximum 1.",
+              "skill": "writing: use a word"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Grammar",
+      "marks": 19,
+      "blocks": [
+        {
+          "num": "Q.8",
+          "instruction": "Fill in the blanks with the correct word from the brackets.",
+          "items": [
+            {
+              "id": "english-c6-s4-b1-i1",
+              "type": "fill-blank",
+              "q": "The farmers _____ (was/were) cutting wheat in the field.",
+              "marks": 1,
+              "answer": "were",
+              "difficulty": "easy",
+              "acceptable": [
+                "were",
+                "Were"
+              ],
+              "skill": "grammar: was/were"
+            },
+            {
+              "id": "english-c6-s4-b1-i2",
+              "type": "fill-blank",
+              "q": "At six o’clock yesterday, my mother was _____ (cook/cooking) rice.",
+              "marks": 1,
+              "answer": "cooking",
+              "difficulty": "easy",
+              "acceptable": [
+                "cooking",
+                "Cooking"
+              ],
+              "skill": "grammar: -ing form"
+            },
+            {
+              "id": "english-c6-s4-b1-i3",
+              "type": "fill-blank",
+              "q": "The two boys were _____ (climb/climbing) a mango tree.",
+              "marks": 1,
+              "answer": "climbing",
+              "difficulty": "easy",
+              "acceptable": [
+                "climbing",
+                "Climbing"
+              ],
+              "skill": "grammar: -ing form"
+            },
+            {
+              "id": "english-c6-s4-b1-i4",
+              "type": "fill-blank",
+              "q": "The baby _____ (was/were) laughing loudly.",
+              "marks": 1,
+              "answer": "was",
+              "difficulty": "medium",
+              "acceptable": [
+                "was",
+                "Was"
+              ],
+              "skill": "grammar: was/were"
+            },
+            {
+              "id": "english-c6-s4-b1-i5",
+              "type": "fill-blank",
+              "q": "Last night, the frogs _____ (was/were) croaking near the pond.",
+              "marks": 1,
+              "answer": "were",
+              "difficulty": "medium",
+              "acceptable": [
+                "were",
+                "Were"
+              ],
+              "skill": "grammar: was/were"
+            }
+          ]
+        },
+        {
+          "num": "Q.9",
+          "instruction": "Change each sentence into the past. Use was or were.",
+          "items": [
+            {
+              "id": "english-c6-s4-b2-i1",
+              "type": "short",
+              "q": "The monkeys are jumping on the wall.",
+              "marks": 2,
+              "answer": "The monkeys were jumping on the wall. (were = 1; rest of the sentence correct = 1)",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "uses were (not was)",
+                  "marks": 1
+                },
+                {
+                  "point": "rest of the sentence written correctly with -ing",
+                  "marks": 1
+                }
+              ],
+              "skill": "grammar: convert to past"
+            },
+            {
+              "id": "english-c6-s4-b2-i2",
+              "type": "short",
+              "q": "My aunt is watering the plants.",
+              "marks": 2,
+              "answer": "My aunt was watering the plants. (was = 1; rest of the sentence correct = 1)",
+              "difficulty": "easy",
+              "answerPoints": [
+                {
+                  "point": "uses was (not were)",
+                  "marks": 1
+                },
+                {
+                  "point": "rest of the sentence written correctly with -ing",
+                  "marks": 1
+                }
+              ],
+              "skill": "grammar: convert to past"
+            },
+            {
+              "id": "english-c6-s4-b2-i3",
+              "type": "short",
+              "q": "Begin with ‘Yesterday’ and write the sentence in the past: We are flying kites on the roof.",
+              "marks": 2,
+              "answer": "Yesterday, we were flying kites on the roof. (were = 1; ‘Yesterday’ at the start and the rest of the sentence correct = 1)",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "uses were (not was)",
+                  "marks": 1
+                },
+                {
+                  "point": "begins with Yesterday and the rest is correct with -ing",
+                  "marks": 1
+                }
+              ],
+              "skill": "grammar: convert to past, two steps"
+            }
+          ]
+        },
+        {
+          "num": "Q.10",
+          "instruction": "Do as directed.",
+          "items": [
+            {
+              "id": "english-c6-s4-b3-i1",
+              "type": "short",
+              "q": "Fill in the blanks with words from the box.\nBox: was digging / were dancing / was pouring\nThe girls _____ on the stage. The gardener _____ a deep hole.",
+              "marks": 2,
+              "answer": "The girls were dancing on the stage (1). The gardener was digging a deep hole (1).",
+              "difficulty": "easy",
+              "answerPoints": [
+                {
+                  "point": "were dancing",
+                  "marks": 1
+                },
+                {
+                  "point": "was digging",
+                  "marks": 1
+                }
+              ],
+              "skill": "grammar: choose from a box"
+            },
+            {
+              "id": "english-c6-s4-b3-i2",
+              "type": "short",
+              "q": "Look at Panel 2 of the picture story. Write one sentence about the dog. Use was and an action word ending in -ing.",
+              "marks": 2,
+              "answer": "The dog was shaking (the water off its body). Any true was + -ing sentence about the dog in Panel 2 is fine. (was + -ing form correct = 1; matches Panel 2 = 1)",
+              "difficulty": "hard",
+              "stimulus": {
+                "kind": "figure",
+                "asset": "assets/english-ch6-story.svg",
+                "caption": "A picture story in four panels, numbered 1 to 4"
+              },
+              "answerPoints": [
+                {
+                  "point": "uses was with an -ing word correctly",
+                  "marks": 1
+                },
+                {
+                  "point": "matches what the dog is doing in Panel 2",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "Uses was with an -ing word correctly — 1; the sentence matches the dog in Panel 2 — 1. Maximum 2.",
+              "skill": "grammar: write from a picture"
+            },
+            {
+              "id": "english-c6-s4-b3-i3",
+              "type": "short",
+              "q": "Each sentence has a mistake. Write it correctly.\n(a) The ducks was swimming in the pond.\n(b) The boy were reading a book.",
+              "marks": 2,
+              "answer": "(a) The ducks were swimming in the pond. (1) (b) The boy was reading a book. (1)",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "(a) were",
+                  "marks": 1
+                },
+                {
+                  "point": "(b) was",
+                  "marks": 1
+                }
+              ],
+              "skill": "grammar: correct the mistake"
+            },
+            {
+              "id": "english-c6-s4-b3-i4",
+              "type": "short",
+              "q": "Write two sentences about what your family members were doing at eight o’clock last night. Use was in one sentence and were in the other.",
+              "marks": 2,
+              "answer": "Model: My father was reading the newspaper. My sisters were doing their homework. (one correct sentence with was + -ing = 1; one correct sentence with were + -ing = 1)",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "a correct sentence with was + -ing",
+                  "marks": 1
+                },
+                {
+                  "point": "a correct sentence with were + -ing",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "One correct was + -ing sentence — 1; one correct were + -ing sentence — 1. A sentence with the wrong helping word or a missing -ing form scores 0. Maximum 2.",
+              "skill": "grammar: compose"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "E",
+      "title": "Vocabulary",
+      "marks": 13,
+      "blocks": [
+        {
+          "num": "Q.11",
+          "instruction": "Match the words in Column A with their meanings in Column B.",
+          "items": [
+            {
+              "id": "english-c6-s5-b1-i1",
+              "type": "match",
+              "q": "Match each word with its meaning.",
+              "marks": 5,
+              "answer": "pincushion – a small soft pad to stick pins into; blind – not able to see with the eyes; institute – a place set up for study or training; affect – to cause a change in something; nearby – not far away; close to us",
+              "difficulty": "medium",
+              "pairs": [
+                {
+                  "left": "pincushion",
+                  "right": "a small soft pad to stick pins into"
+                },
+                {
+                  "left": "blind",
+                  "right": "not able to see with the eyes"
+                },
+                {
+                  "left": "institute",
+                  "right": "a place set up for study or training"
+                },
+                {
+                  "left": "affect",
+                  "right": "to cause a change in something"
+                },
+                {
+                  "left": "nearby",
+                  "right": "not far away; close to us"
+                }
+              ],
+              "answerPoints": [
+                {
+                  "point": "pincushion = a small soft pad to stick pins into",
+                  "marks": 1
+                },
+                {
+                  "point": "blind = not able to see with the eyes",
+                  "marks": 1
+                },
+                {
+                  "point": "institute = a place set up for study or training",
+                  "marks": 1
+                },
+                {
+                  "point": "affect = to cause a change in something",
+                  "marks": 1
+                },
+                {
+                  "point": "nearby = not far away; close to us",
+                  "marks": 1
+                }
+              ],
+              "skill": "vocabulary: match"
+            }
+          ]
+        },
+        {
+          "num": "Q.12",
+          "instruction": "Fill in the blanks with the words from the box.\nBox: invented / simplify / alphabet / blacksmith",
+          "items": [
+            {
+              "id": "english-c6-s5-b2-i1",
+              "type": "fill-blank",
+              "q": "The _____ heats the iron and hammers it into a hook. Braille has one sign for each letter of the English _____.",
+              "marks": 2,
+              "answer": [
+                "blacksmith",
+                "alphabet"
+              ],
+              "difficulty": "medium",
+              "blanks": 2,
+              "acceptable": [
+                [
+                  "blacksmith"
+                ],
+                [
+                  "alphabet"
+                ]
+              ],
+              "answerPoints": [
+                {
+                  "point": "blacksmith",
+                  "marks": 1
+                },
+                {
+                  "point": "alphabet",
+                  "marks": 1
+                }
+              ],
+              "skill": "vocabulary: word box"
+            },
+            {
+              "id": "english-c6-s5-b2-i2",
+              "type": "fill-blank",
+              "q": "A clever man _____ a machine that peels garlic. The teacher will _____ the hard rule with an easy example.",
+              "marks": 2,
+              "answer": [
+                "invented",
+                "simplify"
+              ],
+              "difficulty": "medium",
+              "blanks": 2,
+              "acceptable": [
+                [
+                  "invented"
+                ],
+                [
+                  "simplify"
+                ]
+              ],
+              "answerPoints": [
+                {
+                  "point": "invented",
+                  "marks": 1
+                },
+                {
+                  "point": "simplify",
+                  "marks": 1
+                }
+              ],
+              "skill": "vocabulary: word box"
+            }
+          ]
+        },
+        {
+          "num": "Q.13",
+          "instruction": "Answer in one line.",
+          "items": [
+            {
+              "id": "english-c6-s5-b3-i1",
+              "type": "short",
+              "q": "Write the opposite of each word: (a) dark  (b) difficult",
+              "marks": 2,
+              "answer": "(a) light / bright (1); (b) easy / simple (1).",
+              "difficulty": "easy",
+              "answerPoints": [
+                {
+                  "point": "dark → light or bright",
+                  "marks": 1
+                },
+                {
+                  "point": "difficult → easy or simple",
+                  "marks": 1
+                }
+              ],
+              "skill": "vocabulary: opposites"
+            },
+            {
+              "id": "english-c6-s5-b3-i2",
+              "type": "short",
+              "q": "What does ‘simplify’ mean? Then write a sentence with ‘simplify’.",
+              "marks": 2,
+              "answer": "‘Simplify’ means to make something easier (1). A correct sentence, for example: Please simplify this long sum for me. (1)",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "meaning: to make something easy or easier",
+                  "marks": 1
+                },
+                {
+                  "point": "a correct sentence with simplify",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "Correct meaning in own words — 1; a complete sentence that uses ‘simplify’ correctly — 1. Maximum 2.",
+              "skill": "vocabulary: meaning and use"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "title": "Spelling",
+      "marks": 12,
+      "blocks": [
+        {
+          "num": "Q.14",
+          "instruction": "Circle the correct spelling.",
+          "items": [
+            {
+              "id": "english-c6-s6-b1-i1",
+              "type": "mcq",
+              "q": "Which spelling is correct? Clue: the way of reading by touch, named after Louis.",
+              "marks": 2,
+              "answer": "Braille",
+              "difficulty": "medium",
+              "options": [
+                "Braile",
+                "Braille",
+                "Brialle"
+              ],
+              "answerPoints": [
+                {
+                  "point": "circles the correct spelling: Braille",
+                  "marks": 2
+                }
+              ],
+              "skill": "spelling"
+            },
+            {
+              "id": "english-c6-s6-b1-i2",
+              "type": "mcq",
+              "q": "Which spelling is correct? Clue: people who serve in an army.",
+              "marks": 2,
+              "answer": "soldiers",
+              "difficulty": "easy",
+              "options": [
+                "souldiers",
+                "soldiers",
+                "soljers"
+              ],
+              "answerPoints": [
+                {
+                  "point": "circles the correct spelling: soldiers",
+                  "marks": 2
+                }
+              ],
+              "skill": "spelling"
+            },
+            {
+              "id": "english-c6-s6-b1-i3",
+              "type": "mcq",
+              "q": "Which spelling is correct? Clue: being given a place in a school.",
+              "marks": 2,
+              "answer": "admission",
+              "difficulty": "medium",
+              "options": [
+                "admision",
+                "admission",
+                "admishon"
+              ],
+              "answerPoints": [
+                {
+                  "point": "circles the correct spelling: admission",
+                  "marks": 2
+                }
+              ],
+              "skill": "spelling"
+            }
+          ]
+        },
+        {
+          "num": "Q.15",
+          "instruction": "Put the letters in the right order to make a word from the chapter.",
+          "items": [
+            {
+              "id": "english-c6-s6-b2-i1",
+              "type": "one-word",
+              "q": "PLATEHBA  (Clue: it has twenty-six letters.)",
+              "marks": 2,
+              "answer": "alphabet",
+              "difficulty": "easy",
+              "acceptable": [
+                "alphabet",
+                "Alphabet"
+              ],
+              "answerPoints": [
+                {
+                  "point": "all letters used, word spelt correctly",
+                  "marks": 2
+                }
+              ],
+              "skill": "spelling: jumbled letters"
+            },
+            {
+              "id": "english-c6-s6-b2-i2",
+              "type": "one-word",
+              "q": "VENDNITE  (Clue: made something new for the first time.)",
+              "marks": 2,
+              "answer": "invented",
+              "difficulty": "medium",
+              "acceptable": [
+                "invented",
+                "Invented"
+              ],
+              "answerPoints": [
+                {
+                  "point": "all letters used, word spelt correctly",
+                  "marks": 2
+                }
+              ],
+              "skill": "spelling: jumbled letters"
+            },
+            {
+              "id": "english-c6-s6-b2-i3",
+              "type": "one-word",
+              "q": "KSCAMLBHIT  (Clue: Louis’s father was one.)",
+              "marks": 2,
+              "answer": "blacksmith",
+              "difficulty": "hard",
+              "acceptable": [
+                "blacksmith",
+                "Blacksmith"
+              ],
+              "answerPoints": [
+                {
+                  "point": "all letters used, word spelt correctly",
+                  "marks": 2
+                }
+              ],
+              "skill": "spelling: jumbled letters"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "title": "Handwriting",
+      "marks": 6,
+      "blocks": [
+        {
+          "num": "Q.16",
+          "instruction": "Write the following lines in neat handwriting.",
+          "stimulus": {
+            "kind": "passage",
+            "text": "“Please pass me the red crayon,” said Kavya. Her brother handed it to her with a smile. Together they coloured a big peacock.",
+            "original": true
+          },
+          "items": [
+            {
+              "id": "english-c6-s7-b1-i1",
+              "type": "handwriting",
+              "q": "Write the passage in neat handwriting.",
+              "marks": 3,
+              "answer": "A neat, evenly spaced copy with the quotation marks, commas and full stops in place.",
+              "difficulty": "medium",
+              "markingGuide": "Letters well formed and of an even size — 1; spaces between words even — 1; neat writing with capital letters, commas and full stops copied correctly — 1. Maximum 3.",
+              "skill": "handwriting"
+            }
+          ]
+        },
+        {
+          "num": "Q.17",
+          "instruction": "Write the following lines in neat handwriting.",
+          "stimulus": {
+            "kind": "passage",
+            "text": "Papa and I walked to the river at sunrise. The water was calm and cool. Small fish were darting between the stones.",
+            "original": true
+          },
+          "items": [
+            {
+              "id": "english-c6-s7-b2-i1",
+              "type": "handwriting",
+              "q": "Write the passage in neat handwriting.",
+              "marks": 3,
+              "answer": "A neat, evenly spaced copy with capital letters and full stops in place.",
+              "difficulty": "medium",
+              "markingGuide": "Letters well formed and of an even size — 1; spaces between words even — 1; neat writing with capital letters, commas and full stops copied correctly — 1. Maximum 3.",
+              "skill": "handwriting"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

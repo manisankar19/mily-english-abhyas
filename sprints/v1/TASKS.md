@@ -336,7 +336,7 @@ record in the walkthrough, continue.
     sequencing item keeps its (a)–(d) list inside `q` as text with newlines (v2 must preserve line breaks in `q`,
     not only in stimuli — added to the v2 brief's rendering notes).
 
-- [ ] Task 10: Chapter 6 paper — Braille (P0) — one sub-agent; standard profile
+- [x] Task 10: Chapter 6 paper — Braille (P0) — one sub-agent; standard profile
   - Follow **Protocol P**. Standard profile.
   - Content: A1 original unseen passage, a girl's diary of a hill-train journey (~130 words); A2
     original ~80-word market scene told in the past continuous. D: past continuous (*was/were* +
@@ -347,6 +347,22 @@ record in the walkthrough, continue.
   - Acceptance: Protocol P; sections `[25,13,12,19,13,12,6]`; F4 viewed at 2× and its caption
     checked against its items.
   - Files: `app/data/english-ch6.json`, `app/assets/english-ch6-story.svg`
+  - Completed: 2026-09-19 — one sub-agent wrote both files; the coordinator re-ran everything. 58 items, 100
+    marks, sections `[25,13,12,19,13,12,6]`; difficulty 23/24/11 (40/41/19 %). `validate.js` PASS;
+    `readability.py` exit 0 (A1 130 words avg 7.2 max 11; A2 81 words avg 8.1 max 11; copy texts 23 and 22
+    words; 0 stems; no long words); `similarity.py` exit 0, **0 shingle failures**, 4 semantic pairs = the generic
+    "Write the passage in neat handwriting." ×2 and "Match each word with its meaning." ×2, judged and logged.
+    **Figure F4 viewed once at 2×:** four numbered panels (a rainy run home under an umbrella; a woman drying a
+    boy while the dog shakes off water; a quiet indoor scene with a cat; puddle-jumping under a rainbow) — clear,
+    `currentColor` only, original (not the textbook's clothesline scene), caption neutral. School-overlap grep
+    against L-6 (26 strings): none of the school's sentences, spelling items, jumbles or handwriting text; the
+    hits are chapter vocabulary. D tests only *was/were + -ing* (no simple-past forms). Notes for the owner's
+    read: **E1's five words include three the school's E1 also matches (*institute, affect, nearby*)**, with
+    different meaning wording — the chapter's vocabulary is small and these were named in the plan; D3-2 depends on
+    the drawing (any true *was + -ing* sentence about the dog is accepted); E3-1 asks for opposites (Ch 2's
+    skill; the standard profile lists opposites for E3); the agent wrote "Braille **sign**" instead of the
+    chapter's "symbol" because the readability stem check matched *symbol* — a tool bug, fixed under Task 4.
+    The agent also ran `git status` once (read-only, changed nothing) against the brief's "never run git".
 
 - [ ] Task 11: Half-Yearly mock — `english-hy` (P0) — one sub-agent; standard profile
   - Follow **Protocol P**. Standard seven sections, 58 items, 40/40/20; `sourceChapter` on **every**

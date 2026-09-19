@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 620" width="600" height="620" role="img">
+  <title>A picture story in four panels, numbered 1 to 4</title>
+  <g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- ===== Panel 1 ===== -->
+    <g transform="translate(10,10)">
+      <rect x="0" y="0" width="280" height="290" rx="8" stroke-width="2.5"/>
+      <circle cx="26" cy="26" r="16" stroke-width="2.5"/>
+      <text x="26" y="33" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="currentColor" stroke="none">1</text>
+      <!-- cloud -->
+      <path d="M70 62 A16 16 0 0 1 76 34 A24 24 0 0 1 122 28 A20 20 0 0 1 156 44 A14 14 0 0 1 150 62 Z" fill="currentColor" fill-opacity="0.12"/>
+      <path d="M170 56 A14 14 0 0 1 176 32 A20 20 0 0 1 214 30 A16 16 0 0 1 240 46 A12 12 0 0 1 234 56 Z" fill="currentColor" fill-opacity="0.12"/>
+      <!-- rain -->
+      <path d="M185 72 l-5 14 M215 74 l-5 14 M60 74 l-5 14 M36 100 l-5 14 M196 108 l-5 14 M232 106 l-5 14 M40 150 l-5 14 M180 146 l-5 14 M250 128 l-5 14 M190 172 l-5 14" stroke-width="2.5"/>
+      <!-- umbrella -->
+      <path d="M57 140 A55 55 0 0 1 167 140 Z" fill="currentColor" fill-opacity="0.15"/>
+      <path d="M112 85 V78 M112 85 Q90 118 90 140 M112 85 Q134 118 134 140" stroke-width="2"/>
+      <path d="M112 140 V196 M112 196 q0 8 -7 8" />
+      <!-- boy (left) -->
+      <circle cx="90" cy="185" r="11"/>
+      <path d="M90 196 L82 232 M90 206 L72 220 M90 206 L110 197 M82 232 L62 250 M82 232 L102 248"/>
+      <path d="M40 200 h-16 M46 216 h-20 M40 232 h-14" stroke-width="2.5"/>
+      <!-- girl (right) -->
+      <circle cx="140" cy="185" r="11"/>
+      <path d="M140 196 L128 236 L152 236 Z"/>
+      <path d="M140 204 L114 198 M140 206 L158 218 M134 236 L122 254 M148 236 L162 250"/>
+      <!-- house -->
+      <path d="M200 255 V196 H262 V255 M192 196 L231 162 L270 196 M222 255 V222 H240 V255"/>
+      <path d="M206 206 h12 v10 h-12 z" stroke-width="2"/>
+      <!-- ground and puddles -->
+      <path d="M10 255 H270" stroke-width="2.5"/>
+      <path d="M22 262 h44 M120 264 h34" stroke-width="2"/>
+    </g>
+
+    <!-- ===== Panel 2 ===== -->
+    <g transform="translate(310,10)">
+      <rect x="0" y="0" width="280" height="290" rx="8" stroke-width="2.5"/>
+      <circle cx="26" cy="26" r="16" stroke-width="2.5"/>
+      <text x="26" y="33" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="currentColor" stroke="none">2</text>
+      <!-- window with rain -->
+      <path d="M105 28 h64 v58 h-64 z M137 28 V86 M105 57 H169" stroke-width="2.5"/>
+      <path d="M116 38 l-3 8 M124 64 l-3 8 M148 40 l-3 8 M156 66 l-3 8" stroke-width="2"/>
+      <!-- floor -->
+      <path d="M10 255 H270" stroke-width="2.5"/>
+      <!-- boy with towel -->
+      <circle cx="124" cy="184" r="11"/>
+      <path d="M108 194 Q104 162 124 162 Q144 162 140 194 Z" fill="currentColor" fill-opacity="0.3"/>
+      <path d="M96 178 q-6 8 0 18 M90 172 q-10 14 0 28" stroke-width="2.5"/>
+      <path d="M124 195 V234 M124 204 L110 224 M124 204 L138 224 M124 234 L114 254 M124 234 L134 254"/>
+      <!-- mother -->
+      <circle cx="190" cy="112" r="14"/>
+      <path d="M190 128 L166 226 L214 226 Z"/>
+      <path d="M180 226 V254 M200 226 V254"/>
+      <path d="M186 140 L140 168 M190 148 L132 172"/>
+      <!-- dog shaking -->
+      <ellipse cx="52" cy="230" rx="28" ry="14"/>
+      <circle cx="84" cy="214" r="11"/>
+      <ellipse cx="97" cy="219" rx="7" ry="5"/>
+      <path d="M77 206 q-10 4 -7 16" />
+      <circle cx="87" cy="211" r="1.6" fill="currentColor"/>
+      <circle cx="102" cy="218" r="1.8" fill="currentColor"/>
+      <path d="M30 240 V254 M42 243 V254 M62 243 V254 M74 240 V254"/>
+      <path d="M26 226 Q14 218 18 204"/>
+      <path d="M36 206 l-4 -12 M54 204 l0 -14 M72 207 l6 -12 M14 238 q-10 -8 0 -20 M78 240 q10 -6 4 -18" stroke-width="2.5"/>
+    </g>
+
+    <!-- ===== Panel 3 ===== -->
+    <g transform="translate(10,320)">
+      <rect x="0" y="0" width="280" height="290" rx="8" stroke-width="2.5"/>
+      <circle cx="26" cy="26" r="16" stroke-width="2.5"/>
+      <text x="26" y="33" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="currentColor" stroke="none">3</text>
+      <!-- window with rain -->
+      <path d="M105 28 h64 v58 h-64 z M137 28 V86 M105 57 H169" stroke-width="2.5"/>
+      <path d="M116 38 l-3 8 M124 64 l-3 8 M148 40 l-3 8 M156 66 l-3 8" stroke-width="2"/>
+      <path d="M10 255 H270" stroke-width="2.5"/>
+      <!-- girl reading -->
+      <circle cx="48" cy="176" r="12"/>
+      <path d="M48 188 V243 L84 243 M48 203 L76 208"/>
+      <path d="M74 190 L90 195 L106 190 V215 L90 220 L74 215 Z" fill="currentColor" fill-opacity="0.15"/>
+      <path d="M90 195 V220" stroke-width="2"/>
+      <!-- cat sleeping -->
+      <ellipse cx="124" cy="240" rx="22" ry="12"/>
+      <circle cx="150" cy="242" r="10"/>
+      <path d="M143 235 l-1 -9 l8 5 M153 233 l5 -7 l2 10"/>
+      <path d="M146 243 h6 M154 243 h6" stroke-width="2"/>
+      <path d="M102 244 q-14 4 -12 -10" />
+      <!-- table -->
+      <path d="M168 200 H226 V208 H168 Z M176 208 V254 M218 208 V254" fill="currentColor" fill-opacity="0.15"/>
+      <path d="M182 196 L212 196 L216 200 L178 200 Z" stroke-width="2"/>
+      <!-- boy drawing -->
+      <circle cx="252" cy="176" r="12"/>
+      <path d="M252 188 V243 L236 243 M252 203 L236 206 L214 199"/>
+      <path d="M214 199 L208 188" stroke-width="2.5"/>
+    </g>
+
+    <!-- ===== Panel 4 ===== -->
+    <g transform="translate(310,320)">
+      <rect x="0" y="0" width="280" height="290" rx="8" stroke-width="2.5"/>
+      <circle cx="26" cy="26" r="16" stroke-width="2.5"/>
+      <text x="26" y="33" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="currentColor" stroke="none">4</text>
+      <!-- sun -->
+      <circle cx="90" cy="52" r="16"/>
+      <path d="M90 26 V18 M90 78 V86 M64 52 H56 M116 52 H124 M72 34 l-6 -6 M108 34 l6 -6 M72 70 l-6 6 M108 70 l6 6" stroke-width="2.5"/>
+      <!-- rainbow -->
+      <path d="M140 150 A66 66 0 0 1 272 150" stroke-width="3"/>
+      <path d="M152 150 A54 54 0 0 1 260 150" stroke-width="3" stroke-opacity="0.65"/>
+      <path d="M164 150 A42 42 0 0 1 248 150" stroke-width="3" stroke-opacity="0.35"/>
+      <!-- ground and puddle -->
+      <path d="M10 255 H270" stroke-width="2.5"/>
+      <ellipse cx="118" cy="256" rx="52" ry="6" stroke-width="2"/>
+      <!-- boy jumping -->
+      <circle cx="95" cy="170" r="11"/>
+      <path d="M95 181 V216 M95 190 L78 174 M95 190 L120 184 M95 216 L78 238 M95 216 L110 236"/>
+      <!-- girl jumping -->
+      <circle cx="145" cy="170" r="11"/>
+      <path d="M145 181 L132 220 L158 220 Z"/>
+      <path d="M145 190 L120 184 M145 190 L164 174 M139 220 L130 238 M151 220 L162 238"/>
+      <!-- splash -->
+      <path d="M72 246 l-6 -8 M102 248 l0 -10 M132 248 l0 -10 M168 246 l6 -8" stroke-width="2.5"/>
+      <!-- dog running -->
+      <ellipse cx="214" cy="222" rx="26" ry="12"/>
+      <circle cx="246" cy="212" r="10"/>
+      <ellipse cx="258" cy="216" rx="6" ry="4.5"/>
+      <path d="M240 205 q-9 3 -6 14"/>
+      <circle cx="248" cy="209" r="1.5" fill="currentColor"/>
+      <circle cx="263" cy="215" r="1.6" fill="currentColor"/>
+      <path d="M228 230 L250 244 M222 232 L240 250 M200 230 L182 242 M206 232 L190 250"/>
+      <path d="M190 216 Q178 204 182 192"/>
+          </g>
+  </g>
+</svg>
