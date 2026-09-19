@@ -91,9 +91,10 @@ rather than ≤ 10 five-minute tasks. Testing and security are in this sprint be
   - Acceptance: `npm run test:build` runs on temp copies with throwaway codes: unset, empty, short, placeholder missing/doubled, missing asset, invalid paper, plaintext collision, `</script` in data — each exits non-zero and writes nothing; a control build exits 0 with one file.
   - Files: scripts/test-build.js
 
-- [ ] Task 14: `README.md` (agent `docs`) (P0)
+- [x] Task 14: `README.md` (agent `docs`) (P0)
   - Acceptance: every brief §11 item, including the verbatim deterrent sentence, Secrets table without values or shape, login "not a security control", two section profiles, assumed duration, source check local-only, git-integration and Deployment Protection notes; live URL left as a placeholder for Task 19.
   - Files: README.md
+  - Completed: 2026-09-19 — `docs` sub-agent (154 lines); coordinator read it in full: every §11 item present, the deterrent sentence verbatim once (grep), no value or shape of the code (only "at least 10 characters"). Live URL is a placeholder until Task 19; commands are re-checked against the final `serve.js`/`e2e.js` at Task 16.
 
 - [ ] Task 15: `scripts/serve.js` and `scripts/e2e.js` (agent `e2e`) (P0)
   - Acceptance: e2e covers brief §10 checks 7–26 and X1, X3–X5 against a URL argument, expectations from the served page's JSON; secret redacted from all output (self-grep); prints PASS/FAIL per check; X2 as a labelled static check; negative controls runnable on scratch copies.
