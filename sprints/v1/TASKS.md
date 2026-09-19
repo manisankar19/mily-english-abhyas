@@ -1,6 +1,6 @@
 # Sprint v1 — Tasks (Content) — mily-english-abhyas
 
-## Status: In progress (4 of 14 tasks complete — Tasks 1–4 done; session S1 finished; Task 5 not started). Tasks written 2026-09-19. Owner-confirmed 2026-09-19: five sections for Ch 1/Ch 4 (Spelling folded into Vocabulary, Handwriting not carried); marking secret stands, owner rotates later via Vercel env.
+## Status: All 14 tasks ticked (2026-09-19). The owner's read of the papers and `git tag v1-content` are outstanding; v2 is not started. Tasks written 2026-09-19. Owner-confirmed 2026-09-19: five sections for Ch 1/Ch 4 (Spelling folded into Vocabulary, Handwriting not carried); marking secret stands, owner rotates later via Vercel env.
 
 Source of truth: `sprints/v1/prd.md` (Revision 2) — final. This file breaks it into atomic
 execution tasks; it does not re-derive scope, blueprint, schema or content plan. A task below that
@@ -451,7 +451,7 @@ record in the walkthrough, continue.
     task; two hard tags downgraded). **No human has read the papers yet**; the owner's read (`SETUP.md` §6) is
     pending and is the real gate. The machine checks are not a substitute for it.
 
-- [ ] Task 13: `sprints/v1/walkthrough.md` (P0) — coordinator (use the `/walkthrough` skill, **lower-case filename**)
+- [x] Task 13: `sprints/v1/walkthrough.md` (P0) — coordinator (use the `/walkthrough` skill, **lower-case filename**)
   - Must contain, per `instruction.md` §13 and `prd.md`: what was built and files changed; the
     readability and difficulty numbers for every paper; every figure **not viewed** and every authored
     passage **not run through `similarity.py`** (target: both empty); the capacity-gate outcome for
@@ -462,6 +462,15 @@ record in the walkthrough, continue.
     until the owner says otherwise); what is next.
   - Acceptance: file exists; no claim of "tested" for anything only read; lists match the actual run.
   - Files: `sprints/v1/walkthrough.md`
+  - Completed: 2026-09-19 — written by the coordinator directly (not via the `/walkthrough` skill, whose default
+    filename is upper-case and whose template is app-oriented; the content follows `instruction.md` §13 and the
+    Maths v1 walkthrough's structure). It states: what was built; per-paper items, marks, difficulty and
+    readability numbers; the capacity-gate outcome for Ch 1 and Ch 4 (both passed, both at the hard-share floor);
+    the figures list (5, all viewed at 2× on a white page, **none unviewed**, dark mode **not** checked);
+    **authored passages not run through `similarity.py`: none**; verification results; security counts;
+    process errors and deviations; ten known limitations including D1, the assumed duration, hand-only
+    curriculum fidelity, and that **no human has read the papers**; and what is next. Every number was re-checked
+    against a run or `jq` before it went in; three phrasings were corrected on review.
 
 - [x] Task 14: Draft `sprints/v2/instruction.md` (P0) — coordinator
   - Steps: start from `../mily-maths-abhyas/sprints/v2/instruction.md` and adjust for English: fewer
@@ -485,8 +494,10 @@ record in the walkthrough, continue.
     `scripts/lib/card.js` must stay in the upload. Five open questions are recorded in its §13 (card count = 7,
     captions vs BLUEPRINT §5.5, SCHEMA §8 gap, printing an assumed duration, file-name case). One error of
     mine in the prompt ("nine cards") was caught by the agent and corrected to seven. Its §2 facts marked
-    *confirm* (item counts, types used, figure count) are to be confirmed against
-    `sprints/v1/walkthrough.md` when Task 13 closes.
+    *confirm* (item counts, types used, stimulus kinds, figure count) were **settled at v1 close from the data**:
+    54/58/58/54/58/58/60 items (400); types `short` 156, `fill-blank` 81, `one-word` 56, `mcq` 49, `true-false` 25,
+    `long` 16, `handwriting` 10, `match` 7; stimuli 22 passages, 2 poems, 7 figure placements, no `table`; five
+    figure files; 19 items with newlines in `q`. The brief is now 376 lines.
 
 ---
 

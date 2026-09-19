@@ -44,21 +44,25 @@ Only settled facts are stated. Anything marked *confirm* is to be confirmed from
   `scripts/readability.py`, `source/INTAKE.md`, `scripts/lib/card.js` (card reader). The Python scripts
   have no role in the app or the build.
 - **Papers:** seven, `app/data/english-ch{1..6}.json` and `english-hy.json`, `schemaVersion: "2.0"`,
-  100 marks, 45–60 items (*confirm* exact counts; the plan is 54 for Chapters 1 and 4, 58 for the rest).
+  100 marks, 45–60 items. **Confirmed at v1 close:** 54 (Ch 1), 58 (Ch 2), 58 (Ch 3), 54 (Ch 4), 58 (Ch 5),
+  58 (Ch 6) and 60 (the mock) — 400 items in all.
   The mock has `"chapter": null`, `"paperCode": "hy"` and the card's `extra_papers` title.
 - **Section lists differ per paper — data, not code.** Chapters 1 and 4 (thin-poem profile, `prd.md`
   D9) have **five** sections A–E, 30/10/20/20/20. Chapters 2, 3, 5, 6 and the mock have **seven**, A–G,
   25/13/12/19/13/12/6. Titles are stored in title case ("Textual Questions"), not capitals.
 - **Item `type`s by design:** `mcq`, `true-false`, `fill-blank` (single or multi-blank), `one-word`,
   `match`, `short`, `long`, `handwriting`; no `numeric`, no `layout` (`validate.js` also accepts
-  `multi-select`, `diagram-label`, `draw`, `activity`; *confirm* which the papers use). **Stimuli:**
-  `passage` and `poem` (`stimulus.text`, newlines are line breaks), `figure` (`asset` + `caption`),
-  probably `table` (*confirm* its layout); a handwriting item's copy text is a `passage`. A stimulus sits
-  on a block or an item: render both.
-- **Figures:** five by plan, original SVG with `currentColor` in `app/assets/` — street map (Ch 1), road
-  signs (Ch 3), park scene (Ch 4), four-panel picture story (Ch 6), mock scene. `prd.md` §7 says "at
-  most five": *confirm* the final count, never hard-code it. None has been rendered in a themed page yet;
-  check each against your real dark-mode CSS.
+  `multi-select`, `diagram-label`, `draw`, `activity`). **Confirmed at v1 close — the types the 400 items
+  actually use:** `short` 156, `fill-blank` 81, `one-word` 56, `mcq` 49, `true-false` 25, `long` 16,
+  `handwriting` 10, `match` 7 (one per paper). None of the other types appears; render them generically.
+  **Stimuli actually used:** `passage` 22, `poem` 2 (the A2 texts of Chapters 1 and 4), `figure` 7 placements
+  (`asset` + `caption`); **no `table`** stimulus exists. A handwriting item's copy text is a `passage`. A
+  stimulus sits on a block or an item: render both. **19 items carry newlines inside `q`** (see §3.1).
+- **Figures:** **five files, confirmed at v1 close** — original SVG with `currentColor` in `app/assets/`:
+  `english-ch1-map.svg` (street map), `english-ch3-signs.svg` (four road signs), `english-ch4-park.svg` (park
+  scene, five numbered people), `english-ch6-story.svg` (four-panel picture story), `english-hy-scene.svg`
+  (playground). Each was viewed at 2× on a white page; **none has been rendered in a themed or dark page** —
+  check each against your real dark-mode CSS. Never hard-code the count; read it from the data.
 - **Never shown to the child** (`SCHEMA.md` §8, extended here): `answer`, `acceptable`, `answerPoints`,
   `markingGuide`, `difficulty`, `skill`, `chapterSource`, `sourceChapter`, `stimulus.original`,
   `stimulus.sourceRef`, paper-level `sourceRef`, and figure captions. Keep them in the data, out of the page.
