@@ -274,7 +274,7 @@ record in the walkthrough, continue.
     SGNORICS can also spell the rare word *scorings* (unhinted; judged acceptable for Class 4); the two E3 sign items
     are `short` with an `acceptable` array of arrays, which the validator does not check but does not reject.
 
-- [ ] Task 8: Chapter 4 paper — One Thing at a Time (P0) — one sub-agent; **thin-poem profile**
+- [x] Task 8: Chapter 4 paper — One Thing at a Time (P0) — one sub-agent; **thin-poem profile**
   - Follow **Protocol P**. Profile as Task 5 (A 30 · B 10 · C 20 · D 20 · E 20; 54 items; hard ≥ 35 %;
     `chapterSource` on every non-A item).
   - Content: A1 original unseen passage, a grandfather mends watches one at a time (125–150 words);
@@ -288,6 +288,26 @@ record in the walkthrough, continue.
   - Acceptance: Protocol P; sections `[30,10,20,20,20]`; hard-share and `chapterSource` checks;
     10 `hard` tags hand-audited; F3 viewed at 2×.
   - Files: `app/data/english-ch4.json`, `app/assets/english-ch4-park.svg`
+  - Completed: 2026-09-19 — one sub-agent wrote both files; the coordinator re-ran everything. **Capacity gate
+    held on the narrowest paper: 100 marks and 54 items from the chapter's own material plus the two original A
+    texts, no padding.** Sections `[30,10,20,20,20]`; every item has `chapterSource`. `validate.js` PASS;
+    `readability.py` exit 0 (A1 148 words avg 7.8 max 11; A2 poem 60 words, 8 lines, longest 8; 0 stems; no long
+    words); `similarity.py` exit 0, **0 shingle failures**, 2 semantic pairs = the generic "Match each word with
+    its meaning." line, judged and logged. **Figure F3 viewed once at 2×:** five numbered people — reading on a
+    bench, kicking a ball, painting at an easel, watering flowers, flying a kite — clear, `currentColor` only, the
+    caption ("A park with five people, numbered 1 to 5") names no action; every verb takes a plain *-ing*.
+    **The vocabulary rules held (audited by grep):** *trifled* and *halves* are glossed inside the question or
+    the blank block's instruction; *balm* appears only in one unscramble item, clued "rhymes with palm and has a
+    silent l", never defined; the school's Might/"well-" items are not repeated; the school's "How do you feel
+    after finishing a task…" question is not used. **Two coordinator fixes:** (1) the "My Routine" task asked the
+    child to label each sentence W (work) or P (play), but two of its five required points (dinner, bedtime) are
+    neither — the five points were rewritten so each is genuinely work or play, model answer updated; (2) hard-tag
+    audit (10 sampled: 8 sound) — D1-4 ("Which sentence is correct?") is a choice, not a harder task, and was
+    downgraded to medium. Result: **hard 19 of 54 = 35.2 %, one item above the floor — no slack.** Notes for the
+    owner's read: E3-2(b) asks for a silent-*l* word "of your own" (walk, half, could …), which the chapter
+    teaches as a concept, not as a list; the E5 unscramble (calf / balm / away) is tagged hard as a three-part
+    task; the D "table" item puts its table inside `q` as a list because no `table` stimulus shape is defined —
+    the v2 brief already covers newlines inside `q`.
 
 - [x] Task 9: Chapter 5 paper — The Old Stag (P0) — one sub-agent; standard profile
   - Follow **Protocol P**. Standard profile.

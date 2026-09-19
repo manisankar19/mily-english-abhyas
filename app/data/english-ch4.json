@@ -1,0 +1,1237 @@
+{
+  "schemaVersion": "2.0",
+  "subject": "english",
+  "subjectDisplay": "English",
+  "grade": 4,
+  "chapter": 4,
+  "locale": "en",
+  "numerals": "latn",
+  "title": "One Thing at a Time",
+  "subtitle": "English — Class 4 — Chapter 4",
+  "sourceRef": "Santoor Grade 4, Ch. 4",
+  "totalMarks": 100,
+  "durationMinutes": 120,
+  "sections": [
+    {
+      "code": "A",
+      "title": "Reading",
+      "marks": 30,
+      "blocks": [
+        {
+          "num": "Q.1",
+          "instruction": "Read the passage and answer the questions. Write True or False for the true-false questions.",
+          "stimulus": {
+            "kind": "passage",
+            "text": "Dadaji has a tiny watch shop near the old bus stand. It has one small window and a wooden table. The shop smells of oil and old leather straps. Every afternoon, Kavya sits on a stool beside him and watches.\n\nOne day, a customer brings three broken watches. Dadaji does not rush. He picks up the first watch. He opens the back with a thin steel tool. He cleans each tiny wheel with a soft brush. Then he fixes the spring and closes the back. Only after that does he touch the second watch.\n\n“Why don’t you mend all three together?” asks Kavya.\n\nDadaji smiles. “Tiny parts get lost when my mind jumps about,” he says. “A watch needs all my care.”\n\nBy evening, all three watches are ticking. Kavya holds one to her ear and listens. Tick, tick, tick! She wants to mend watches too, some day.",
+            "original": true
+          },
+          "items": [
+            {
+              "id": "english-c4-s1-b1-i1",
+              "type": "mcq",
+              "q": "Where is Dadaji’s watch shop?",
+              "marks": 1,
+              "answer": "Near the old bus stand",
+              "difficulty": "easy",
+              "options": [
+                "Near the old bus stand",
+                "Beside a school gate",
+                "Inside a big market",
+                "Under a railway bridge"
+              ],
+              "skill": "recall",
+              "chapterSource": "original-A1"
+            },
+            {
+              "id": "english-c4-s1-b1-i2",
+              "type": "mcq",
+              "q": "What does Dadaji use to open the back of a watch?",
+              "marks": 1,
+              "answer": "A thin steel tool",
+              "difficulty": "easy",
+              "options": [
+                "A thin steel tool",
+                "A hammer",
+                "A pair of scissors"
+              ],
+              "skill": "recall",
+              "chapterSource": "original-A1"
+            },
+            {
+              "id": "english-c4-s1-b1-i3",
+              "type": "mcq",
+              "q": "What does Dadaji do right after he cleans the tiny wheels?",
+              "marks": 1,
+              "answer": "He fixes the spring",
+              "difficulty": "medium",
+              "options": [
+                "He fixes the spring",
+                "He touches the second watch",
+                "He asks Kavya to leave"
+              ],
+              "skill": "sequence",
+              "chapterSource": "original-A1"
+            },
+            {
+              "id": "english-c4-s1-b1-i4",
+              "type": "true-false",
+              "q": "The shop has a wooden table.",
+              "marks": 1,
+              "answer": "True",
+              "difficulty": "easy",
+              "skill": "recall",
+              "chapterSource": "original-A1"
+            },
+            {
+              "id": "english-c4-s1-b1-i5",
+              "type": "true-false",
+              "q": "Dadaji starts the second watch before he finishes the first one.",
+              "marks": 1,
+              "answer": "False. He finishes the first watch and only then touches the second.",
+              "difficulty": "medium",
+              "skill": "recall",
+              "chapterSource": "original-A1"
+            },
+            {
+              "id": "english-c4-s1-b1-i6",
+              "type": "one-word",
+              "q": "How many broken watches does the customer bring?",
+              "marks": 1,
+              "answer": "three",
+              "difficulty": "easy",
+              "acceptable": [
+                "three",
+                "3"
+              ],
+              "skill": "recall",
+              "chapterSource": "original-A1"
+            },
+            {
+              "id": "english-c4-s1-b1-i7",
+              "type": "one-word",
+              "q": "What does Kavya hold to her ear?",
+              "marks": 1,
+              "answer": "a watch",
+              "difficulty": "medium",
+              "acceptable": [
+                "a watch",
+                "watch",
+                "one watch",
+                "the watch",
+                "one of the watches",
+                "a broken watch"
+              ],
+              "skill": "recall",
+              "chapterSource": "original-A1"
+            },
+            {
+              "id": "english-c4-s1-b1-i8",
+              "type": "short",
+              "q": "Where does Kavya sit, and what does she do there?",
+              "marks": 2,
+              "answer": "She sits on a stool beside Dadaji (1). She watches him work / mend watches (1).",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "Sits on a stool beside Dadaji (beside him / in the shop)",
+                  "marks": 1
+                },
+                {
+                  "point": "Watches him (work)",
+                  "marks": 1
+                }
+              ],
+              "skill": "recall",
+              "chapterSource": "original-A1"
+            },
+            {
+              "id": "english-c4-s1-b1-i9",
+              "type": "short",
+              "q": "Dadaji mends the first watch in four steps. Write the steps in the right order, using the letters only. (a) He fixes the spring. (b) He cleans each tiny wheel. (c) He closes the back. (d) He opens the back.",
+              "marks": 2,
+              "answer": "d, b, a, c  (open the back, clean the wheels, fix the spring, close the back).",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "First two steps in the right order: d, b",
+                  "marks": 1
+                },
+                {
+                  "point": "Last two steps in the right order: a, c",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "All four letters in the right order (d, b, a, c) — 2; first two right, or last two right — 1; otherwise 0. Maximum 2.",
+              "skill": "sequencing",
+              "chapterSource": "original-A1"
+            },
+            {
+              "id": "english-c4-s1-b1-i10",
+              "type": "short",
+              "q": "Write one thing Dadaji does at the start of mending a watch, and one thing Kavya does when the watches are ticking.",
+              "marks": 2,
+              "answer": "Dadaji opens the back of the watch with a thin steel tool (or picks up the first watch) (1). Kavya holds one watch to her ear and listens (1).",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "Dadaji: opens the back / picks up the first watch",
+                  "marks": 1
+                },
+                {
+                  "point": "Kavya: holds a watch to her ear and listens",
+                  "marks": 1
+                }
+              ],
+              "skill": "two places in the text",
+              "chapterSource": "original-A1"
+            },
+            {
+              "id": "english-c4-s1-b1-i11",
+              "type": "short",
+              "q": "(a) What does Kavya ask Dadaji? (b) Write the two reasons that Dadaji gives in his answer.",
+              "marks": 3,
+              "answer": "(a) Why he does not mend all three watches together (1). (b) Tiny parts get lost when his mind jumps about (1); a watch needs all his care (1).",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "(a) She asks why he does not mend all three watches together",
+                  "marks": 1
+                },
+                {
+                  "point": "(b) Tiny parts get lost when his mind jumps about",
+                  "marks": 1
+                },
+                {
+                  "point": "(b) A watch needs all his care",
+                  "marks": 1
+                }
+              ],
+              "skill": "two-part answer",
+              "chapterSource": "original-A1"
+            }
+          ]
+        },
+        {
+          "num": "Q.2",
+          "instruction": "Read the poem and answer the questions.",
+          "stimulus": {
+            "kind": "poem",
+            "text": "The rooster crows and I leap from bed.\nI brush my teeth and comb my head.\nAmma packs my lunch with rice.\nI eat my breakfast, hot and nice.\nI tie my shoes and pack my bag.\nMy dog runs up, his tail will wag.\nThe school bus honks outside our gate.\nI wave goodbye. I must not be late.",
+            "original": true
+          },
+          "items": [
+            {
+              "id": "english-c4-s1-b2-i1",
+              "type": "short",
+              "q": "Write two things the child does after waking up and before eating breakfast.",
+              "marks": 2,
+              "answer": "Any two: leaps from bed, brushes his or her teeth, combs his or her head (1 each).",
+              "difficulty": "easy",
+              "answerPoints": [
+                {
+                  "point": "First thing before breakfast (leaps from bed / brushes teeth / combs head)",
+                  "marks": 1
+                },
+                {
+                  "point": "Second thing before breakfast",
+                  "marks": 1
+                }
+              ],
+              "skill": "recall",
+              "chapterSource": "original-A2"
+            },
+            {
+              "id": "english-c4-s1-b2-i2",
+              "type": "short",
+              "q": "Who packs the child’s lunch, and what does the lunch have in it?",
+              "marks": 2,
+              "answer": "Amma (mother) packs it (1). It has rice (1).",
+              "difficulty": "easy",
+              "answerPoints": [
+                {
+                  "point": "Amma / the child’s mother",
+                  "marks": 1
+                },
+                {
+                  "point": "Rice",
+                  "marks": 1
+                }
+              ],
+              "skill": "recall",
+              "chapterSource": "original-A2"
+            },
+            {
+              "id": "english-c4-s1-b2-i3",
+              "type": "short",
+              "q": "Write these in the order in which they happen in the poem, using the letters only. (a) The child waves goodbye. (b) The child ties the shoes. (c) The child eats breakfast. (d) The child brushes the teeth.",
+              "marks": 2,
+              "answer": "d, c, b, a  (brushes teeth, eats breakfast, ties shoes, waves goodbye).",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "First two in the right order: d, c",
+                  "marks": 1
+                },
+                {
+                  "point": "Last two in the right order: b, a",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "All four letters in the right order (d, c, b, a) — 2; first two right, or last two right — 1; otherwise 0. Maximum 2.",
+              "skill": "sequencing",
+              "chapterSource": "original-A2"
+            },
+            {
+              "id": "english-c4-s1-b2-i4",
+              "type": "fill-blank",
+              "q": "The _____ crows in the morning.",
+              "marks": 1,
+              "answer": "rooster",
+              "difficulty": "easy",
+              "acceptable": [
+                "rooster",
+                "cock",
+                "the rooster"
+              ],
+              "blanks": 1,
+              "skill": "recall",
+              "chapterSource": "original-A2"
+            },
+            {
+              "id": "english-c4-s1-b2-i5",
+              "type": "fill-blank",
+              "q": "The school _____ honks outside the gate.",
+              "marks": 1,
+              "answer": "bus",
+              "difficulty": "easy",
+              "acceptable": [
+                "bus",
+                "school bus"
+              ],
+              "blanks": 1,
+              "skill": "recall",
+              "chapterSource": "original-A2"
+            },
+            {
+              "id": "english-c4-s1-b2-i6",
+              "type": "fill-blank",
+              "q": "The child waves _____ .",
+              "marks": 1,
+              "answer": "goodbye",
+              "difficulty": "medium",
+              "acceptable": [
+                "goodbye",
+                "good-bye",
+                "good bye",
+                "bye"
+              ],
+              "blanks": 1,
+              "skill": "recall",
+              "chapterSource": "original-A2"
+            },
+            {
+              "id": "english-c4-s1-b2-i7",
+              "type": "mcq",
+              "q": "Which word in the poem rhymes with “bag”?",
+              "marks": 1,
+              "answer": "wag",
+              "difficulty": "medium",
+              "options": [
+                "wag",
+                "gate",
+                "bus"
+              ],
+              "skill": "rhyme",
+              "chapterSource": "original-A2"
+            },
+            {
+              "id": "english-c4-s1-b2-i8",
+              "type": "mcq",
+              "q": "What must the child not be?",
+              "marks": 1,
+              "answer": "late",
+              "difficulty": "easy",
+              "options": [
+                "late",
+                "loud",
+                "lazy"
+              ],
+              "skill": "recall",
+              "chapterSource": "original-A2"
+            },
+            {
+              "id": "english-c4-s1-b2-i9",
+              "type": "short",
+              "q": "(a) Write the two things in the poem that make a sound. (b) What does the child do when the school bus comes?",
+              "marks": 3,
+              "answer": "(a) The rooster crows (1); the school bus honks (1). (b) The child waves goodbye (1).",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "(a) The rooster crows",
+                  "marks": 1
+                },
+                {
+                  "point": "(a) The school bus honks",
+                  "marks": 1
+                },
+                {
+                  "point": "(b) Waves goodbye",
+                  "marks": 1
+                }
+              ],
+              "skill": "two places in the text",
+              "chapterSource": "original-A2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Textual Questions",
+      "marks": 10,
+      "blocks": [
+        {
+          "num": "Q.3",
+          "instruction": "Answer the following questions in one or two sentences.",
+          "items": [
+            {
+              "id": "english-c4-s2-b1-i1",
+              "type": "short",
+              "q": "The first stanza of the poem says that working and playing at the right times makes us two things. What are they?",
+              "marks": 2,
+              "answer": "Useful (1) and happy (1).",
+              "difficulty": "easy",
+              "answerPoints": [
+                {
+                  "point": "Useful",
+                  "marks": 1
+                },
+                {
+                  "point": "Happy",
+                  "marks": 1
+                }
+              ],
+              "skill": "recall",
+              "chapterSource": "poem l.1-4"
+            },
+            {
+              "id": "english-c4-s2-b1-i2",
+              "type": "short",
+              "q": "The second stanza tells us how we should do all that we do, and what happens to things done by halves. (“Done by halves” means done only in part.) Write both.",
+              "marks": 2,
+              "answer": "We should do all that we do with all our might, that is, with our full strength and effort (1). Things done by halves are never done right, that is, never done properly (1).",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "Do everything with all our might (full strength / effort)",
+                  "marks": 1
+                },
+                {
+                  "point": "Things done by halves are never done right (properly)",
+                  "marks": 1
+                }
+              ],
+              "skill": "two places in the text",
+              "chapterSource": "poem l.5-8"
+            },
+            {
+              "id": "english-c4-s2-b1-i3",
+              "type": "short",
+              "q": "Why is it important to focus on doing one thing at a time? Give two reasons in your own words.",
+              "marks": 2,
+              "answer": "Any two: we finish the work faster; we do it better; we make fewer mistakes; we learn better (1 each).",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "First reason (faster / better / fewer mistakes / learn better)",
+                  "marks": 1
+                },
+                {
+                  "point": "Second, different reason",
+                  "marks": 1
+                }
+              ],
+              "skill": "own words",
+              "chapterSource": "Let us Think A1; Note to the Teacher"
+            },
+            {
+              "id": "english-c4-s2-b1-i4",
+              "type": "short",
+              "q": "The last stanza says that moments should never be trifled away. (“Trifled away” means wasted in a careless way.) (a) What should never be trifled away? (b) What does the poem tell us to do instead?",
+              "marks": 2,
+              "answer": "(a) Moments, that is, short periods of time (1). (b) Work while we work and play while we play (1).",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "(a) Moments (short periods of time)",
+                  "marks": 1
+                },
+                {
+                  "point": "(b) Work while we work, play while we play",
+                  "marks": 1
+                }
+              ],
+              "skill": "two places in the text",
+              "chapterSource": "poem l.13-16"
+            },
+            {
+              "id": "english-c4-s2-b1-i5",
+              "type": "short",
+              "q": "Name two things you do every day that help you stay calm and keep your mind on your work. Say in a few words how each one helps.",
+              "marks": 2,
+              "answer": "Any two sensible things, each with how it helps, for example: I take slow deep breaths and this makes me feel calm (1); I sit quietly for a minute before homework and this helps me think (1).",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "First thing, with how it helps",
+                  "marks": 1
+                },
+                {
+                  "point": "Second thing, with how it helps",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "Each thing named with a reason for how it helps — 1 mark each. A thing named with no reason gets 0 for that part. Maximum 2.",
+              "skill": "own experience",
+              "chapterSource": "Let us Think A4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Creative Writing",
+      "marks": 20,
+      "blocks": [
+        {
+          "num": "Q.4",
+          "instruction": "Write five sentences on ONE of the topics below. Choose either the first topic or the second.",
+          "items": [
+            {
+              "id": "english-c4-s3-b1-i1",
+              "type": "long",
+              "q": "Write five sentences about your favourite holiday activity. OR write five sentences about something you did well and finished, such as a drawing, a project or a job at home.",
+              "marks": 5,
+              "answer": "Model (holiday): I love flying kites in the holidays. I go to the terrace with my brother. We tie a long string to a red kite. The wind lifts it very high. I feel happy when it dances in the sky.",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "Sentence 1: on topic, complete",
+                  "marks": 1
+                },
+                {
+                  "point": "Sentence 2: on topic, complete",
+                  "marks": 1
+                },
+                {
+                  "point": "Sentence 3: on topic, complete",
+                  "marks": 1
+                },
+                {
+                  "point": "Sentence 4: on topic, complete",
+                  "marks": 1
+                },
+                {
+                  "point": "Sentence 5: on topic, complete",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "Five complete sentences on the chosen topic — 5; four — 4; three — 3; two — 2; one — 1. Deduct 1 for more than three spelling or grammar mistakes. Maximum 5.",
+              "skill": "writing",
+              "chapterSource": "Let us Do B; Let us Think B; Let us Think A3 (re-worded)"
+            }
+          ]
+        },
+        {
+          "num": "Q.5",
+          "instruction": "Write a paragraph.",
+          "items": [
+            {
+              "id": "english-c4-s3-b2-i1",
+              "type": "long",
+              "q": "Write a paragraph called “My Routine” about your evening at home. Write at least five sentences. Tell (1) when you do your homework, (2) when you help at home, (3) when you play and what you play, (4) when you tidy your school bag, (5) when you go out to ride, run or skip. Use a.m. or p.m. with every time. Write W after each sentence about work and P after each sentence about play.",
+              "marks": 5,
+              "answer": "Model: I do my homework at 4 p.m. (W) At 5 p.m. I help Amma in the kitchen. (W) At 5.30 p.m. I play cricket with my friends. (P) At 7 p.m. I tidy my school bag. (W) At 7.30 p.m. I skip in the lane. (P)",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "Home-coming time sentence: time with p.m., correct W or P",
+                  "marks": 1
+                },
+                {
+                  "point": "First activity sentence: time with a.m. or p.m., correct W or P",
+                  "marks": 1
+                },
+                {
+                  "point": "Play sentence: time, what is played, P",
+                  "marks": 1
+                },
+                {
+                  "point": "Dinner sentence: time with p.m.",
+                  "marks": 1
+                },
+                {
+                  "point": "Bedtime sentence: time with p.m., full sentence",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "Each of the five points as a full sentence with a time that has a.m. or p.m. and a sensible W or P — 1 mark each (5 in all). A point with no time, or with a.m. or p.m. missing, gets 0 for that point. Maximum 5.",
+              "skill": "writing",
+              "chapterSource": "Let us Write (My Routine; work or play); Note to the Teacher (a.m. and p.m.)"
+            }
+          ]
+        },
+        {
+          "num": "Q.6",
+          "instruction": "Picture writing. Look at the picture and write sentences.",
+          "stimulus": {
+            "kind": "figure",
+            "asset": "assets/english-ch4-park.svg",
+            "caption": "A park with five people, numbered 1 to 5."
+          },
+          "items": [
+            {
+              "id": "english-c4-s3-b3-i1",
+              "type": "long",
+              "q": "Look at the picture. Write one sentence about each numbered person, telling who is doing what. Begin like this: “Person 1 is …”. Use is and an action word ending in -ing in every sentence.",
+              "marks": 5,
+              "answer": "Person 1 is reading a book. Person 2 is kicking a ball. Person 3 is painting a picture. Person 4 is watering the flowers. Person 5 is flying a kite.",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "Person 1: is + reading (a book)",
+                  "marks": 1
+                },
+                {
+                  "point": "Person 2: is + kicking (a ball)",
+                  "marks": 1
+                },
+                {
+                  "point": "Person 3: is + painting (a picture)",
+                  "marks": 1
+                },
+                {
+                  "point": "Person 4: is + watering (the flowers)",
+                  "marks": 1
+                },
+                {
+                  "point": "Person 5: is + flying (a kite)",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "One mark for each person whose sentence has is, an action word ending in -ing, and the action that the picture shows (5 in all). Accept drawing for painting. A sentence that has the wrong action or no is gets 0. Maximum 5.",
+              "skill": "picture writing",
+              "chapterSource": "Let us Speak (describe the picture; who – is/are – doing what)"
+            }
+          ]
+        },
+        {
+          "num": "Q.7",
+          "instruction": "Make a sentence with each word. Follow the direction given with the word.",
+          "items": [
+            {
+              "id": "english-c4-s3-b4-i1",
+              "type": "short",
+              "q": "Make a sentence with the word: calm.",
+              "marks": 1,
+              "answer": "Any complete sentence that uses calm correctly, for example: The lake was calm in the morning.",
+              "difficulty": "easy",
+              "markingGuide": "A complete sentence that uses calm correctly — 1; a wrong use or an incomplete sentence — 0. Maximum 1.",
+              "skill": "sentence making",
+              "chapterSource": "Let us Listen (silent l: calm)"
+            },
+            {
+              "id": "english-c4-s3-b4-i2",
+              "type": "short",
+              "q": "Make a sentence with the word: chalk.",
+              "marks": 1,
+              "answer": "Any complete sentence that uses chalk correctly, for example: The teacher wrote the sum on the board with chalk.",
+              "difficulty": "easy",
+              "markingGuide": "A complete sentence that uses chalk correctly — 1; a wrong use or an incomplete sentence — 0. Maximum 1.",
+              "skill": "sentence making",
+              "chapterSource": "Let us Listen (silent l: chalk)"
+            },
+            {
+              "id": "english-c4-s3-b4-i3",
+              "type": "short",
+              "q": "Make a sentence with the word: might (it means strength or power).",
+              "marks": 1,
+              "answer": "Any complete sentence that uses might to mean strength or power, for example: The strong boy pushed the cart with all his might.",
+              "difficulty": "medium",
+              "markingGuide": "A complete sentence that uses might to mean strength or power — 1; a wrong use or an incomplete sentence — 0. Maximum 1.",
+              "skill": "sentence making",
+              "chapterSource": "Let us Learn A (frame meaningful sentences: might)"
+            },
+            {
+              "id": "english-c4-s3-b4-i4",
+              "type": "short",
+              "q": "Make a sentence with the word: routine. Use a.m. or p.m. in your sentence.",
+              "marks": 1,
+              "answer": "Any complete sentence with routine and a.m. or p.m., for example: My routine is to wake up at 6 a.m.",
+              "difficulty": "hard",
+              "markingGuide": "A complete sentence that uses routine correctly and has a.m. or p.m. — 1; one of the two missing, or an incomplete sentence — 0. Maximum 1.",
+              "skill": "sentence making",
+              "chapterSource": "Let us Write (My Routine); Note to the Teacher (a.m. and p.m.)"
+            },
+            {
+              "id": "english-c4-s3-b4-i5",
+              "type": "short",
+              "q": "Make a sentence with the word: playground. Use is or are and an action word ending in -ing.",
+              "marks": 1,
+              "answer": "Any complete sentence with playground, is or are, and an -ing action word, for example: The children are playing in the playground.",
+              "difficulty": "hard",
+              "markingGuide": "A complete sentence with playground, the right is or are, and a correct -ing action word — 1; any one part missing or wrong — 0. Maximum 1.",
+              "skill": "sentence making",
+              "chapterSource": "Let us Write (At School: playground); Let us Speak (is/are + -ing)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Grammar",
+      "marks": 20,
+      "blocks": [
+        {
+          "num": "Q.8",
+          "instruction": "Fill in the blanks. Follow the direction given in each question.",
+          "items": [
+            {
+              "id": "english-c4-s4-b1-i1",
+              "type": "fill-blank",
+              "q": "Choose is or are. Amma _____ (is / are) cooking dinner.",
+              "marks": 1,
+              "answer": "is",
+              "difficulty": "easy",
+              "acceptable": [
+                "is"
+              ],
+              "blanks": 1,
+              "skill": "is or are",
+              "chapterSource": "Let us Speak (is/are table)"
+            },
+            {
+              "id": "english-c4-s4-b1-i2",
+              "type": "fill-blank",
+              "q": "Choose is or are. Neha and Ravi _____ (is / are) watching a film.",
+              "marks": 1,
+              "answer": "are",
+              "difficulty": "medium",
+              "acceptable": [
+                "are"
+              ],
+              "blanks": 1,
+              "skill": "is or are",
+              "chapterSource": "Let us Speak (is/are table)"
+            },
+            {
+              "id": "english-c4-s4-b1-i3",
+              "type": "fill-blank",
+              "q": "Add -ing to the word in brackets. Grandfather is _____ (read) a newspaper.",
+              "marks": 1,
+              "answer": "reading",
+              "difficulty": "easy",
+              "acceptable": [
+                "reading"
+              ],
+              "blanks": 1,
+              "skill": "-ing form",
+              "chapterSource": "Let us Speak (is/are + action word + -ing)"
+            },
+            {
+              "id": "english-c4-s4-b1-i4",
+              "type": "mcq",
+              "q": "Which sentence is correct?",
+              "marks": 1,
+              "answer": "Tara and Mohan are cleaning the room.",
+              "difficulty": "medium",
+              "options": [
+                "Tara and Mohan is cleaning the room.",
+                "Tara and Mohan are clean the room.",
+                "Tara and Mohan are cleaning the room."
+              ],
+              "skill": "pick the correct sentence",
+              "chapterSource": "Let us Speak (is/are + action word + -ing)"
+            },
+            {
+              "id": "english-c4-s4-b1-i5",
+              "type": "fill-blank",
+              "q": "Look at the picture. Fill in the blanks about person 4. Person 4 _____ _____ the flowers.",
+              "marks": 1,
+              "answer": [
+                "is",
+                "watering"
+              ],
+              "difficulty": "medium",
+              "acceptable": [
+                [
+                  "is"
+                ],
+                [
+                  "watering"
+                ]
+              ],
+              "blanks": 2,
+              "stimulus": {
+                "kind": "figure",
+                "asset": "assets/english-ch4-park.svg",
+                "caption": "A park with five people, numbered 1 to 5."
+              },
+              "skill": "picture",
+              "chapterSource": "Let us Speak (describe the picture)"
+            },
+            {
+              "id": "english-c4-s4-b1-i6",
+              "type": "fill-blank",
+              "q": "Write a.m. or p.m. School starts at 8 in the morning, so we write 8 _____ . School ends at 2 in the afternoon, so we write 2 _____ .",
+              "marks": 1,
+              "answer": [
+                "a.m.",
+                "p.m."
+              ],
+              "difficulty": "easy",
+              "acceptable": [
+                [
+                  "a.m.",
+                  "am",
+                  "a.m",
+                  "A.M."
+                ],
+                [
+                  "p.m.",
+                  "pm",
+                  "p.m",
+                  "P.M."
+                ]
+              ],
+              "blanks": 2,
+              "skill": "a.m. and p.m.",
+              "chapterSource": "Note to the Teacher (a.m. and p.m.)"
+            }
+          ]
+        },
+        {
+          "num": "Q.9",
+          "instruction": "Do as directed.",
+          "items": [
+            {
+              "id": "english-c4-s4-b2-i1",
+              "type": "short",
+              "q": "Rewrite each sentence with the new subject and the new action. Change is or are if needed. (a) Rina is singing. New subject: Rina and Meena. New action: cook. (b) The two boys are eating. New subject: Kabir. New action: read.",
+              "marks": 2,
+              "answer": "(a) Rina and Meena are cooking. (1) (b) Kabir is reading. (1)",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "(a) Rina and Meena are cooking.",
+                  "marks": 1
+                },
+                {
+                  "point": "(b) Kabir is reading.",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "One mark for each sentence that has the right subject, the right is or are, and the -ing form of the new action. Maximum 2.",
+              "skill": "two-step rewrite",
+              "chapterSource": "Let us Speak (is/are table)"
+            },
+            {
+              "id": "english-c4-s4-b2-i2",
+              "type": "short",
+              "q": "Put the words in order to make sentences. Begin with a capital letter and end with a full stop. (a) reading / Amma / is / a book  (b) are / flying / kites / the / boys",
+              "marks": 2,
+              "answer": "(a) Amma is reading a book. (1) (b) The boys are flying kites. (1)",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "(a) Amma is reading a book.",
+                  "marks": 1
+                },
+                {
+                  "point": "(b) The boys are flying kites.",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "One mark for each sentence in the right order with a capital letter and a full stop. Maximum 2.",
+              "skill": "unscramble",
+              "chapterSource": "Let us Speak (is/are + action word + -ing)"
+            },
+            {
+              "id": "english-c4-s4-b2-i3",
+              "type": "short",
+              "q": "Each sentence has one mistake. Write each sentence correctly. (a) The girls is playing football. (b) Ravi playing in the park.",
+              "marks": 2,
+              "answer": "(a) The girls are playing football. (1) (b) Ravi is playing in the park. (1)",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "(a) The girls are playing football.",
+                  "marks": 1
+                },
+                {
+                  "point": "(b) Ravi is playing in the park.",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "One mark for each sentence written correctly. Maximum 2.",
+              "skill": "spot and correct",
+              "chapterSource": "Let us Speak (is/are + action word + -ing)"
+            }
+          ]
+        },
+        {
+          "num": "Q.10",
+          "instruction": "Write sentences using is or are and an action word ending in -ing.",
+          "items": [
+            {
+              "id": "english-c4-s4-b3-i1",
+              "type": "short",
+              "q": "Make four sentences from the table. Write one sentence for each “who”. Use a different “doing what” each time. Who: Amma; the two boys; Grandfather; the girls. Is or are: is; are. Doing what: cooking dinner; flying kites; reading a book; painting pictures.",
+              "marks": 4,
+              "answer": "For example: Amma is cooking dinner. The two boys are flying kites. Grandfather is reading a book. The girls are painting pictures. (Any correct match of is with Amma and Grandfather, and are with the two boys and the girls, scores.)",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "Sentence with Amma: is + a doing-what phrase",
+                  "marks": 1
+                },
+                {
+                  "point": "Sentence with the two boys: are + a doing-what phrase",
+                  "marks": 1
+                },
+                {
+                  "point": "Sentence with Grandfather: is + a doing-what phrase",
+                  "marks": 1
+                },
+                {
+                  "point": "Sentence with the girls: are + a doing-what phrase",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "One mark for each sentence with the right is or are and a doing-what phrase from the table. A doing-what phrase used twice can still score. Maximum 4.",
+              "skill": "compose from a table",
+              "chapterSource": "Let us Speak (who – is/are – doing what table)"
+            },
+            {
+              "id": "english-c4-s4-b3-i2",
+              "type": "short",
+              "q": "Finish each sentence with an action word of your own that ends in -ing. (a) The children are _____ in the garden. (b) My mother is _____ in the kitchen. (c) The birds are _____ in the sky. (d) Now write one sentence of your own about your family. Use is or are and an action word ending in -ing.",
+              "marks": 4,
+              "answer": "For example: (a) playing (b) cooking (c) flying (d) My brothers are watching television. Any sensible action word with a correct -ing ending scores.",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "(a) A sensible action word ending in -ing",
+                  "marks": 1
+                },
+                {
+                  "point": "(b) A sensible action word ending in -ing",
+                  "marks": 1
+                },
+                {
+                  "point": "(c) A sensible action word ending in -ing",
+                  "marks": 1
+                },
+                {
+                  "point": "(d) A full sentence with the right is or are and an -ing action word",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "One mark for each of the four parts (4 in all). In (a) to (c) the word must fit the sentence and end in -ing; in (d) the sentence needs the right is or are. Maximum 4.",
+              "skill": "own action",
+              "chapterSource": "Let us Speak (is/are + action word + -ing; seven sentences of your own)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "E",
+      "title": "Vocabulary",
+      "marks": 20,
+      "blocks": [
+        {
+          "num": "Q.11",
+          "instruction": "Match the words with their meanings.",
+          "items": [
+            {
+              "id": "english-c4-s5-b1-i1",
+              "type": "match",
+              "q": "Match each word with its meaning.",
+              "marks": 5,
+              "answer": "useful — good to have because it helps you; moments — very small parts of time; recess — a short break in the school day; periods — the lessons that last a fixed time in school; playground — an open place where children play games.",
+              "difficulty": "medium",
+              "pairs": [
+                {
+                  "left": "useful",
+                  "right": "good to have because it helps you"
+                },
+                {
+                  "left": "moments",
+                  "right": "very small parts of time"
+                },
+                {
+                  "left": "recess",
+                  "right": "a short break in the school day"
+                },
+                {
+                  "left": "periods",
+                  "right": "the lessons that last a fixed time in school"
+                },
+                {
+                  "left": "playground",
+                  "right": "an open place where children play games"
+                }
+              ],
+              "answerPoints": [
+                {
+                  "point": "useful matched correctly",
+                  "marks": 1
+                },
+                {
+                  "point": "moments matched correctly",
+                  "marks": 1
+                },
+                {
+                  "point": "recess matched correctly",
+                  "marks": 1
+                },
+                {
+                  "point": "periods matched correctly",
+                  "marks": 1
+                },
+                {
+                  "point": "playground matched correctly",
+                  "marks": 1
+                }
+              ],
+              "skill": "meaning",
+              "chapterSource": "Let us Learn A (useful, moments); Let us Write (recess, periods, playground)"
+            }
+          ]
+        },
+        {
+          "num": "Q.12",
+          "instruction": "Fill in each blank with the correct word from the box. Word box: might · trifled · halves · routine. Help: trifled means wasted in a careless way. By halves means only in part, not fully.",
+          "items": [
+            {
+              "id": "english-c4-s5-b2-i1",
+              "type": "fill-blank",
+              "q": "Anil pushed the heavy door with all his _____ .",
+              "marks": 1,
+              "answer": "might",
+              "difficulty": "medium",
+              "acceptable": [
+                "might"
+              ],
+              "blanks": 1,
+              "skill": "use in a sentence",
+              "chapterSource": "Let us Learn A (might); poem l.6"
+            },
+            {
+              "id": "english-c4-s5-b2-i2",
+              "type": "fill-blank",
+              "q": "Tina _____ away her evening doing silly things and forgot her homework.",
+              "marks": 1,
+              "answer": "trifled",
+              "difficulty": "medium",
+              "acceptable": [
+                "trifled",
+                "Trifled"
+              ],
+              "blanks": 1,
+              "skill": "use in a sentence",
+              "chapterSource": "poem l.14 (trifled away)"
+            },
+            {
+              "id": "english-c4-s5-b2-i3",
+              "type": "fill-blank",
+              "q": "Do your work fully. Never do it by _____ .",
+              "marks": 1,
+              "answer": "halves",
+              "difficulty": "medium",
+              "acceptable": [
+                "halves"
+              ],
+              "blanks": 1,
+              "skill": "use in a sentence",
+              "chapterSource": "poem l.7 (things done by halves)"
+            },
+            {
+              "id": "english-c4-s5-b2-i4",
+              "type": "fill-blank",
+              "q": "Every morning I wake at six, brush my teeth and bathe. This is my daily _____ .",
+              "marks": 1,
+              "answer": "routine",
+              "difficulty": "easy",
+              "acceptable": [
+                "routine"
+              ],
+              "blanks": 1,
+              "skill": "use in a sentence",
+              "chapterSource": "Let us Write (routine)"
+            }
+          ]
+        },
+        {
+          "num": "Q.13",
+          "instruction": "Answer the following.",
+          "items": [
+            {
+              "id": "english-c4-s5-b3-i1",
+              "type": "short",
+              "q": "The poem has rhyming words at the ends of its lines. Write one word that rhymes with each of these words from the poem. (a) way (b) well",
+              "marks": 2,
+              "answer": "(a) Any real word that rhymes with way: play, day, say, stay, may, pay, away (1). (b) Any real word that rhymes with well: tell, bell, sell, fell, yell, spell (1).",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "(a) A word that rhymes with way",
+                  "marks": 1
+                },
+                {
+                  "point": "(b) A word that rhymes with well",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "One mark for each real word that rhymes with the given word (2 in all). The given word itself does not count. Maximum 2.",
+              "skill": "rhymes",
+              "chapterSource": "Let us Think A2 (rhyming words); poem l.4, l.10"
+            },
+            {
+              "id": "english-c4-s5-b3-i2",
+              "type": "short",
+              "q": "Read these words aloud: talk, leaf, chalk, hall, calf, silk, palm, plum. (a) Write the four words in which you do not hear the l sound. (b) Write one more word of your own in which l is silent.",
+              "marks": 2,
+              "answer": "(a) talk, chalk, calf, palm (1). (b) Any word with a silent l, for example: walk, half, could, would, should (1).",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "(a) All four silent-l words: talk, chalk, calf, palm (all four needed)",
+                  "marks": 1
+                },
+                {
+                  "point": "(b) One more real word with a silent l (walk, half, could, would, should, folk, yolk, stalk)",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "(a) all four words right — 1; fewer than four — 0. (b) one real word with a silent l — 1. Maximum 2.",
+              "skill": "silent l",
+              "chapterSource": "Let us Listen (the case of missing l)"
+            }
+          ]
+        },
+        {
+          "num": "Q.14",
+          "instruction": "Circle the correct spelling.",
+          "items": [
+            {
+              "id": "english-c4-s5-b4-i1",
+              "type": "mcq",
+              "q": "Each row has two words. Circle the row in which BOTH words are spelt correctly. The first word means quiet and peaceful. The second word means the flat part inside your hand.",
+              "marks": 2,
+              "answer": "calm, palm",
+              "difficulty": "medium",
+              "options": [
+                "calm, palm",
+                "kalm, palm",
+                "calm, pam",
+                "kalm, pam"
+              ],
+              "answerPoints": [
+                {
+                  "point": "First word calm spelt correctly",
+                  "marks": 1
+                },
+                {
+                  "point": "Second word palm spelt correctly",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "The row calm, palm — 2. A row with only one word spelt correctly — 1. Maximum 2.",
+              "skill": "spelling",
+              "chapterSource": "Let us Listen (silent l: calm, palm)"
+            },
+            {
+              "id": "english-c4-s5-b4-i2",
+              "type": "mcq",
+              "q": "Each row has two words. Circle the row in which BOTH words are spelt correctly. The first word means a white stick used to write on a blackboard. The second word means to speak.",
+              "marks": 2,
+              "answer": "chalk, talk",
+              "difficulty": "medium",
+              "options": [
+                "chalk, talk",
+                "chork, talk",
+                "chalk, tork",
+                "chork, tork"
+              ],
+              "answerPoints": [
+                {
+                  "point": "First word chalk spelt correctly",
+                  "marks": 1
+                },
+                {
+                  "point": "Second word talk spelt correctly",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "The row chalk, talk — 2. A row with only one word spelt correctly — 1. Maximum 2.",
+              "skill": "spelling",
+              "chapterSource": "Let us Listen (silent l: chalk, talk)"
+            }
+          ]
+        },
+        {
+          "num": "Q.15",
+          "instruction": "Unscramble the letters to spell three words.",
+          "items": [
+            {
+              "id": "english-c4-s5-b5-i1",
+              "type": "fill-blank",
+              "q": "Unscramble the letters to spell a word from the chapter. Write the word in the blank. (a) A baby cow is called a _____ . (jumbled letters: lcfa) (b) A word that has a silent l and rhymes with palm: _____ . (jumbled letters: mlba) (c) The bird flew _____ from the tree. (jumbled letters: yawa)",
+              "marks": 3,
+              "answer": [
+                "calf",
+                "balm",
+                "away"
+              ],
+              "difficulty": "hard",
+              "acceptable": [
+                [
+                  "calf"
+                ],
+                [
+                  "balm"
+                ],
+                [
+                  "away"
+                ]
+              ],
+              "blanks": 3,
+              "answerPoints": [
+                {
+                  "point": "(a) calf",
+                  "marks": 1
+                },
+                {
+                  "point": "(b) balm",
+                  "marks": 1
+                },
+                {
+                  "point": "(c) away",
+                  "marks": 1
+                }
+              ],
+              "skill": "spelling",
+              "chapterSource": "Let us Listen (silent l: calf, balm); poem l.14 (away)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
