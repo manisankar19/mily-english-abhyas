@@ -102,9 +102,10 @@ rather than ≤ 10 five-minute tasks. Testing and security are in this sprint be
   - Files: README.md
   - Completed: 2026-09-19 — `docs` sub-agent (154 lines); coordinator read it in full: every §11 item present, the deterrent sentence verbatim once (grep), no value or shape of the code (only "at least 10 characters"). Live URL is a placeholder until Task 19; commands are re-checked against the final `serve.js`/`e2e.js` at Task 16.
 
-- [ ] Task 15: `scripts/serve.js` and `scripts/e2e.js` (agent `e2e`) (P0)
+- [x] Task 15: `scripts/serve.js` and `scripts/e2e.js` (agent `e2e`) (P0)
   - Acceptance: e2e covers brief §10 checks 7–26 and X1, X3–X5 against a URL argument, expectations from the served page's JSON; secret redacted from all output (self-grep); prints PASS/FAIL per check; X2 as a labelled static check; negative controls runnable on scratch copies.
   - Files: scripts/serve.js, scripts/e2e.js
+  - Completed: 2026-09-19 — `e2e` sub-agent. `serve.js` (112 lines, 127.0.0.1 only, traversal refused). `e2e.js` (931 lines): checks 7–26 + X1–X5 from the served page's JSON; code from `process.env` only, all output redacted, self-grep of its output dir; check 22 copies the repo without `.env*`. Agent run on a harness page (throwaway code): 24/24 pass, min contrast 5.60:1; `--negative`: all 6 controls turned their check red. Check 23 uses `pdftotext -raw` (layout mode split a sentence around a blank). semgrep 0 (re-run by coordinator).
 
 - [ ] Task 16: Coordinator real build + local e2e, batch-3 commit (P0)
   - Acceptance: full `npm run validate` passes; `npm run build` with the real code succeeds (summary line recorded, hash prefix only); `npm run test:build` green; local e2e all pass on Chromium (failures fixed or recorded); negative controls each turn their check red; commit "v2 batch 3: Tasks 12–16".
