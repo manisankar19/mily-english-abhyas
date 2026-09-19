@@ -371,7 +371,7 @@ record in the walkthrough, continue.
     chapter's "symbol" because the readability stem check matched *symbol* — a tool bug, fixed under Task 4.
     The agent also ran `git status` once (read-only, changed nothing) against the brief's "never run git".
 
-- [ ] Task 11: Half-Yearly mock — `english-hy` (P0) — one sub-agent; standard profile
+- [x] Task 11: Half-Yearly mock — `english-hy` (P0) — one sub-agent; standard profile
   - Follow **Protocol P**. Standard seven sections, 58 items, 40/40/20; `sourceChapter` on **every**
     item.
   - Content: allocation per `prd.md` §5.1 — chapter-attributed marks **10 / 19 / 12 / 10 / 14 / 14**
@@ -386,6 +386,27 @@ record in the walkthrough, continue.
     semantic pass of `similarity.py` run mock-against-chapters, every pair ≥ 0.85 judged and logged;
     F5 viewed at 2×.
   - Files: `app/data/english-hy.json`, `app/assets/english-hy-scene.svg`
+  - Completed: 2026-09-19 — one sub-agent wrote both files (run only after the six chapter papers existed, so its
+    author read their questions first); the coordinator re-ran everything. **60 items** (the top of the 45–60
+    band; the agent re-split D and E blocks to fit the sample-only items), 100 marks, sections
+    `[25,13,12,19,13,12,6]`; difficulty 24/24/12 (40/40/20 %). **Marks by `sourceChapter`, recomputed with `jq`:
+    Ch 1 10 · Ch 2 19 · Ch 3 12 · Ch 4 10 · Ch 5 14 · Ch 6 14 · general-unseen 13 · general-sample-only 8 —
+    exactly the card's allocation.** `validate.js` PASS; `readability.py` exit 0 (A1 151 words avg 9.4 max 17; A2 87
+    words avg 7.9 max 11; copy texts 25 and 23 words; 0 stems). **Cross-paper `similarity.py` over all seven
+    papers: 0 shingle failures in 400 items; 108 semantic pairs ≥ 0.85 (25 mock-vs-chapter, 45 chapter-vs-chapter,
+    38 paper-vs-sample) — all 108 are generic instruction lines ("Circle the correct spelling.", "Match the
+    words with their meanings.", "Write the passage in neat handwriting."); no pair is a content re-skin, so none
+    was rewritten.** A1 is a monsoon picnic (unseen, 13 marks); A2 (12 marks, Ch 2-linked) is a boy-or-girl returning a
+    purse — not the chapter's plot and not the Ch 2 paper's texts. **The seven sample-only topics appear here and
+    only here, one item each, 8 marks:** plural nouns (watch, city, leaf, child; 2 marks), article *an*, pronoun
+    *We*, irregular past *swam*, *softness*, synonym *happy*, odd-one-out *June* — none uses the school's examples.
+    **Figure F5 viewed once at 2×:** a playground with a skipping girl, a teacher with a whistle, two children playing
+    catch, a dog, a bird on a tree and the sun; `currentColor` only, no text labels, caption "A school playground on
+    a sunny day"; used for C1's picture alternative. Notes for the owner's read: Ch 4 is lightly covered (one
+    a.m./p.m. blank; *is/are + -ing* only via the picture task; silent *l* untested); E3 (opposite of *whispered*)
+    accepts *yelled / called out* as well as *shouted* but is a `short` item without an `acceptable` list; D3-2
+    accepts many sentences; the E3 opposites (*whispered–shouted, buy–sell*) are the Ch 2 chapter's own pairs, which
+    the Ch 2 paper deliberately avoided.
 
 - [ ] Task 12: Coordinator cross-paper verification (P0) — **fresh session; not delegated**
   - Steps (small scripts or `jq`, not a sub-agent): `node validate.js --strict`; `python3

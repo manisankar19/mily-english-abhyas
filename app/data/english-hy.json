@@ -1,0 +1,1307 @@
+{
+  "schemaVersion": "2.0",
+  "subject": "english",
+  "subjectDisplay": "English",
+  "grade": 4,
+  "chapter": null,
+  "paperCode": "hy",
+  "locale": "en",
+  "numerals": "latn",
+  "title": "Half-Yearly Mock Paper (Chapters 1–6)",
+  "subtitle": "English — Class 4 — Half-Yearly Mock",
+  "sourceRef": "Santoor Grade 4, Chapters 1–6",
+  "totalMarks": 100,
+  "durationMinutes": 120,
+  "sections": [
+    {
+      "code": "A",
+      "title": "Reading",
+      "marks": 25,
+      "blocks": [
+        {
+          "num": "Q.1",
+          "instruction": "Read the passage and answer the questions. Write True or False for the true-false questions.",
+          "stimulus": {
+            "kind": "passage",
+            "text": "On Saturday, the rain stopped after breakfast. Tanvi’s family went for a picnic in the park. Her mother packed hot puris, one boiled egg for each child and a bottle of nimbu pani. Her father carried a mat and a big umbrella. The path was wet, and small puddles shone in the sun. Tanvi’s cousin Jai jumped over every puddle. The park smelt of wet earth and fresh grass. Under a tall neem tree, they spread the mat. Suddenly, dark clouds came back, and big drops began to fall. “Quick!” said Father, and he opened the umbrella. Tanvi, her mother, her father and Jai sat close together under it and ate their puris. A green parrot sat on a branch and watched them. After half an hour, the sky cleared. A rainbow rose over the park. Jai clapped and shouted, “Look at that!” Tanvi said it was the best picnic ever.",
+            "original": true
+          },
+          "items": [
+            {
+              "id": "english-chy-s1-b1-i1",
+              "type": "mcq",
+              "q": "What did Tanvi’s mother pack for each child?",
+              "marks": 1,
+              "answer": "A boiled egg",
+              "difficulty": "easy",
+              "options": [
+                "A boiled egg",
+                "A banana",
+                "A slice of cake"
+              ],
+              "skill": "reading: detail",
+              "sourceChapter": "general-unseen"
+            },
+            {
+              "id": "english-chy-s1-b1-i2",
+              "type": "mcq",
+              "q": "What was the path to the park like?",
+              "marks": 1,
+              "answer": "Wet, with small puddles",
+              "difficulty": "easy",
+              "options": [
+                "Wet, with small puddles",
+                "Dry and dusty",
+                "Covered with dry leaves"
+              ],
+              "skill": "reading: detail",
+              "sourceChapter": "general-unseen"
+            },
+            {
+              "id": "english-chy-s1-b1-i3",
+              "type": "mcq",
+              "q": "Why did the family sit under the umbrella?",
+              "marks": 1,
+              "answer": "Big drops of rain began to fall",
+              "difficulty": "medium",
+              "options": [
+                "Big drops of rain began to fall",
+                "The sun was too hot",
+                "A parrot came very near them"
+              ],
+              "skill": "reading: reason",
+              "sourceChapter": "general-unseen"
+            },
+            {
+              "id": "english-chy-s1-b1-i4",
+              "type": "short",
+              "q": "What did Jai do on the wet path? What did the park smell of?",
+              "marks": 2,
+              "answer": "Jai jumped over every puddle (1). The park smelt of wet earth and fresh grass (1).",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "Jai jumped over every puddle",
+                  "marks": 1
+                },
+                {
+                  "point": "The park smelt of wet earth and fresh grass",
+                  "marks": 1
+                }
+              ],
+              "skill": "reading: two details",
+              "sourceChapter": "general-unseen"
+            },
+            {
+              "id": "english-chy-s1-b1-i5",
+              "type": "short",
+              "q": "These things happened in the park. (a) A rainbow rose over the park. (b) The family spread the mat. (c) Big drops began to fall. Write a, b and c in the order in which they happened.",
+              "marks": 2,
+              "answer": "b, c, a. First they spread the mat (b), then big drops began to fall (c), and at the end a rainbow rose (a). Full order — 2; b first but c and a swapped — 1; b not first — 0.",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "b is first",
+                  "marks": 1
+                },
+                {
+                  "point": "c comes before a",
+                  "marks": 1
+                }
+              ],
+              "skill": "reading: sequence",
+              "sourceChapter": "general-unseen"
+            },
+            {
+              "id": "english-chy-s1-b1-i6",
+              "type": "true-false",
+              "q": "The family went to the park on a Sunday.",
+              "marks": 1,
+              "answer": "False. The story happens on Saturday.",
+              "difficulty": "easy",
+              "skill": "reading: true or false",
+              "sourceChapter": "general-unseen"
+            },
+            {
+              "id": "english-chy-s1-b1-i7",
+              "type": "true-false",
+              "q": "Jai clapped when he saw the rainbow.",
+              "marks": 1,
+              "answer": "True",
+              "difficulty": "medium",
+              "skill": "reading: true or false",
+              "sourceChapter": "general-unseen"
+            },
+            {
+              "id": "english-chy-s1-b1-i8",
+              "type": "one-word",
+              "q": "What colour was the parrot? Write one word.",
+              "marks": 1,
+              "answer": "green",
+              "difficulty": "easy",
+              "acceptable": [
+                "green"
+              ],
+              "skill": "reading: one word",
+              "sourceChapter": "general-unseen"
+            },
+            {
+              "id": "english-chy-s1-b1-i9",
+              "type": "one-word",
+              "q": "Who jumped over every puddle? Write one word.",
+              "marks": 1,
+              "answer": "Jai",
+              "difficulty": "easy",
+              "acceptable": [
+                "Jai",
+                "jai"
+              ],
+              "skill": "reading: one word",
+              "sourceChapter": "general-unseen"
+            },
+            {
+              "id": "english-chy-s1-b1-i10",
+              "type": "one-word",
+              "q": "Under which kind of tree did the family spread the mat? Write one word.",
+              "marks": 1,
+              "answer": "neem",
+              "difficulty": "medium",
+              "acceptable": [
+                "neem",
+                "a neem tree",
+                "neem tree",
+                "the neem tree"
+              ],
+              "skill": "reading: one word",
+              "sourceChapter": "general-unseen"
+            },
+            {
+              "id": "english-chy-s1-b1-i11",
+              "type": "one-word",
+              "q": "How many people sat under the umbrella? Write one word.",
+              "marks": 1,
+              "answer": "four",
+              "difficulty": "hard",
+              "acceptable": [
+                "four",
+                "4",
+                "four people"
+              ],
+              "skill": "reading: count",
+              "sourceChapter": "general-unseen"
+            }
+          ]
+        },
+        {
+          "num": "Q.2",
+          "instruction": "Read the text and answer the questions. Write True or False for the true-false questions.",
+          "stimulus": {
+            "kind": "passage",
+            "text": "Bela found a small purse near the bus stop. It had fifty rupees inside. Bela’s own purse was older and smaller than this one. But she did not keep it. She gave it to Mr Rao, the bus conductor. “Only an honest child would do that,” he said. A moment later, an old woman came hurrying up. She was slower than the other passengers, and she looked worried. Mr Rao gave her the purse. She smiled at Bela. It was the warmest smile Bela had ever seen.",
+            "original": true
+          },
+          "items": [
+            {
+              "id": "english-chy-s1-b2-i1",
+              "type": "short",
+              "q": "Where did Bela find the purse? How much money was inside it?",
+              "marks": 2,
+              "answer": "She found it near the bus stop (1). There were fifty rupees inside (1).",
+              "difficulty": "easy",
+              "answerPoints": [
+                {
+                  "point": "near the bus stop",
+                  "marks": 1
+                },
+                {
+                  "point": "fifty rupees",
+                  "marks": 1
+                }
+              ],
+              "skill": "reading: two details",
+              "sourceChapter": 2
+            },
+            {
+              "id": "english-chy-s1-b2-i2",
+              "type": "short",
+              "q": "Who did Bela give the purse to? What did he say about her?",
+              "marks": 2,
+              "answer": "She gave it to Mr Rao, the bus conductor (1). He said, “Only an honest child would do that” (1) (or: he said she was honest).",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "Mr Rao (the bus conductor)",
+                  "marks": 1
+                },
+                {
+                  "point": "He called her honest / said only an honest child would do that",
+                  "marks": 1
+                }
+              ],
+              "skill": "reading: two details",
+              "sourceChapter": 2
+            },
+            {
+              "id": "english-chy-s1-b2-i3",
+              "type": "short",
+              "q": "The text compares Bela’s own purse with the purse she found. Write the two -er words that make the comparison.",
+              "marks": 2,
+              "answer": "older (1) and smaller (1), in any order.",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "older",
+                  "marks": 1
+                },
+                {
+                  "point": "smaller",
+                  "marks": 1
+                }
+              ],
+              "skill": "grammar in reading: comparison",
+              "sourceChapter": 2
+            },
+            {
+              "id": "english-chy-s1-b2-i4",
+              "type": "fill-blank",
+              "q": "Bela found the purse near the bus _____.",
+              "marks": 1,
+              "answer": "stop",
+              "difficulty": "easy",
+              "blanks": 1,
+              "acceptable": [
+                "stop"
+              ],
+              "skill": "reading: fill blank",
+              "sourceChapter": 2
+            },
+            {
+              "id": "english-chy-s1-b2-i5",
+              "type": "fill-blank",
+              "q": "The old woman was _____ than the other passengers.",
+              "marks": 1,
+              "answer": "slower",
+              "difficulty": "medium",
+              "blanks": 1,
+              "acceptable": [
+                "slower"
+              ],
+              "skill": "reading: comparison",
+              "sourceChapter": 2
+            },
+            {
+              "id": "english-chy-s1-b2-i6",
+              "type": "fill-blank",
+              "q": "It was the _____ smile Bela had ever seen.",
+              "marks": 1,
+              "answer": "warmest",
+              "difficulty": "medium",
+              "blanks": 1,
+              "acceptable": [
+                "warmest"
+              ],
+              "skill": "reading: comparison",
+              "sourceChapter": 2
+            },
+            {
+              "id": "english-chy-s1-b2-i7",
+              "type": "true-false",
+              "q": "Bela kept the money for herself.",
+              "marks": 1,
+              "answer": "False. She gave the purse to Mr Rao.",
+              "difficulty": "easy",
+              "skill": "reading: true or false",
+              "sourceChapter": 2
+            },
+            {
+              "id": "english-chy-s1-b2-i8",
+              "type": "true-false",
+              "q": "Mr Rao was the bus conductor.",
+              "marks": 1,
+              "answer": "True",
+              "difficulty": "easy",
+              "skill": "reading: true or false",
+              "sourceChapter": 2
+            },
+            {
+              "id": "english-chy-s1-b2-i9",
+              "type": "true-false",
+              "q": "Bela’s own purse was newer than the purse she found.",
+              "marks": 1,
+              "answer": "False. Her own purse was older.",
+              "difficulty": "hard",
+              "skill": "reading: true or false",
+              "sourceChapter": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "B",
+      "title": "Textual Questions",
+      "marks": 13,
+      "blocks": [
+        {
+          "num": "Q.3",
+          "instruction": "Answer each question in one word or a few words.",
+          "items": [
+            {
+              "id": "english-chy-s2-b1-i1",
+              "type": "one-word",
+              "q": "What did Chinna tie around Tara’s neck at the end of ‘The Tinkling Bells’?",
+              "marks": 1,
+              "answer": "the tinkling bells",
+              "difficulty": "easy",
+              "acceptable": [
+                "the tinkling bells",
+                "tinkling bells",
+                "the bells",
+                "bells",
+                "a bell",
+                "the bell"
+              ],
+              "skill": "textual: name it",
+              "sourceChapter": 2
+            },
+            {
+              "id": "english-chy-s2-b1-i2",
+              "type": "one-word",
+              "q": "How old was Louis Braille when a sharp tool hurt his eye?",
+              "marks": 1,
+              "answer": "three years old",
+              "difficulty": "easy",
+              "acceptable": [
+                "three years old",
+                "three",
+                "3",
+                "three years",
+                "3 years",
+                "3 years old"
+              ],
+              "skill": "textual: name it",
+              "sourceChapter": 6
+            },
+            {
+              "id": "english-chy-s2-b1-i3",
+              "type": "one-word",
+              "q": "Where did the old stag like to stay, even though the forest had plenty of food? Write one word.",
+              "marks": 1,
+              "answer": "hillock",
+              "difficulty": "easy",
+              "acceptable": [
+                "hillock",
+                "a hillock",
+                "the hillock",
+                "a small hillock",
+                "on a hillock"
+              ],
+              "skill": "textual: name it",
+              "sourceChapter": 5
+            }
+          ]
+        },
+        {
+          "num": "Q.4",
+          "instruction": "Answer the following questions.",
+          "items": [
+            {
+              "id": "english-chy-s2-b2-i1",
+              "type": "short",
+              "q": "Look at lines 3 and 4 of the poem ‘Together We Can’ in your textbook. What does the team do when it cheers? What can teamwork do?",
+              "marks": 2,
+              "answer": "The team shouts and sings aloud (1). Teamwork can overcome anything (1).",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "The team shouts and sings aloud",
+                  "marks": 1
+                },
+                {
+                  "point": "Teamwork can overcome anything",
+                  "marks": 1
+                }
+              ],
+              "skill": "textual: poem lines",
+              "sourceChapter": 1
+            },
+            {
+              "id": "english-chy-s2-b2-i2",
+              "type": "short",
+              "q": "What would you do if a friend walked on the road although there was a footpath next to it? Write two sentences.",
+              "marks": 2,
+              "answer": "Model answer: I would tell my friend to walk on the footpath (1). Footpaths are meant for people on foot, and moving vehicles can hurt someone on the road (1). Any sensible action and a sensible reason.",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "What you would do or say (a full sentence)",
+                  "marks": 1
+                },
+                {
+                  "point": "A sensible reason (a full sentence)",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "Any sensible action in a full sentence — 1; a sensible reason in a full sentence — 1. Deduct 1 mark in total if there are more than three spelling errors. Maximum 2.",
+              "skill": "textual: think and discuss",
+              "sourceChapter": 3
+            },
+            {
+              "id": "english-chy-s2-b2-i3",
+              "type": "short",
+              "q": "The poem ‘One Thing at a Time’ calls a rule “a very good rule”. Write this rule in your own words.",
+              "marks": 2,
+              "answer": "We should do one thing at a time (1) and do it well (1).",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "do one thing at a time",
+                  "marks": 1
+                },
+                {
+                  "point": "do it well / do it properly",
+                  "marks": 1
+                }
+              ],
+              "skill": "textual: poem stanza",
+              "sourceChapter": 4
+            },
+            {
+              "id": "english-chy-s2-b2-i4",
+              "type": "short",
+              "q": "What happened to the grass on the hillock after the rain? How did this help the old stag?",
+              "marks": 2,
+              "answer": "The grass grew back (1). The old stag had enough food again and slowly got well (1).",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "The grass grew back",
+                  "marks": 1
+                },
+                {
+                  "point": "The stag had enough food and slowly recovered",
+                  "marks": 1
+                }
+              ],
+              "skill": "textual: cause and result",
+              "sourceChapter": 5
+            },
+            {
+              "id": "english-chy-s2-b2-i5",
+              "type": "short",
+              "q": "Who could read ‘Night Writing’ with their fingers? When could they read it?",
+              "marks": 2,
+              "answer": "Soldiers could read it (1). They could read it in the dark (1).",
+              "difficulty": "easy",
+              "answerPoints": [
+                {
+                  "point": "Soldiers",
+                  "marks": 1
+                },
+                {
+                  "point": "In the dark",
+                  "marks": 1
+                }
+              ],
+              "skill": "textual: who and when",
+              "sourceChapter": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "C",
+      "title": "Creative Writing",
+      "marks": 12,
+      "blocks": [
+        {
+          "num": "Q.5",
+          "instruction": "Write five sentences about the picture. OR write five sentences about a game you like to play with your friends at school.",
+          "stimulus": {
+            "kind": "figure",
+            "asset": "assets/english-hy-scene.svg",
+            "caption": "A school playground on a sunny day"
+          },
+          "items": [
+            {
+              "id": "english-chy-s3-b1-i1",
+              "type": "long",
+              "q": "Write five sentences about the picture. OR write five sentences about a game you like to play with your friends at school.",
+              "marks": 5,
+              "answer": "Model for the picture: A girl is skipping with a rope. Two children are playing catch with a ball. A teacher is blowing a whistle. A dog is sitting under the tree. A bird is sitting on a branch of the tree. Model for the game: I like to play kho-kho with my friends at school. We play it in the playground at recess. Two teams take turns to chase and sit. I run fast and I never give up. We all cheer when a team wins.",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "Sentence 1: a correct sentence about what is in the picture",
+                  "marks": 1
+                },
+                {
+                  "point": "Sentence 2: a second correct sentence",
+                  "marks": 1
+                },
+                {
+                  "point": "Sentence 3: a third correct sentence",
+                  "marks": 1
+                },
+                {
+                  "point": "Sentence 4: a fourth correct sentence",
+                  "marks": 1
+                },
+                {
+                  "point": "Sentence 5: a fifth correct sentence",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "One mark for each correct, complete sentence about the picture or the game: five sentences — 5; four — 4; three — 3; two — 2; one — 1. For the picture, a sentence should say who is doing what, with is or are and an -ing word. Deduct 1 for more than three spelling or punctuation errors. Maximum 5.",
+              "skill": "writing: picture composition",
+              "sourceChapter": 4
+            }
+          ]
+        },
+        {
+          "num": "Q.6",
+          "instruction": "Write a letter as directed.",
+          "items": [
+            {
+              "id": "english-chy-s3-b2-i1",
+              "type": "long",
+              "q": "Your cousin Imran is coming to stay with you next week. Write a short letter to him. Begin with “Dear Imran,” and end with “Yours lovingly,” and your name. In the letter, tell him three rules to follow when he walks on the road near your house.",
+              "marks": 4,
+              "answer": "Model letter: Dear Imran, I am so happy that you are coming. Please walk on the footpath and never on the road. Use the zebra crossing to cross the road. Hold an adult’s hand when the road is busy. Yours lovingly, Meghna",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "Begins with Dear Imran, and ends with Yours lovingly, and the writer’s name",
+                  "marks": 1
+                },
+                {
+                  "point": "Rule 1 in a full sentence",
+                  "marks": 1
+                },
+                {
+                  "point": "Rule 2 in a full sentence",
+                  "marks": 1
+                },
+                {
+                  "point": "Rule 3 in a full sentence",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "Greeting and ending both correct — 1; each correct road-safety rule in a full sentence — 1 (up to 3). Deduct 1 for more than three spelling or punctuation errors. Maximum 4.",
+              "skill": "writing: letter",
+              "sourceChapter": 3
+            }
+          ]
+        },
+        {
+          "num": "Q.7",
+          "instruction": "Make a sentence with each word.",
+          "items": [
+            {
+              "id": "english-chy-s3-b3-i1",
+              "type": "short",
+              "q": "Make a sentence with the word: cheer",
+              "marks": 1,
+              "answer": "Model answer: The children began to cheer when the runner crossed the line.",
+              "difficulty": "easy",
+              "markingGuide": "Complete sentence with a capital letter and a full stop, using the word correctly — 1; the word missing or misused, or not a full sentence — 0. Maximum 1.",
+              "skill": "writing: use a word",
+              "sourceChapter": 1
+            },
+            {
+              "id": "english-chy-s3-b3-i2",
+              "type": "short",
+              "q": "Make a sentence with the word: lush",
+              "marks": 1,
+              "answer": "Model answer: The lush green forest was full of tall trees.",
+              "difficulty": "medium",
+              "markingGuide": "Complete sentence with a capital letter and a full stop, using the word correctly — 1; the word missing or misused, or not a full sentence — 0. Maximum 1.",
+              "skill": "writing: use a word",
+              "sourceChapter": 5
+            },
+            {
+              "id": "english-chy-s3-b3-i3",
+              "type": "short",
+              "q": "Make a sentence with the word: invented",
+              "marks": 1,
+              "answer": "Model answer: A clever man invented a machine to peel garlic. (Or: Louis Braille invented a way of reading with the fingers.)",
+              "difficulty": "medium",
+              "markingGuide": "Complete sentence with a capital letter and a full stop, using the word correctly — 1; the word missing or misused, or not a full sentence — 0. Maximum 1.",
+              "skill": "writing: use a word",
+              "sourceChapter": 6
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "D",
+      "title": "Grammar",
+      "marks": 19,
+      "blocks": [
+        {
+          "num": "Q.8",
+          "instruction": "Fill in the blanks.",
+          "items": [
+            {
+              "id": "english-chy-s4-b1-i1",
+              "type": "fill-blank",
+              "q": "Ravi has breakfast at 7 a.m. and dinner at 8 _____ .",
+              "marks": 1,
+              "answer": "p.m.",
+              "difficulty": "easy",
+              "blanks": 1,
+              "acceptable": [
+                "p.m.",
+                "pm",
+                "p.m",
+                "P.M.",
+                "PM"
+              ],
+              "skill": "grammar: a.m. and p.m.",
+              "sourceChapter": 4
+            },
+            {
+              "id": "english-chy-s4-b1-i2",
+              "type": "fill-blank",
+              "q": "The little girl clapped _____ when she won the race. (happy / happily)",
+              "marks": 1,
+              "answer": "happily",
+              "difficulty": "easy",
+              "blanks": 1,
+              "acceptable": [
+                "happily"
+              ],
+              "skill": "grammar: adverb of manner",
+              "sourceChapter": 5
+            },
+            {
+              "id": "english-chy-s4-b1-i3",
+              "type": "fill-blank",
+              "q": "The two puppies _____ chasing a ball when I came home. (was / were)",
+              "marks": 1,
+              "answer": "were",
+              "difficulty": "easy",
+              "blanks": 1,
+              "acceptable": [
+                "were"
+              ],
+              "skill": "grammar: was / were",
+              "sourceChapter": 6
+            },
+            {
+              "id": "english-chy-s4-b1-i4",
+              "type": "fill-blank",
+              "q": "Pari found _____ old key in the garden. (a / an)",
+              "marks": 1,
+              "answer": "an",
+              "difficulty": "easy",
+              "blanks": 1,
+              "acceptable": [
+                "an",
+                "An"
+              ],
+              "skill": "grammar: articles",
+              "sourceChapter": "general-sample-only"
+            },
+            {
+              "id": "english-chy-s4-b1-i5",
+              "type": "fill-blank",
+              "q": "Last summer, we _____ in the river near our village. (swim)",
+              "marks": 1,
+              "answer": "swam",
+              "difficulty": "medium",
+              "blanks": 1,
+              "acceptable": [
+                "swam"
+              ],
+              "skill": "grammar: irregular past",
+              "sourceChapter": "general-sample-only"
+            }
+          ]
+        },
+        {
+          "num": "Q.9",
+          "instruction": "Rewrite the sentences as directed.",
+          "items": [
+            {
+              "id": "english-chy-s4-b2-i1",
+              "type": "short",
+              "q": "Rewrite the sentence with will. Keep the place words. The children stand in front of the stage.",
+              "marks": 2,
+              "answer": "The children will stand in front of the stage. (will stand — 1; the rest of the sentence written correctly — 1)",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "will stand (will with the base word)",
+                  "marks": 1
+                },
+                {
+                  "point": "in front of the stage kept, capital letter and full stop",
+                  "marks": 1
+                }
+              ],
+              "skill": "grammar: future with will",
+              "sourceChapter": 1
+            },
+            {
+              "id": "english-chy-s4-b2-i2",
+              "type": "short",
+              "q": "Write one sentence in place of the two. Use an adverb made from the describing word. The girl was quick. She finished her work.",
+              "marks": 2,
+              "answer": "The girl finished her work quickly. (quickly — 1; a correct, full sentence — 1) Also accept: The girl quickly finished her work.",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "quickly",
+                  "marks": 1
+                },
+                {
+                  "point": "a correct full sentence with a capital letter and a full stop",
+                  "marks": 1
+                }
+              ],
+              "skill": "grammar: adverb of manner",
+              "sourceChapter": 5
+            },
+            {
+              "id": "english-chy-s4-b2-i3",
+              "type": "short",
+              "q": "Rewrite the sentence in the past. Papa is cooking and the children are playing in the garden.",
+              "marks": 2,
+              "answer": "Papa was cooking and the children were playing in the garden. (was — 1; were — 1)",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "Papa was cooking",
+                  "marks": 1
+                },
+                {
+                  "point": "the children were playing in the garden",
+                  "marks": 1
+                }
+              ],
+              "skill": "grammar: was / were + -ing",
+              "sourceChapter": 6
+            }
+          ]
+        },
+        {
+          "num": "Q.10",
+          "instruction": "Do as directed.",
+          "items": [
+            {
+              "id": "english-chy-s4-b3-i1",
+              "type": "fill-blank",
+              "q": "Fill in the blanks with the -er or -est form of the word in brackets.\n(a) The moon looks _____ than the stars. (bright)\n(b) Of the three brothers, Om is the _____ . (young)",
+              "marks": 2,
+              "answer": [
+                "brighter",
+                "youngest"
+              ],
+              "difficulty": "medium",
+              "blanks": 2,
+              "acceptable": [
+                [
+                  "brighter"
+                ],
+                [
+                  "youngest"
+                ]
+              ],
+              "answerPoints": [
+                {
+                  "point": "brighter",
+                  "marks": 1
+                },
+                {
+                  "point": "youngest",
+                  "marks": 1
+                }
+              ],
+              "skill": "grammar: -er / -est",
+              "sourceChapter": 2
+            },
+            {
+              "id": "english-chy-s4-b3-i2",
+              "type": "short",
+              "q": "Write one sentence about a kitchen. Use a countable noun with a number and an uncountable noun with some.",
+              "marks": 2,
+              "answer": "Model answer: There are three spoons on the table and some water in the jug. (a countable noun with a number — 1; an uncountable noun with some — 1)",
+              "difficulty": "hard",
+              "answerPoints": [
+                {
+                  "point": "A countable noun with a number (for example three spoons)",
+                  "marks": 1
+                },
+                {
+                  "point": "An uncountable noun with some (for example some water)",
+                  "marks": 1
+                }
+              ],
+              "markingGuide": "A correct countable noun with a number — 1; a correct uncountable noun with some — 1. Both should be in one sensible sentence. Maximum 2.",
+              "skill": "grammar: countable and uncountable",
+              "sourceChapter": 3
+            },
+            {
+              "id": "english-chy-s4-b3-i3",
+              "type": "short",
+              "q": "Write the plural of each word. (a) watch (b) city (c) leaf (d) child",
+              "marks": 2,
+              "answer": "(a) watches (b) cities (c) leaves (d) children. (a) and (b) both correct — 1; (c) and (d) both correct — 1.",
+              "difficulty": "medium",
+              "answerPoints": [
+                {
+                  "point": "watches and cities",
+                  "marks": 1
+                },
+                {
+                  "point": "leaves and children",
+                  "marks": 1
+                }
+              ],
+              "skill": "grammar: plural nouns",
+              "sourceChapter": "general-sample-only"
+            }
+          ]
+        },
+        {
+          "num": "Q.11",
+          "instruction": "Do as directed.",
+          "items": [
+            {
+              "id": "english-chy-s4-b4-i1",
+              "type": "fill-blank",
+              "q": "Papa and I are going to the fair. _____ will buy balloons. (he / she / we / it)",
+              "marks": 1,
+              "answer": "We",
+              "difficulty": "easy",
+              "blanks": 1,
+              "acceptable": [
+                "We",
+                "we"
+              ],
+              "skill": "grammar: personal pronouns",
+              "sourceChapter": "general-sample-only"
+            },
+            {
+              "id": "english-chy-s4-b4-i2",
+              "type": "fill-blank",
+              "q": "Add -ness to the word in brackets to complete the sentence. The _____ of the kitten’s fur made the girl smile. (soft)",
+              "marks": 1,
+              "answer": "softness",
+              "difficulty": "medium",
+              "blanks": 1,
+              "acceptable": [
+                "softness"
+              ],
+              "skill": "grammar: suffix -ness",
+              "sourceChapter": "general-sample-only"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "E",
+      "title": "Vocabulary",
+      "marks": 13,
+      "blocks": [
+        {
+          "num": "Q.12",
+          "instruction": "Match the words with their meanings.",
+          "items": [
+            {
+              "id": "english-chy-s5-b1-i1",
+              "type": "match",
+              "q": "Match the words with their meanings.",
+              "marks": 5,
+              "answer": "blacksmith – a person who makes and mends things made of iron; invented – made something new for the first time; alphabet – all the letters of a language in their order; Braille – a way of reading by touching raised dots; simplified – made something easier",
+              "difficulty": "medium",
+              "pairs": [
+                {
+                  "left": "blacksmith",
+                  "right": "a person who makes and mends things made of iron"
+                },
+                {
+                  "left": "invented",
+                  "right": "made something new for the first time"
+                },
+                {
+                  "left": "alphabet",
+                  "right": "all the letters of a language in their order"
+                },
+                {
+                  "left": "Braille",
+                  "right": "a way of reading by touching raised dots"
+                },
+                {
+                  "left": "simplified",
+                  "right": "made something easier"
+                }
+              ],
+              "answerPoints": [
+                {
+                  "point": "blacksmith",
+                  "marks": 1
+                },
+                {
+                  "point": "invented",
+                  "marks": 1
+                },
+                {
+                  "point": "alphabet",
+                  "marks": 1
+                },
+                {
+                  "point": "Braille",
+                  "marks": 1
+                },
+                {
+                  "point": "simplified",
+                  "marks": 1
+                }
+              ],
+              "skill": "vocabulary: match",
+              "sourceChapter": 6
+            }
+          ]
+        },
+        {
+          "num": "Q.13",
+          "instruction": "Fill in the blanks with words from the box.",
+          "items": [
+            {
+              "id": "english-chy-s5-b2-i1",
+              "type": "fill-blank",
+              "q": "Word box: distract   footpath   pedestrian   reflective\nA person who walks on the road is called a _____ . Papa asked me to walk on the _____ , away from the buses.",
+              "marks": 2,
+              "answer": [
+                "pedestrian",
+                "footpath"
+              ],
+              "difficulty": "easy",
+              "blanks": 2,
+              "acceptable": [
+                [
+                  "pedestrian",
+                  "a pedestrian"
+                ],
+                [
+                  "footpath",
+                  "the footpath"
+                ]
+              ],
+              "answerPoints": [
+                {
+                  "point": "pedestrian",
+                  "marks": 1
+                },
+                {
+                  "point": "footpath",
+                  "marks": 1
+                }
+              ],
+              "skill": "vocabulary: word in context",
+              "sourceChapter": 3
+            },
+            {
+              "id": "english-chy-s5-b2-i2",
+              "type": "fill-blank",
+              "q": "Word box: sheltering   tender   lush   recovery\nThe hen was _____ her chicks from the rain under her wings. The soft, young shoots were so _____ that the baby goat ate them at once.",
+              "marks": 2,
+              "answer": [
+                "sheltering",
+                "tender"
+              ],
+              "difficulty": "hard",
+              "blanks": 2,
+              "acceptable": [
+                [
+                  "sheltering"
+                ],
+                [
+                  "tender"
+                ]
+              ],
+              "answerPoints": [
+                {
+                  "point": "sheltering",
+                  "marks": 1
+                },
+                {
+                  "point": "tender",
+                  "marks": 1
+                }
+              ],
+              "skill": "vocabulary: word in context",
+              "sourceChapter": 5
+            }
+          ]
+        },
+        {
+          "num": "Q.14",
+          "instruction": "Write the opposite word.",
+          "items": [
+            {
+              "id": "english-chy-s5-b3-i1",
+              "type": "short",
+              "q": "Write the opposite of each word. (a) whispered (b) buy",
+              "marks": 2,
+              "answer": "(a) shouted (1) (b) sell (1)",
+              "difficulty": "easy",
+              "answerPoints": [
+                {
+                  "point": "shouted (also accept yelled, called out)",
+                  "marks": 1
+                },
+                {
+                  "point": "sell",
+                  "marks": 1
+                }
+              ],
+              "skill": "vocabulary: opposites",
+              "sourceChapter": 2
+            }
+          ]
+        },
+        {
+          "num": "Q.15",
+          "instruction": "Do as directed.",
+          "items": [
+            {
+              "id": "english-chy-s5-b4-i1",
+              "type": "one-word",
+              "q": "Choose the word from the box that means the same as glad. Box: sad   happy   angry   tired",
+              "marks": 1,
+              "answer": "happy",
+              "difficulty": "easy",
+              "acceptable": [
+                "happy"
+              ],
+              "skill": "vocabulary: synonyms",
+              "sourceChapter": "general-sample-only"
+            },
+            {
+              "id": "english-chy-s5-b4-i2",
+              "type": "one-word",
+              "q": "Write the odd one out: Tuesday, Friday, June, Sunday",
+              "marks": 1,
+              "answer": "June",
+              "difficulty": "medium",
+              "acceptable": [
+                "June",
+                "june"
+              ],
+              "skill": "vocabulary: odd one out",
+              "sourceChapter": "general-sample-only"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "F",
+      "title": "Spelling",
+      "marks": 12,
+      "blocks": [
+        {
+          "num": "Q.16",
+          "instruction": "Circle the correct spelling.",
+          "items": [
+            {
+              "id": "english-chy-s6-b1-i1",
+              "type": "mcq",
+              "q": "Circle the correct spelling. (playful in a naughty way)",
+              "marks": 2,
+              "answer": "mischievous",
+              "difficulty": "hard",
+              "options": [
+                "mischievous",
+                "mischievious",
+                "mischeivous"
+              ],
+              "answerPoints": [
+                {
+                  "point": "Circles mischievous",
+                  "marks": 2
+                }
+              ],
+              "skill": "spelling: choose",
+              "sourceChapter": 2
+            },
+            {
+              "id": "english-chy-s6-b1-i2",
+              "type": "mcq",
+              "q": "Circle the correct spelling. (in some other place)",
+              "marks": 2,
+              "answer": "elsewhere",
+              "difficulty": "medium",
+              "options": [
+                "elsewhere",
+                "elswhere",
+                "elsewear"
+              ],
+              "answerPoints": [
+                {
+                  "point": "Circles elsewhere",
+                  "marks": 2
+                }
+              ],
+              "skill": "spelling: choose",
+              "sourceChapter": 5
+            },
+            {
+              "id": "english-chy-s6-b1-i3",
+              "type": "mcq",
+              "q": "Circle the correct spelling. (a soft pad to stick pins into)",
+              "marks": 2,
+              "answer": "pincushion",
+              "difficulty": "medium",
+              "options": [
+                "pincushion",
+                "pincushon",
+                "pinkushion"
+              ],
+              "answerPoints": [
+                {
+                  "point": "Circles pincushion",
+                  "marks": 2
+                }
+              ],
+              "skill": "spelling: choose",
+              "sourceChapter": 6
+            }
+          ]
+        },
+        {
+          "num": "Q.17",
+          "instruction": "Unscramble each jumbled word and write it correctly.",
+          "items": [
+            {
+              "id": "english-chy-s6-b2-i1",
+              "type": "one-word",
+              "q": "Jumbled word: nyloco. Write the word (starts with c; a large group of ants that live together).",
+              "marks": 2,
+              "answer": "colony",
+              "difficulty": "easy",
+              "acceptable": [
+                "colony"
+              ],
+              "answerPoints": [
+                {
+                  "point": "All the right letters used",
+                  "marks": 1
+                },
+                {
+                  "point": "Letters in the right order, spelt correctly",
+                  "marks": 1
+                }
+              ],
+              "skill": "spelling: rearrange",
+              "sourceChapter": 1
+            },
+            {
+              "id": "english-chy-s6-b2-i2",
+              "type": "one-word",
+              "q": "Jumbled word: tpohafot. Write the word (starts with f; the path beside a road for people to walk on).",
+              "marks": 2,
+              "answer": "footpath",
+              "difficulty": "medium",
+              "acceptable": [
+                "footpath"
+              ],
+              "answerPoints": [
+                {
+                  "point": "All the right letters used",
+                  "marks": 1
+                },
+                {
+                  "point": "Letters in the right order, spelt correctly",
+                  "marks": 1
+                }
+              ],
+              "skill": "spelling: rearrange",
+              "sourceChapter": 3
+            },
+            {
+              "id": "english-chy-s6-b2-i3",
+              "type": "one-word",
+              "q": "Jumbled word: noutrie. Write the word (starts with r; the things you do every day in the same order).",
+              "marks": 2,
+              "answer": "routine",
+              "difficulty": "medium",
+              "acceptable": [
+                "routine"
+              ],
+              "answerPoints": [
+                {
+                  "point": "All the right letters used",
+                  "marks": 1
+                },
+                {
+                  "point": "Letters in the right order, spelt correctly",
+                  "marks": 1
+                }
+              ],
+              "skill": "spelling: rearrange",
+              "sourceChapter": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "G",
+      "title": "Handwriting",
+      "marks": 6,
+      "blocks": [
+        {
+          "num": "Q.18",
+          "instruction": "Write the following lines in neat handwriting.",
+          "stimulus": {
+            "kind": "passage",
+            "text": "The old goat rested on a grassy hillock. The tender grass was soft and green. His friends came to see him, and he felt better.",
+            "original": true
+          },
+          "items": [
+            {
+              "id": "english-chy-s7-b1-i1",
+              "type": "handwriting",
+              "q": "Write the passage in neat handwriting.",
+              "marks": 3,
+              "answer": "A neat, evenly spaced copy of the passage with correct capital letters and full stops.",
+              "difficulty": "easy",
+              "markingGuide": "Letters well formed, evenly spaced and on the line, with capital letters, commas, speech marks and full stops in the right places — 3; mostly neat with two or three slips — 2; hard to read or copied with many slips — 1. Deduct 1 if the copy is not finished. Maximum 3.",
+              "skill": "handwriting: copy",
+              "sourceChapter": 5
+            }
+          ]
+        },
+        {
+          "num": "Q.19",
+          "instruction": "Write the following lines in neat handwriting.",
+          "stimulus": {
+            "kind": "passage",
+            "text": "Our team stood together on the field. We shouted, “Well done!” and clapped for every runner. Winning was fun, but sharing was better.",
+            "original": true
+          },
+          "items": [
+            {
+              "id": "english-chy-s7-b2-i1",
+              "type": "handwriting",
+              "q": "Write the passage in neat handwriting.",
+              "marks": 3,
+              "answer": "A neat, evenly spaced copy of the passage with the speech marks, capital letters and full stops in place.",
+              "difficulty": "medium",
+              "markingGuide": "Letters well formed, evenly spaced and on the line, with capital letters, commas, speech marks and full stops in the right places — 3; mostly neat with two or three slips — 2; hard to read or copied with many slips — 1. Deduct 1 if the copy is not finished. Maximum 3.",
+              "skill": "handwriting: copy",
+              "sourceChapter": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
